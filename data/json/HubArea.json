@@ -1,0 +1,396 @@
+{
+  "エリア情報": {
+    "header": [
+      {
+        "Name": "エリアID",
+        "Ident": "AID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "表示名",
+        "Ident": "MID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "説明文",
+        "Ident": "MID_H",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "条件",
+        "Ident": "ConditionCID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "移動先シーン名",
+        "Ident": "SceneName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "移動先ロケータ名",
+        "Ident": "LocatorName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "拠点情報ポイント番号",
+        "Ident": "MapPointNo",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "施設名",
+        "Ident": "FacilityAidList",
+        "Type": "string[]",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "AID": "AID_マイルーム",
+        "MID": "我的房间",
+        "MID_H": "神龙专用的寝室。\n在这里能回顾游戏中的点滴或休息片刻。",
+        "ConditionCID": "",
+        "SceneName": "Hub_MyRoom",
+        "LocatorName": "From_Cafe",
+        "MapPointNo": 0,
+        "FacilityAidList": [
+          "AID_マイルーム"
+        ]
+      },
+      {
+        "AID": "AID_カフェ",
+        "MID": "开放式茶座",
+        "MID_H": "附设餐厅的公共休息空间。\n在此能向掌厨点餐，与喜欢的伙伴一起享用。",
+        "ConditionCID": "",
+        "SceneName": "Hub_Solanel",
+        "LocatorName": "Jump_Cafe",
+        "MapPointNo": 1,
+        "FacilityAidList": [
+          "AID_料理",
+          "AID_掲示板",
+          "AID_ジュークボックス"
+        ]
+      },
+      {
+        "AID": "AID_紋章士の間",
+        "MID": "纹章士之间",
+        "MID_H": "保管已获得的纹章士戒指{[0108]}的房间。\n在此能进行纹章士的特技继承或精炼牵绊戒指。",
+        "ConditionCID": "CID_M004",
+        "SceneName": "Hub_GodRoom",
+        "LocatorName": "From_Solanel",
+        "MapPointNo": 2,
+        "FacilityAidList": [
+          "AID_紋章士の間"
+        ]
+      },
+      {
+        "AID": "AID_闘技場",
+        "MID": "锻炼之间",
+        "MID_H": "与外界隔绝的异世界空间。\n在这里能与伙伴或纹章士进行训练来获得经验值。",
+        "ConditionCID": "CID_M005",
+        "SceneName": "Hub_Arena",
+        "LocatorName": "From_Cafe",
+        "MapPointNo": 3,
+        "FacilityAidList": [
+          "AID_闘技場"
+        ]
+      },
+      {
+        "AID": "AID_中央商店",
+        "MID": "入口",
+        "MID_H": "进出索拉涅尔的入口。\n是商店林立的中央广场。",
+        "ConditionCID": "",
+        "SceneName": "Hub_Solanel",
+        "LocatorName": "Start",
+        "MapPointNo": 4,
+        "FacilityAidList": [
+          "AID_武器屋",
+          "AID_道具屋",
+          "AID_錬成屋",
+          "AID_アクセサリ"
+        ]
+      },
+      {
+        "AID": "AID_プールサイド",
+        "MID": "泳池边",
+        "MID_H": "优雅的私人水池。\n战斗之余，伙伴会聚在这里休息。",
+        "ConditionCID": "",
+        "SceneName": "Hub_Solanel",
+        "LocatorName": "Jump_Pool",
+        "MapPointNo": 5,
+        "FacilityAidList": [
+          "AID_水遊び",
+          "AID_蚤の市",
+          "AID_占い小屋"
+        ]
+      },
+      {
+        "AID": "AID_果樹園",
+        "MID": "果树园",
+        "MID_H": "一座小型农场。\n在此能采集到于开放式茶座烹调时所需的食材。",
+        "ConditionCID": "",
+        "SceneName": "Hub_Solanel",
+        "LocatorName": "Jump_Fruits",
+        "MapPointNo": 6,
+        "FacilityAidList": [
+          "AID_果物狩り",
+          "AID_アミーボスポット"
+        ]
+      },
+      {
+        "AID": "AID_憩いの池",
+        "MID": "涌泉池畔",
+        "MID_H": "一座神奇的池塘。\n栖息着各种鱼类及其他生物。",
+        "ConditionCID": "",
+        "SceneName": "Hub_Solanel",
+        "LocatorName": "Jump_Fishing",
+        "MapPointNo": 7,
+        "FacilityAidList": [
+          "AID_釣り"
+        ]
+      },
+      {
+        "AID": "AID_トレーニングスポット",
+        "MID": "后院",
+        "MID_H": "位于闹市区外的宁静庭院。\n可以在这里和伙伴一同进行特训或参加各种有趣的挑战。",
+        "ConditionCID": "",
+        "SceneName": "Hub_Solanel",
+        "LocatorName": "Jump_Training",
+        "MapPointNo": 8,
+        "FacilityAidList": [
+          "AID_筋肉体操",
+          "AID_ドラゴンライド",
+          "AID_不思議な井戸"
+        ]
+      },
+      {
+        "AID": "AID_ふれあい農場",
+        "MID": "牧场",
+        "MID_H": "开放式空间、适合放养的广场。\n用来管理在艾雷欧斯大陆发现的动物。\n",
+        "ConditionCID": "",
+        "SceneName": "Hub_Solanel",
+        "LocatorName": "Jump_Animal",
+        "MapPointNo": 9,
+        "FacilityAidList": [
+          "AID_動物小屋",
+          "AID_活動記録の館",
+          "AID_馬ふれあい"
+        ]
+      },
+      {
+        "AID": "AID_ソラネルの尾",
+        "MID": "钟乳洞",
+        "MID_H": "贯穿索拉涅尔地底的神秘洞窟。\n里面十分凉爽，设有不知祭祀何人的祭坛。",
+        "ConditionCID": "",
+        "SceneName": "Hub_Solanel",
+        "LocatorName": "Jump_UnderSolanel",
+        "MapPointNo": 10,
+        "FacilityAidList": [
+          "AID_ソラの祭壇"
+        ]
+      },
+      {
+        "AID": "AID_みはらしの丘",
+        "MID": "眺望之丘",
+        "MID_H": "视野辽阔，适合眺望天空的高地。\n十分安静且清幽的场所。",
+        "ConditionCID": "",
+        "SceneName": "Hub_Solanel",
+        "LocatorName": "Jump_GoodViewSpot",
+        "MapPointNo": 12,
+        "FacilityAidList": []
+      },
+      {
+        "AID": "AID_岬の塔",
+        "MID": "试炼别屋",
+        "MID_H": "位于海角的一座小别屋。\n在此能于短时间内穿越时空，挑战各种试炼。",
+        "ConditionCID": "",
+        "SceneName": "Hub_Solanel",
+        "LocatorName": "Jump_CapeHouse",
+        "MapPointNo": 11,
+        "FacilityAidList": [
+          "AID_試練の離れ"
+        ]
+      }
+    ]
+  },
+  "施設情報": {
+    "header": [
+      {
+        "Name": "エリアID",
+        "Ident": "AID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "表示名",
+        "Ident": "MID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "マップ条件",
+        "Ident": "ConditionCID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "施設アイコン名",
+        "Ident": "IconName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "AID": "AID_占い小屋",
+        "MID": "占卜小屋",
+        "ConditionCID": "CID_M015",
+        "IconName": "FortuneTelling"
+      },
+      {
+        "AID": "AID_蚤の市",
+        "MID": "跳蚤市场",
+        "ConditionCID": "CID_M013",
+        "IconName": "Market"
+      },
+      {
+        "AID": "AID_ドラゴンライド",
+        "MID": "飞龙射手",
+        "ConditionCID": "CID_M011",
+        "IconName": "DragonRide"
+      },
+      {
+        "AID": "AID_釣り",
+        "MID": "钓鱼",
+        "ConditionCID": "CID_M008",
+        "IconName": "Fishing"
+      },
+      {
+        "AID": "AID_試練の離れ",
+        "MID": "试炼别屋",
+        "ConditionCID": "CID_M006",
+        "IconName": "Trial"
+      },
+      {
+        "AID": "AID_料理",
+        "MID": "料理",
+        "ConditionCID": "CID_M006",
+        "IconName": "Cooking"
+      },
+      {
+        "AID": "AID_動物小屋",
+        "MID": "动物小屋",
+        "ConditionCID": "CID_M004",
+        "IconName": "Farm"
+      },
+      {
+        "AID": "AID_闘技場",
+        "MID": "锻炼之间",
+        "ConditionCID": "CID_M005",
+        "IconName": "Arena"
+      },
+      {
+        "AID": "AID_アクセサリ",
+        "MID": "装饰品店",
+        "ConditionCID": "CID_M005",
+        "IconName": "AccShop"
+      },
+      {
+        "AID": "AID_錬成屋",
+        "MID": "锻造店",
+        "ConditionCID": "CID_M005",
+        "IconName": "RefineShop"
+      },
+      {
+        "AID": "AID_筋肉体操",
+        "MID": "肌肉体操",
+        "ConditionCID": "CID_M004",
+        "IconName": "MuscleExercises"
+      },
+      {
+        "AID": "AID_ソラの祭壇",
+        "MID": "神秘祭坛",
+        "ConditionCID": "CID_M004",
+        "IconName": "SolaCave"
+      },
+      {
+        "AID": "AID_紋章士の間",
+        "MID": "纹章士之间",
+        "ConditionCID": "CID_M004",
+        "IconName": "GodRoom"
+      },
+      {
+        "AID": "AID_道具屋",
+        "MID": "道具店",
+        "ConditionCID": "CID_M004",
+        "IconName": "ItemShop"
+      },
+      {
+        "AID": "AID_武器屋",
+        "MID": "武器店",
+        "ConditionCID": "CID_M004",
+        "IconName": "WeaponShop"
+      },
+      {
+        "AID": "AID_マイルーム",
+        "MID": "我的房间",
+        "ConditionCID": "CID_M003",
+        "IconName": "Bed"
+      },
+      {
+        "AID": "AID_掲示板",
+        "MID": "布告栏",
+        "ConditionCID": "CID_M003",
+        "IconName": "NoticeBoard"
+      },
+      {
+        "AID": "AID_ジュークボックス",
+        "MID": "音箱",
+        "ConditionCID": "CID_M003",
+        "IconName": "Jukebox"
+      },
+      {
+        "AID": "AID_アミーボスポット",
+        "MID": "amiibo SPOT",
+        "ConditionCID": "CID_M005",
+        "IconName": "Amiibo"
+      },
+      {
+        "AID": "AID_活動記録の館",
+        "MID": "活动记录馆",
+        "ConditionCID": "CID_M006",
+        "IconName": "PhotoShop"
+      }
+    ]
+  }
+}

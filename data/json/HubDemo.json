@@ -1,0 +1,244 @@
+{
+  "デモ定義": {
+    "header": [
+      {
+        "Name": "ロケータ名",
+        "Ident": "Locator",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "表示名",
+        "Ident": "MID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "カメラ名",
+        "Ident": "CameraName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "チュートリアル",
+        "Ident": "Tutorial",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "条件",
+        "Ident": "Condition",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "時間帯",
+        "Ident": "Timezone",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "フラグ名",
+        "Ident": "FlagName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "マニュアルカリング名",
+        "Ident": "ManualCullingName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "LODBias",
+        "Ident": "LodBias",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "LODクロスフェードアニメの無効化",
+        "Ident": "IsDisabledLodCrossfadeAnime",
+        "Type": "bool",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Locator": "Demo_Cafe",
+        "MID": "可以利用“开放式茶座”了。",
+        "CameraName": "HubCameraDemo01",
+        "Tutorial": "TUTID_カフェテラス",
+        "Condition": "M003",
+        "Timezone": -1,
+        "FlagName": "G_拠点_カフェテラス初回",
+        "ManualCullingName": "HubCulling_Plaza",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_WeaponAndItem",
+        "MID": "“武器店”和“道具店”开张了。",
+        "CameraName": "HubCameraDemo02",
+        "Tutorial": "",
+        "Condition": "M004",
+        "Timezone": -1,
+        "FlagName": "G_拠点_武器道具初回",
+        "ManualCullingName": "HubCulling_Plaza",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_Mascot",
+        "MID": "钟乳洞弥漫着一股神秘的气息。",
+        "CameraName": "HubCameraDemo03",
+        "Tutorial": "",
+        "Condition": "M004",
+        "Timezone": -1,
+        "FlagName": "G_拠点_謎の祠初回",
+        "ManualCullingName": "HubCulling_Cave",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": true
+      },
+      {
+        "Locator": "Demo_Muscle",
+        "MID": "可以玩“肌肉体操”了！",
+        "CameraName": "HubCameraDemo04",
+        "Tutorial": "",
+        "Condition": "M004",
+        "Timezone": -1,
+        "FlagName": "G_拠点_筋肉体操初回",
+        "ManualCullingName": "HubCulling_Hutside_03",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "#Demo_Animal",
+        "MID": "可以“收容动物”了。",
+        "CameraName": "HubCameraDemo05",
+        "Tutorial": "",
+        "Condition": "M005",
+        "Timezone": -1,
+        "FlagName": "G_拠点_動物小屋初回",
+        "ManualCullingName": "",
+        "LodBias": 0.0,
+        "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_amiibo",
+        "MID": "“amiibo SPOT”开放了。",
+        "CameraName": "HubCameraDemo06",
+        "Tutorial": "",
+        "Condition": "M005",
+        "Timezone": -1,
+        "FlagName": "G_拠点_アミーボ初回",
+        "ManualCullingName": "",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_RefinementAndAccessory",
+        "MID": "“锻造店”和“装饰品店”开张了。",
+        "CameraName": "HubCameraDemo07",
+        "Tutorial": "",
+        "Condition": "M005",
+        "Timezone": -1,
+        "FlagName": "G_拠点_錬成アクセ初回",
+        "ManualCullingName": "HubCulling_Plaza",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_Fishing",
+        "MID": "可以“钓鱼”了！",
+        "CameraName": "HubCameraDemo08",
+        "Tutorial": "",
+        "Condition": "M008",
+        "Timezone": -1,
+        "FlagName": "G_拠点_釣り初回",
+        "ManualCullingName": "HubCulling_Tentside",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_DragonRide",
+        "MID": "可以游玩飞龙射手了！",
+        "CameraName": "HubCameraDemo09",
+        "Tutorial": "",
+        "Condition": "CanDragonRideWithLocator",
+        "Timezone": -1,
+        "FlagName": "G_拠点_ドラゴンライド初回",
+        "ManualCullingName": "HubCulling_Statue",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_FleaMarket",
+        "MID": "“跳蚤市场”开张了。",
+        "CameraName": "HubCameraDemo10",
+        "Tutorial": "",
+        "Condition": "M013",
+        "Timezone": -1,
+        "FlagName": "G_拠点_蚤の市初回",
+        "ManualCullingName": "",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_Fortune",
+        "MID": "“占卜小屋”开张了。",
+        "CameraName": "HubCameraDemo11",
+        "Tutorial": "TUTID_占いの小屋",
+        "Condition": "M015",
+        "Timezone": -1,
+        "FlagName": "G_拠点_占い初回",
+        "ManualCullingName": "",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_Caperidge",
+        "MID": "“试炼别屋”开放了。",
+        "CameraName": "HubCameraDemo12",
+        "Tutorial": "TUTID_試練の離れ",
+        "Condition": "M006",
+        "Timezone": -1,
+        "FlagName": "G_拠点_試練離れ初回",
+        "ManualCullingName": "",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": true
+      },
+      {
+        "Locator": "Demo_Photo",
+        "MID": "可以使用“活动记录馆”了。",
+        "CameraName": "HubCameraDemo13",
+        "Tutorial": "TUTID_活動記録の館",
+        "Condition": "M006",
+        "Timezone": -1,
+        "FlagName": "G_拠点_活動記録の館初回",
+        "ManualCullingName": "",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": false
+      }
+    ]
+  }
+}

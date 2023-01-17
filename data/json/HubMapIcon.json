@@ -1,0 +1,262 @@
+{
+  "アイコン": {
+    "header": [
+      {
+        "Name": "施設定義名",
+        "Ident": "DisposName",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "アイコン名",
+        "Ident": "IconName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "マップ大スケール",
+        "Ident": "LargeScale",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "マップ小スケール",
+        "Ident": "SmallScale",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "DisposName": "Weapon",
+        "IconName": "WeaponShop",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Item",
+        "IconName": "ItemShop",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Refinement",
+        "IconName": "RefineShop",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Accessory",
+        "IconName": "AccShop",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Pedestal",
+        "IconName": "GodRoom",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Jukebox",
+        "IconName": "Jukebox",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Signboard",
+        "IconName": "NoticeBoard",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Mascot",
+        "IconName": "SolaCave",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "CapeTower",
+        "IconName": "Trial",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Amiibo",
+        "IconName": "Amiibo",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "RestPlace",
+        "IconName": "Bed",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Animal",
+        "IconName": "Farm",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Arena",
+        "IconName": "Arena",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Photo",
+        "IconName": "PhotoShop",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Well",
+        "IconName": "Well",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Horse",
+        "IconName": "Refresh",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Fruit",
+        "IconName": "Refresh",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Pool",
+        "IconName": "Refresh",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Cooking",
+        "IconName": "Cooking",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "DragonRide",
+        "IconName": "DragonRide",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Fishing",
+        "IconName": "Fishing",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "FortuneTelling",
+        "IconName": "FortuneTelling",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "FleaMarket",
+        "IconName": "Market",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Muscle",
+        "IconName": "MuscleExercises",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Mob1",
+        "IconName": "Mob1",
+        "LargeScale": 1.2,
+        "SmallScale": 1.0
+      },
+      {
+        "DisposName": "Mob2",
+        "IconName": "Mob2",
+        "LargeScale": 1.2,
+        "SmallScale": 1.3
+      },
+      {
+        "DisposName": "AnimalPoint",
+        "IconName": "Animal",
+        "LargeScale": 1.2,
+        "SmallScale": 1.0
+      },
+      {
+        "DisposName": "Sola",
+        "IconName": "Sola",
+        "LargeScale": 1.5,
+        "SmallScale": 1.5
+      },
+      {
+        "DisposName": "Lueur",
+        "IconName": "Lueur",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Unit",
+        "IconName": "Unit",
+        "LargeScale": 1.3,
+        "SmallScale": 1.3
+      },
+      {
+        "DisposName": "ItemPoint",
+        "IconName": "Item",
+        "LargeScale": 2.0,
+        "SmallScale": 1.6
+      },
+      {
+        "DisposName": "MovePoint",
+        "IconName": "MovePoint",
+        "LargeScale": 1.8,
+        "SmallScale": 1.6
+      },
+      {
+        "DisposName": "Chest",
+        "IconName": "AccessPoint",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "Piano",
+        "IconName": "AccessPoint",
+        "LargeScale": 2.0,
+        "SmallScale": 1.8
+      },
+      {
+        "DisposName": "NPC1Talk",
+        "IconName": "Mob1",
+        "LargeScale": 1.2,
+        "SmallScale": 1.0
+      },
+      {
+        "DisposName": "NPC2Talk",
+        "IconName": "Mob1",
+        "LargeScale": 1.2,
+        "SmallScale": 1.0
+      },
+      {
+        "DisposName": "NPC3Talk",
+        "IconName": "Mob1",
+        "LargeScale": 1.2,
+        "SmallScale": 1.0
+      }
+    ]
+  }
+}

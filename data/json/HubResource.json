@@ -1,0 +1,94 @@
+{
+  "リソース": {
+    "header": [
+      {
+        "Name": "リソース名",
+        "Ident": "Name",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Name": "Hub/Prefabs/HubEffect"
+      },
+      {
+        "Name": "UI/Hub/AccessHelp/Prefabs/AccessHelp"
+      },
+      {
+        "Name": "UI/Hub/AccessHelp/Prefabs/AccessPointIcon"
+      },
+      {
+        "Name": "UI/Hub/AccessHelp/Prefabs/AccessPointCursor"
+      },
+      {
+        "Name": "Effects/Field/Hub/Hub_Common/Prefabs/Eff_DropItem_00"
+      },
+      {
+        "Name": "Effects/Field/Result/Prefabs/AreaWall_00"
+      },
+      {
+        "Name": "Effects/Field/Flare/Prefabs/Eff_SunFlare"
+      },
+      {
+        "Name": "Effects/Field/Hub/Hub_GodRoom/Prefabs/Eff_Hologram_On"
+      },
+      {
+        "Name": "Effects/Hub/Prefabs/Eff_Well_Item_00"
+      },
+      {
+        "Name": "Effects/Hub/Prefabs/Eff_Well_Item_01"
+      },
+      {
+        "Name": "Effects/Hub/Prefabs/Eff_Well_Item_02"
+      },
+      {
+        "Name": "Effects/Hub/Prefabs/Eff_Well_Item_03"
+      },
+      {
+        "Name": "Effects/Hub/Prefabs/Eff_Well_Item_04"
+      },
+      {
+        "Name": "Effects/Hub/Prefabs/Eff_Well_Item_05"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/FishingRod/Prefabs/uAcc_Event_FishingRod"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/Brush/Prefabs/uAcc_Event_Brush"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/Guitar/Prefabs/uAcc_Event_Guitar"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/WateringCan/Prefabs/uAcc_Event_WateringCan"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/WateringCanB/Prefabs/uAcc_Event_WateringCanB"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/Basket/Prefabs/uAcc_Event_Basket"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/Fruits1/Prefabs/uAcc_Event_Fruits1"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/FishingRod2/Prefabs/uAcc_Event_FishingRod2"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/FishingRod3/Prefabs/uAcc_Event_FishingRod3"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/FishingLure1/Prefabs/uAcc_Event_FishingLure1"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/FishingLure2/Prefabs/uAcc_Event_FishingLure2"
+      },
+      {
+        "Name": "Item/Acc/uAcc/Event/FishingLure3/Prefabs/uAcc_Event_FishingLure3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1572 @@
+{
+  "キーヘルプ": {
+    "header": [
+      {
+        "Name": "キーヘルプID",
+        "Ident": "KHID",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ボタン",
+        "Ident": "ButtonIndex",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ヘルプ内容",
+        "Ident": "MID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "KHID": "KHID_汎用",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "确定"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "返回"
+      },
+      {
+        "KHID": "KHID_決定",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "确定"
+      },
+      {
+        "KHID": "KHID_戻る",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "返回"
+      },
+      {
+        "KHID": "KHID_スキップ",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "跳过"
+      },
+      {
+        "KHID": "KHID_BMAP_配置変更_ユニットオンカーソル",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 11,
+        "MID": "单位详细"
+      },
+      {
+        "KHID": "KHID_BMAP_配置変更_ユニットオフカーソル",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "KHID_BMAP_フリーカーソル_ユニット情報表示_マップメニュー可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "菜单"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 11,
+        "MID": "单位详细"
+      },
+      {
+        "KHID": "KHID_BMAP_フリーカーソル_ユニット情報表示",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 11,
+        "MID": "单位详细"
+      },
+      {
+        "KHID": "KHID_BMAP_フリーカーソル_危険範囲表示_マップメニュー可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "菜单"
+      },
+      {
+        "KHID": "KHID_BMAP_フリーカーソル_危険範囲表示",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_ユニット情報表示",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 11,
+        "MID": "单位详细"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_ユニット情報表示_エンゲージ可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "结合"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 11,
+        "MID": "单位详细"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_ユニット情報表示_エンゲージ解除可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "解除结合"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 11,
+        "MID": "单位详细"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_自分情報表示",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换武器"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 11,
+        "MID": "单位详细"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_自分情報表示_エンゲージ可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换武器"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "结合"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 11,
+        "MID": "单位详细"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_自分情報表示_エンゲージ解除可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换武器"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "解除结合"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 11,
+        "MID": "单位详细"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_危険範囲表示_武器切替",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换武器"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_危険範囲表示_武器切替_エンゲージ可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换武器"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "结合"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_危険範囲表示_武器切替_エンゲージ解除可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换武器"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "解除结合"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_危険範囲表示",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_危険範囲表示_エンゲージ可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "结合"
+      },
+      {
+        "KHID": "KHID_BMAP_ピックアップカーソル_危険範囲表示_エンゲージ解除可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "辅助信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "解除结合"
+      },
+      {
+        "KHID": "KHID_BMAP_おまかせAI中",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "取消自动战斗"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "跳过"
+      },
+      {
+        "KHID": "KHID_BMAP_赤軍緑軍ターン中",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "跳过"
+      },
+      {
+        "KHID": "KHID_BMAP_システムメニュー中",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "KHID_BMAP_兵種紹介画面",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "查看"
+      },
+      {
+        "KHID": "KHID_BMAP_出撃準備画面トップ",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "开始战斗"
+      },
+      {
+        "KHID": "KHID_巻き戻し",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "确定"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "返回"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 17,
+        "MID": "下一回合"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 14,
+        "MID": "选择"
+      },
+      {
+        "KHID": "KHID_GMAP_スポット上",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "地图"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "快捷旅行"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "菜单"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 4,
+        "MID": "进入最新章节"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 7,
+        "MID": "自由视角"
+      },
+      {
+        "KHID": "KHID_GMAP_移動中",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "返回"
+      },
+      {
+        "KHID": "KHID_拠点",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "切换地图"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 5,
+        "MID": "奔跑"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "据点情报"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "菜单"
+      },
+      {
+        "KHID": "KHID_絆リザルト",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "切换地图"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 5,
+        "MID": "奔跑"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "菜单"
+      },
+      {
+        "KHID": "KHID_指輪磨き_通常",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 5,
+        "MID": "用力研磨"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "研磨"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "结束"
+      },
+      {
+        "KHID": "KHID_指輪磨き_強く磨く",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 18,
+        "MID": "用力研磨"
+      },
+      {
+        "KHID": "KHID_＃ムービー",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "KHID_ムービー",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 3,
+        "MID": "字幕ON/OFF"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "跳过"
+      },
+      {
+        "KHID": "KHID_＃会話",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "KHID_会話_通常",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "自动播放"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 12,
+        "MID": "对话履历"
+      },
+      {
+        "KHID": "KHID_会話_自動再生中",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "结束自动播放"
+      },
+      {
+        "KHID": "KHID_＃タイトルバー",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "KHID_詳細情報",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "KHID_ユニット切替",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "KHID_紋章士切替",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换纹章士"
+      },
+      {
+        "KHID": "KHID_ゲーム開始_姿選択_決定不可",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "返回"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 17,
+        "MID": "切换外观"
+      },
+      {
+        "KHID": "KHID_ゲーム開始_姿選択",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "确定"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "返回"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 17,
+        "MID": "切换外观"
+      },
+      {
+        "KHID": "KHID_ゲーム開始_誕生日入力",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "确定"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "返回"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 17,
+        "MID": "切换日期"
+      },
+      {
+        "KHID": "KHID_進撃準備_部隊表",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 5,
+        "MID": "切换部队表"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "开始战斗"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 4,
+        "MID": "统一整理"
+      },
+      {
+        "KHID": "KHID_部隊表切替",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 5,
+        "MID": "切换部队表"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "开始战斗"
+      },
+      {
+        "KHID": "KHID_進撃準備_部隊表_マップエディット",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 5,
+        "MID": "切换部队表"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 4,
+        "MID": "统一整理"
+      },
+      {
+        "KHID": "KHID_部隊表切替_マップエディット",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 5,
+        "MID": "切换部队表"
+      },
+      {
+        "KHID": "KHID_紋章士_ユニット選択",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 4,
+        "MID": "统一整理"
+      },
+      {
+        "KHID": "KHID_紋章士_紋章士指輪",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "能力一览"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "KHID_紋章士_絆指輪",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "KHID_身支度_ユニット選択",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "详细信息"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 4,
+        "MID": "统一整理"
+      },
+      {
+        "KHID": "KHID_スキル継承_メイン",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "特技装备"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "KHID_スキル装備_スキル継承",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "特技继承"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "KHID_持ち物",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 9,
+        "MID": "切换菜单"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "切换显示信息"
+      },
+      {
+        "KHID": "KHID_輸送隊",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 9,
+        "MID": "切换菜单"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "切换显示信息"
+      },
+      {
+        "KHID": "KHID_武器屋_購入",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "切换显示信息"
+      },
+      {
+        "KHID": "KHID_道具屋_購入",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "切换显示信息"
+      },
+      {
+        "KHID": "KHID_売却",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "选择"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "切换显示信息"
+      },
+      {
+        "KHID": "KHID_アクセサリー屋",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "查看"
+      },
+      {
+        "KHID": "KHID_アクセサリー屋_眺める",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "视线ON/OFF"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "标志ON/OFF"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "返回"
+      },
+      {
+        "KHID": "KHID_指輪精製_演出",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "继续"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "跳过"
+      },
+      {
+        "KHID": "KHID_鍛錬の間_紋章士選択",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "能力一览"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "KHID_動物_見つめる",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "动作"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "返回"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 19,
+        "MID": "环视"
+      },
+      {
+        "KHID": "KHID_なでる",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "抚摸"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "返回"
+      },
+      {
+        "KHID": "KHID_着替えさせる",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 19,
+        "MID": "操作视角"
+      },
+      {
+        "KHID": "KHID_実績",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "批量领取"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "领取达成奖励"
+      },
+      {
+        "KHID": "KHID_指南",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换项目"
+      },
+      {
+        "KHID": "KHID_環境設定_項目選択",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "重置设置"
+      },
+      {
+        "KHID": "KHID_指輪図鑑_通常",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "清单"
+      },
+      {
+        "KHID": "KHID_ミニゲーム_メニュー",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "指南"
+      },
+      {
+        "KHID": "KHID_ミニゲーム_ドラゴンライド",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "指南"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "操作说明"
+      },
+      {
+        "KHID": "KHID_ミニゲーム_さかなつり",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "抛竿"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "取消"
+      },
+      {
+        "KHID": "KHID_仲間手帳_メイン",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 9,
+        "MID": "切换国家"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换伙伴"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "放大"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "清单"
+      },
+      {
+        "KHID": "KHID_クラスチェンジ",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "排序"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换单位"
+      },
+      {
+        "KHID": "KHID_プロフィールカード_マイカード",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "翻面"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "编辑"
+      },
+      {
+        "KHID": "KHID_プロフィールカード_編集_ソートあり",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "排序"
+      },
+      {
+        "KHID": "KHID_プロフィールカード_スタンプ",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 9,
+        "MID": "切换编辑模式"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "翻面"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "印章清单"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "结束"
+      },
+      {
+        "KHID": "KHID_プロフィールカード_アルバム",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "翻面"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "卡片列表"
+      },
+      {
+        "KHID": "KHID_プロフィールカード_アルバムリスト",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "删除"
+      },
+      {
+        "KHID": "KHID_プロフィールカード_通信_削除",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "删除"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "结束"
+      },
+      {
+        "KHID": "KHID_不思議な井戸_アイテム選択",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "MID_KEYHELP_MENU_TOGGLE"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "确定"
+      },
+      {
+        "KHID": "KHID_リフレッシュ_ユニット設定",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 4,
+        "MID": "MID_Hub_Refresh_Entrust"
+      },
+      {
+        "KHID": "KHID_マップエディット_フリーカーソル",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 8,
+        "MID": "旋转"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换地形"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "配置"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "消除"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "地形一览"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "菜单"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 7,
+        "MID": "撤消"
+      },
+      {
+        "KHID": "KHID_マップエディット_フリーカーソル_ユニット",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换地形"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "更改战术"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "地形一览"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "菜单"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 7,
+        "MID": "撤消"
+      },
+      {
+        "KHID": "KHID_写真撮影_エリア選択",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "印制模式"
+      },
+      {
+        "KHID": "KHID_写真撮影_配置編集",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "切换定点"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "显示清单"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "随机选择"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "印制模式"
+      },
+      {
+        "KHID": "KHID_写真撮影_撮影モード",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 6,
+        "MID": "开始印制"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "视线ON/OFF"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 2,
+        "MID": "标志ON/OFF"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 10,
+        "MID": "解除印制模式"
+      },
+      {
+        "KHID": "KHID_写真撮影_写真確認",
+        "ButtonIndex": 0,
+        "MID": ""
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 0,
+        "MID": "保存"
+      },
+      {
+        "KHID": "",
+        "ButtonIndex": 1,
+        "MID": "再次印制"
+      }
+    ]
+  }
+}

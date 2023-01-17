@@ -1,0 +1,70 @@
+{
+  "ジュークボックス": {
+    "header": [
+      {
+        "Name": "出力先",
+        "Ident": "Out",
+        "Type": "PublicFile",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "Wwiseイベント名",
+        "Ident": "EventName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "名前",
+        "Ident": "Name",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "表示条件",
+        "Ident": "Condition",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Out": "",
+        "EventName": "BGM_Sys_Base_Jukebox1",
+        "Name": "费列聂的茶会",
+        "Condition": "M006"
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_Sys_Base_Jukebox2",
+        "Name": "布罗帝亚的团聚",
+        "Condition": "M009"
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_Sys_Base_Jukebox3",
+        "Name": "伊尔席翁的晚餐",
+        "Condition": "M011"
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_Sys_Base_Jukebox4",
+        "Name": "索尔姆的露营",
+        "Condition": "M016"
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_Sys_Base_Jukebox5",
+        "Name": "餐桌上的纹章",
+        "Condition": "M026"
+      }
+    ]
+  }
+}

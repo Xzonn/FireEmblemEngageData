@@ -1,0 +1,226 @@
+{
+  "サンプル": {
+    "header": [
+      {
+        "Name": "識別子",
+        "Ident": "ID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "名前",
+        "Ident": "Name",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "値1",
+        "Ident": "Value1",
+        "Type": "int",
+        "Min": "-1000",
+        "Max": "1000",
+        "Chg": "1"
+      },
+      {
+        "Name": "値2",
+        "Ident": "Value2",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "値3",
+        "Ident": "Value3",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "値4",
+        "Ident": "Value4",
+        "Type": "int[]",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "値5",
+        "Ident": "Value5",
+        "Type": "string[]",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "クラス名",
+        "Ident": "Sample.Name",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "クラス値",
+        "Ident": "Sample.Value",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "フラグ",
+        "Ident": "Flag",
+        "Type": "flag",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "ID": "ID_サンプル１",
+        "Name": "MID_サンプル１",
+        "Value1": 123,
+        "Value2": 1.23,
+        "Value3": 0,
+        "Value4": [
+          123,
+          45,
+          6
+        ],
+        "Value5": [
+          "文字列１",
+          "文字列２"
+        ],
+        "Sample.Name": "テスト",
+        "Sample.Value": 3456,
+        "Flag": 9
+      },
+      {
+        "ID": "ID_サンプル２",
+        "Name": "MID_サンプル２",
+        "Value1": 456,
+        "Value2": 4.56,
+        "Value3": 0,
+        "Value4": [],
+        "Value5": [],
+        "Sample.Name": "",
+        "Sample.Value": 0,
+        "Flag": 3
+      },
+      {
+        "ID": "ID_サンプル３",
+        "Name": "MID_サンプル３",
+        "Value1": 789,
+        "Value2": 7.89,
+        "Value3": 1,
+        "Value4": [],
+        "Value5": [],
+        "Sample.Name": "",
+        "Sample.Value": 0,
+        "Flag": 6
+      }
+    ]
+  },
+  "配列サンプル": {
+    "header": [
+      {
+        "Name": "グループ１",
+        "Ident": "Group",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "名前",
+        "Ident": "Name",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "値1",
+        "Ident": "Value1",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "値2",
+        "Ident": "Value2",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "値3",
+        "Ident": "Value3",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Group": "グループ１",
+        "Name": "",
+        "Value1": 0,
+        "Value2": 0.0,
+        "Value3": 0
+      },
+      {
+        "Group": "",
+        "Name": "サンプル１",
+        "Value1": 123,
+        "Value2": 1.23,
+        "Value3": 0
+      },
+      {
+        "Group": "",
+        "Name": "サンプル２",
+        "Value1": 1,
+        "Value2": 3.0,
+        "Value3": 1
+      },
+      {
+        "Group": "",
+        "Name": "サンプル３",
+        "Value1": 1,
+        "Value2": 5.0,
+        "Value3": 0
+      },
+      {
+        "Group": "グループ２",
+        "Name": "",
+        "Value1": 0,
+        "Value2": 0.0,
+        "Value3": 0
+      },
+      {
+        "Group": "",
+        "Name": "サンプル４",
+        "Value1": 999,
+        "Value2": -50.0,
+        "Value3": 0
+      },
+      {
+        "Group": "",
+        "Name": "サンプル５",
+        "Value1": 1,
+        "Value2": 2.0,
+        "Value3": 3
+      }
+    ]
+  }
+}

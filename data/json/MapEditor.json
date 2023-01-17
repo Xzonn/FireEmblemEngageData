@@ -1,0 +1,288 @@
+{
+  "配置オブジェクト": {
+    "header": [
+      {
+        "Name": "出力先",
+        "Ident": "Out",
+        "Type": "PublicFile",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "オブジェクト名",
+        "Ident": "ObjectName",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "設置サウンド",
+        "Ident": "SoundEvent",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "カテゴリ",
+        "Ident": "Category",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Out": "",
+        "ObjectName": "E_PillarA",
+        "SoundEvent": "SE_MapEdit_Stone",
+        "Category": "CID_柱"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_PillarB",
+        "SoundEvent": "SE_MapEdit_Grass",
+        "Category": "CID_柱"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_PillarC",
+        "SoundEvent": "SE_MapEdit_Grass",
+        "Category": "CID_柱"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_PillarD",
+        "SoundEvent": "SE_MapEdit_Stone",
+        "Category": "CID_柱"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_ShrubberyA",
+        "SoundEvent": "SE_MapEdit_Grass",
+        "Category": "CID_植え込み"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_ShrubberyB",
+        "SoundEvent": "SE_MapEdit_GrassWood",
+        "Category": "CID_植え込み"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_ShrubberyC",
+        "SoundEvent": "SE_MapEdit_Rock",
+        "Category": "CID_植え込み"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_ShrubberyD",
+        "SoundEvent": "SE_MapEdit_Wood",
+        "Category": "CID_植え込み"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_BreakWallA",
+        "SoundEvent": "SE_MapEdit_Stone",
+        "Category": "CID_脆い壁"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_BreakWallB",
+        "SoundEvent": "SE_MapEdit_Snow",
+        "Category": "CID_脆い壁"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_BreakWallC",
+        "SoundEvent": "SE_MapEdit_Grass",
+        "Category": "CID_脆い壁"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_BreakWallD",
+        "SoundEvent": "SE_MapEdit_Rock",
+        "Category": "CID_脆い壁"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_WallA",
+        "SoundEvent": "SE_MapEdit_Rock",
+        "Category": "CID_壁"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_WallB",
+        "SoundEvent": "SE_MapEdit_Wood",
+        "Category": "CID_壁"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_WallC",
+        "SoundEvent": "SE_MapEdit_Rock",
+        "Category": "CID_壁"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_WallD",
+        "SoundEvent": "SE_MapEdit_Rock",
+        "Category": "CID_壁"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_AvoidanceDownA",
+        "SoundEvent": "SE_MapEdit_Sand",
+        "Category": "CID_回避減"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_AvoidanceDownB",
+        "SoundEvent": "SE_MapEdit_Gold",
+        "Category": "CID_回避減"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_AvoidanceDownC",
+        "SoundEvent": "SE_MapEdit_Water",
+        "Category": "CID_回避減"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_AvoidanceDownD",
+        "SoundEvent": "SE_MapEdit_Ice",
+        "Category": "CID_回避減"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_HealFloorA",
+        "SoundEvent": "SE_MapEdit_Stone",
+        "Category": "CID_回復床"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_FortFloorA",
+        "SoundEvent": "SE_MapEdit_Metal",
+        "Category": "CID_防衛床"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_BallistaA",
+        "SoundEvent": "SE_MapEdit_Alow",
+        "Category": "CID_弓砲台"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_MagicCannonA",
+        "SoundEvent": "SE_MapEdit_Rock",
+        "Category": "CID_魔砲台"
+      },
+      {
+        "Out": "",
+        "ObjectName": "E_BatteryA",
+        "SoundEvent": "SE_MapEdit_Cannon",
+        "Category": "CID_火炎砲台"
+      }
+    ]
+  },
+  "カテゴリ": {
+    "header": [
+      {
+        "Name": "出力先",
+        "Ident": "Out",
+        "Type": "PublicFile",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "カテゴリ名",
+        "Ident": "Cid",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "最大設置上限",
+        "Ident": "CountMax",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "アイコン名",
+        "Ident": "IconName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Out": "",
+        "Cid": "CID_柱",
+        "CountMax": 15,
+        "IconName": "Pillar"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_植え込み",
+        "CountMax": 10,
+        "IconName": "Shrubbery"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_脆い壁",
+        "CountMax": 15,
+        "IconName": "BreakWall"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_壁",
+        "CountMax": 15,
+        "IconName": "Wall"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_回避減",
+        "CountMax": 10,
+        "IconName": "AvoidanceDown"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_回復床",
+        "CountMax": 3,
+        "IconName": "HealFloor"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_防衛床",
+        "CountMax": 3,
+        "IconName": "FortFloor"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_弓砲台",
+        "CountMax": 1,
+        "IconName": "Ballista"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_魔砲台",
+        "CountMax": 1,
+        "IconName": "MagicCannon"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_火炎砲台",
+        "CountMax": 1,
+        "IconName": "Battery"
+      }
+    ]
+  }
+}

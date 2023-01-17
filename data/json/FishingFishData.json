@@ -1,0 +1,3218 @@
+{
+  "さかな情報": {
+    "header": [
+      {
+        "Name": "識別子",
+        "Ident": "ID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "名前",
+        "Ident": "FishName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "体格",
+        "Ident": "LargeType",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "魚影設定",
+        "Ident": "ShadowSize",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レーダー上の魚影サイズ倍率",
+        "Ident": "RadarSizeMult",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "報酬アイテム",
+        "Ident": "FoodType",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "絆のかけら",
+        "Ident": "PieceCount",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "暴れ移行時間(Sec)",
+        "Ident": "CounterTime",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "暴れ急変時間(Sec)",
+        "Ident": "TurnCounterTime",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "暴れ　最低変動角度",
+        "Ident": "TurnAngleMin",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "暴れ　最高変動角度",
+        "Ident": "TurnAngleMax",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "移動速度(Length/Sec)",
+        "Ident": "EscapeSpeed",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "暴れ移動速度(強)",
+        "Ident": "CounterSpeedH",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "暴れ移動速度(中)",
+        "Ident": "CounterSpeedM",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "暴れ移動速度(弱)",
+        "Ident": "CounterSpeedL",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "食いつき時間(秒)",
+        "Ident": "CatchTime",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "食いつき時間ランダム加算(秒)",
+        "Ident": "CatchTimeRandomAdd",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "逃げる時間(秒)",
+        "Ident": "EscapeTime",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "体力",
+        "Ident": "HP",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "とどめHP",
+        "Ident": "LethalHP",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "自然回復(HP/Sec)",
+        "Ident": "RegenaratePerSec",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "基本サイズ",
+        "Ident": "BaseSize",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "魚名ラベル",
+        "Ident": "NameLabel",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "説明メッセージラベル",
+        "Ident": "MessageLabel",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "朝",
+        "Ident": "TimeFlagMorning",
+        "Type": "bool",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "昼",
+        "Ident": "TimeFlagDay",
+        "Type": "bool",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "夜",
+        "Ident": "TimeFlagNight",
+        "Type": "bool",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "釣れやすい竿設定",
+        "Ident": "BestRodType",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "魚拓テクスチャID",
+        "Ident": "TextureID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "ID": "ID_イッカクイワナ",
+        "FishName": "イッカクイワナ",
+        "LargeType": 0,
+        "ShadowSize": 0,
+        "RadarSizeMult": 0.95,
+        "FoodType": "IID_すり身",
+        "PieceCount": 20,
+        "CounterTime": 1.5,
+        "TurnCounterTime": 1.2,
+        "TurnAngleMin": 35.0,
+        "TurnAngleMax": 52.0,
+        "EscapeSpeed": 55.0,
+        "CounterSpeedH": 24.0,
+        "CounterSpeedM": -9.0,
+        "CounterSpeedL": -40.0,
+        "CatchTime": 2.3,
+        "CatchTimeRandomAdd": 1.9,
+        "EscapeTime": 3.3,
+        "HP": 110.0,
+        "LethalHP": 50.0,
+        "RegenaratePerSec": 6.0,
+        "BaseSize": 10.0,
+        "NameLabel": "独角红点鲑",
+        "MessageLabel": "鱼头上长了一根粗角，\n上钩时容易受冲击而折断。\n由于长满细刺，多被制成鱼浆。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": false,
+        "TimeFlagNight": true,
+        "BestRodType": 0,
+        "TextureID": "Fish_01"
+      },
+      {
+        "ID": "ID_バンガンニシン",
+        "FishName": "バンガンニシン",
+        "LargeType": 0,
+        "ShadowSize": 0,
+        "RadarSizeMult": 0.95,
+        "FoodType": "IID_ニシン",
+        "PieceCount": 20,
+        "CounterTime": 2.0,
+        "TurnCounterTime": 1.8,
+        "TurnAngleMin": 15.0,
+        "TurnAngleMax": 40.0,
+        "EscapeSpeed": 50.0,
+        "CounterSpeedH": 18.0,
+        "CounterSpeedM": -6.0,
+        "CounterSpeedL": -24.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 4.2,
+        "HP": 100.0,
+        "LethalHP": 50.0,
+        "RegenaratePerSec": 5.0,
+        "BaseSize": 10.0,
+        "NameLabel": "班岗鲱鱼",
+        "MessageLabel": "会在特定时期群游而来，非常容易上钩，\n但这种特征反而引来了不少钓客的抱怨。\n风味朴实无华，可搭配各种食材烹调。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": true,
+        "TimeFlagNight": false,
+        "BestRodType": 0,
+        "TextureID": "Fish_07"
+      },
+      {
+        "ID": "ID_オメメイワシ",
+        "FishName": "オメメイワシ",
+        "LargeType": 0,
+        "ShadowSize": 0,
+        "RadarSizeMult": 0.95,
+        "FoodType": "IID_イワシ",
+        "PieceCount": 10,
+        "CounterTime": 1.8,
+        "TurnCounterTime": 1.4,
+        "TurnAngleMin": 20.0,
+        "TurnAngleMax": 50.0,
+        "EscapeSpeed": 53.0,
+        "CounterSpeedH": 17.0,
+        "CounterSpeedM": -5.0,
+        "CounterSpeedL": -27.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 4.2,
+        "HP": 120.0,
+        "LethalHP": 50.0,
+        "RegenaratePerSec": 6.0,
+        "BaseSize": 10.0,
+        "NameLabel": "欧梅梅沙丁鱼",
+        "MessageLabel": "费列聂常见的小鱼，特征为覆盖眼睛的，\n脂性眼睑。习惯群游防御天敌。\n肉质松软，用手便能轻易剥开。",
+        "TimeFlagMorning": true,
+        "TimeFlagDay": false,
+        "TimeFlagNight": false,
+        "BestRodType": 0,
+        "TextureID": "Fish_13"
+      },
+      {
+        "ID": "ID_ポンヤマメ",
+        "FishName": "ポンヤマメ",
+        "LargeType": 1,
+        "ShadowSize": 0,
+        "RadarSizeMult": 1.05,
+        "FoodType": "IID_すり身",
+        "PieceCount": 40,
+        "CounterTime": 1.5,
+        "TurnCounterTime": 1.1,
+        "TurnAngleMin": 25.0,
+        "TurnAngleMax": 65.0,
+        "EscapeSpeed": 56.0,
+        "CounterSpeedH": 25.0,
+        "CounterSpeedM": -6.0,
+        "CounterSpeedL": -40.0,
+        "CatchTime": 2.3,
+        "CatchTimeRandomAdd": 1.9,
+        "EscapeTime": 3.3,
+        "HP": 130.0,
+        "LethalHP": 60.0,
+        "RegenaratePerSec": 6.0,
+        "BaseSize": 30.0,
+        "NameLabel": "圆纹樱鳟",
+        "MessageLabel": "不时会让侧身浮出水面。\n独特的圆斑会随着成长逐渐变淡。\n风味清淡，适合做成柔软的鱼浆。",
+        "TimeFlagMorning": true,
+        "TimeFlagDay": false,
+        "TimeFlagNight": false,
+        "BestRodType": 0,
+        "TextureID": "Fish_02"
+      },
+      {
+        "ID": "ID_テオテスクイッド",
+        "FishName": "テオテスクイッド",
+        "LargeType": 1,
+        "ShadowSize": 0,
+        "RadarSizeMult": 1.05,
+        "FoodType": "IID_すり身",
+        "PieceCount": 50,
+        "CounterTime": 2.0,
+        "TurnCounterTime": 1.6,
+        "TurnAngleMin": 15.0,
+        "TurnAngleMax": 60.0,
+        "EscapeSpeed": 47.0,
+        "CounterSpeedH": 16.0,
+        "CounterSpeedM": -4.0,
+        "CounterSpeedL": -24.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 4.5,
+        "HP": 120.0,
+        "LethalHP": 50.0,
+        "RegenaratePerSec": 5.0,
+        "BaseSize": 30.0,
+        "NameLabel": "提欧特鱿鱼",
+        "MessageLabel": "会将细长的闪亮物体看做是饵，\n部分钓客则利用这种习性垂钓。\n制成鱼浆后能加入各种菜色。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": true,
+        "TimeFlagNight": false,
+        "BestRodType": 1,
+        "TextureID": "Fish_08"
+      },
+      {
+        "ID": "ID_アビッドクラブ",
+        "FishName": "アビッドクラブ",
+        "LargeType": 1,
+        "ShadowSize": 0,
+        "RadarSizeMult": 1.05,
+        "FoodType": "IID_すり身",
+        "PieceCount": 40,
+        "CounterTime": 1.8,
+        "TurnCounterTime": 1.3,
+        "TurnAngleMin": 40.0,
+        "TurnAngleMax": 40.0,
+        "EscapeSpeed": 45.0,
+        "CounterSpeedH": 12.0,
+        "CounterSpeedM": -3.0,
+        "CounterSpeedL": -17.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 4.5,
+        "HP": 140.0,
+        "LethalHP": 50.0,
+        "RegenaratePerSec": 6.0,
+        "BaseSize": 30.0,
+        "NameLabel": "阿比德蟹",
+        "MessageLabel": "这种螃蟹白天藏在沙中，\n待清晨出来活动时才较易钓到。\n可连壳一起制成蟹浆。",
+        "TimeFlagMorning": true,
+        "TimeFlagDay": false,
+        "TimeFlagNight": false,
+        "BestRodType": 0,
+        "TextureID": "Fish_14"
+      },
+      {
+        "ID": "ID_ヘルルコイ",
+        "FishName": "ヘルルコイ",
+        "LargeType": 2,
+        "ShadowSize": 1,
+        "RadarSizeMult": 1.2,
+        "FoodType": "IID_コイ",
+        "PieceCount": 70,
+        "CounterTime": 1.6,
+        "TurnCounterTime": 1.0,
+        "TurnAngleMin": 39.0,
+        "TurnAngleMax": 56.0,
+        "EscapeSpeed": 58.0,
+        "CounterSpeedH": 36.0,
+        "CounterSpeedM": -2.0,
+        "CounterSpeedL": -40.0,
+        "CatchTime": 2.3,
+        "CatchTimeRandomAdd": 1.9,
+        "EscapeTime": 2.7,
+        "HP": 130.0,
+        "LethalHP": 65.0,
+        "RegenaratePerSec": 6.0,
+        "BaseSize": 50.0,
+        "NameLabel": "赫鲁鲁鲤鱼",
+        "MessageLabel": "一种杂食性的鱼类。部分个体\n外表鲜艳，常被人当成是宠物鱼。\n营养丰富，特别适合油炸。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": true,
+        "TimeFlagNight": false,
+        "BestRodType": 0,
+        "TextureID": "Fish_03"
+      },
+      {
+        "ID": "ID_ブロスウナギ",
+        "FishName": "ブロスウナギ",
+        "LargeType": 2,
+        "ShadowSize": 1,
+        "RadarSizeMult": 1.2,
+        "FoodType": "IID_ウナギ",
+        "PieceCount": 60,
+        "CounterTime": 1.8,
+        "TurnCounterTime": 1.3,
+        "TurnAngleMin": 20.0,
+        "TurnAngleMax": 45.0,
+        "EscapeSpeed": 56.0,
+        "CounterSpeedH": 24.0,
+        "CounterSpeedM": -2.0,
+        "CounterSpeedL": -23.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 2.7,
+        "HP": 150.0,
+        "LethalHP": 65.0,
+        "RegenaratePerSec": 6.0,
+        "BaseSize": 50.0,
+        "NameLabel": "布洛斯鳗鱼",
+        "MessageLabel": "因为全身滑溜溜难以抓住，\n在解开鱼钩时需谨慎避免逃走。\n风味浓郁，细骨能够直接食用。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": false,
+        "TimeFlagNight": true,
+        "BestRodType": 0,
+        "TextureID": "Fish_09"
+      },
+      {
+        "ID": "ID_ムノンテイルアジ",
+        "FishName": "ムノンテイルアジ",
+        "LargeType": 2,
+        "ShadowSize": 1,
+        "RadarSizeMult": 1.2,
+        "FoodType": "IID_干物",
+        "PieceCount": 60,
+        "CounterTime": 1.8,
+        "TurnCounterTime": 1.2,
+        "TurnAngleMin": 30.0,
+        "TurnAngleMax": 55.0,
+        "EscapeSpeed": 60.0,
+        "CounterSpeedH": 27.0,
+        "CounterSpeedM": -3.0,
+        "CounterSpeedL": -24.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 2.7,
+        "HP": 180.0,
+        "LethalHP": 65.0,
+        "RegenaratePerSec": 8.0,
+        "BaseSize": 50.0,
+        "NameLabel": "穆诺泰尔竹策鱼",
+        "MessageLabel": "反抗的力道能让人享受到拉竿的刺激，\n大小也适合拿来练习片鱼。\n是鱼干中的经典款，深受人们喜爱。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": true,
+        "TimeFlagNight": false,
+        "BestRodType": 1,
+        "TextureID": "Fish_15"
+      },
+      {
+        "ID": "ID_ラバナトロウト",
+        "FishName": "ラバナトロウト",
+        "LargeType": 3,
+        "ShadowSize": 1,
+        "RadarSizeMult": 1.3,
+        "FoodType": "IID_干物",
+        "PieceCount": 80,
+        "CounterTime": 1.7,
+        "TurnCounterTime": 1.0,
+        "TurnAngleMin": 41.0,
+        "TurnAngleMax": 58.0,
+        "EscapeSpeed": 58.0,
+        "CounterSpeedH": 43.0,
+        "CounterSpeedM": 25.0,
+        "CounterSpeedL": -35.0,
+        "CatchTime": 2.3,
+        "CatchTimeRandomAdd": 1.9,
+        "EscapeTime": 2.7,
+        "HP": 220.0,
+        "LethalHP": 70.0,
+        "RegenaratePerSec": 10.0,
+        "BaseSize": 70.0,
+        "NameLabel": "拉巴纳鳟鱼",
+        "MessageLabel": "只要能掌握诀窍，便可轻松钓到。\n在伊尔席翁王国内也有养殖品种，\n通常会被制成能长期保存的鱼干。",
+        "TimeFlagMorning": true,
+        "TimeFlagDay": false,
+        "TimeFlagNight": false,
+        "BestRodType": 1,
+        "TextureID": "Fish_04"
+      },
+      {
+        "ID": "ID_ロガーオクトパス",
+        "FishName": "ロガーオクトパス",
+        "LargeType": 3,
+        "ShadowSize": 1,
+        "RadarSizeMult": 1.3,
+        "FoodType": "IID_すり身",
+        "PieceCount": 80,
+        "CounterTime": 2.3,
+        "TurnCounterTime": 1.3,
+        "TurnAngleMin": 20.0,
+        "TurnAngleMax": 45.0,
+        "EscapeSpeed": 56.0,
+        "CounterSpeedH": 29.0,
+        "CounterSpeedM": 15.0,
+        "CounterSpeedL": -21.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 2.7,
+        "HP": 250.0,
+        "LethalHP": 70.0,
+        "RegenaratePerSec": 6.0,
+        "BaseSize": 70.0,
+        "NameLabel": "罗格章鱼",
+        "MessageLabel": "脚上长有许多吸盘的章鱼，\n得趁它吸住岩石迅速钓起。\n整只都能拿来制成章鱼浆。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": false,
+        "TimeFlagNight": true,
+        "BestRodType": 1,
+        "TextureID": "Fish_10"
+      },
+      {
+        "ID": "ID_ドスマレイ",
+        "FishName": "ドスマレイ",
+        "LargeType": 3,
+        "ShadowSize": 1,
+        "RadarSizeMult": 1.3,
+        "FoodType": "IID_干物",
+        "PieceCount": 100,
+        "CounterTime": 2.4,
+        "TurnCounterTime": 1.2,
+        "TurnAngleMin": 35.0,
+        "TurnAngleMax": 60.0,
+        "EscapeSpeed": 63.0,
+        "CounterSpeedH": 34.0,
+        "CounterSpeedM": 17.0,
+        "CounterSpeedL": -22.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 2.7,
+        "HP": 250.0,
+        "LethalHP": 70.0,
+        "RegenaratePerSec": 8.0,
+        "BaseSize": 70.0,
+        "NameLabel": "多斯玛魟鱼",
+        "MessageLabel": "腹部看似有张可爱的笑脸，\n尾部的毒素却足以令人丧命。\n晒干后腹部的笑脸会变得扭曲骇人。",
+        "TimeFlagMorning": true,
+        "TimeFlagDay": false,
+        "TimeFlagNight": false,
+        "BestRodType": 2,
+        "TextureID": "Fish_16"
+      },
+      {
+        "ID": "ID_レインボートロウト",
+        "FishName": "レインボートロウト",
+        "LargeType": 3,
+        "ShadowSize": 1,
+        "RadarSizeMult": 1.3,
+        "FoodType": "IID_幻の魚",
+        "PieceCount": 500,
+        "CounterTime": 1.5,
+        "TurnCounterTime": 0.9,
+        "TurnAngleMin": 30.0,
+        "TurnAngleMax": 70.0,
+        "EscapeSpeed": 90.0,
+        "CounterSpeedH": 55.0,
+        "CounterSpeedM": 39.0,
+        "CounterSpeedL": -35.0,
+        "CatchTime": 2.3,
+        "CatchTimeRandomAdd": 1.9,
+        "EscapeTime": 1.8,
+        "HP": 240.0,
+        "LethalHP": 90.0,
+        "RegenaratePerSec": 15.0,
+        "BaseSize": 70.0,
+        "NameLabel": "七彩鳟鱼",
+        "MessageLabel": "与拉巴纳鳟鱼系出同源的稀有品种。\n身上有七彩花纹，肉质肥厚，富含油脂，\n是一种被世人称为“极品”的梦幻鱼类。",
+        "TimeFlagMorning": true,
+        "TimeFlagDay": false,
+        "TimeFlagNight": false,
+        "BestRodType": 1,
+        "TextureID": "Fish_04a"
+      },
+      {
+        "ID": "ID_スリットヒレサケ",
+        "FishName": "スリットヒレサケ",
+        "LargeType": 4,
+        "ShadowSize": 2,
+        "RadarSizeMult": 1.4,
+        "FoodType": "IID_サケ",
+        "PieceCount": 150,
+        "CounterTime": 1.7,
+        "TurnCounterTime": 0.8,
+        "TurnAngleMin": 52.0,
+        "TurnAngleMax": 60.0,
+        "EscapeSpeed": 84.0,
+        "CounterSpeedH": 44.0,
+        "CounterSpeedM": 26.0,
+        "CounterSpeedL": -35.0,
+        "CatchTime": 2.3,
+        "CatchTimeRandomAdd": 1.9,
+        "EscapeTime": 2.1,
+        "HP": 270.0,
+        "LethalHP": 80.0,
+        "RegenaratePerSec": 10.0,
+        "BaseSize": 90.0,
+        "NameLabel": "长鳍鲑鱼",
+        "MessageLabel": "布罗帝亚境内捕获量居冠的鱼类，\n独特的鱼鳍在水中摇曳的模样十分美丽。\n红肉是因饲料而形成，实际上为白肉鱼。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": false,
+        "TimeFlagNight": true,
+        "BestRodType": 1,
+        "TextureID": "Fish_05"
+      },
+      {
+        "ID": "ID_ヘッジヒゲナマズ",
+        "FishName": "ヘッジヒゲナマズ",
+        "LargeType": 4,
+        "ShadowSize": 2,
+        "RadarSizeMult": 1.4,
+        "FoodType": "IID_干物",
+        "PieceCount": 150,
+        "CounterTime": 2.4,
+        "TurnCounterTime": 1.2,
+        "TurnAngleMin": 30.0,
+        "TurnAngleMax": 50.0,
+        "EscapeSpeed": 68.0,
+        "CounterSpeedH": 33.0,
+        "CounterSpeedM": 18.0,
+        "CounterSpeedL": -20.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 3.0,
+        "HP": 320.0,
+        "LethalHP": 80.0,
+        "RegenaratePerSec": 6.0,
+        "BaseSize": 90.0,
+        "NameLabel": "海吉长须鲶",
+        "MessageLabel": "十分聪明的鱼种。会利用其粗长的\n触须来感知并掌握周围的情况。\n制成鱼干拿来熬汤或烧烤都很适合。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": false,
+        "TimeFlagNight": true,
+        "BestRodType": 2,
+        "TextureID": "Fish_11"
+      },
+      {
+        "ID": "ID_オニキバカタラ",
+        "FishName": "オニキバカタラ",
+        "LargeType": 4,
+        "ShadowSize": 2,
+        "RadarSizeMult": 1.4,
+        "FoodType": "IID_タラ",
+        "PieceCount": 180,
+        "CounterTime": 2.4,
+        "TurnCounterTime": 1.1,
+        "TurnAngleMin": 35.0,
+        "TurnAngleMax": 65.0,
+        "EscapeSpeed": 80.0,
+        "CounterSpeedH": 40.0,
+        "CounterSpeedM": 25.0,
+        "CounterSpeedL": -22.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 3.0,
+        "HP": 300.0,
+        "LethalHP": 80.0,
+        "RegenaratePerSec": 8.0,
+        "BaseSize": 90.0,
+        "NameLabel": "鬼牙鳕鱼",
+        "MessageLabel": "在费列聂与布罗帝亚大受欢迎的高档鱼。\n寒冷区域捕获的个体连内脏都能食用，\n是一种全身上下都能利用的优秀食材。",
+        "TimeFlagMorning": true,
+        "TimeFlagDay": false,
+        "TimeFlagNight": false,
+        "BestRodType": 2,
+        "TextureID": "Fish_17"
+      },
+      {
+        "ID": "ID_マンドコブバス",
+        "FishName": "マンドコブバス",
+        "LargeType": 5,
+        "ShadowSize": 2,
+        "RadarSizeMult": 1.5,
+        "FoodType": "IID_刺身",
+        "PieceCount": 250,
+        "CounterTime": 1.6,
+        "TurnCounterTime": 0.9,
+        "TurnAngleMin": 54.0,
+        "TurnAngleMax": 62.0,
+        "EscapeSpeed": 86.0,
+        "CounterSpeedH": 52.0,
+        "CounterSpeedM": 36.0,
+        "CounterSpeedL": -35.0,
+        "CatchTime": 2.3,
+        "CatchTimeRandomAdd": 1.9,
+        "EscapeTime": 2.1,
+        "HP": 220.0,
+        "LethalHP": 90.0,
+        "RegenaratePerSec": 12.0,
+        "BaseSize": 110.0,
+        "NameLabel": "曼多柯布鲈鱼",
+        "MessageLabel": "考验钓客技术的重量级鱼怪。\n在索尔姆甚至会举办钓鲈鱼大赛。\n细心处理后可做成风味独特的生鱼片。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": true,
+        "TimeFlagNight": false,
+        "BestRodType": 2,
+        "TextureID": "Fish_06"
+      },
+      {
+        "ID": "ID_サリアイヌウツボ",
+        "FishName": "サリアイヌウツボ",
+        "LargeType": 5,
+        "ShadowSize": 2,
+        "RadarSizeMult": 1.5,
+        "FoodType": "IID_刺身",
+        "PieceCount": 300,
+        "CounterTime": 2.5,
+        "TurnCounterTime": 1.2,
+        "TurnAngleMin": 30.0,
+        "TurnAngleMax": 50.0,
+        "EscapeSpeed": 68.0,
+        "CounterSpeedH": 42.0,
+        "CounterSpeedM": 29.0,
+        "CounterSpeedL": -20.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 3.0,
+        "HP": 400.0,
+        "LethalHP": 100.0,
+        "RegenaratePerSec": 6.0,
+        "BaseSize": 150.0,
+        "NameLabel": "萨利艾奴虎鳗",
+        "MessageLabel": "性格凶猛残暴，是一种危险的鱼类，\n不幸被其利齿咬到，将会痛不欲生。\n富含油脂、味道浓郁，适合做成生鱼片。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": false,
+        "TimeFlagNight": true,
+        "BestRodType": 2,
+        "TextureID": "Fish_12"
+      },
+      {
+        "ID": "ID_テフラカツオ",
+        "FishName": "テフラカツオ",
+        "LargeType": 5,
+        "ShadowSize": 2,
+        "RadarSizeMult": 1.6,
+        "FoodType": "IID_刺身",
+        "PieceCount": 500,
+        "CounterTime": 3.0,
+        "TurnCounterTime": 1.8,
+        "TurnAngleMin": 40.0,
+        "TurnAngleMax": 75.0,
+        "EscapeSpeed": 72.0,
+        "CounterSpeedH": 48.0,
+        "CounterSpeedM": 30.0,
+        "CounterSpeedL": -22.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.0,
+        "EscapeTime": 3.0,
+        "HP": 500.0,
+        "LethalHP": 100.0,
+        "RegenaratePerSec": 7.0,
+        "BaseSize": 150.0,
+        "NameLabel": "特弗拉鲣鱼",
+        "MessageLabel": "这种红肉鱼肌肉结实且凶猛无比，\n不分季节都是饕客认可的高级食材。\n做成生鱼片后鲜嫩多汁，广受好评。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": true,
+        "TimeFlagNight": false,
+        "BestRodType": 2,
+        "TextureID": "Fish_18"
+      },
+      {
+        "ID": "ID_エンシャントカツオ",
+        "FishName": "エンシャントカツオ",
+        "LargeType": 5,
+        "ShadowSize": 2,
+        "RadarSizeMult": 1.8,
+        "FoodType": "IID_幻の魚",
+        "PieceCount": 1000,
+        "CounterTime": 3.0,
+        "TurnCounterTime": 1.8,
+        "TurnAngleMin": 45.0,
+        "TurnAngleMax": 80.0,
+        "EscapeSpeed": 74.0,
+        "CounterSpeedH": 52.0,
+        "CounterSpeedM": 32.0,
+        "CounterSpeedL": -22.0,
+        "CatchTime": 2.5,
+        "CatchTimeRandomAdd": 2.5,
+        "EscapeTime": 2.7,
+        "HP": 800.0,
+        "LethalHP": 150.0,
+        "RegenaratePerSec": 7.0,
+        "BaseSize": 200.0,
+        "NameLabel": "艾恰托鲣鱼",
+        "MessageLabel": "特弗拉鲣鱼的另一个品种。\n虽然在特定条件下就有机会钓到，\n但仍是常人难以捕获的梦幻鱼类。",
+        "TimeFlagMorning": false,
+        "TimeFlagDay": true,
+        "TimeFlagNight": false,
+        "BestRodType": 2,
+        "TextureID": "Fish_18a"
+      }
+    ]
+  },
+  "サイズ情報": {
+    "header": [
+      {
+        "Name": "識別子",
+        "Ident": "ID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "名前",
+        "Ident": "SizeName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "最小",
+        "Ident": "SizeMinimum",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "最大",
+        "Ident": "SizeMaximum",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "補正最小",
+        "Ident": "BonusMinimum",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "補正最大",
+        "Ident": "BonusMaximum",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "ID": "ID_Tiny",
+        "SizeName": "タイニー",
+        "SizeMinimum": 10.0,
+        "SizeMaximum": 15.0,
+        "BonusMinimum": 6.0,
+        "BonusMaximum": 10.0
+      },
+      {
+        "ID": "ID_Small",
+        "SizeName": "スモール",
+        "SizeMinimum": 30.0,
+        "SizeMaximum": 45.0,
+        "BonusMinimum": 11.0,
+        "BonusMaximum": 15.0
+      },
+      {
+        "ID": "ID_Middle",
+        "SizeName": "ミドル",
+        "SizeMinimum": 50.0,
+        "SizeMaximum": 75.0,
+        "BonusMinimum": 16.0,
+        "BonusMaximum": 20.0
+      },
+      {
+        "ID": "ID_Large",
+        "SizeName": "ラージ",
+        "SizeMinimum": 70.0,
+        "SizeMaximum": 105.0,
+        "BonusMinimum": 21.0,
+        "BonusMaximum": 25.0
+      },
+      {
+        "ID": "ID_Big",
+        "SizeName": "ビッグ",
+        "SizeMinimum": 90.0,
+        "SizeMaximum": 135.0,
+        "BonusMinimum": 26.0,
+        "BonusMaximum": 30.0
+      },
+      {
+        "ID": "ID_Giant",
+        "SizeName": "ジャイアント",
+        "SizeMinimum": 110.0,
+        "SizeMaximum": 165.0,
+        "BonusMinimum": 31.0,
+        "BonusMaximum": 35.0
+      }
+    ]
+  },
+  "配置情報": {
+    "header": [
+      {
+        "Name": "識別子",
+        "Ident": "ID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "竿の種類",
+        "Ident": "StickType",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "時間帯",
+        "Ident": "Time",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "位置",
+        "Ident": "PositionNum",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "抽選率",
+        "Ident": "LotteryParam",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "魚ID",
+        "Ident": "FishID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "ID": "ID_FID_01",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 80,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_01a",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_01b",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_02c",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_02d",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_03e",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_03f",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_04g",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_03",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 80,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_04",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_05",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 2,
+        "LotteryParam": 80,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_06",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_07",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 3,
+        "LotteryParam": 80,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_08",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_09",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 4,
+        "LotteryParam": 80,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_10",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_11",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 5,
+        "LotteryParam": 80,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_12",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 5,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_13",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 6,
+        "LotteryParam": 80,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_14",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 6,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_15",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 7,
+        "LotteryParam": 80,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_16",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 7,
+        "LotteryParam": 20,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_17",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 8,
+        "LotteryParam": 80,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_18",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 8,
+        "LotteryParam": 20,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_19",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 9,
+        "LotteryParam": 80,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_20",
+        "StickType": "a",
+        "Time": 0,
+        "PositionNum": 9,
+        "LotteryParam": 20,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_21",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 1,
+        "LotteryParam": 80,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_22",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_23",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 2,
+        "LotteryParam": 80,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_24",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_25",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 3,
+        "LotteryParam": 80,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_26",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_27",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 4,
+        "LotteryParam": 80,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_28",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_29",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 5,
+        "LotteryParam": 80,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_30",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 5,
+        "LotteryParam": 20,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_31",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 6,
+        "LotteryParam": 80,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_32",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 6,
+        "LotteryParam": 20,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_33",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 7,
+        "LotteryParam": 80,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_34",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 7,
+        "LotteryParam": 20,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_35",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 8,
+        "LotteryParam": 80,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_36",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 8,
+        "LotteryParam": 20,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_37",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 9,
+        "LotteryParam": 80,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_38",
+        "StickType": "a",
+        "Time": 1,
+        "PositionNum": 9,
+        "LotteryParam": 20,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_39",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 1,
+        "LotteryParam": 80,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_40",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_41",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 2,
+        "LotteryParam": 80,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_42",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_43",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 3,
+        "LotteryParam": 80,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_44",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_45",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 4,
+        "LotteryParam": 80,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_46",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_47",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 5,
+        "LotteryParam": 80,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_48",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 5,
+        "LotteryParam": 20,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_49",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 6,
+        "LotteryParam": 80,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_50",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 6,
+        "LotteryParam": 20,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_51",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 7,
+        "LotteryParam": 80,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_52",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 7,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_53",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 8,
+        "LotteryParam": 80,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_54",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 8,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_55",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 9,
+        "LotteryParam": 80,
+        "FishID": "イッカクイワナ"
+      },
+      {
+        "ID": "ID_FID_56",
+        "StickType": "a",
+        "Time": 2,
+        "PositionNum": 9,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_57",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 60,
+        "FishID": "ラバナトロウト"
+      },
+      {
+        "ID": "ID_FID_58",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "レインボートロウト"
+      },
+      {
+        "ID": "ID_FID_59",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_60",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 2,
+        "LotteryParam": 60,
+        "FishID": "ラバナトロウト"
+      },
+      {
+        "ID": "ID_FID_61",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "レインボートロウト"
+      },
+      {
+        "ID": "ID_FID_62",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_63",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 3,
+        "LotteryParam": 60,
+        "FishID": "ラバナトロウト"
+      },
+      {
+        "ID": "ID_FID_64",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "レインボートロウト"
+      },
+      {
+        "ID": "ID_FID_65",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_66",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 4,
+        "LotteryParam": 60,
+        "FishID": "ラバナトロウト"
+      },
+      {
+        "ID": "ID_FID_67",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "レインボートロウト"
+      },
+      {
+        "ID": "ID_FID_68",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_69",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 5,
+        "LotteryParam": 40,
+        "FishID": "ラバナトロウト"
+      },
+      {
+        "ID": "ID_FID_70",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 5,
+        "LotteryParam": 30,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_71",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 5,
+        "LotteryParam": 30,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_72",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 6,
+        "LotteryParam": 60,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_73",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 6,
+        "LotteryParam": 40,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_74",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 7,
+        "LotteryParam": 60,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_75",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 7,
+        "LotteryParam": 40,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_76",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 8,
+        "LotteryParam": 60,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_77",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 8,
+        "LotteryParam": 40,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_78",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 9,
+        "LotteryParam": 60,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_79",
+        "StickType": "b",
+        "Time": 0,
+        "PositionNum": 9,
+        "LotteryParam": 40,
+        "FishID": "アビッドクラブ"
+      },
+      {
+        "ID": "ID_FID_80",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 1,
+        "LotteryParam": 60,
+        "FishID": "ムノンテイルアジ"
+      },
+      {
+        "ID": "ID_FID_81",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "レインボートロウト"
+      },
+      {
+        "ID": "ID_FID_82",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "テオテスクイッド"
+      },
+      {
+        "ID": "ID_FID_83",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 2,
+        "LotteryParam": 60,
+        "FishID": "ムノンテイルアジ"
+      },
+      {
+        "ID": "ID_FID_84",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "レインボートロウト"
+      },
+      {
+        "ID": "ID_FID_85",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "テオテスクイッド"
+      },
+      {
+        "ID": "ID_FID_86",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 3,
+        "LotteryParam": 60,
+        "FishID": "ムノンテイルアジ"
+      },
+      {
+        "ID": "ID_FID_87",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "テオテスクイッド"
+      },
+      {
+        "ID": "ID_FID_88",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_89",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 4,
+        "LotteryParam": 60,
+        "FishID": "ムノンテイルアジ"
+      },
+      {
+        "ID": "ID_FID_90",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "テオテスクイッド"
+      },
+      {
+        "ID": "ID_FID_91",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_92",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 5,
+        "LotteryParam": 40,
+        "FishID": "ムノンテイルアジ"
+      },
+      {
+        "ID": "ID_FID_93",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 5,
+        "LotteryParam": 30,
+        "FishID": "テオテスクイッド"
+      },
+      {
+        "ID": "ID_FID_94",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 5,
+        "LotteryParam": 30,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_95",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 6,
+        "LotteryParam": 60,
+        "FishID": "テオテスクイッド"
+      },
+      {
+        "ID": "ID_FID_96",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 6,
+        "LotteryParam": 40,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_97",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 7,
+        "LotteryParam": 60,
+        "FishID": "テオテスクイッド"
+      },
+      {
+        "ID": "ID_FID_98",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 7,
+        "LotteryParam": 40,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_99",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 8,
+        "LotteryParam": 60,
+        "FishID": "テオテスクイッド"
+      },
+      {
+        "ID": "ID_FID_100",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 8,
+        "LotteryParam": 40,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_101",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 9,
+        "LotteryParam": 60,
+        "FishID": "テオテスクイッド"
+      },
+      {
+        "ID": "ID_FID_102",
+        "StickType": "b",
+        "Time": 1,
+        "PositionNum": 9,
+        "LotteryParam": 40,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_103",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 1,
+        "LotteryParam": 70,
+        "FishID": "スリットヒレサケ"
+      },
+      {
+        "ID": "ID_FID_104",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "ロガーオクトパス"
+      },
+      {
+        "ID": "ID_FID_105",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_106",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 2,
+        "LotteryParam": 70,
+        "FishID": "スリットヒレサケ"
+      },
+      {
+        "ID": "ID_FID_107",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "ロガーオクトパス"
+      },
+      {
+        "ID": "ID_FID_108",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 2,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_109",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 3,
+        "LotteryParam": 60,
+        "FishID": "ロガーオクトパス"
+      },
+      {
+        "ID": "ID_FID_110",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_111",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_112",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 4,
+        "LotteryParam": 60,
+        "FishID": "ロガーオクトパス"
+      },
+      {
+        "ID": "ID_FID_113",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_114",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_115",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 5,
+        "LotteryParam": 40,
+        "FishID": "ロガーオクトパス"
+      },
+      {
+        "ID": "ID_FID_116",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 5,
+        "LotteryParam": 30,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_117",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 5,
+        "LotteryParam": 30,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_118",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 6,
+        "LotteryParam": 60,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_119",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 6,
+        "LotteryParam": 40,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_120",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 7,
+        "LotteryParam": 60,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_121",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 7,
+        "LotteryParam": 40,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_122",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 8,
+        "LotteryParam": 60,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_123",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 8,
+        "LotteryParam": 40,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_124",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 9,
+        "LotteryParam": 60,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_125",
+        "StickType": "b",
+        "Time": 2,
+        "PositionNum": 9,
+        "LotteryParam": 40,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_126",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 50,
+        "FishID": "オニキバカタラ"
+      },
+      {
+        "ID": "ID_FID_127",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "ムノンテイルアジ"
+      },
+      {
+        "ID": "ID_FID_128",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_129",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_130",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 2,
+        "LotteryParam": 50,
+        "FishID": "オニキバカタラ"
+      },
+      {
+        "ID": "ID_FID_131",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "ムノンテイルアジ"
+      },
+      {
+        "ID": "ID_FID_132",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_133",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 2,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_134",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 3,
+        "LotteryParam": 50,
+        "FishID": "オニキバカタラ"
+      },
+      {
+        "ID": "ID_FID_135",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 3,
+        "LotteryParam": 50,
+        "FishID": "ドスマレイ"
+      },
+      {
+        "ID": "ID_FID_136",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 4,
+        "LotteryParam": 50,
+        "FishID": "ドスマレイ"
+      },
+      {
+        "ID": "ID_FID_137",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 4,
+        "LotteryParam": 30,
+        "FishID": "オニキバカタラ"
+      },
+      {
+        "ID": "ID_FID_138",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 4,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_139",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 4,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_140",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 5,
+        "LotteryParam": 50,
+        "FishID": "ドスマレイ"
+      },
+      {
+        "ID": "ID_FID_141",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 5,
+        "LotteryParam": 30,
+        "FishID": "ムノンテイルアジ"
+      },
+      {
+        "ID": "ID_FID_142",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 5,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_143",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 5,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_144",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 6,
+        "LotteryParam": 50,
+        "FishID": "ドスマレイ"
+      },
+      {
+        "ID": "ID_FID_145",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 6,
+        "LotteryParam": 30,
+        "FishID": "ムノンテイルアジ"
+      },
+      {
+        "ID": "ID_FID_146",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 6,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_147",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 6,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_148",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 7,
+        "LotteryParam": 50,
+        "FishID": "ドスマレイ"
+      },
+      {
+        "ID": "ID_FID_149",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 7,
+        "LotteryParam": 30,
+        "FishID": "ムノンテイルアジ"
+      },
+      {
+        "ID": "ID_FID_150",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 7,
+        "LotteryParam": 10,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_151",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 7,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_152",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 8,
+        "LotteryParam": 50,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_153",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 8,
+        "LotteryParam": 50,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_154",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 9,
+        "LotteryParam": 50,
+        "FishID": "ポンヤマメ"
+      },
+      {
+        "ID": "ID_FID_155",
+        "StickType": "c",
+        "Time": 0,
+        "PositionNum": 9,
+        "LotteryParam": 50,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_156",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 1,
+        "LotteryParam": 50,
+        "FishID": "マンドコブバス"
+      },
+      {
+        "ID": "ID_FID_157",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "ラバナトロウト"
+      },
+      {
+        "ID": "ID_FID_158",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_159",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_160",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 2,
+        "LotteryParam": 50,
+        "FishID": "マンドコブバス"
+      },
+      {
+        "ID": "ID_FID_161",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "ラバナトロウト"
+      },
+      {
+        "ID": "ID_FID_162",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_163",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 2,
+        "LotteryParam": 10,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_164",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 3,
+        "LotteryParam": 50,
+        "FishID": "テフラカツオ"
+      },
+      {
+        "ID": "ID_FID_165",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "エンシャントカツオ"
+      },
+      {
+        "ID": "ID_FID_166",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 3,
+        "LotteryParam": 10,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_167",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 3,
+        "LotteryParam": 10,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_168",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 4,
+        "LotteryParam": 50,
+        "FishID": "テフラカツオ"
+      },
+      {
+        "ID": "ID_FID_169",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "エンシャントカツオ"
+      },
+      {
+        "ID": "ID_FID_170",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 4,
+        "LotteryParam": 10,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_171",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 4,
+        "LotteryParam": 10,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_172",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 5,
+        "LotteryParam": 50,
+        "FishID": "テフラカツオ"
+      },
+      {
+        "ID": "ID_FID_173",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 5,
+        "LotteryParam": 20,
+        "FishID": "マンドコブバス"
+      },
+      {
+        "ID": "ID_FID_174",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 5,
+        "LotteryParam": 10,
+        "FishID": "エンシャントカツオ"
+      },
+      {
+        "ID": "ID_FID_175",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 5,
+        "LotteryParam": 10,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_176",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 5,
+        "LotteryParam": 10,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_177",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 6,
+        "LotteryParam": 50,
+        "FishID": "ラバナトロウト"
+      },
+      {
+        "ID": "ID_FID_178",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 6,
+        "LotteryParam": 30,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_179",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 6,
+        "LotteryParam": 20,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_180",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 7,
+        "LotteryParam": 50,
+        "FishID": "ラバナトロウト"
+      },
+      {
+        "ID": "ID_FID_181",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 7,
+        "LotteryParam": 30,
+        "FishID": "ヘルルコイ"
+      },
+      {
+        "ID": "ID_FID_182",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 7,
+        "LotteryParam": 20,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_183",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 8,
+        "LotteryParam": 100,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_184",
+        "StickType": "c",
+        "Time": 1,
+        "PositionNum": 9,
+        "LotteryParam": 100,
+        "FishID": "バンガンニシン"
+      },
+      {
+        "ID": "ID_FID_185",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 1,
+        "LotteryParam": 50,
+        "FishID": "ヘッジヒゲナマズ"
+      },
+      {
+        "ID": "ID_FID_186",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "ロガーオクトパス"
+      },
+      {
+        "ID": "ID_FID_187",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 1,
+        "LotteryParam": 20,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_188",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 1,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_189",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 2,
+        "LotteryParam": 50,
+        "FishID": "ヘッジヒゲナマズ"
+      },
+      {
+        "ID": "ID_FID_190",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "ロガーオクトパス"
+      },
+      {
+        "ID": "ID_FID_191",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 2,
+        "LotteryParam": 20,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_192",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 2,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_193",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 3,
+        "LotteryParam": 50,
+        "FishID": "サリアイヌウツボ"
+      },
+      {
+        "ID": "ID_FID_194",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 3,
+        "LotteryParam": 20,
+        "FishID": "スリットヒレサケ"
+      },
+      {
+        "ID": "ID_FID_195",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 3,
+        "LotteryParam": 10,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_196",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 3,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_197",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 4,
+        "LotteryParam": 50,
+        "FishID": "サリアイヌウツボ"
+      },
+      {
+        "ID": "ID_FID_198",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 4,
+        "LotteryParam": 20,
+        "FishID": "スリットヒレサケ"
+      },
+      {
+        "ID": "ID_FID_199",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 4,
+        "LotteryParam": 10,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_200",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 4,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_201",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 5,
+        "LotteryParam": 50,
+        "FishID": "サリアイヌウツボ"
+      },
+      {
+        "ID": "ID_FID_202",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 5,
+        "LotteryParam": 20,
+        "FishID": "ヘッジヒゲナマズ"
+      },
+      {
+        "ID": "ID_FID_203",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 5,
+        "LotteryParam": 10,
+        "FishID": "スリットヒレサケ"
+      },
+      {
+        "ID": "ID_FID_204",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 5,
+        "LotteryParam": 10,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_205",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 5,
+        "LotteryParam": 10,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_206",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 6,
+        "LotteryParam": 50,
+        "FishID": "ロガーオクトパス"
+      },
+      {
+        "ID": "ID_FID_207",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 6,
+        "LotteryParam": 30,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_208",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 6,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_209",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 7,
+        "LotteryParam": 50,
+        "FishID": "ロガーオクトパス"
+      },
+      {
+        "ID": "ID_FID_210",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 7,
+        "LotteryParam": 30,
+        "FishID": "ブロスウナギ"
+      },
+      {
+        "ID": "ID_FID_211",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 7,
+        "LotteryParam": 20,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_212",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 8,
+        "LotteryParam": 100,
+        "FishID": "オメメイワシ"
+      },
+      {
+        "ID": "ID_FID_213",
+        "StickType": "c",
+        "Time": 2,
+        "PositionNum": 9,
+        "LotteryParam": 100,
+        "FishID": "オメメイワシ"
+      }
+    ]
+  },
+  "竿ごとの重みテーブル": {
+    "header": [
+      {
+        "Name": "識別子",
+        "Ident": "ID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "魚ID",
+        "Ident": "FishID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "重み",
+        "Ident": "Priority",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "ID": "ID_StickA_01",
+        "FishID": "ブロスウナギ",
+        "Priority": 8
+      },
+      {
+        "ID": "ID_StickA_02",
+        "FishID": "ヘルルコイ",
+        "Priority": 7
+      },
+      {
+        "ID": "ID_StickA_03",
+        "FishID": "ポンヤマメ",
+        "Priority": 5
+      },
+      {
+        "ID": "ID_StickA_04",
+        "FishID": "アビッドクラブ",
+        "Priority": 4
+      },
+      {
+        "ID": "ID_StickA_05",
+        "FishID": "バンガンニシン",
+        "Priority": 3
+      },
+      {
+        "ID": "ID_StickA_06",
+        "FishID": "イッカクイワナ",
+        "Priority": 2
+      },
+      {
+        "ID": "ID_StickA_07",
+        "FishID": "オメメイワシ",
+        "Priority": 1
+      },
+      {
+        "ID": "ID_StickB_01",
+        "FishID": "レインボートロウト",
+        "Priority": 19
+      },
+      {
+        "ID": "ID_StickB_02",
+        "FishID": "スリットヒレサケ",
+        "Priority": 13
+      },
+      {
+        "ID": "ID_StickB_03",
+        "FishID": "ロガーオクトパス",
+        "Priority": 11
+      },
+      {
+        "ID": "ID_StickB_04",
+        "FishID": "ラバナトロウト",
+        "Priority": 10
+      },
+      {
+        "ID": "ID_StickB_05",
+        "FishID": "ムノンテイルアジ",
+        "Priority": 9
+      },
+      {
+        "ID": "ID_StickB_06",
+        "FishID": "テオテスクイッド",
+        "Priority": 6
+      },
+      {
+        "ID": "ID_StickB_07",
+        "FishID": "ポンヤマメ",
+        "Priority": 5
+      },
+      {
+        "ID": "ID_StickB_08",
+        "FishID": "アビッドクラブ",
+        "Priority": 4
+      },
+      {
+        "ID": "ID_StickB_09",
+        "FishID": "バンガンニシン",
+        "Priority": 3
+      },
+      {
+        "ID": "ID_StickB_10",
+        "FishID": "オメメイワシ",
+        "Priority": 1
+      },
+      {
+        "ID": "ID_StickC_01",
+        "FishID": "エンシャントカツオ",
+        "Priority": 20
+      },
+      {
+        "ID": "ID_StickC_02",
+        "FishID": "テフラカツオ",
+        "Priority": 18
+      },
+      {
+        "ID": "ID_StickC_03",
+        "FishID": "サリアイヌウツボ",
+        "Priority": 17
+      },
+      {
+        "ID": "ID_StickC_04",
+        "FishID": "マンドコブバス",
+        "Priority": 16
+      },
+      {
+        "ID": "ID_StickC_05",
+        "FishID": "オニキバカタラ",
+        "Priority": 15
+      },
+      {
+        "ID": "ID_StickC_06",
+        "FishID": "ヘッジヒゲナマズ",
+        "Priority": 14
+      },
+      {
+        "ID": "ID_StickC_07",
+        "FishID": "スリットヒレサケ",
+        "Priority": 13
+      },
+      {
+        "ID": "ID_StickC_08",
+        "FishID": "ドスマレイ",
+        "Priority": 12
+      },
+      {
+        "ID": "ID_StickC_09",
+        "FishID": "ロガーオクトパス",
+        "Priority": 11
+      },
+      {
+        "ID": "ID_StickC_10",
+        "FishID": "ラバナトロウト",
+        "Priority": 10
+      },
+      {
+        "ID": "ID_StickC_11",
+        "FishID": "ムノンテイルアジ",
+        "Priority": 9
+      },
+      {
+        "ID": "ID_StickC_12",
+        "FishID": "ブロスウナギ",
+        "Priority": 8
+      },
+      {
+        "ID": "ID_StickC_13",
+        "FishID": "ヘルルコイ",
+        "Priority": 7
+      },
+      {
+        "ID": "ID_StickC_14",
+        "FishID": "ポンヤマメ",
+        "Priority": 5
+      },
+      {
+        "ID": "ID_StickC_15",
+        "FishID": "バンガンニシン",
+        "Priority": 3
+      },
+      {
+        "ID": "ID_StickC_16",
+        "FishID": "オメメイワシ",
+        "Priority": 1
+      }
+    ]
+  },
+  "ソラのアシスト設定": {
+    "header": [
+      {
+        "Name": "識別子",
+        "Ident": "ID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "0",
+        "Ident": "Level_00",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "1",
+        "Ident": "Level_01",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "2",
+        "Ident": "Level_02",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "3",
+        "Ident": "Level_03",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "4",
+        "Ident": "Level_04",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "5",
+        "Ident": "Level_05",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "6",
+        "Ident": "Level_06",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "7",
+        "Ident": "Level_07",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "8",
+        "Ident": "Level_08",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "9",
+        "Ident": "Level_09",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "10",
+        "Ident": "Level_10",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "ID": "ID_AssistDamage",
+        "Level_00": 0.0,
+        "Level_01": 3.0,
+        "Level_02": 6.0,
+        "Level_03": 9.0,
+        "Level_04": 12.0,
+        "Level_05": 15.0,
+        "Level_06": 18.0,
+        "Level_07": 21.0,
+        "Level_08": 24.0,
+        "Level_09": 27.0,
+        "Level_10": 30.0
+      },
+      {
+        "ID": "ID_AssistTime",
+        "Level_00": 0.0,
+        "Level_01": 10.0,
+        "Level_02": 20.0,
+        "Level_03": 30.0,
+        "Level_04": 40.0,
+        "Level_05": 50.0,
+        "Level_06": 60.0,
+        "Level_07": 70.0,
+        "Level_08": 80.0,
+        "Level_09": 90.0,
+        "Level_10": 100.0
+      }
+    ]
+  },
+  "バトル激化係数": {
+    "header": [
+      {
+        "Name": "識別子",
+        "Ident": "ID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "次の段階までの時間(秒)",
+        "Ident": "Sec_01",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "移動速度倍率",
+        "Ident": "Power_01",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "自動回復倍率",
+        "Ident": "Regene_01",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "次の段階までの時間(秒)",
+        "Ident": "Sec_02",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "移動速度倍率",
+        "Ident": "Power_02",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "自動回復倍率",
+        "Ident": "Regene_02",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "次の段階までの時間(秒)",
+        "Ident": "Sec_03",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "移動速度倍率",
+        "Ident": "Power_03",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "自動回復倍率",
+        "Ident": "Regene_03",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "次の段階までの時間(秒)",
+        "Ident": "Sec_04",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "移動速度倍率",
+        "Ident": "Power_04",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "自動回復倍率",
+        "Ident": "Regene_04",
+        "Type": "float",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "ID": "ID_Basic",
+        "Sec_01": 10.0,
+        "Power_01": 1.0,
+        "Regene_01": 1.0,
+        "Sec_02": 15.0,
+        "Power_02": 1.4,
+        "Regene_02": 0.8,
+        "Sec_03": 20.0,
+        "Power_03": 1.7,
+        "Regene_03": 0.6,
+        "Sec_04": -1.0,
+        "Power_04": 2.0,
+        "Regene_04": 0.2
+      }
+    ]
+  }
+}

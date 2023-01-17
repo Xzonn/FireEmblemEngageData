@@ -1,0 +1,3274 @@
+{
+  "国データ": {
+    "header": [
+      {
+        "Name": "出力先",
+        "Ident": "Out",
+        "Type": "PublicFile",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "識別子",
+        "Ident": "ID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "国名",
+        "Ident": "Name",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "登場章",
+        "Ident": "Chapter",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "投資レベル無し",
+        "Ident": "IsNotLevel",
+        "Type": "bool",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "シンボルテクスチャ名",
+        "Ident": "SymbolTexture",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル情報ID",
+        "Ident": "LevelInfo",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "食材情報ID",
+        "Ident": "FoodstuffInfo",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "動物情報ID",
+        "Ident": "AnimalInfo",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Out": "",
+        "ID": "NID_フィレネ",
+        "Name": "费列聂",
+        "Chapter": "CID_M001",
+        "IsNotLevel": false,
+        "SymbolTexture": "Filene",
+        "LevelInfo": "フィレネ",
+        "FoodstuffInfo": "フィレネ",
+        "AnimalInfo": "フィレネ"
+      },
+      {
+        "Out": "",
+        "ID": "NID_ブロディア",
+        "Name": "布罗帝亚",
+        "Chapter": "CID_M007",
+        "IsNotLevel": false,
+        "SymbolTexture": "Brodia",
+        "LevelInfo": "ブロディア",
+        "FoodstuffInfo": "ブロディア",
+        "AnimalInfo": "ブロディア"
+      },
+      {
+        "Out": "",
+        "ID": "NID_イルシオン",
+        "Name": "伊尔席翁",
+        "Chapter": "CID_M010",
+        "IsNotLevel": false,
+        "SymbolTexture": "Ircion",
+        "LevelInfo": "イルシオン",
+        "FoodstuffInfo": "イルシオン",
+        "AnimalInfo": "イルシオン"
+      },
+      {
+        "Out": "",
+        "ID": "NID_ソルム",
+        "Name": "索尔姆",
+        "Chapter": "CID_M012",
+        "IsNotLevel": false,
+        "SymbolTexture": "Solum",
+        "LevelInfo": "ソルム",
+        "FoodstuffInfo": "ソルム",
+        "AnimalInfo": "ソルム"
+      },
+      {
+        "Out": "",
+        "ID": "NID_リトス",
+        "Name": "里特司",
+        "Chapter": "CID_M021",
+        "IsNotLevel": true,
+        "SymbolTexture": "Lithos",
+        "LevelInfo": "リトス",
+        "FoodstuffInfo": "リトス",
+        "AnimalInfo": "リトス"
+      },
+      {
+        "Out": "",
+        "ID": "NID_グラドロン",
+        "Name": "古拉铎隆",
+        "Chapter": "CID_M023",
+        "IsNotLevel": true,
+        "SymbolTexture": "Gradron",
+        "LevelInfo": "グラドロン",
+        "FoodstuffInfo": "グラドロン",
+        "AnimalInfo": "グラドロン"
+      }
+    ]
+  },
+  "レベル情報": {
+    "header": [
+      {
+        "Name": "グループ１",
+        "Ident": "Group",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "投資金額",
+        "Ident": "Cost",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ボーナスアイテム名",
+        "Ident": "BonusName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ボーナスアイテム名",
+        "Ident": "BonusItem",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ボーナス食材名",
+        "Ident": "BonusFood",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ボーナス動物名",
+        "Ident": "BonusAnimal",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "取得ボーナスアクセサリー",
+        "Ident": "BonusAccessoryAid",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ボーナス錬成素材（鉄）",
+        "Ident": "BonusIron",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ボーナス錬成素材（鋼）",
+        "Ident": "BonusSteel",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ボーナス錬成素材（銀）",
+        "Ident": "BonusSilver",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ボーナス絆のかけら",
+        "Ident": "BonusPieceOfBond",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "金塊レア敵出現率",
+        "Ident": "GoldEnemyRate",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "経験値レア敵出現率",
+        "Ident": "ExpEnemyRate",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "錬成素材（鉄）取得量",
+        "Ident": "Iron",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "錬成素材（鋼）取得量",
+        "Ident": "Steel",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "錬成素材（銀）取得量",
+        "Ident": "Silver",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "絆のかけら取得量",
+        "Ident": "PieceOfBond",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Group": "フィレネ",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 0,
+        "Steel": 0,
+        "Silver": 0,
+        "PieceOfBond": 0
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 20,
+        "ExpEnemyRate": 10,
+        "Iron": 1,
+        "Steel": 1,
+        "Silver": 1,
+        "PieceOfBond": 1
+      },
+      {
+        "Group": "",
+        "Cost": 5000,
+        "BonusName": "大丰收礼包",
+        "BonusItem": "",
+        "BonusFood": "フィレネ_2",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 500,
+        "GoldEnemyRate": 20,
+        "ExpEnemyRate": 10,
+        "Iron": 2,
+        "Steel": 2,
+        "Silver": 2,
+        "PieceOfBond": 2
+      },
+      {
+        "Group": "",
+        "Cost": 10000,
+        "BonusName": "民族服装礼包",
+        "BonusItem": "フィレネ_3",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "AID_フィレネの平素な服３",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 1000,
+        "GoldEnemyRate": 30,
+        "ExpEnemyRate": 20,
+        "Iron": 2,
+        "Steel": 2,
+        "Silver": 2,
+        "PieceOfBond": 3
+      },
+      {
+        "Group": "",
+        "Cost": 25000,
+        "BonusName": "朋友礼包",
+        "BonusItem": "フィレネ_4",
+        "BonusFood": "",
+        "BonusAnimal": "フィレネ_4",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 2000,
+        "GoldEnemyRate": 30,
+        "ExpEnemyRate": 20,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 4
+      },
+      {
+        "Group": "",
+        "Cost": 50000,
+        "BonusName": "传统服装礼包",
+        "BonusItem": "フィレネ_5",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "AID_フィレネの高貴な服３",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 3000,
+        "GoldEnemyRate": 40,
+        "ExpEnemyRate": 30,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "ブロディア",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 0,
+        "Steel": 0,
+        "Silver": 0,
+        "PieceOfBond": 0
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 10,
+        "ExpEnemyRate": 20,
+        "Iron": 1,
+        "Steel": 1,
+        "Silver": 1,
+        "PieceOfBond": 1
+      },
+      {
+        "Group": "",
+        "Cost": 5000,
+        "BonusName": "大发掘礼包",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 10,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 500,
+        "GoldEnemyRate": 10,
+        "ExpEnemyRate": 20,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 2
+      },
+      {
+        "Group": "",
+        "Cost": 10000,
+        "BonusName": "民族服装礼包",
+        "BonusItem": "ブロディア_3",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "AID_ブロディアの平素な服３",
+        "BonusIron": 0,
+        "BonusSteel": 3,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 1000,
+        "GoldEnemyRate": 20,
+        "ExpEnemyRate": 30,
+        "Iron": 5,
+        "Steel": 5,
+        "Silver": 5,
+        "PieceOfBond": 3
+      },
+      {
+        "Group": "",
+        "Cost": 25000,
+        "BonusName": "朋友礼包",
+        "BonusItem": "ブロディア_4",
+        "BonusFood": "",
+        "BonusAnimal": "ブロディア_4",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 1,
+        "BonusPieceOfBond": 2000,
+        "GoldEnemyRate": 20,
+        "ExpEnemyRate": 30,
+        "Iron": 7,
+        "Steel": 7,
+        "Silver": 7,
+        "PieceOfBond": 4
+      },
+      {
+        "Group": "",
+        "Cost": 50000,
+        "BonusName": "传统服装礼包",
+        "BonusItem": "ブロディア_5",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "AID_ブロディアの高貴な服３",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 2,
+        "BonusPieceOfBond": 3000,
+        "GoldEnemyRate": 30,
+        "ExpEnemyRate": 40,
+        "Iron": 10,
+        "Steel": 10,
+        "Silver": 10,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "イルシオン",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 0,
+        "Steel": 0,
+        "Silver": 0,
+        "PieceOfBond": 0
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 30,
+        "ExpEnemyRate": 20,
+        "Iron": 1,
+        "Steel": 1,
+        "Silver": 1,
+        "PieceOfBond": 1
+      },
+      {
+        "Group": "",
+        "Cost": 5000,
+        "BonusName": "回复礼包",
+        "BonusItem": "イルシオン_2",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 500,
+        "GoldEnemyRate": 40,
+        "ExpEnemyRate": 20,
+        "Iron": 2,
+        "Steel": 2,
+        "Silver": 2,
+        "PieceOfBond": 2
+      },
+      {
+        "Group": "",
+        "Cost": 10000,
+        "BonusName": "民族服装礼包",
+        "BonusItem": "イルシオン_3",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "AID_イルシオンの平素な服３",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 1000,
+        "GoldEnemyRate": 50,
+        "ExpEnemyRate": 20,
+        "Iron": 2,
+        "Steel": 2,
+        "Silver": 2,
+        "PieceOfBond": 3
+      },
+      {
+        "Group": "",
+        "Cost": 25000,
+        "BonusName": "朋友礼包",
+        "BonusItem": "イルシオン_4",
+        "BonusFood": "",
+        "BonusAnimal": "イルシオン_4",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 2000,
+        "GoldEnemyRate": 60,
+        "ExpEnemyRate": 20,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 4
+      },
+      {
+        "Group": "",
+        "Cost": 50000,
+        "BonusName": "传统服装礼包",
+        "BonusItem": "イルシオン_5",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "AID_イルシオンの高貴な服３",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 3000,
+        "GoldEnemyRate": 70,
+        "ExpEnemyRate": 20,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "ソルム",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 0,
+        "Steel": 0,
+        "Silver": 0,
+        "PieceOfBond": 0
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 20,
+        "ExpEnemyRate": 30,
+        "Iron": 1,
+        "Steel": 1,
+        "Silver": 1,
+        "PieceOfBond": 1
+      },
+      {
+        "Group": "",
+        "Cost": 5000,
+        "BonusName": "摊贩礼包",
+        "BonusItem": "",
+        "BonusFood": "ソルム_2",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 500,
+        "GoldEnemyRate": 20,
+        "ExpEnemyRate": 40,
+        "Iron": 2,
+        "Steel": 2,
+        "Silver": 2,
+        "PieceOfBond": 2
+      },
+      {
+        "Group": "",
+        "Cost": 10000,
+        "BonusName": "民族服装礼包",
+        "BonusItem": "ソルム_3",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "AID_ソルムの平素な服３",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 1000,
+        "GoldEnemyRate": 20,
+        "ExpEnemyRate": 50,
+        "Iron": 2,
+        "Steel": 2,
+        "Silver": 2,
+        "PieceOfBond": 3
+      },
+      {
+        "Group": "",
+        "Cost": 25000,
+        "BonusName": "朋友礼包",
+        "BonusItem": "ソルム_4",
+        "BonusFood": "",
+        "BonusAnimal": "ソルム_4",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 2000,
+        "GoldEnemyRate": 20,
+        "ExpEnemyRate": 60,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 4
+      },
+      {
+        "Group": "",
+        "Cost": 50000,
+        "BonusName": "传统服装礼包",
+        "BonusItem": "ソルム_5",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "AID_ソルムの高貴な服３",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 3000,
+        "GoldEnemyRate": 20,
+        "ExpEnemyRate": 70,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "リトス",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 0,
+        "Steel": 0,
+        "Silver": 0,
+        "PieceOfBond": 0
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 1,
+        "Steel": 1,
+        "Silver": 1,
+        "PieceOfBond": 1
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 2,
+        "Steel": 2,
+        "Silver": 2,
+        "PieceOfBond": 3
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 4,
+        "Steel": 4,
+        "Silver": 4,
+        "PieceOfBond": 7
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 5,
+        "Steel": 5,
+        "Silver": 5,
+        "PieceOfBond": 10
+      },
+      {
+        "Group": "グラドロン",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 0,
+        "Steel": 0,
+        "Silver": 0,
+        "PieceOfBond": 0
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 1,
+        "Steel": 1,
+        "Silver": 1,
+        "PieceOfBond": 1
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 2,
+        "Steel": 2,
+        "Silver": 2,
+        "PieceOfBond": 2
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 3
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 4,
+        "Steel": 4,
+        "Silver": 4,
+        "PieceOfBond": 4
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 5,
+        "Steel": 5,
+        "Silver": 5,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "神竜の章共通",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 0,
+        "Steel": 0,
+        "Silver": 0,
+        "PieceOfBond": 0
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 100,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 100,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 100,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 100,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 100,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 5
+      },
+      {
+        "Group": "邪竜の章共通",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 0,
+        "ExpEnemyRate": 0,
+        "Iron": 0,
+        "Steel": 0,
+        "Silver": 0,
+        "PieceOfBond": 0
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 100,
+        "ExpEnemyRate": 0,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 3
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 100,
+        "ExpEnemyRate": 0,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 3
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 100,
+        "ExpEnemyRate": 0,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 3
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 100,
+        "ExpEnemyRate": 0,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 3
+      },
+      {
+        "Group": "",
+        "Cost": 0,
+        "BonusName": "",
+        "BonusItem": "",
+        "BonusFood": "",
+        "BonusAnimal": "",
+        "BonusAccessoryAid": "",
+        "BonusIron": 0,
+        "BonusSteel": 0,
+        "BonusSilver": 0,
+        "BonusPieceOfBond": 0,
+        "GoldEnemyRate": 100,
+        "ExpEnemyRate": 0,
+        "Iron": 3,
+        "Steel": 3,
+        "Silver": 3,
+        "PieceOfBond": 3
+      }
+    ]
+  },
+  "食材": {
+    "header": [
+      {
+        "Name": "グループ１",
+        "Ident": "Group",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "食材",
+        "Ident": "Foodstuff",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル1取得量",
+        "Ident": "Lv1",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル2取得量",
+        "Ident": "Lv2",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル3取得量",
+        "Ident": "Lv3",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル4取得量",
+        "Ident": "Lv4",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル5取得量",
+        "Ident": "Lv5",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Group": "フィレネ",
+        "Foodstuff": "",
+        "Lv1": 0,
+        "Lv2": 0,
+        "Lv3": 0,
+        "Lv4": 0,
+        "Lv5": 0
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_トマト",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_芋",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_小麦",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_オレンジ",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 3,
+        "Lv4": 4,
+        "Lv5": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ベリー",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_幻の果物",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_木の実",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ミルク",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 3,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_タマゴ",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 3,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_米",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_豆",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "ブロディア",
+        "Foodstuff": "",
+        "Lv1": 0,
+        "Lv2": 0,
+        "Lv3": 0,
+        "Lv4": 0,
+        "Lv5": 0
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_芋",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_小麦",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_幻の果物",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_木の実",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_米",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_豆",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_スパイス",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "イルシオン",
+        "Foodstuff": "",
+        "Lv1": 0,
+        "Lv2": 0,
+        "Lv3": 0,
+        "Lv4": 0,
+        "Lv5": 0
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_トマト",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_小麦",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ベリー",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 3,
+        "Lv5": 4
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_木の実",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 3,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ミルク",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_米",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_豆",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_スパイス",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "ソルム",
+        "Foodstuff": "",
+        "Lv1": 0,
+        "Lv2": 0,
+        "Lv3": 0,
+        "Lv4": 0,
+        "Lv5": 0
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_トマト",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_芋",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_幻の野菜",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ベリー",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_木の実",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_タマゴ",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_豆",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 3,
+        "Lv5": 3
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_スパイス",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 3,
+        "Lv5": 4
+      },
+      {
+        "Group": "リトス",
+        "Foodstuff": "",
+        "Lv1": 0,
+        "Lv2": 0,
+        "Lv3": 0,
+        "Lv4": 0,
+        "Lv5": 0
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_トマト",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 3,
+        "Lv4": 4,
+        "Lv5": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_芋",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 3,
+        "Lv4": 4,
+        "Lv5": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ベリー",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 3,
+        "Lv4": 4,
+        "Lv5": 5
+      },
+      {
+        "Group": "グラドロン",
+        "Foodstuff": "",
+        "Lv1": 0,
+        "Lv2": 0,
+        "Lv3": 0,
+        "Lv4": 0,
+        "Lv5": 0
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_トマト",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 3,
+        "Lv4": 4,
+        "Lv5": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_芋",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 3,
+        "Lv4": 4,
+        "Lv5": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ベリー",
+        "Lv1": 1,
+        "Lv2": 2,
+        "Lv3": 3,
+        "Lv4": 4,
+        "Lv5": 5
+      },
+      {
+        "Group": "神竜の章共通",
+        "Foodstuff": "",
+        "Lv1": 0,
+        "Lv2": 0,
+        "Lv3": 0,
+        "Lv4": 0,
+        "Lv5": 0
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_トマト",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_芋",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_小麦",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_オレンジ",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ベリー",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_幻の果物",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_幻の野菜",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_木の実",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ミルク",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_タマゴ",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_米",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_豆",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      },
+      {
+        "Group": "邪竜の章共通",
+        "Foodstuff": "",
+        "Lv1": 0,
+        "Lv2": 0,
+        "Lv3": 0,
+        "Lv4": 0,
+        "Lv5": 0
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_トマト",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 1
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_芋",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 1
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_小麦",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 1
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ベリー",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 1
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_幻の果物",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 1
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_木の実",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 1
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_米",
+        "Lv1": 1,
+        "Lv2": 1,
+        "Lv3": 1,
+        "Lv4": 1,
+        "Lv5": 1
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_スパイス",
+        "Lv1": 2,
+        "Lv2": 2,
+        "Lv3": 2,
+        "Lv4": 2,
+        "Lv5": 2
+      }
+    ]
+  },
+  "動物": {
+    "header": [
+      {
+        "Name": "グループ１",
+        "Ident": "Group",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "動物ID",
+        "Ident": "ANID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル1出現率",
+        "Ident": "AppearRateLv1",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル2出現率",
+        "Ident": "AppearRateLv2",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル3出現率",
+        "Ident": "AppearRateLv3",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル4出現率",
+        "Ident": "AppearRateLv4",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "レベル5出現率",
+        "Ident": "AppearRateLv5",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "捕獲可能レベル",
+        "Ident": "CaptureLevel",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Group": "フィレネ",
+        "ANID": "",
+        "AppearRateLv1": 0,
+        "AppearRateLv2": 0,
+        "AppearRateLv3": 0,
+        "AppearRateLv4": 0,
+        "AppearRateLv5": 0,
+        "CaptureLevel": 0
+      },
+      {
+        "Group": "",
+        "ANID": "EleosGoat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "WhitePyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "PyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EastCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "WestCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "SouthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "NorthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "FileneCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "KarisonCoco",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "EleosPigeon",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosSeagull",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosBlackDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosWhiteDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "MailDonkey",
+        "AppearRateLv1": 20,
+        "AppearRateLv2": 20,
+        "AppearRateLv3": 20,
+        "AppearRateLv4": 20,
+        "AppearRateLv5": 50,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "ブロディア",
+        "ANID": "",
+        "AppearRateLv1": 0,
+        "AppearRateLv2": 0,
+        "AppearRateLv3": 0,
+        "AppearRateLv4": 0,
+        "AppearRateLv5": 0,
+        "CaptureLevel": 0
+      },
+      {
+        "Group": "",
+        "ANID": "EleosGoat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "WhitePyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "PyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EastCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "WestCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "SouthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "NorthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "BrodiaCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "AuraEagle",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "EleosPigeon",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosSeagull",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosBlackDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosWhiteDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "RutileMarmot",
+        "AppearRateLv1": 20,
+        "AppearRateLv2": 20,
+        "AppearRateLv3": 20,
+        "AppearRateLv4": 20,
+        "AppearRateLv5": 50,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "イルシオン",
+        "ANID": "",
+        "AppearRateLv1": 0,
+        "AppearRateLv2": 0,
+        "AppearRateLv3": 0,
+        "AppearRateLv4": 0,
+        "AppearRateLv5": 0,
+        "CaptureLevel": 0
+      },
+      {
+        "Group": "",
+        "ANID": "EleosGoat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "WhitePyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "PyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EastCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "WestCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "SouthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "NorthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "IrcionCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "IrisOwl",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "EleosPigeon",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosSeagull",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosBlackDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosWhiteDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "LizardsReindeer",
+        "AppearRateLv1": 20,
+        "AppearRateLv2": 20,
+        "AppearRateLv3": 20,
+        "AppearRateLv4": 20,
+        "AppearRateLv5": 50,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "ソルム",
+        "ANID": "",
+        "AppearRateLv1": 0,
+        "AppearRateLv2": 0,
+        "AppearRateLv3": 0,
+        "AppearRateLv4": 0,
+        "AppearRateLv5": 0,
+        "CaptureLevel": 0
+      },
+      {
+        "Group": "",
+        "ANID": "EleosGoat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "WhitePyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "PyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EastCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "WestCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "SouthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "NorthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "SolumCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "PannaCamel",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "EleosPigeon",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosSeagull",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosBlackDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosWhiteDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "BavaroFlamingo",
+        "AppearRateLv1": 20,
+        "AppearRateLv2": 20,
+        "AppearRateLv3": 20,
+        "AppearRateLv4": 20,
+        "AppearRateLv5": 50,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "リトス",
+        "ANID": "",
+        "AppearRateLv1": 0,
+        "AppearRateLv2": 0,
+        "AppearRateLv3": 0,
+        "AppearRateLv4": 0,
+        "AppearRateLv5": 0,
+        "CaptureLevel": 0
+      },
+      {
+        "Group": "",
+        "ANID": "WhitePyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EastCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "WestCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "SouthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "NorthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosPigeon",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "LizardsReindeer",
+        "AppearRateLv1": 20,
+        "AppearRateLv2": 20,
+        "AppearRateLv3": 20,
+        "AppearRateLv4": 20,
+        "AppearRateLv5": 50,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "グラドロン",
+        "ANID": "",
+        "AppearRateLv1": 0,
+        "AppearRateLv2": 0,
+        "AppearRateLv3": 0,
+        "AppearRateLv4": 0,
+        "AppearRateLv5": 0,
+        "CaptureLevel": 0
+      },
+      {
+        "Group": "",
+        "ANID": "WhitePyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EastCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "WestCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "SouthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "NorthCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosPigeon",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "LizardsReindeer",
+        "AppearRateLv1": 20,
+        "AppearRateLv2": 20,
+        "AppearRateLv3": 20,
+        "AppearRateLv4": 20,
+        "AppearRateLv5": 50,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "DLC共通",
+        "ANID": "",
+        "AppearRateLv1": 0,
+        "AppearRateLv2": 0,
+        "AppearRateLv3": 0,
+        "AppearRateLv4": 0,
+        "AppearRateLv5": 0,
+        "CaptureLevel": 0
+      },
+      {
+        "Group": "",
+        "ANID": "PyonRabbit",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "FileneCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "BrodiaCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "IrcionCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "SolumCat",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "IrisOwl",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "EleosBlackDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "EleosWhiteDog",
+        "AppearRateLv1": 100,
+        "AppearRateLv2": 100,
+        "AppearRateLv3": 100,
+        "AppearRateLv4": 100,
+        "AppearRateLv5": 100,
+        "CaptureLevel": 1
+      },
+      {
+        "Group": "",
+        "ANID": "MailDonkey",
+        "AppearRateLv1": 50,
+        "AppearRateLv2": 50,
+        "AppearRateLv3": 50,
+        "AppearRateLv4": 50,
+        "AppearRateLv5": 50,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "RutileMarmot",
+        "AppearRateLv1": 50,
+        "AppearRateLv2": 50,
+        "AppearRateLv3": 50,
+        "AppearRateLv4": 50,
+        "AppearRateLv5": 50,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "LizardsReindeer",
+        "AppearRateLv1": 50,
+        "AppearRateLv2": 50,
+        "AppearRateLv3": 50,
+        "AppearRateLv4": 50,
+        "AppearRateLv5": 50,
+        "CaptureLevel": 2
+      },
+      {
+        "Group": "",
+        "ANID": "BavaroFlamingo",
+        "AppearRateLv1": 50,
+        "AppearRateLv2": 50,
+        "AppearRateLv3": 50,
+        "AppearRateLv4": 50,
+        "AppearRateLv5": 50,
+        "CaptureLevel": 2
+      }
+    ]
+  },
+  "ボーナスアイテム": {
+    "header": [
+      {
+        "Name": "グループ１",
+        "Ident": "Group",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "アイテム",
+        "Ident": "ItemId",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "取得数",
+        "Ident": "Num",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Group": "フィレネ_3",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_鋼の槍",
+        "Num": 1
+      },
+      {
+        "Group": "フィレネ_4",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_スレンドスピア",
+        "Num": 1
+      },
+      {
+        "Group": "フィレネ_5",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_ヴェノマス",
+        "Num": 1
+      },
+      {
+        "Group": "ブロディア_3",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_倭刀",
+        "Num": 1
+      },
+      {
+        "Group": "ブロディア_4",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_勇者の剣",
+        "Num": 1
+      },
+      {
+        "Group": "ブロディア_5",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_覇神の法",
+        "Num": 1
+      },
+      {
+        "Group": "イルシオン_2",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_リブロー",
+        "Num": 1
+      },
+      {
+        "Group": "イルシオン_3",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_ボルガノン",
+        "Num": 1
+      },
+      {
+        "Group": "イルシオン_4",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_リザーブ",
+        "Num": 1
+      },
+      {
+        "Group": "イルシオン_5",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_ノードゥス",
+        "Num": 1
+      },
+      {
+        "Group": "ソルム_3",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_勇者の斧",
+        "Num": 1
+      },
+      {
+        "Group": "ソルム_4",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_銀の大斧",
+        "Num": 1
+      },
+      {
+        "Group": "ソルム_5",
+        "ItemId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "ItemId": "IID_フラガラッハ",
+        "Num": 1
+      }
+    ]
+  },
+  "ボーナス食材": {
+    "header": [
+      {
+        "Name": "グループ１",
+        "Ident": "Group",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "食材",
+        "Ident": "Foodstuff",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "取得数",
+        "Ident": "Num",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Group": "フィレネ_2",
+        "Foodstuff": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_タマネギ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_キャベツ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ハーブ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_トマト",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_芋",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_幻の野菜",
+        "Num": 10
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_小麦",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_リンゴ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_オレンジ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_モモ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ブドウ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ベリー",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_幻の果物",
+        "Num": 10
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_木の実",
+        "Num": 5
+      },
+      {
+        "Group": "ソルム_2",
+        "Foodstuff": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_牛肉",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_豚肉",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_鶏肉",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_羊肉",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ニシン",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_サケ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_タラ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ウナギ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_幻の魚",
+        "Num": 10
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_ミルク",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_タマゴ",
+        "Num": 5
+      },
+      {
+        "Group": "",
+        "Foodstuff": "IID_米",
+        "Num": 5
+      }
+    ]
+  },
+  "ボーナス動物": {
+    "header": [
+      {
+        "Name": "グループ１",
+        "Ident": "Group",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "動物ID",
+        "Ident": "AnimalId",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "取得数",
+        "Ident": "Num",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Group": "フィレネ_4",
+        "AnimalId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "AnimalId": "MailDonkey",
+        "Num": 2
+      },
+      {
+        "Group": "ブロディア_4",
+        "AnimalId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "AnimalId": "RutileMarmot",
+        "Num": 2
+      },
+      {
+        "Group": "イルシオン_4",
+        "AnimalId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "AnimalId": "LizardsReindeer",
+        "Num": 2
+      },
+      {
+        "Group": "ソルム_4",
+        "AnimalId": "",
+        "Num": 0
+      },
+      {
+        "Group": "",
+        "AnimalId": "BavaroFlamingo",
+        "Num": 2
+      }
+    ]
+  }
+}

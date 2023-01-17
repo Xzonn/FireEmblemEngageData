@@ -1,0 +1,3392 @@
+{
+  "リレー": {
+    "header": [
+      {
+        "Name": "出力先",
+        "Ident": "Out",
+        "Type": "PublicFile",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "章",
+        "Ident": "Cid",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "難易度",
+        "Ident": "Difficulty",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "最大ターン数",
+        "Ident": "MaxTurn",
+        "Type": "int",
+        "Min": "1",
+        "Max": "50",
+        "Chg": "1"
+      },
+      {
+        "Name": "最大人数",
+        "Ident": "MaxUnit",
+        "Type": "int",
+        "Min": "1",
+        "Max": "10",
+        "Chg": "1"
+      },
+      {
+        "Name": "新規ターン数",
+        "Ident": "NewTurn",
+        "Type": "int",
+        "Min": "1",
+        "Max": "10",
+        "Chg": "1"
+      },
+      {
+        "Name": "継続ターン数",
+        "Ident": "TakeOverTurn",
+        "Type": "int",
+        "Min": "1",
+        "Max": "10",
+        "Chg": "1"
+      },
+      {
+        "Name": "継続追加人数",
+        "Ident": "TakeOverUnit",
+        "Type": "int",
+        "Min": "1",
+        "Max": "10",
+        "Chg": "1"
+      },
+      {
+        "Name": "クリア報酬メイン",
+        "Ident": "CompletionAwardMain",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "クリア報酬サブ",
+        "Ident": "CompletionAwardSub",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "残念賞",
+        "Ident": "GameOverAward",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "解放章",
+        "Ident": "UnlockCid",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Out": "",
+        "Cid": "CID_N001_1",
+        "Difficulty": 0,
+        "MaxTurn": 10,
+        "MaxUnit": 10,
+        "NewTurn": 2,
+        "TakeOverTurn": 2,
+        "TakeOverUnit": 2,
+        "CompletionAwardMain": "N001メイン",
+        "CompletionAwardSub": "共通サブ",
+        "GameOverAward": "IID_300G",
+        "UnlockCid": "CID_M006"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_N002_1",
+        "Difficulty": 0,
+        "MaxTurn": 10,
+        "MaxUnit": 10,
+        "NewTurn": 2,
+        "TakeOverTurn": 2,
+        "TakeOverUnit": 2,
+        "CompletionAwardMain": "N002メイン",
+        "CompletionAwardSub": "共通サブ",
+        "GameOverAward": "IID_300G",
+        "UnlockCid": "CID_M006"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_N003_1",
+        "Difficulty": 0,
+        "MaxTurn": 10,
+        "MaxUnit": 10,
+        "NewTurn": 2,
+        "TakeOverTurn": 2,
+        "TakeOverUnit": 2,
+        "CompletionAwardMain": "N003メイン",
+        "CompletionAwardSub": "共通サブ",
+        "GameOverAward": "IID_300G",
+        "UnlockCid": "CID_M007"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_N004_1",
+        "Difficulty": 1,
+        "MaxTurn": 10,
+        "MaxUnit": 10,
+        "NewTurn": 2,
+        "TakeOverTurn": 2,
+        "TakeOverUnit": 3,
+        "CompletionAwardMain": "N004メイン",
+        "CompletionAwardSub": "共通サブ",
+        "GameOverAward": "IID_300G",
+        "UnlockCid": "CID_M011"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_N005_1",
+        "Difficulty": 1,
+        "MaxTurn": 15,
+        "MaxUnit": 10,
+        "NewTurn": 3,
+        "TakeOverTurn": 3,
+        "TakeOverUnit": 3,
+        "CompletionAwardMain": "N005メイン",
+        "CompletionAwardSub": "共通サブ",
+        "GameOverAward": "IID_300G",
+        "UnlockCid": "CID_M013"
+      },
+      {
+        "Out": "",
+        "Cid": "CID_N006_1",
+        "Difficulty": 1,
+        "MaxTurn": 15,
+        "MaxUnit": 10,
+        "NewTurn": 3,
+        "TakeOverTurn": 3,
+        "TakeOverUnit": 2,
+        "CompletionAwardMain": "N006メイン",
+        "CompletionAwardSub": "共通サブ",
+        "GameOverAward": "IID_300G",
+        "UnlockCid": "CID_M023"
+      }
+    ]
+  },
+  "スタンプ": {
+    "header": [
+      {
+        "Name": "出力先",
+        "Ident": "Out",
+        "Type": "PublicFile",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "スタンプ名",
+        "Ident": "Name",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "通し番号",
+        "Ident": "SerialNo",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "個人",
+        "Ident": "Pid",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "紋章士",
+        "Ident": "Gid",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ソート",
+        "Ident": "Sort",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "フラグ",
+        "Ident": "Flag",
+        "Type": "flag",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ボイス",
+        "Ident": "Voice",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Out": "",
+        "Name": "Lueur_M_0",
+        "SerialNo": 0,
+        "Pid": "PID_リュール",
+        "Gid": "",
+        "Sort": 0,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_00"
+      },
+      {
+        "Out": "",
+        "Name": "Lueur_F_0",
+        "SerialNo": 1,
+        "Pid": "PID_リュール",
+        "Gid": "",
+        "Sort": 10,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_01"
+      },
+      {
+        "Out": "",
+        "Name": "Vandre_0",
+        "SerialNo": 2,
+        "Pid": "PID_ヴァンドレ",
+        "Gid": "",
+        "Sort": 20,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_02"
+      },
+      {
+        "Out": "",
+        "Name": "Clan_0",
+        "SerialNo": 3,
+        "Pid": "PID_クラン",
+        "Gid": "",
+        "Sort": 30,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_03"
+      },
+      {
+        "Out": "",
+        "Name": "Fram_0",
+        "SerialNo": 4,
+        "Pid": "PID_フラン",
+        "Gid": "",
+        "Sort": 40,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_04"
+      },
+      {
+        "Out": "",
+        "Name": "Alfred_0",
+        "SerialNo": 5,
+        "Pid": "PID_アルフレッド",
+        "Gid": "",
+        "Sort": 0,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_05"
+      },
+      {
+        "Out": "",
+        "Name": "Boucheron_0",
+        "SerialNo": 6,
+        "Pid": "PID_ブシュロン",
+        "Gid": "",
+        "Sort": 10,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_06"
+      },
+      {
+        "Out": "",
+        "Name": "Etie_0",
+        "SerialNo": 7,
+        "Pid": "PID_エーティエ",
+        "Gid": "",
+        "Sort": 20,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_07"
+      },
+      {
+        "Out": "",
+        "Name": "Celine_0",
+        "SerialNo": 8,
+        "Pid": "PID_セリーヌ",
+        "Gid": "",
+        "Sort": 30,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_08"
+      },
+      {
+        "Out": "",
+        "Name": "Louis_0",
+        "SerialNo": 9,
+        "Pid": "PID_ルイ",
+        "Gid": "",
+        "Sort": 40,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_09"
+      },
+      {
+        "Out": "",
+        "Name": "Chloe_0",
+        "SerialNo": 10,
+        "Pid": "PID_クロエ",
+        "Gid": "",
+        "Sort": 50,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_10"
+      },
+      {
+        "Out": "",
+        "Name": "Diamand_0",
+        "SerialNo": 11,
+        "Pid": "PID_ディアマンド",
+        "Gid": "",
+        "Sort": 0,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_11"
+      },
+      {
+        "Out": "",
+        "Name": "Umber_0",
+        "SerialNo": 12,
+        "Pid": "PID_アンバー",
+        "Gid": "",
+        "Sort": 10,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_12"
+      },
+      {
+        "Out": "",
+        "Name": "Jade_0",
+        "SerialNo": 13,
+        "Pid": "PID_ジェーデ",
+        "Gid": "",
+        "Sort": 20,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_13"
+      },
+      {
+        "Out": "",
+        "Name": "Staluke_0",
+        "SerialNo": 14,
+        "Pid": "PID_スタルーク",
+        "Gid": "",
+        "Sort": 30,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_14"
+      },
+      {
+        "Out": "",
+        "Name": "Lapis_0",
+        "SerialNo": 15,
+        "Pid": "PID_ラピス",
+        "Gid": "",
+        "Sort": 40,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_15"
+      },
+      {
+        "Out": "",
+        "Name": "Citrinica_0",
+        "SerialNo": 16,
+        "Pid": "PID_シトリニカ",
+        "Gid": "",
+        "Sort": 50,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_16"
+      },
+      {
+        "Out": "",
+        "Name": "Ivy_0",
+        "SerialNo": 17,
+        "Pid": "PID_アイビー",
+        "Gid": "",
+        "Sort": 0,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_17"
+      },
+      {
+        "Out": "",
+        "Name": "Zelkova_0",
+        "SerialNo": 18,
+        "Pid": "PID_ゼルコバ",
+        "Gid": "",
+        "Sort": 10,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_18"
+      },
+      {
+        "Out": "",
+        "Name": "Kagetsu_0",
+        "SerialNo": 19,
+        "Pid": "PID_カゲツ",
+        "Gid": "",
+        "Sort": 20,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_19"
+      },
+      {
+        "Out": "",
+        "Name": "Hortensia_0",
+        "SerialNo": 20,
+        "Pid": "PID_オルテンシア",
+        "Gid": "",
+        "Sort": 30,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_20"
+      },
+      {
+        "Out": "",
+        "Name": "Rosado_0",
+        "SerialNo": 21,
+        "Pid": "PID_ロサード",
+        "Gid": "",
+        "Sort": 40,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_21"
+      },
+      {
+        "Out": "",
+        "Name": "Goldmary_0",
+        "SerialNo": 22,
+        "Pid": "PID_ゴルドマリー",
+        "Gid": "",
+        "Sort": 50,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_22"
+      },
+      {
+        "Out": "",
+        "Name": "Misutira_0",
+        "SerialNo": 23,
+        "Pid": "PID_ミスティラ",
+        "Gid": "",
+        "Sort": 0,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_23"
+      },
+      {
+        "Out": "",
+        "Name": "Merin_0",
+        "SerialNo": 24,
+        "Pid": "PID_メリン",
+        "Gid": "",
+        "Sort": 10,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_24"
+      },
+      {
+        "Out": "",
+        "Name": "Panetone_0",
+        "SerialNo": 25,
+        "Pid": "PID_パネトネ",
+        "Gid": "",
+        "Sort": 20,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_25"
+      },
+      {
+        "Out": "",
+        "Name": "Fogato_0",
+        "SerialNo": 26,
+        "Pid": "PID_フォガート",
+        "Gid": "",
+        "Sort": 30,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_26"
+      },
+      {
+        "Out": "",
+        "Name": "Pandoro_0",
+        "SerialNo": 27,
+        "Pid": "PID_パンドロ",
+        "Gid": "",
+        "Sort": 40,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_27"
+      },
+      {
+        "Out": "",
+        "Name": "Bonet_0",
+        "SerialNo": 28,
+        "Pid": "PID_ボネ",
+        "Gid": "",
+        "Sort": 50,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_28"
+      },
+      {
+        "Out": "",
+        "Name": "Anna_0",
+        "SerialNo": 29,
+        "Pid": "PID_アンナ",
+        "Gid": "",
+        "Sort": 0,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_29"
+      },
+      {
+        "Out": "",
+        "Name": "Jean_0",
+        "SerialNo": 30,
+        "Pid": "PID_ジャン",
+        "Gid": "",
+        "Sort": 10,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_30"
+      },
+      {
+        "Out": "",
+        "Name": "Yunaka_0",
+        "SerialNo": 31,
+        "Pid": "PID_ユナカ",
+        "Gid": "",
+        "Sort": 20,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_31"
+      },
+      {
+        "Out": "",
+        "Name": "Seadas_0",
+        "SerialNo": 32,
+        "Pid": "PID_セアダス",
+        "Gid": "",
+        "Sort": 30,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_32"
+      },
+      {
+        "Out": "",
+        "Name": "Linden_0",
+        "SerialNo": 33,
+        "Pid": "PID_リンデン",
+        "Gid": "",
+        "Sort": 40,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_33"
+      },
+      {
+        "Out": "",
+        "Name": "Saphir_0",
+        "SerialNo": 34,
+        "Pid": "PID_ザフィーア",
+        "Gid": "",
+        "Sort": 50,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_34"
+      },
+      {
+        "Out": "",
+        "Name": "Veyre_0",
+        "SerialNo": 35,
+        "Pid": "PID_ヴェイル",
+        "Gid": "",
+        "Sort": 60,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_35"
+      },
+      {
+        "Out": "",
+        "Name": "Mauve_0",
+        "SerialNo": 36,
+        "Pid": "PID_モーヴ",
+        "Gid": "",
+        "Sort": 70,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_36"
+      },
+      {
+        "Out": "",
+        "Name": "Lumiere_0",
+        "SerialNo": 37,
+        "Pid": "PID_ルミエル",
+        "Gid": "",
+        "Sort": 80,
+        "Flag": 1,
+        "Voice": "V_RelayStamp_37"
+      },
+      {
+        "Out": "",
+        "Name": "Marth_0",
+        "SerialNo": 38,
+        "Pid": "",
+        "Gid": "GID_マルス",
+        "Sort": 0,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_38"
+      },
+      {
+        "Out": "",
+        "Name": "Celica_0",
+        "SerialNo": 39,
+        "Pid": "",
+        "Gid": "GID_セリカ",
+        "Sort": 10,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_39"
+      },
+      {
+        "Out": "",
+        "Name": "Siglud_0",
+        "SerialNo": 40,
+        "Pid": "",
+        "Gid": "GID_シグルド",
+        "Sort": 20,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_40"
+      },
+      {
+        "Out": "",
+        "Name": "Leaf_0",
+        "SerialNo": 41,
+        "Pid": "",
+        "Gid": "GID_リーフ",
+        "Sort": 30,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_41"
+      },
+      {
+        "Out": "",
+        "Name": "Roy_0",
+        "SerialNo": 42,
+        "Pid": "",
+        "Gid": "GID_ロイ",
+        "Sort": 40,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_42"
+      },
+      {
+        "Out": "",
+        "Name": "Lin_0",
+        "SerialNo": 43,
+        "Pid": "",
+        "Gid": "GID_リン",
+        "Sort": 50,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_43"
+      },
+      {
+        "Out": "",
+        "Name": "Eirik_0",
+        "SerialNo": 44,
+        "Pid": "",
+        "Gid": "GID_エイリーク",
+        "Sort": 60,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_44"
+      },
+      {
+        "Out": "",
+        "Name": "Ike_0",
+        "SerialNo": 45,
+        "Pid": "",
+        "Gid": "GID_アイク",
+        "Sort": 70,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_45"
+      },
+      {
+        "Out": "",
+        "Name": "Micaiah_0",
+        "SerialNo": 46,
+        "Pid": "",
+        "Gid": "GID_ミカヤ",
+        "Sort": 80,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_46"
+      },
+      {
+        "Out": "",
+        "Name": "Lucina_0",
+        "SerialNo": 47,
+        "Pid": "",
+        "Gid": "GID_ルキナ",
+        "Sort": 90,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_47"
+      },
+      {
+        "Out": "",
+        "Name": "Kamui_0",
+        "SerialNo": 48,
+        "Pid": "",
+        "Gid": "GID_カムイ",
+        "Sort": 100,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_48"
+      },
+      {
+        "Out": "",
+        "Name": "Byleth_0",
+        "SerialNo": 49,
+        "Pid": "",
+        "Gid": "GID_ベレト",
+        "Sort": 110,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_49"
+      }
+    ]
+  },
+  "クリア報酬": {
+    "header": [
+      {
+        "Name": "グループ",
+        "Ident": "Group",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "アイテム",
+        "Ident": "Iid",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "確率",
+        "Ident": "Rate",
+        "Type": "float",
+        "Min": "0",
+        "Max": "100",
+        "Chg": "0.1"
+      },
+      {
+        "Name": "最小個数",
+        "Ident": "MinCount",
+        "Type": "int",
+        "Min": "0",
+        "Max": "100",
+        "Chg": "1"
+      },
+      {
+        "Name": "最大個数",
+        "Ident": "MaxCount",
+        "Type": "int",
+        "Min": "0",
+        "Max": "100",
+        "Chg": "1"
+      },
+      {
+        "Name": "フラグ",
+        "Ident": "Flag",
+        "Type": "flag",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "条件",
+        "Ident": "Condition",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Group": "N001メイン",
+        "Iid": "",
+        "Rate": 0.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_竜特効",
+        "Rate": 0.002,
+        "MinCount": 3,
+        "MaxCount": 100,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_騎馬特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_重装特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_飛行特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_異形特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "N002メイン",
+        "Iid": "",
+        "Rate": 0.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_竜特効",
+        "Rate": 0.002,
+        "MinCount": 3,
+        "MaxCount": 100,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_騎馬特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_重装特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_飛行特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_異形特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "N003メイン",
+        "Iid": "",
+        "Rate": 0.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_竜特効",
+        "Rate": 0.002,
+        "MinCount": 3,
+        "MaxCount": 100,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_騎馬特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_重装特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_飛行特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_異形特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "N004メイン",
+        "Iid": "",
+        "Rate": 0.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_竜特効",
+        "Rate": 0.002,
+        "MinCount": 3,
+        "MaxCount": 100,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_騎馬特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_重装特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_飛行特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_異形特効",
+        "Rate": 0.002,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "N005メイン",
+        "Iid": "",
+        "Rate": 0.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_竜特効",
+        "Rate": 0.1,
+        "MinCount": 3,
+        "MaxCount": 100,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_騎馬特効",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_重装特効",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_飛行特効",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_異形特効",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "N006メイン",
+        "Iid": "",
+        "Rate": 0.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_竜特効",
+        "Rate": 0.2,
+        "MinCount": 3,
+        "MaxCount": 100,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_騎馬特効",
+        "Rate": 0.2,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_重装特効",
+        "Rate": 0.2,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_飛行特効",
+        "Rate": 0.2,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_異形特効",
+        "Rate": 0.2,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 1,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_威力",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必殺",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_速さ",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_技",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_守備",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_魔防",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_回避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_命中",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_素材_必避",
+        "Rate": 50.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "共通サブ",
+        "Iid": "",
+        "Rate": 0.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_マスタープルフ",
+        "Rate": 10.0,
+        "MinCount": 10,
+        "MaxCount": 15,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_チェンジプルフ",
+        "Rate": 10.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_天使の衣",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_力のしずく",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_精霊の粉",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_秘伝の書",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_はやての羽",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_女神の像",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_竜の盾",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_魔よけ",
+        "Rate": 0.1,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_HPの薬",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_力の薬",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_技の薬",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_速さの薬",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_幸運の薬",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_守備の薬",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_魔力の薬",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_魔防の薬",
+        "Rate": 25.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_はがねの晶石",
+        "Rate": 60.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_幻の野菜",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_幻の果物",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_幻の魚",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_牛肉",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_豚肉",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_鶏肉",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_羊肉",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_タマネギ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_キャベツ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_ハーブ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_トマト",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_芋",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_小麦",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_リンゴ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_オレンジ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_モモ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_ブドウ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_ベリー",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_木の実",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_ニシン",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_コイ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_サケ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_タラ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_ウナギ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_イワシ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_すり身",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_干物",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_刺身",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_ミルク",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_タマゴ",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_米",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_豆",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スパイス",
+        "Rate": 15.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_摘みたての茶葉",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_硬い干し肉",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_厳選ヨーグルト",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_こだわりの焼き芋",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_鍛錬用の重り石",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_塗る筋肉増強剤",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_動物用のマタタビ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_よく切れる彫刻刀",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_不思議な童話絵本",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_世界各国の詩集",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_難しい哲学書",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_神竜聖書",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_エレオスの歴史書",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_強い香りの香水",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_虫取り網",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_日よけ帽子",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_キクの花",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_レンズマメの花",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_ユリの花",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_コマツナの花",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_ルピナスの花",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_シロツメクサ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_角笛",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_手作りの花輪",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_可愛いエプロン",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_釣り用の餌",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_多機能ナイフ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_木彫りのクマ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_裁縫セット",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_ヤギの毛糸玉",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_上質なハンカチ",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_高級な羽根ペン",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_装飾入りの短剣",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_シカ角の耳飾り",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_卓上遊び用絵札",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_激辛調味料",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_風景の絵葉書",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_美しい蝋燭",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_生き物図鑑",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_怪しいお札",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_大きなお皿",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_包帯",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_綺麗な石ころ",
+        "Rate": 30.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_守り神の宝石",
+        "Rate": 5.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_馬糞",
+        "Rate": 10.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": ""
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スキルの書・守",
+        "Rate": 60.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": "G_Cleared_M026"
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スキルの書・守",
+        "Rate": 60.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": "G_Cleared_M026"
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スキルの書・守",
+        "Rate": 60.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": "G_Cleared_M026"
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スキルの書・守",
+        "Rate": 60.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": "G_Cleared_M026"
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スキルの書・守",
+        "Rate": 60.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": "G_Cleared_M026"
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スキルの書・破",
+        "Rate": 100.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": "G_Cleared_M026"
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スキルの書・破",
+        "Rate": 40.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": "G_Cleared_M026"
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スキルの書・破",
+        "Rate": 40.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": "G_Cleared_M026"
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スキルの書・離",
+        "Rate": 20.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": "G_Cleared_M026"
+      },
+      {
+        "Group": "",
+        "Iid": "IID_スキルの書・離",
+        "Rate": 20.0,
+        "MinCount": 0,
+        "MaxCount": 0,
+        "Flag": 0,
+        "Condition": "G_Cleared_M026"
+      }
+    ]
+  },
+  "賞": {
+    "header": [
+      {
+        "Name": "出力先",
+        "Ident": "Out",
+        "Type": "PublicFile",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "賞",
+        "Ident": "Raid",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "名前",
+        "Ident": "Name",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "結果",
+        "Ident": "ResultText",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "賞品",
+        "Ident": "Awards",
+        "Type": "string[]",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "フラグ",
+        "Ident": "Flag",
+        "Type": "flag",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Out": "",
+        "Raid": "RAID_撃破数",
+        "Name": "歼灭者",
+        "ResultText": "击败最多敌人",
+        "Awards": [
+          "IID_力のしずく"
+        ],
+        "Flag": 17
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_被ダメージ",
+        "Name": "求生专家",
+        "ResultText": "受到最多伤害",
+        "Awards": [
+          "IID_天使の衣"
+        ],
+        "Flag": 1
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_与回復回数",
+        "Name": "治愈大师",
+        "ResultText": "回复最多我方单位",
+        "Awards": [
+          "IID_ライブ"
+        ],
+        "Flag": 1
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_与ブレイク回数",
+        "Name": "打破大师",
+        "ResultText": "最常“打破”敌人",
+        "Awards": [
+          "IID_守り神の宝石"
+        ],
+        "Flag": 1
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_エンゲージ回数",
+        "Name": "结合大师",
+        "ResultText": "最常使用“结合”",
+        "Awards": [
+          "IID_マスタープルフ"
+        ],
+        "Flag": 1
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_アイテム使用回数",
+        "Name": "道具大师",
+        "ResultText": "最常使用道具",
+        "Awards": [
+          "IID_コラプス"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_与毒回数",
+        "Name": "毒药大师",
+        "ResultText": "最常使敌人中毒",
+        "Awards": [
+          "IID_毒消し"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_移動マス数",
+        "Name": "长跑冠军",
+        "ResultText": "移动距离最长",
+        "Awards": [
+          "IID_はやての羽"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_与スキル回数",
+        "Name": "特技大师",
+        "ResultText": "最常发动特技",
+        "Awards": [
+          "IID_アイスロック"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_被ダメージ０",
+        "Name": "毫发无损",
+        "ResultText": "没有受到任何伤害",
+        "Awards": [
+          "IID_竜の盾"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_必殺回数",
+        "Name": "必杀大师",
+        "ResultText": "最常发动“必杀攻击”",
+        "Awards": [
+          "IID_秘伝の書"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_特効回数",
+        "Name": "弱点猎人",
+        "ResultText": "最常发动“克制”",
+        "Awards": [
+          "IID_特効薬"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_エンゲージ技回数",
+        "Name": "一心同体",
+        "ResultText": "最常发动“结合技”",
+        "Awards": [
+          "IID_チェンジプルフ"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_チェインガード回数",
+        "Name": "保卫者",
+        "ResultText": "最常发动“连锁防御”",
+        "Awards": [
+          "IID_女神の像"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_スマッシュ回数",
+        "Name": "猛击者",
+        "ResultText": "最常发动“猛击”",
+        "Awards": [
+          "IID_聖水"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_隣接攻撃回数",
+        "Name": "积极参战",
+        "ResultText": "最常对相邻敌人发动攻击",
+        "Awards": [
+          "IID_魔よけ"
+        ],
+        "Flag": 8
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_間接攻撃回数",
+        "Name": "优雅助战",
+        "ResultText": "最常对敌人发动间接攻击",
+        "Awards": [
+          "IID_精霊の粉"
+        ],
+        "Flag": 8
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_攻撃回数",
+        "Name": "支援大师",
+        "ResultText": "破敌数虽少，但攻击次数多",
+        "Awards": [
+          "IID_マスタープルフ"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_チェインアタック回数",
+        "Name": "连锁攻击能手",
+        "ResultText": "最常发动“连锁攻击”",
+        "Awards": [
+          "IID_綺麗な石ころ"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_総合少",
+        "Name": "游刃有余",
+        "ResultText": "行动不拖泥带水",
+        "Awards": [
+          "IID_力の薬"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_移動マス数少",
+        "Name": "我行我素",
+        "ResultText": "移动距离最短",
+        "Awards": [
+          "IID_技の薬"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_与ダメージ少",
+        "Name": "爱好和平",
+        "ResultText": "对敌人造成的伤害最少",
+        "Awards": [
+          "IID_速さの薬"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_待機回数",
+        "Name": "无业游民",
+        "ResultText": "最常选择“待命”",
+        "Awards": [
+          "IID_守備の薬"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_被回復回数",
+        "Name": "备受关照",
+        "ResultText": "受到最多我方单位的回复",
+        "Awards": [
+          "IID_魔力の薬"
+        ],
+        "Flag": 0
+      },
+      {
+        "Out": "",
+        "Raid": "RAID_被スキル回数",
+        "Name": "厄运缠身",
+        "ResultText": "最常被敌人用“特技”攻击",
+        "Awards": [
+          "IID_魔防の薬"
+        ],
+        "Flag": 4
+      }
+    ]
+  }
+}

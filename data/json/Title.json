@@ -1,0 +1,362 @@
+{
+  "タイトルコール": {
+    "header": [
+      {
+        "Name": "出力先",
+        "Ident": "Out",
+        "Type": "PublicFile",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "キャラのPIDまたはGID",
+        "Ident": "PidOrGid",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "解放条件のクリア章",
+        "Ident": "Cid",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Out": "",
+        "PidOrGid": "PID_リュール",
+        "Cid": ""
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ヴァンドレ",
+        "Cid": "CID_M001"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_クラン",
+        "Cid": "CID_M001"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_フラン",
+        "Cid": "CID_M001"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_アルフレッド",
+        "Cid": "CID_M003"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ブシュロン",
+        "Cid": "CID_M003"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_エーティエ",
+        "Cid": "CID_M003"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_セリーヌ",
+        "Cid": "CID_M004"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ルイ",
+        "Cid": "CID_M004"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_クロエ",
+        "Cid": "CID_M004"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_スタルーク",
+        "Cid": "CID_M007"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ラピス",
+        "Cid": "CID_M007"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_シトリニカ",
+        "Cid": "CID_M007"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ディアマンド",
+        "Cid": "CID_M008"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_アンバー",
+        "Cid": "CID_M008"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ジェーデ",
+        "Cid": "CID_M009"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_アイビー",
+        "Cid": "CID_M011"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ゼルコバ",
+        "Cid": "CID_M011"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_カゲツ",
+        "Cid": "CID_M011"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_オルテンシア",
+        "Cid": "CID_M014"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ロサード",
+        "Cid": "CID_M016"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ゴルドマリー",
+        "Cid": "CID_M016"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_フォガート",
+        "Cid": "CID_M012"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_パンドロ",
+        "Cid": "CID_M012"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ボネ",
+        "Cid": "CID_M012"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ミスティラ",
+        "Cid": "CID_M013"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_メリン",
+        "Cid": "CID_M013"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_パネトネ",
+        "Cid": "CID_M013"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ジャン",
+        "Cid": "CID_S001"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_アンナ",
+        "Cid": "CID_S002"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ユナカ",
+        "Cid": "CID_M006"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_セアダス",
+        "Cid": "CID_M015"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_リンデン",
+        "Cid": "CID_M018"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ザフィーア",
+        "Cid": "CID_M019"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ヴェイル",
+        "Cid": "CID_M022"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_モーヴ",
+        "Cid": "CID_M021"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_マルス",
+        "Cid": "CID_M000"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_シグルド",
+        "Cid": "CID_M003"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_セリカ",
+        "Cid": "CID_M004"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_ミカヤ",
+        "Cid": "CID_M006"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_リーフ",
+        "Cid": "CID_M008"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_ロイ",
+        "Cid": "CID_M008"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_リン",
+        "Cid": "CID_M011"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_ルキナ",
+        "Cid": "CID_M011"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_アイク",
+        "Cid": "CID_M013"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_ベレト",
+        "Cid": "CID_M014"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_カムイ",
+        "Cid": "CID_M015"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_エイリーク",
+        "Cid": "CID_M016"
+      }
+    ]
+  },
+  "指輪台座": {
+    "header": [
+      {
+        "Name": "出力先",
+        "Ident": "Out",
+        "Type": "PublicFile",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "光らせる指輪の台座名",
+        "Ident": "PedestalName",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "解放条件のクリア章",
+        "Ident": "Cid",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Out": "",
+        "PedestalName": "Crest_Marth",
+        "Cid": "CID_M001"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Sigrud",
+        "Cid": "CID_M003"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Celica",
+        "Cid": "CID_M004"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Mic",
+        "Cid": "CID_M006"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Roy",
+        "Cid": "CID_M008"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Leaf",
+        "Cid": "CID_M008"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Lyn",
+        "Cid": "CID_M011"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Lucina",
+        "Cid": "CID_M011"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Ike",
+        "Cid": "CID_M013"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Byleth",
+        "Cid": "CID_M014"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Kamui",
+        "Cid": "CID_M015"
+      },
+      {
+        "Out": "",
+        "PedestalName": "Crest_Eirika",
+        "Cid": "CID_M016"
+      }
+    ]
+  }
+}

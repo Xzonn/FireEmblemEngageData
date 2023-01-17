@@ -1,0 +1,6436 @@
+{
+  "コマンド": {
+    "header": [
+      {
+        "Name": "名前",
+        "Ident": "Group",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "状態",
+        "Ident": "Active",
+        "Type": "s8",
+        "Min": "-2",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "コード",
+        "Ident": "Code",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "コマンド",
+        "Ident": "Mind",
+        "Type": "s8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "引数0",
+        "Ident": "StrValue0",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "引数1",
+        "Ident": "StrValue1",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "変化",
+        "Ident": "Trans",
+        "Type": "s8",
+        "Min": "-128",
+        "Max": "127",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Group": "AI_AC_Null",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_Everytime",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_AttackRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 1,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_AttackRangeExcludePerson",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 2,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_BandRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 3,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_BandRangeEvenTurn",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 4,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_BandRangeOddTurn",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 5,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_BandRangeExcludePerson",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 6,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_BandRangeExcludeFriend",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 7,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_HealRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 8,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_TurnHealRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 10,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 8,
+        "StrValue0": "V_1",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_Attacked",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 2,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_Area",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 9,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_Turn",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 10,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_FlagTrue",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 11,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_FlagFalse",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 12,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_TurnAttackRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 10,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 1,
+        "StrValue0": "V_1",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_TurnBandRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 10,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 3,
+        "StrValue0": "V_1",
+        "StrValue1": "V_2",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_TurnAttackRangeHealRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 10,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 1,
+        "StrValue0": "V_1",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 8,
+        "StrValue0": "V_2",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_FlagTrueAttackRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 11,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 1,
+        "StrValue0": "V_1",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_FlagTrueTurnAttackRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 11,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 10,
+        "StrValue0": "V_1",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 1,
+        "StrValue0": "V_2",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_FlagFalseAttackRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 12,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 1,
+        "StrValue0": "V_1",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_FlagTrueBandRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 11,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 3,
+        "StrValue0": "V_1",
+        "StrValue1": "V_2",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_FlagFalseBandRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 12,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 3,
+        "StrValue0": "V_1",
+        "StrValue1": "V_2",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_FlagTrueAttackRangeExcludePerson",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 11,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 2,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_InterferenceRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 14,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_InterferenceRangeExcludePerson",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 15,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_TurnInterferenceRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 10,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 14,
+        "StrValue0": "V_1",
+        "StrValue1": "V_2",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_InterferenceRangeAttackRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 14,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 1,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_TurnInterferenceRangeAttackRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 10,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 14,
+        "StrValue0": "V_1",
+        "StrValue1": "V_2",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 1,
+        "StrValue0": "V_1",
+        "StrValue1": "V_2",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_TurnHealRangeInterferenceRangeAttackRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 10,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 8,
+        "StrValue0": "V_1",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 1,
+        "StrValue0": "V_1",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 14,
+        "StrValue0": "V_1",
+        "StrValue1": "V_2",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AC_BandRangeExcludeSelf",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 1,
+        "Mind": 16,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_Null",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_Talk",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 60,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_Treasure",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 61,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_Village",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 62,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_Escape",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 63,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_EscapeSlow",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 64,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_BreakDown",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 65,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_Irregular",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 66,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_Torch",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 70,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_TorchAlways",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": -1,
+        "Code": 3,
+        "Mind": 70,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MI_GuardPerson",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 73,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_Null",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_Attack",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_AttackCS",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 110,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_AttackNoGuard",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_AttackHealHigh",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 40,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_MustAttack",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -1,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_Heal",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_HealNearingHero",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 42,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_AttackToHeal",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_AttackToHealForceOnly",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 9,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_AttackToMustHeal",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -1,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_MustAttackToMustHeal",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -1,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -1,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_HealToAttack",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 2,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_GuardToAttack",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_Hero",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 3,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_HeroOnly",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 3,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_Person",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 4,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_PersonOnly",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 4,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_ExcludePerson",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 5,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_ExcludePerson2",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 14,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_ExcludeBand",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 6,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_Job",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 7,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_Force",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 9,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_ForceOnly",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 9,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_ForceOnly_Hero",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 3,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 9,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_Idle",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_AttackToInterference",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 30,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_Interference",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 30,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_InterferenceForceOnly",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 30,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 9,
+        "StrValue0": "V_2",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_InterferenceHighMagic",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 31,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_InterferenceLowMagic",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 32,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_HealToInterference",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 30,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_InterferencePerson",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 33,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 4,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_InterferenceExcludePerson",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 34,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 5,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_InterferenceWeapon",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 35,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_InterferenceFrequency",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 36,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_HealToInterferenceFrequency",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 36,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_PriorItem",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 10,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_RodWarp",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 21,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_RodWarpFarZ",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 22,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_RodRescue",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 23,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 72,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_EngageAttack",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 50,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_EngageAttackNoGuard",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 50,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_EngageDance",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 51,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_AttackToEngageDance",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 51,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_EngageVision",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 50,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 52,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_EngageCSBattle",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 50,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 110,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_EngageOverlap",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 112,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 50,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 111,
+        "StrValue0": "V_2",
+        "StrValue1": "V_3",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_EngagePierce",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 53,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 71,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": -2,
+        "Code": 3,
+        "Mind": 74,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_AT_Versus",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -11,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 41,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -2,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -1,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -3,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -5,
+        "StrValue0": "1",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -5,
+        "StrValue0": "0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -6,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -12,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -10,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -4,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 20,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -8,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -9,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": -7,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Null",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_NearestEnemy",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 85,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_NearestEnemySide",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 83,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_NearestEnemyExcludePerson",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 84,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_0",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_NearestEnemyExcludePerson2",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 109,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_WeakEnemy",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 86,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_WeakEnemySide",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 87,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 83,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_AttackRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_AttackRangeSide",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 83,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_WeakRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 86,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_WeakRangeSide",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 87,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_AttackRangeToRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 2,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_1",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_AttackRangeToWait",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 2,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": 1
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_NearestHeal",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 88,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_HealRange",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 88,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_NearestFriend",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 97,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Hero",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 89,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_HeroOnly",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 89,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Person",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 90,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Force",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 92,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_ForceExcludePerson",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 93,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Position",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 91,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Escape",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 96,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_TreasureToEscape",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 3,
+        "Mind": 94,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 3,
+        "Mind": 94,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 1,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": 2
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 6,
+        "Mind": 1,
+        "StrValue0": "AI_MI_Escape",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 7,
+        "Mind": 1,
+        "StrValue0": "0",
+        "StrValue1": "V_2",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 7,
+        "Mind": 1,
+        "StrValue0": "1",
+        "StrValue1": "V_3",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 4,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 2,
+        "Code": 3,
+        "Mind": 96,
+        "StrValue0": "V_2",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_VillageToAttack",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 3,
+        "Mind": 95,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 3,
+        "Mind": 95,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 1,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": 2
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 6,
+        "Mind": 2,
+        "StrValue0": "AI_AT_Attack",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 7,
+        "Mind": 2,
+        "StrValue0": "0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 7,
+        "Mind": 2,
+        "StrValue0": "1",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 4,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 2,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_VillageToEscape",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 3,
+        "Mind": 95,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 3,
+        "Mind": 95,
+        "StrValue0": "V_0",
+        "StrValue1": "V_1",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 1,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": 2
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 6,
+        "Mind": 1,
+        "StrValue0": "AI_MI_Escape",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 7,
+        "Mind": 1,
+        "StrValue0": "0",
+        "StrValue1": "V_2",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 7,
+        "Mind": 1,
+        "StrValue0": "1",
+        "StrValue1": "V_3",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 4,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 2,
+        "Code": 3,
+        "Mind": 96,
+        "StrValue0": "V_2",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_TerrainDestroy",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 68,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 98,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_BreakDown",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 100,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Irregular",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 88,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 97,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_IrregularWithContinuedMove",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 88,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_WaitToNearestEnemy",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 1,
+        "Code": 1,
+        "Mind": 13,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": 2
+      },
+      {
+        "Group": "",
+        "Active": 2,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Terrain",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 101,
+        "StrValue0": "V_0",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Rewarp",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 108,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 82,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Retreat",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 99,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "AI_MV_Versus",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "",
+        "StrValue1": "",
+        "Trans": 0
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 85,
+        "StrValue0": "V_Max",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 98,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 97,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 3,
+        "Mind": 81,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      },
+      {
+        "Group": "",
+        "Active": 0,
+        "Code": 0,
+        "Mind": 0,
+        "StrValue0": "V_Default",
+        "StrValue1": "V_Default",
+        "Trans": -128
+      }
+    ]
+  }
+}

@@ -1,0 +1,4097 @@
+{
+  "スポット": {
+    "header": [
+      {
+        "Name": "スポット名(English)",
+        "Ident": "Name",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "表示名",
+        "Ident": "MID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "開放チャプター",
+        "Ident": "ConditionCid",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ロケータの数",
+        "Ident": "LocatorCount",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ロケータ1のポーズグループ名",
+        "Ident": "PauseGroupNameList1",
+        "Type": "string[]",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ロケータ2のポーズグループ名",
+        "Ident": "PauseGroupNameList2",
+        "Type": "string[]",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ロケータ3のポーズグループ名",
+        "Ident": "PauseGroupNameList3",
+        "Type": "string[]",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ロケータ4のポーズグループ名",
+        "Ident": "PauseGroupNameList4",
+        "Type": "string[]",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Name": "Entrance_front1",
+        "MID": "入口（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Entrance_front2",
+        "MID": "入口（正面2）",
+        "ConditionCid": "CID_M026",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "Entrance1",
+        "MID": "入口（情境1）",
+        "ConditionCid": "CID_M022",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "マスコット"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "Entrance2",
+        "MID": "入口（情境2）",
+        "ConditionCid": "CID_M022",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Cafeteria_front1",
+        "MID": "开放式茶座（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Cafeteria_front2",
+        "MID": "开放式茶座（正面2）",
+        "ConditionCid": "CID_M026",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "Cafeteria1",
+        "MID": "开放式茶座（情境1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Cafeteria2",
+        "MID": "开放式茶座（情境2）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "拠点_椅子"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "Cafeteria3",
+        "MID": "开放式茶座（情境3）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "マスコット"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "WeaponShop_front",
+        "MID": "武器店（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "WeaponShop1",
+        "MID": "武器店（情境1）",
+        "ConditionCid": "CID_M012",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "ItemShop_front",
+        "MID": "道具店（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "ItemShop1",
+        "MID": "道具店（情境1）",
+        "ConditionCid": "CID_M012",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "RefineShop_front",
+        "MID": "锻造店（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "RefineShop1",
+        "MID": "锻造店（情境1）",
+        "ConditionCid": "CID_M012",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "AccessoryShop_front",
+        "MID": "装饰品店（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "AccessoryShop1",
+        "MID": "装饰品店（情境1）",
+        "ConditionCid": "CID_M012",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Poolside_front",
+        "MID": "泳池边（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Poolside1",
+        "MID": "泳池边（情境1）",
+        "ConditionCid": "CID_M013",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "拠点_プール"
+        ],
+        "PauseGroupNameList2": [
+          "拠点_プール"
+        ],
+        "PauseGroupNameList3": [
+          "拠点_プール"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "FleaMarket_front",
+        "MID": "跳蚤市场（正面1）",
+        "ConditionCid": "CID_M013",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "FleaMarket1",
+        "MID": "跳蚤市场（情境1）",
+        "ConditionCid": "CID_M013",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Fortune_front",
+        "MID": "占卜小屋（正面1）",
+        "ConditionCid": "CID_M015",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Fortune1",
+        "MID": "占卜小屋（情境1）",
+        "ConditionCid": "CID_M015",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Orchard_front",
+        "MID": "果树园（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Orchard1",
+        "MID": "果树园（情境1）",
+        "ConditionCid": "CID_M007",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Fountain_front",
+        "MID": "喷泉（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Fountain1",
+        "MID": "喷泉（情境1）",
+        "ConditionCid": "CID_M007",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Corridor1",
+        "MID": "长廊（情境1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 2,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "Pond_front",
+        "MID": "涌泉池畔（正面1）",
+        "ConditionCid": "CID_M008",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Pond1",
+        "MID": "涌泉池畔（情境1）",
+        "ConditionCid": "CID_M008",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "マスコット"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "Pond2",
+        "MID": "涌泉池畔（情境2）",
+        "ConditionCid": "CID_M008",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "TrainingSpot_front",
+        "MID": "后院（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "TrainingSpot1",
+        "MID": "后院（情境1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点_裏庭",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点_裏庭",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点_裏庭",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "TrainingSpot2",
+        "MID": "后院（情境2）",
+        "ConditionCid": "CID_M011",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "マスコット"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "TrainingSpot3",
+        "MID": "后院（情境3）",
+        "ConditionCid": "CID_M011",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "マスコット"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "TrainingSpot4",
+        "MID": "后院（情境4）",
+        "ConditionCid": "CID_M026",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Farm_front",
+        "MID": "牧场（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Farm1",
+        "MID": "牧场（情境1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "マスコット"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "Farm2",
+        "MID": "牧场（情境2）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Farm3",
+        "MID": "牧场（情境3）",
+        "ConditionCid": "CID_M015",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "マスコット"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "Cave_front",
+        "MID": "钟乳洞（正面1）",
+        "ConditionCid": "CID_M007",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Cave1",
+        "MID": "钟乳洞（情境1）",
+        "ConditionCid": "CID_M008",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "GoodViewSpot_front",
+        "MID": "眺望之丘（正面1）",
+        "ConditionCid": "CID_M011",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "拠点_椅子"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "GoodViewSpot1",
+        "MID": "眺望之丘（情境1）",
+        "ConditionCid": "CID_M011",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点_座る有",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "拠点_椅子"
+        ],
+        "PauseGroupNameList3": [
+          "拠点_椅子"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      },
+      {
+        "Name": "Tower_front",
+        "MID": "试炼别屋（正面1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 3,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": []
+      },
+      {
+        "Name": "Tower1",
+        "MID": "试炼别屋（情境1）",
+        "ConditionCid": "CID_M006",
+        "LocatorCount": 4,
+        "PauseGroupNameList1": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList2": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList3": [
+          "基本",
+          "拠点",
+          "勝利",
+          "紋章士"
+        ],
+        "PauseGroupNameList4": [
+          "マスコット"
+        ]
+      }
+    ]
+  },
+  "ポーズ": {
+    "header": [
+      {
+        "Name": "グループ名",
+        "Ident": "GroupName",
+        "Type": "PublicArray",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ポーズ名",
+        "Ident": "PauseName",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ポーズ名",
+        "Ident": "Mid",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ポーズ番号",
+        "Ident": "No",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "アニメフレーム",
+        "Ident": "AnimeFrame",
+        "Type": "int",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "表情アニメ",
+        "Ident": "FaceAnime",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "ポーズ差分対象ユニットのリスト",
+        "Ident": "CharaIdList",
+        "Type": "string[]",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "GroupName": "基本",
+        "PauseName": "",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 0,
+        "FaceAnime": "",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "待つ1",
+        "Mid": "等待",
+        "No": 1,
+        "AnimeFrame": 1,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "待つ2",
+        "Mid": "等待",
+        "No": 2,
+        "AnimeFrame": 2,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "待つ3",
+        "Mid": "等待",
+        "No": 3,
+        "AnimeFrame": 3,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "待つ4",
+        "Mid": "等待",
+        "No": 4,
+        "AnimeFrame": 4,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "怒る1",
+        "Mid": "生气",
+        "No": 1,
+        "AnimeFrame": 5,
+        "FaceAnime": "Angry",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "怒る2",
+        "Mid": "生气",
+        "No": 2,
+        "AnimeFrame": 6,
+        "FaceAnime": "Angry",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "怒る3",
+        "Mid": "生气",
+        "No": 3,
+        "AnimeFrame": 7,
+        "FaceAnime": "Angry",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する1",
+        "Mid": "否定",
+        "No": 1,
+        "AnimeFrame": 8,
+        "FaceAnime": "Shy",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する2",
+        "Mid": "否定",
+        "No": 2,
+        "AnimeFrame": 9,
+        "FaceAnime": "Shy",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する3",
+        "Mid": "否定",
+        "No": 3,
+        "AnimeFrame": 10,
+        "FaceAnime": "Angry",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する4",
+        "Mid": "否定",
+        "No": 4,
+        "AnimeFrame": 11,
+        "FaceAnime": "Shy",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する5",
+        "Mid": "否定",
+        "No": 5,
+        "AnimeFrame": 12,
+        "FaceAnime": "Angry",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する6",
+        "Mid": "否定",
+        "No": 6,
+        "AnimeFrame": 13,
+        "FaceAnime": "Angry",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "あげる1",
+        "Mid": "给予",
+        "No": 1,
+        "AnimeFrame": 14,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "あげる2",
+        "Mid": "给予",
+        "No": 2,
+        "AnimeFrame": 15,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "あげる3",
+        "Mid": "给予",
+        "No": 3,
+        "AnimeFrame": 16,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喜ぶ1",
+        "Mid": "高兴",
+        "No": 1,
+        "AnimeFrame": 17,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喜ぶ2",
+        "Mid": "高兴",
+        "No": 2,
+        "AnimeFrame": 18,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喜ぶ3",
+        "Mid": "高兴",
+        "No": 3,
+        "AnimeFrame": 19,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "はしゃぐ1",
+        "Mid": "雀跃",
+        "No": 1,
+        "AnimeFrame": 20,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "はしゃぐ2",
+        "Mid": "雀跃",
+        "No": 2,
+        "AnimeFrame": 21,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "はしゃぐ3",
+        "Mid": "雀跃",
+        "No": 3,
+        "AnimeFrame": 22,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "はしゃぐ4",
+        "Mid": "雀跃",
+        "No": 4,
+        "AnimeFrame": 23,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "はしゃぐ5",
+        "Mid": "雀跃",
+        "No": 5,
+        "AnimeFrame": 24,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(右)1",
+        "Mid": "环视（右）",
+        "No": 1,
+        "AnimeFrame": 25,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(右)2",
+        "Mid": "环视（右）",
+        "No": 2,
+        "AnimeFrame": 26,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(右)3",
+        "Mid": "环视（右）",
+        "No": 3,
+        "AnimeFrame": 27,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(右)4",
+        "Mid": "环视（右）",
+        "No": 4,
+        "AnimeFrame": 28,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(左)1",
+        "Mid": "环视（左）",
+        "No": 1,
+        "AnimeFrame": 29,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(左)2",
+        "Mid": "环视（左）",
+        "No": 2,
+        "AnimeFrame": 30,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(左)3",
+        "Mid": "环视（左）",
+        "No": 3,
+        "AnimeFrame": 31,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(左)4",
+        "Mid": "环视（左）",
+        "No": 4,
+        "AnimeFrame": 32,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る1",
+        "Mid": "祈祷",
+        "No": 1,
+        "AnimeFrame": 33,
+        "FaceAnime": "Die",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る2",
+        "Mid": "祈祷",
+        "No": 2,
+        "AnimeFrame": 34,
+        "FaceAnime": "Die",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る3",
+        "Mid": "祈祷",
+        "No": 3,
+        "AnimeFrame": 35,
+        "FaceAnime": "Die",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る4",
+        "Mid": "祈祷",
+        "No": 4,
+        "AnimeFrame": 36,
+        "FaceAnime": "Die",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る1",
+        "Mid": "得意",
+        "No": 1,
+        "AnimeFrame": 37,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る2",
+        "Mid": "得意",
+        "No": 2,
+        "AnimeFrame": 38,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る3",
+        "Mid": "得意",
+        "No": 3,
+        "AnimeFrame": 39,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る4",
+        "Mid": "得意",
+        "No": 4,
+        "AnimeFrame": 40,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る5",
+        "Mid": "得意",
+        "No": 5,
+        "AnimeFrame": 41,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "安心する1",
+        "Mid": "安心",
+        "No": 1,
+        "AnimeFrame": 42,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "安心する2",
+        "Mid": "安心",
+        "No": 2,
+        "AnimeFrame": 43,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "安心する3",
+        "Mid": "安心",
+        "No": 3,
+        "AnimeFrame": 44,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "安心する4",
+        "Mid": "安心",
+        "No": 4,
+        "AnimeFrame": 45,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "落ち込む1",
+        "Mid": "沮丧",
+        "No": 1,
+        "AnimeFrame": 46,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "落ち込む2",
+        "Mid": "沮丧",
+        "No": 2,
+        "AnimeFrame": 47,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "落ち込む3",
+        "Mid": "沮丧",
+        "No": 3,
+        "AnimeFrame": 48,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "落ち込む4",
+        "Mid": "沮丧",
+        "No": 4,
+        "AnimeFrame": 49,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "悲しむ1",
+        "Mid": "悲伤",
+        "No": 1,
+        "AnimeFrame": 50,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "悲しむ2",
+        "Mid": "悲伤",
+        "No": 2,
+        "AnimeFrame": 51,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "悲しむ3",
+        "Mid": "悲伤",
+        "No": 3,
+        "AnimeFrame": 52,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "悲しむ4",
+        "Mid": "悲伤",
+        "No": 4,
+        "AnimeFrame": 53,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "照れる1",
+        "Mid": "害羞",
+        "No": 1,
+        "AnimeFrame": 54,
+        "FaceAnime": "Shy",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "照れる2",
+        "Mid": "害羞",
+        "No": 2,
+        "AnimeFrame": 55,
+        "FaceAnime": "Shy",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "照れる3",
+        "Mid": "害羞",
+        "No": 3,
+        "AnimeFrame": 56,
+        "FaceAnime": "Shy",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "仰天する1",
+        "Mid": "吃惊",
+        "No": 1,
+        "AnimeFrame": 57,
+        "FaceAnime": "Surprise",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "仰天する2",
+        "Mid": "吃惊",
+        "No": 2,
+        "AnimeFrame": 58,
+        "FaceAnime": "Surprise",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "仰天する3",
+        "Mid": "吃惊",
+        "No": 3,
+        "AnimeFrame": 59,
+        "FaceAnime": "Surprise",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "仰天する4",
+        "Mid": "吃惊",
+        "No": 4,
+        "AnimeFrame": 60,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "仰天する5",
+        "Mid": "吃惊",
+        "No": 5,
+        "AnimeFrame": 61,
+        "FaceAnime": "Surprise",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "仰天する6",
+        "Mid": "吃惊",
+        "No": 6,
+        "AnimeFrame": 62,
+        "FaceAnime": "Surprise",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "驚く1",
+        "Mid": "惊讶",
+        "No": 1,
+        "AnimeFrame": 63,
+        "FaceAnime": "Surprise",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "驚く2",
+        "Mid": "惊讶",
+        "No": 2,
+        "AnimeFrame": 64,
+        "FaceAnime": "Surprise",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す1",
+        "Mid": "对话",
+        "No": 1,
+        "AnimeFrame": 65,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す2",
+        "Mid": "对话",
+        "No": 2,
+        "AnimeFrame": 66,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す3",
+        "Mid": "对话",
+        "No": 3,
+        "AnimeFrame": 67,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す4",
+        "Mid": "对话",
+        "No": 4,
+        "AnimeFrame": 68,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す5",
+        "Mid": "对话",
+        "No": 5,
+        "AnimeFrame": 69,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喋る1",
+        "Mid": "说话",
+        "No": 1,
+        "AnimeFrame": 70,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喋る2",
+        "Mid": "说话",
+        "No": 2,
+        "AnimeFrame": 71,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喋る3",
+        "Mid": "说话",
+        "No": 3,
+        "AnimeFrame": 72,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喋る4",
+        "Mid": "说话",
+        "No": 4,
+        "AnimeFrame": 73,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喋る5",
+        "Mid": "说话",
+        "No": 5,
+        "AnimeFrame": 74,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "考える1",
+        "Mid": "思考",
+        "No": 1,
+        "AnimeFrame": 75,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "考える2",
+        "Mid": "思考",
+        "No": 2,
+        "AnimeFrame": 76,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "考える3",
+        "Mid": "思考",
+        "No": 3,
+        "AnimeFrame": 77,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "疲れる1",
+        "Mid": "疲倦",
+        "No": 1,
+        "AnimeFrame": 78,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "疲れる2",
+        "Mid": "疲倦",
+        "No": 2,
+        "AnimeFrame": 79,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "疲れる3",
+        "Mid": "疲倦",
+        "No": 3,
+        "AnimeFrame": 80,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "手を振る1",
+        "Mid": "挥手",
+        "No": 1,
+        "AnimeFrame": 81,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "手を振る2",
+        "Mid": "挥手",
+        "No": 2,
+        "AnimeFrame": 82,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "手を振る3",
+        "Mid": "挥手",
+        "No": 3,
+        "AnimeFrame": 83,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "手を振る4",
+        "Mid": "挥手",
+        "No": 4,
+        "AnimeFrame": 84,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "手を振る5",
+        "Mid": "挥手",
+        "No": 5,
+        "AnimeFrame": 85,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "お手軽ポーズ1",
+        "Mid": "放松姿势",
+        "No": 1,
+        "AnimeFrame": 86,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "お手軽ポーズ2",
+        "Mid": "放松姿势",
+        "No": 2,
+        "AnimeFrame": 87,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "お手軽ポーズ3",
+        "Mid": "放松姿势",
+        "No": 3,
+        "AnimeFrame": 88,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "お手軽ポーズ4",
+        "Mid": "放松姿势",
+        "No": 4,
+        "AnimeFrame": 89,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "お手軽ポーズ5",
+        "Mid": "放松姿势",
+        "No": 5,
+        "AnimeFrame": 90,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "決めポーズ1",
+        "Mid": "亮相姿势",
+        "No": 1,
+        "AnimeFrame": 91,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "決めポーズ2",
+        "Mid": "亮相姿势",
+        "No": 2,
+        "AnimeFrame": 92,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "決めポーズ3",
+        "Mid": "亮相姿势",
+        "No": 3,
+        "AnimeFrame": 93,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "決めポーズ4",
+        "Mid": "亮相姿势",
+        "No": 4,
+        "AnimeFrame": 94,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "決めポーズ5",
+        "Mid": "亮相姿势",
+        "No": 5,
+        "AnimeFrame": 95,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "決めポーズ6",
+        "Mid": "亮相姿势",
+        "No": 6,
+        "AnimeFrame": 96,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "決めポーズ7",
+        "Mid": "亮相姿势",
+        "No": 7,
+        "AnimeFrame": 97,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "拠点",
+        "PauseName": "",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 0,
+        "FaceAnime": "",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援1",
+        "Mid": "声援",
+        "No": 1,
+        "AnimeFrame": 98,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援2",
+        "Mid": "声援",
+        "No": 2,
+        "AnimeFrame": 99,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援3",
+        "Mid": "加油",
+        "No": 0,
+        "AnimeFrame": 100,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援4",
+        "Mid": "鼓舞",
+        "No": 0,
+        "AnimeFrame": 101,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "エサやり1",
+        "Mid": "喂饲料（右）",
+        "No": 0,
+        "AnimeFrame": 102,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "エサやり2",
+        "Mid": "喂饲料（左）",
+        "No": 0,
+        "AnimeFrame": 103,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "歌う1",
+        "Mid": "唱歌",
+        "No": 1,
+        "AnimeFrame": 104,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "歌う2",
+        "Mid": "唱歌",
+        "No": 2,
+        "AnimeFrame": 105,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び1",
+        "Mid": "泼水（单手）",
+        "No": 0,
+        "AnimeFrame": 106,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び2",
+        "Mid": "泼水（双手）",
+        "No": 0,
+        "AnimeFrame": 107,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び3",
+        "Mid": "被泼水",
+        "No": 0,
+        "AnimeFrame": 108,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "ギター",
+        "Mid": "空气吉他",
+        "No": 0,
+        "AnimeFrame": 109,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "ブラッシング",
+        "Mid": "梳理",
+        "No": 0,
+        "AnimeFrame": 110,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水やり1",
+        "Mid": "浇水（右）",
+        "No": 0,
+        "AnimeFrame": 111,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水やり2",
+        "Mid": "浇水（左）",
+        "No": 0,
+        "AnimeFrame": 112,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "収穫1",
+        "Mid": "采摘",
+        "No": 0,
+        "AnimeFrame": 113,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "収穫2",
+        "Mid": "查看",
+        "No": 0,
+        "AnimeFrame": 114,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "収穫3",
+        "Mid": "收成",
+        "No": 0,
+        "AnimeFrame": 115,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "拠点_座る有",
+        "PauseName": "",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 0,
+        "FaceAnime": "",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援1",
+        "Mid": "声援",
+        "No": 1,
+        "AnimeFrame": 98,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援2",
+        "Mid": "声援",
+        "No": 2,
+        "AnimeFrame": 99,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援3",
+        "Mid": "加油",
+        "No": 0,
+        "AnimeFrame": 100,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援4",
+        "Mid": "鼓舞",
+        "No": 0,
+        "AnimeFrame": 101,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "エサやり1",
+        "Mid": "喂饲料（右）",
+        "No": 0,
+        "AnimeFrame": 102,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "エサやり2",
+        "Mid": "喂饲料（左）",
+        "No": 0,
+        "AnimeFrame": 103,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "歌う1",
+        "Mid": "唱歌",
+        "No": 1,
+        "AnimeFrame": 104,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "歌う2",
+        "Mid": "唱歌",
+        "No": 2,
+        "AnimeFrame": 105,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び1",
+        "Mid": "泼水（单手）",
+        "No": 0,
+        "AnimeFrame": 106,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び2",
+        "Mid": "泼水（双手）",
+        "No": 0,
+        "AnimeFrame": 107,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び3",
+        "Mid": "被泼水",
+        "No": 0,
+        "AnimeFrame": 108,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "ギター",
+        "Mid": "空气吉他",
+        "No": 0,
+        "AnimeFrame": 109,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "ブラッシング",
+        "Mid": "梳理",
+        "No": 0,
+        "AnimeFrame": 110,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水やり1",
+        "Mid": "浇水（右）",
+        "No": 0,
+        "AnimeFrame": 111,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水やり2",
+        "Mid": "浇水（左）",
+        "No": 0,
+        "AnimeFrame": 112,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "収穫1",
+        "Mid": "采摘",
+        "No": 0,
+        "AnimeFrame": 113,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "収穫2",
+        "Mid": "查看",
+        "No": 0,
+        "AnimeFrame": 114,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "収穫3",
+        "Mid": "收成",
+        "No": 0,
+        "AnimeFrame": 115,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "座る",
+        "Mid": "坐下",
+        "No": 0,
+        "AnimeFrame": 116,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "拠点_裏庭",
+        "PauseName": "",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 0,
+        "FaceAnime": "",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援1",
+        "Mid": "声援",
+        "No": 1,
+        "AnimeFrame": 98,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援2",
+        "Mid": "声援",
+        "No": 2,
+        "AnimeFrame": 99,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援3",
+        "Mid": "加油",
+        "No": 0,
+        "AnimeFrame": 100,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "応援4",
+        "Mid": "鼓舞",
+        "No": 0,
+        "AnimeFrame": 101,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "エサやり1",
+        "Mid": "喂饲料（右）",
+        "No": 0,
+        "AnimeFrame": 102,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "エサやり2",
+        "Mid": "喂饲料（左）",
+        "No": 0,
+        "AnimeFrame": 103,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "歌う1",
+        "Mid": "唱歌",
+        "No": 1,
+        "AnimeFrame": 104,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "歌う2",
+        "Mid": "唱歌",
+        "No": 2,
+        "AnimeFrame": 105,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び1",
+        "Mid": "泼水（单手）",
+        "No": 0,
+        "AnimeFrame": 106,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び2",
+        "Mid": "泼水（双手）",
+        "No": 0,
+        "AnimeFrame": 107,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び3",
+        "Mid": "被泼水",
+        "No": 0,
+        "AnimeFrame": 108,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "ギター",
+        "Mid": "空气吉他",
+        "No": 0,
+        "AnimeFrame": 109,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "ブラッシング",
+        "Mid": "梳理",
+        "No": 0,
+        "AnimeFrame": 110,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水やり1",
+        "Mid": "浇水（右）",
+        "No": 0,
+        "AnimeFrame": 111,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水やり2",
+        "Mid": "浇水（左）",
+        "No": 0,
+        "AnimeFrame": 112,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "収穫1",
+        "Mid": "采摘",
+        "No": 0,
+        "AnimeFrame": 113,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "収穫2",
+        "Mid": "查看",
+        "No": 0,
+        "AnimeFrame": 114,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "収穫3",
+        "Mid": "收成",
+        "No": 0,
+        "AnimeFrame": 115,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "座る",
+        "Mid": "坐下",
+        "No": 0,
+        "AnimeFrame": 116,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "腹筋1",
+        "Mid": "锻炼腹肌（开始）",
+        "No": 0,
+        "AnimeFrame": 117,
+        "FaceAnime": "Pain",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "腹筋2",
+        "Mid": "锻炼腹肌（结束）",
+        "No": 0,
+        "AnimeFrame": 118,
+        "FaceAnime": "Pain",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "スクワット1",
+        "Mid": "深蹲（开始）",
+        "No": 0,
+        "AnimeFrame": 119,
+        "FaceAnime": "Pain",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "スクワット2",
+        "Mid": "深蹲（结束）",
+        "No": 0,
+        "AnimeFrame": 120,
+        "FaceAnime": "Pain",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "腕立て伏せ1",
+        "Mid": "俯卧撑（开始）",
+        "No": 0,
+        "AnimeFrame": 121,
+        "FaceAnime": "Pain",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "腕立て伏せ2",
+        "Mid": "俯卧撑（结束）",
+        "No": 0,
+        "AnimeFrame": 122,
+        "FaceAnime": "Pain",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "拠点_椅子",
+        "PauseName": "",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 0,
+        "FaceAnime": "",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "椅子に座る1",
+        "Mid": "坐在椅子上",
+        "No": 1,
+        "AnimeFrame": 143,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "椅子に座る2",
+        "Mid": "坐在椅子上",
+        "No": 2,
+        "AnimeFrame": 144,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "美味しい1",
+        "Mid": "觉得美味",
+        "No": 1,
+        "AnimeFrame": 145,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "美味しい2",
+        "Mid": "觉得美味",
+        "No": 2,
+        "AnimeFrame": 146,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "美味しい3",
+        "Mid": "觉得非常美味",
+        "No": 0,
+        "AnimeFrame": 147,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "不味い1",
+        "Mid": "觉得难吃",
+        "No": 1,
+        "AnimeFrame": 148,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "不味い2",
+        "Mid": "觉得难吃",
+        "No": 2,
+        "AnimeFrame": 149,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "拠点_プール",
+        "PauseName": "",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 0,
+        "FaceAnime": "",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び1",
+        "Mid": "泼水（单手）",
+        "No": 0,
+        "AnimeFrame": 106,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び2",
+        "Mid": "泼水（双手）",
+        "No": 0,
+        "AnimeFrame": 107,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "水浴び3",
+        "Mid": "被泼水",
+        "No": 0,
+        "AnimeFrame": 108,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "勝利",
+        "PauseName": "",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 0,
+        "FaceAnime": "",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "剣1",
+        "Mid": "战斗姿势（剑）",
+        "No": 1,
+        "AnimeFrame": 123,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "剣2",
+        "Mid": "战斗姿势（剑）",
+        "No": 2,
+        "AnimeFrame": 124,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "剣3",
+        "Mid": "战斗姿势（剑）",
+        "No": 3,
+        "AnimeFrame": 125,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "槍1",
+        "Mid": "战斗姿势（枪）",
+        "No": 1,
+        "AnimeFrame": 126,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "槍2",
+        "Mid": "战斗姿势（枪）",
+        "No": 2,
+        "AnimeFrame": 127,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "槍3",
+        "Mid": "战斗姿势（枪）",
+        "No": 3,
+        "AnimeFrame": 128,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "斧1",
+        "Mid": "战斗姿势（斧）",
+        "No": 1,
+        "AnimeFrame": 129,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "斧2",
+        "Mid": "战斗姿势（斧）",
+        "No": 2,
+        "AnimeFrame": 130,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "斧3",
+        "Mid": "战斗姿势（斧）",
+        "No": 3,
+        "AnimeFrame": 131,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "弓1",
+        "Mid": "战斗姿势（弓）",
+        "No": 1,
+        "AnimeFrame": 132,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "弓2",
+        "Mid": "战斗姿势（弓）",
+        "No": 2,
+        "AnimeFrame": 133,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "弓3",
+        "Mid": "战斗姿势（弓）",
+        "No": 3,
+        "AnimeFrame": 134,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "魔導書1",
+        "Mid": "战斗姿势（魔道书）",
+        "No": 1,
+        "AnimeFrame": 137,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "魔導書2",
+        "Mid": "战斗姿势（魔道书）",
+        "No": 2,
+        "AnimeFrame": 138,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "短剣1",
+        "Mid": "战斗姿势（短剑）",
+        "No": 1,
+        "AnimeFrame": 135,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "短剣2",
+        "Mid": "战斗姿势（短剑）",
+        "No": 2,
+        "AnimeFrame": 136,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "体術1",
+        "Mid": "战斗姿势（体术）",
+        "No": 1,
+        "AnimeFrame": 139,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "体術2",
+        "Mid": "战斗姿势（体术）",
+        "No": 2,
+        "AnimeFrame": 140,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "体術3",
+        "Mid": "战斗姿势（体术）",
+        "No": 3,
+        "AnimeFrame": 141,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "体術4",
+        "Mid": "战斗姿势（体术）",
+        "No": 4,
+        "AnimeFrame": 142,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "紋章士",
+        "PauseName": "",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 0,
+        "FaceAnime": "",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "待つ",
+        "Mid": "等待",
+        "No": 0,
+        "AnimeFrame": 1,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "怒る",
+        "Mid": "生气",
+        "No": 0,
+        "AnimeFrame": 2,
+        "FaceAnime": "Angry",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する",
+        "Mid": "否定",
+        "No": 0,
+        "AnimeFrame": 3,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "首を振る",
+        "Mid": "摇头",
+        "No": 0,
+        "AnimeFrame": 4,
+        "FaceAnime": "Angry",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "あげる",
+        "Mid": "给予",
+        "No": 0,
+        "AnimeFrame": 5,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喜ぶ",
+        "Mid": "高兴",
+        "No": 0,
+        "AnimeFrame": 6,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "はしゃぐ",
+        "Mid": "雀跃",
+        "No": 0,
+        "AnimeFrame": 7,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(右)",
+        "Mid": "环视（右）",
+        "No": 0,
+        "AnimeFrame": 8,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(左)",
+        "Mid": "环视（左）",
+        "No": 0,
+        "AnimeFrame": 9,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る",
+        "Mid": "祈祷",
+        "No": 0,
+        "AnimeFrame": 10,
+        "FaceAnime": "Die",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る",
+        "Mid": "得意",
+        "No": 0,
+        "AnimeFrame": 11,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "安心する",
+        "Mid": "安心",
+        "No": 0,
+        "AnimeFrame": 12,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "落ち込む",
+        "Mid": "沮丧",
+        "No": 0,
+        "AnimeFrame": 13,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "悲しむ",
+        "Mid": "悲伤",
+        "No": 0,
+        "AnimeFrame": 14,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "照れる",
+        "Mid": "害羞",
+        "No": 0,
+        "AnimeFrame": 15,
+        "FaceAnime": "Shy",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "仰天する",
+        "Mid": "吃惊",
+        "No": 0,
+        "AnimeFrame": 16,
+        "FaceAnime": "Surprise",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "驚く",
+        "Mid": "惊讶",
+        "No": 0,
+        "AnimeFrame": 17,
+        "FaceAnime": "Surprise",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す",
+        "Mid": "对话",
+        "No": 0,
+        "AnimeFrame": 18,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喋る",
+        "Mid": "说话",
+        "No": 0,
+        "AnimeFrame": 19,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "考える",
+        "Mid": "思考",
+        "No": 0,
+        "AnimeFrame": 20,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "疲れる",
+        "Mid": "疲倦",
+        "No": 0,
+        "AnimeFrame": 21,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "手を振る",
+        "Mid": "挥手",
+        "No": 0,
+        "AnimeFrame": 22,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "マスコット",
+        "PauseName": "",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 0,
+        "FaceAnime": "",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "待つ",
+        "Mid": "等待",
+        "No": 0,
+        "AnimeFrame": 1,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "怒る",
+        "Mid": "生气",
+        "No": 0,
+        "AnimeFrame": 2,
+        "FaceAnime": "Angry",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喜ぶ",
+        "Mid": "高兴",
+        "No": 0,
+        "AnimeFrame": 3,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "はしゃぐ",
+        "Mid": "雀跃",
+        "No": 0,
+        "AnimeFrame": 4,
+        "FaceAnime": "Smile",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "落ち着く",
+        "Mid": "沮丧",
+        "No": 0,
+        "AnimeFrame": 5,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "悲しむ",
+        "Mid": "悲伤",
+        "No": 0,
+        "AnimeFrame": 6,
+        "FaceAnime": "Sad",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(右)",
+        "Mid": "环视（右）",
+        "No": 0,
+        "AnimeFrame": 7,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(左)",
+        "Mid": "环视（左）",
+        "No": 0,
+        "AnimeFrame": 8,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "食べる",
+        "Mid": "吃东西",
+        "No": 0,
+        "AnimeFrame": 9,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "のびる",
+        "Mid": "伸展",
+        "No": 0,
+        "AnimeFrame": 10,
+        "FaceAnime": "Die",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "決めポーズ",
+        "Mid": "亮相姿势",
+        "No": 0,
+        "AnimeFrame": 11,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "座る",
+        "Mid": "坐下",
+        "No": 0,
+        "AnimeFrame": 12,
+        "FaceAnime": "Normal",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "寝る",
+        "Mid": "睡觉",
+        "No": 0,
+        "AnimeFrame": 13,
+        "FaceAnime": "Die",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "ポーズ差分",
+        "PauseName": "",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 0,
+        "FaceAnime": "",
+        "CharaIdList": []
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 150,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "リュール男",
+          "ヴァンドレ",
+          "フォガート",
+          "カゲツ",
+          "ボネ",
+          "グレゴリー",
+          "シトリニカ",
+          "メリン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 151,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "ブシュロン",
+          "ルイ",
+          "モーヴ",
+          "ザフィーア"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する6",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 152,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "リュール男",
+          "ヴァンドレ",
+          "フォガート",
+          "カゲツ",
+          "ボネ",
+          "グレゴリー",
+          "シトリニカ",
+          "メリン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "否定する6",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 153,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "ブシュロン",
+          "ルイ",
+          "モーヴ",
+          "ザフィーア"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 154,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "リュール男",
+          "ヴァンドレ",
+          "フォガート",
+          "カゲツ",
+          "ボネ",
+          "グレゴリー",
+          "シトリニカ",
+          "メリン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 155,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "ブシュロン",
+          "ルイ",
+          "モーヴ",
+          "ザフィーア"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 156,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン",
+          "クラン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る3",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 157,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "リュール男",
+          "ヴァンドレ",
+          "フォガート",
+          "カゲツ",
+          "ボネ",
+          "グレゴリー",
+          "シトリニカ",
+          "メリン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る3",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 158,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "ブシュロン",
+          "ルイ",
+          "モーヴ",
+          "ザフィーア"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る3",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 159,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン",
+          "クラン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る4",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 160,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "リュール男",
+          "ヴァンドレ",
+          "フォガート",
+          "カゲツ",
+          "ボネ",
+          "グレゴリー",
+          "シトリニカ",
+          "メリン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る4",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 161,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "ブシュロン",
+          "ルイ",
+          "モーヴ",
+          "ザフィーア"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "祈る4",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 162,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン",
+          "クラン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 163,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "リュール男",
+          "ヴァンドレ",
+          "フォガート",
+          "カゲツ",
+          "ボネ",
+          "グレゴリー",
+          "シトリニカ",
+          "メリン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 164,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "ブシュロン",
+          "ルイ",
+          "モーヴ",
+          "ザフィーア"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 165,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 166,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る3",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 167,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る3",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 168,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る5",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 169,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "誇る5",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 170,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "体術2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 171,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "体術4",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 172,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "リュール男",
+          "ヴァンドレ",
+          "フォガート",
+          "カゲツ",
+          "ボネ",
+          "グレゴリー",
+          "シトリニカ",
+          "メリン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "体術4",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 173,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "ブシュロン",
+          "ルイ",
+          "モーヴ",
+          "ザフィーア"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "体術4",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 174,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン",
+          "クラン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 175,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 176,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す5",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 177,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "リュール男",
+          "ヴァンドレ",
+          "フォガート",
+          "カゲツ",
+          "ボネ",
+          "グレゴリー",
+          "シトリニカ",
+          "メリン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す5",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 178,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "ブシュロン",
+          "ルイ",
+          "モーヴ",
+          "ザフィーア"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "話す5",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 179,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン",
+          "クラン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "落ち込む1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 180,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "落ち込む2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 181,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "落ち込む2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 182,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "悲しむ1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 183,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喋る4",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 184,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "喋る4",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 185,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "手を振る1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 186,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "手を振る1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 187,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "手を振る2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 188,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "手を振る2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 189,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "お手軽ポーズ2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 190,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "決めポーズ1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 191,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "待つ1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 192,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "待つ3",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 193,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "腕立て伏せ1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 194,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "ヴェイル"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "腕立て伏せ1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 195,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "アンナ",
+          "ジェーデ",
+          "ディアマンド",
+          "ジャン",
+          "クラン",
+          "フォガート"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "腕立て伏せ2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 196,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "ヴェイル"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "腕立て伏せ2",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 197,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "アンナ",
+          "ジェーデ",
+          "ディアマンド",
+          "ジャン",
+          "クラン",
+          "フォガート"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(右)1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 198,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "見回す(左)1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 199,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "弓3",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 200,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "カゲツ"
+        ]
+      },
+      {
+        "GroupName": "",
+        "PauseName": "椅子に座る1",
+        "Mid": "",
+        "No": 0,
+        "AnimeFrame": 201,
+        "FaceAnime": "",
+        "CharaIdList": [
+          "スタルーク",
+          "ジャン",
+          "クラン"
+        ]
+      }
+    ]
+  }
+}

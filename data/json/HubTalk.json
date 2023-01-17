@@ -1,0 +1,570 @@
+{
+  "会話": {
+    "header": [
+      {
+        "Name": "KRID",
+        "Ident": "KRID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "配置上限数",
+        "Ident": "Count",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "引数0",
+        "Ident": "Args0",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "引数1",
+        "Ident": "Args1",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "入手アイテム",
+        "Ident": "Item",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "KRID": "Story",
+        "Count": 0,
+        "Args0": 0,
+        "Args1": 0,
+        "Item": ""
+      },
+      {
+        "KRID": "ManyKill",
+        "Count": 3,
+        "Args0": 3,
+        "Args1": 0,
+        "Item": "IID_絆のかけら100"
+      },
+      {
+        "KRID": "LVUP01",
+        "Count": 2,
+        "Args0": 0,
+        "Args1": 0,
+        "Item": "IID_絆のかけら50"
+      },
+      {
+        "KRID": "ManyHeal",
+        "Count": 2,
+        "Args0": 3,
+        "Args1": 0,
+        "Item": "IID_絆のかけら50"
+      },
+      {
+        "KRID": "BattleCount1",
+        "Count": 5,
+        "Args0": 3,
+        "Args1": 5,
+        "Item": "IID_絆のかけら50"
+      },
+      {
+        "KRID": "HeroMVP",
+        "Count": 3,
+        "Args0": 0,
+        "Args1": 0,
+        "Item": "IID_絆のかけら50"
+      },
+      {
+        "KRID": "HeroLVUP",
+        "Count": 2,
+        "Args0": 0,
+        "Args1": 0,
+        "Item": "IID_絆のかけら50"
+      },
+      {
+        "KRID": "NoParty",
+        "Count": 2,
+        "Args0": 5,
+        "Args1": 0,
+        "Item": "IID_絆のかけら10"
+      },
+      {
+        "KRID": "TravelTalk",
+        "Count": 0,
+        "Args0": 0,
+        "Args1": 0,
+        "Item": ""
+      }
+    ]
+  },
+  "縁者": {
+    "header": [
+      {
+        "Name": "PID",
+        "Ident": "PID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "縁者1",
+        "Ident": "PID1",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "縁者2",
+        "Ident": "PID2",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "縁者3",
+        "Ident": "PID3",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "縁者4",
+        "Ident": "PID4",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "PID": "PID_ヴァンドレ",
+        "PID1": "PID_クラン",
+        "PID2": "PID_フラン",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_クラン",
+        "PID1": "PID_フラン",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_フラン",
+        "PID1": "PID_クラン",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_アルフレッド",
+        "PID1": "PID_セリーヌ",
+        "PID2": "PID_ブシュロン",
+        "PID3": "PID_エーティエ",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ブシュロン",
+        "PID1": "PID_エーティエ",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_エーティエ",
+        "PID1": "PID_ブシュロン",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_セリーヌ",
+        "PID1": "PID_ルイ",
+        "PID2": "PID_クロエ",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ルイ",
+        "PID1": "PID_セリーヌ",
+        "PID2": "PID_クロエ",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_クロエ",
+        "PID1": "PID_セリーヌ",
+        "PID2": "PID_ルイ",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ディアマンド",
+        "PID1": "PID_スタルーク",
+        "PID2": "PID_アンバー",
+        "PID3": "PID_ジェーデ",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_アンバー",
+        "PID1": "PID_ジェーデ",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ジェーデ",
+        "PID1": "PID_アンバー",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_スタルーク",
+        "PID1": "PID_ラピス",
+        "PID2": "PID_シトリニカ",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ラピス",
+        "PID1": "PID_スタルーク",
+        "PID2": "PID_シトリニカ",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_シトリニカ",
+        "PID1": "PID_スタルーク",
+        "PID2": "PID_ラピス",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_アイビー",
+        "PID1": "PID_オルテンシア",
+        "PID2": "PID_カゲツ",
+        "PID3": "PID_ゼルコバ",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ゼルコバ",
+        "PID1": "PID_カゲツ",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_カゲツ",
+        "PID1": "PID_ゼルコバ",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_オルテンシア",
+        "PID1": "PID_ロサード",
+        "PID2": "PID_ゴルドマリー",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ロサード",
+        "PID1": "PID_オルテンシア",
+        "PID2": "PID_ゴルドマリー",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ゴルドマリー",
+        "PID1": "PID_オルテンシア",
+        "PID2": "PID_ロサード",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ミスティラ",
+        "PID1": "PID_フォガート",
+        "PID2": "PID_メリン",
+        "PID3": "PID_パネトネ",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_メリン",
+        "PID1": "PID_パネトネ",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_パネトネ",
+        "PID1": "PID_メリン",
+        "PID2": "PID_パンドロ",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_フォガート",
+        "PID1": "PID_パンドロ",
+        "PID2": "PID_ボネ",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_パンドロ",
+        "PID1": "PID_フォガート",
+        "PID2": "PID_ボネ",
+        "PID3": "PID_パネトネ",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ボネ",
+        "PID1": "PID_フォガート",
+        "PID2": "PID_パンドロ",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_アンナ",
+        "PID1": "",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ジャン",
+        "PID1": "",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ユナカ",
+        "PID1": "",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_セアダス",
+        "PID1": "",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_リンデン",
+        "PID1": "PID_オルテンシア",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ザフィーア",
+        "PID1": "PID_スタルーク",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_ヴェイル",
+        "PID1": "PID_モーヴ",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      },
+      {
+        "PID": "PID_モーヴ",
+        "PID1": "",
+        "PID2": "",
+        "PID3": "",
+        "PID4": ""
+      }
+    ]
+  },
+  "施設": {
+    "header": [
+      {
+        "Name": "会話パターン",
+        "Ident": "Pattern",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "担当PID",
+        "Ident": "PID",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "Pattern": "PT00",
+        "PID": "PID_ディアマンド"
+      },
+      {
+        "Pattern": "PT01",
+        "PID": "PID_アイビー"
+      },
+      {
+        "Pattern": "PT02",
+        "PID": "PID_アルフレッド"
+      },
+      {
+        "Pattern": "PT06",
+        "PID": "PID_セアダス"
+      },
+      {
+        "Pattern": "PT05",
+        "PID": "PID_ミスティラ"
+      }
+    ]
+  },
+  "晶石": {
+    "header": [
+      {
+        "Name": "条件CID(クリア時)",
+        "Ident": "CID",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "数",
+        "Ident": "Count",
+        "Type": "u8",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      }
+    ],
+    "data": [
+      {
+        "CID": "M001",
+        "Count": 31
+      },
+      {
+        "CID": "M002",
+        "Count": 32
+      },
+      {
+        "CID": "M003",
+        "Count": 33
+      },
+      {
+        "CID": "M004",
+        "Count": 34
+      },
+      {
+        "CID": "M005",
+        "Count": 35
+      },
+      {
+        "CID": "M006",
+        "Count": 36
+      },
+      {
+        "CID": "M007",
+        "Count": 37
+      },
+      {
+        "CID": "M008",
+        "Count": 38
+      },
+      {
+        "CID": "M009",
+        "Count": 39
+      },
+      {
+        "CID": "M010",
+        "Count": 40
+      },
+      {
+        "CID": "M011",
+        "Count": 41
+      },
+      {
+        "CID": "M012",
+        "Count": 42
+      },
+      {
+        "CID": "M013",
+        "Count": 43
+      },
+      {
+        "CID": "M014",
+        "Count": 44
+      },
+      {
+        "CID": "M015",
+        "Count": 45
+      },
+      {
+        "CID": "M016",
+        "Count": 46
+      },
+      {
+        "CID": "M017",
+        "Count": 47
+      },
+      {
+        "CID": "M018",
+        "Count": 48
+      },
+      {
+        "CID": "M019",
+        "Count": 49
+      },
+      {
+        "CID": "M020",
+        "Count": 50
+      },
+      {
+        "CID": "M021",
+        "Count": 51
+      },
+      {
+        "CID": "M022",
+        "Count": 52
+      },
+      {
+        "CID": "M023",
+        "Count": 53
+      },
+      {
+        "CID": "M024",
+        "Count": 54
+      },
+      {
+        "CID": "M025",
+        "Count": 55
+      },
+      {
+        "CID": "M026",
+        "Count": 56
+      }
+    ]
+  }
+}

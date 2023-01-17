@@ -1,0 +1,226 @@
+{
+  "マップ履歴": {
+    "header": [
+      {
+        "Name": "出力先",
+        "Ident": "Out",
+        "Type": "PublicFile",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "種類",
+        "Ident": "Mhid",
+        "Type": "PublicString",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "行動テキスト",
+        "Ident": "Action",
+        "Type": "string",
+        "Min": "",
+        "Max": "",
+        "Chg": ""
+      },
+      {
+        "Name": "テキスト優先度",
+        "Ident": "Priority",
+        "Type": "u8",
+        "Min": "0",
+        "Max": "100",
+        "Chg": "1"
+      }
+    ],
+    "data": [
+      {
+        "Out": "",
+        "Mhid": "MHID_PlayerPhase開始",
+        "Action": "PLAYER PHASE 开始",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_EnemyPhase開始",
+        "Action": "ENEMY PHASE 开始",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_AllyPhase開始",
+        "Action": "ALLY PHASE 开始",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_待機",
+        "Action": "{[0100]}已待命。",
+        "Priority": 10
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_会話",
+        "Action": "{[0100]}已进行对话。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_攻撃",
+        "Action": "{[0100]}已发动攻击。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_杖",
+        "Action": "{[0100]}已使用法杖。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_エンゲージ技",
+        "Action": "{[0100]}已使用{[0101]}。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_覇克・天空",
+        "Action": "{[0100]}已发动霸克·天空。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_破壊",
+        "Action": "{[0100]}已将其破坏。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_持ち物使用",
+        "Action": "{[0100]}已使用持有物品。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_持ち物交換",
+        "Action": "{[0100]}已交换持有物品。",
+        "Priority": 50
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_持ち物捨てる",
+        "Action": "{[0100]}已丢弃持有物品。",
+        "Priority": 50
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_訪問",
+        "Action": "{[0100]}已访问该处。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_制圧",
+        "Action": "{[0100]}已占领该处。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_離脱",
+        "Action": "{[0100]}已撤离战场。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_扉",
+        "Action": "{[0100]}已开启门扉。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_かがり火消す",
+        "Action": "{[0100]}已熄灭灯火。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_かがり火付ける",
+        "Action": "{[0100]}已点燃灯火。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_宝箱",
+        "Action": "{[0100]}已打开宝箱。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_輸送隊",
+        "Action": "{[0100]}已使用运输队。",
+        "Priority": 50
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_踊る",
+        "Action": "{[0100]}已跳完舞。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_チェインガード",
+        "Action": "{[0100]}已使用连锁防御。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_絆盾",
+        "Action": "{[0100]}已发动牵绊之盾。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_竜脈",
+        "Action": "{[0100]}已使用龙脉。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_コマンドスキル",
+        "Action": "{[0100]}已使用{[0101]}。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_残像作成",
+        "Action": "{[0100]}已制造残像。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_残像削除",
+        "Action": "{[0100]}已消除残像。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_村破壊",
+        "Action": "{[0100]}已破坏民宅。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_エンゲージブレイク",
+        "Action": "{[0100]}已发动结合破坏。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_ピックアップ",
+        "Action": "{[0100]}已行动完毕",
+        "Priority": 0
+      }
+    ]
+  }
+}

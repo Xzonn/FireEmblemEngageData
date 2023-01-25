@@ -752,6 +752,46 @@
         "Sort": 110,
         "Flag": 0,
         "Voice": "V_RelayStamp_49"
+      },
+      {
+        "Out": "",
+        "Name": "Tiki_0",
+        "SerialNo": 55,
+        "Pid": "",
+        "Gid": "GID_チキ",
+        "Sort": 120,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_55"
+      },
+      {
+        "Out": "",
+        "Name": "Edelgard_0",
+        "SerialNo": 62,
+        "Pid": "",
+        "Gid": "GID_エーデルガルト",
+        "Sort": 190,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_62"
+      },
+      {
+        "Out": "",
+        "Name": "Dimitri_0",
+        "SerialNo": 63,
+        "Pid": "",
+        "Gid": "GID_ディミトリ",
+        "Sort": 200,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_63"
+      },
+      {
+        "Out": "",
+        "Name": "Claude_0",
+        "SerialNo": 64,
+        "Pid": "",
+        "Gid": "GID_クロード",
+        "Sort": 210,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_64"
       }
     ]
   },

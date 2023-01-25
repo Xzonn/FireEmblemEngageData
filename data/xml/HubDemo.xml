@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="デモ定義" Count="13">
+	<Sheet Name="デモ定義" Count="14">
 		<Header>
 			<Param Name="ロケータ名" Ident="Locator" Type="PublicString" Min="" Max="" Chg="" />
 			<Param Name="表示名" Ident="MID" Type="string" Min="" Max="" Chg="" />
@@ -27,6 +27,7 @@
 			<Param Locator="Demo_Fortune" MID="MID_TUT_HUB_FORTUNE_OPEN" CameraName="HubCameraDemo11" Tutorial="TUTID_占いの小屋" Condition="M015" Timezone="-1" FlagName="G_拠点_占い初回" ManualCullingName="" LodBias="1" IsDisabledLodCrossfadeAnime="false" />
 			<Param Locator="Demo_Caperidge" MID="MID_TUT_HUB_CAPERIDGE_OPEN" CameraName="HubCameraDemo12" Tutorial="TUTID_試練の離れ" Condition="M006" Timezone="-1" FlagName="G_拠点_試練離れ初回" ManualCullingName="" LodBias="1" IsDisabledLodCrossfadeAnime="true" />
 			<Param Locator="Demo_Photo" MID="MID_TUT_HUB_PROFILE_OPEN" CameraName="HubCameraDemo13" Tutorial="TUTID_活動記録の館" Condition="M006" Timezone="-1" FlagName="G_拠点_活動記録の館初回" ManualCullingName="" LodBias="1" IsDisabledLodCrossfadeAnime="false" />
+			<Param Locator="Demo_GodStart" MID="" CameraName="ScriptStartGod" Tutorial="TUTID_神竜の章" Condition="CanStartGod" Timezone="-1" FlagName="G_拠点_神竜の章初回" ManualCullingName="" LodBias="0" IsDisabledLodCrossfadeAnime="false" />
 		</Data>
 	</Sheet>
 </Book>

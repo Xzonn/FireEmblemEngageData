@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="ムービー" Count="65">
+	<Sheet Name="ムービー" Count="67">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="ムービーファイル名" Ident="MovieFileName" Type="PublicString" Min="" Max="" Chg="" />
@@ -83,6 +83,8 @@
 			<Param Out="" MovieFileName="Kengen09" Name="MID_Movie_K09" Help="MID_H_Movie_K09" Condition="M014" No="40" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Byleth_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="" />
 			<Param Out="" MovieFileName="Kengen10" Name="MID_Movie_K10" Help="MID_H_Movie_K10" Condition="M015" No="42" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Corrin_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="" />
 			<Param Out="" MovieFileName="Kengen11" Name="MID_Movie_K11" Help="MID_H_Movie_K11" Condition="M016" No="43" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Eirika_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="" />
+			<Param Out="" MovieFileName="Kengen13" Name="MID_Movie_K13" Help="MID_H_Movie_K13" Condition="G_拠点_神竜の章初回" No="106" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Byleth_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="Patch0" />
+			<Param Out="" MovieFileName="Kengen14" Name="MID_Movie_K14" Help="MID_H_Movie_K14" Condition="G001" No="101" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Marth_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="Patch0" />
 		</Data>
 	</Sheet>
 </Book>

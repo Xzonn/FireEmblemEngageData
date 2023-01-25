@@ -1154,6 +1154,38 @@
         "AfterSoundEventName3": "",
         "MessFileName": "",
         "DLCDirectoryName": ""
+      },
+      {
+        "Out": "",
+        "MovieFileName": "Kengen13",
+        "Name": "MID_Movie_K13",
+        "Help": "MID_H_Movie_K13",
+        "Condition": "G_拠点_神竜の章初回",
+        "No": 106,
+        "BeforeSoundEventName1": "",
+        "BeforeSoundEventName2": "",
+        "BeforeSoundEventName3": "",
+        "AfterSoundEventName1": "BGM_Evt_Advent_Byleth_Stop",
+        "AfterSoundEventName2": "",
+        "AfterSoundEventName3": "",
+        "MessFileName": "",
+        "DLCDirectoryName": "Patch0"
+      },
+      {
+        "Out": "",
+        "MovieFileName": "Kengen14",
+        "Name": "MID_Movie_K14",
+        "Help": "MID_H_Movie_K14",
+        "Condition": "G001",
+        "No": 101,
+        "BeforeSoundEventName1": "",
+        "BeforeSoundEventName2": "",
+        "BeforeSoundEventName3": "",
+        "AfterSoundEventName1": "BGM_Evt_Advent_Marth_Stop",
+        "AfterSoundEventName2": "",
+        "AfterSoundEventName3": "",
+        "MessFileName": "",
+        "DLCDirectoryName": "Patch0"
       }
     ]
   }

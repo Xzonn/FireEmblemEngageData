@@ -140,6 +140,17 @@
         "LevelInfo": "グラドロン",
         "FoodstuffInfo": "グラドロン",
         "AnimalInfo": "グラドロン"
+      },
+      {
+        "Out": "",
+        "ID": "NID_神竜の章",
+        "Name": "MID_PLACE_God",
+        "Chapter": "CID_M006",
+        "IsNotLevel": true,
+        "SymbolTexture": "",
+        "LevelInfo": "神竜の章共通",
+        "FoodstuffInfo": "神竜の章共通",
+        "AnimalInfo": "DLC共通"
       }
     ]
   },

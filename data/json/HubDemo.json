@@ -238,6 +238,18 @@
         "ManualCullingName": "",
         "LodBias": 1.0,
         "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_GodStart",
+        "MID": "",
+        "CameraName": "ScriptStartGod",
+        "Tutorial": "TUTID_神竜の章",
+        "Condition": "CanStartGod",
+        "Timezone": -1,
+        "FlagName": "G_拠点_神竜の章初回",
+        "ManualCullingName": "",
+        "LodBias": 0.0,
+        "IsDisabledLodCrossfadeAnime": false
       }
     ]
   }

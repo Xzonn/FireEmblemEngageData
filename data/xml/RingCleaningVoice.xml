@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="指輪磨きボイス" Count="204">
+	<Sheet Name="指輪磨きボイス" Count="272">
 		<Header>
 			<Param Name="紋章士ID" Ident="Gid" Type="PublicArray" Min="" Max="" Chg="" />
 			<Param Name="ボイスラベル" Ident="Label" Type="s8" Min="" Max="" Chg="" />
@@ -211,6 +211,74 @@
 			<Param Gid="" Label="10" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Relax" />
 			<Param Gid="" Label="11" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
 			<Param Gid="" Label="12" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Relax" />
+			<Param Gid="" Label="13" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="14" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="15" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="GID_チキ" Label="" PlaySituation="" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="" />
+			<Param Gid="" Label="0" PlaySituation="0" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="1" PlaySituation="0" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Die" />
+			<Param Gid="" Label="2" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="3" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="4" PlaySituation="2" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="5" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Surprise" />
+			<Param Gid="" Label="6" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Die" />
+			<Param Gid="" Label="7" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="8" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="9" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="10" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="11" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Surprise" />
+			<Param Gid="" Label="12" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Relax" />
+			<Param Gid="" Label="13" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="14" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="15" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="GID_エーデルガルト" Label="" PlaySituation="" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="" />
+			<Param Gid="" Label="0" PlaySituation="0" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="1" PlaySituation="0" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="2" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="3" PlaySituation="2" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Relax" />
+			<Param Gid="" Label="4" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Relax" />
+			<Param Gid="" Label="5" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Surprise" />
+			<Param Gid="" Label="6" PlaySituation="3" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="7" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="8" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="9" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Die" />
+			<Param Gid="" Label="10" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Relax" />
+			<Param Gid="" Label="11" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Surprise" />
+			<Param Gid="" Label="12" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="13" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="14" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="15" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="GID_ディミトリ" Label="" PlaySituation="" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="" />
+			<Param Gid="" Label="0" PlaySituation="0" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="1" PlaySituation="0" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="2" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Surprise" />
+			<Param Gid="" Label="3" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="4" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="5" PlaySituation="2" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="6" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Relax" />
+			<Param Gid="" Label="7" PlaySituation="2" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Die" />
+			<Param Gid="" Label="8" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Relax" />
+			<Param Gid="" Label="9" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Die" />
+			<Param Gid="" Label="10" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Die" />
+			<Param Gid="" Label="11" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Relax" />
+			<Param Gid="" Label="12" PlaySituation="3" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Surprise" />
+			<Param Gid="" Label="13" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="14" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="15" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="GID_クロード" Label="" PlaySituation="" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="" />
+			<Param Gid="" Label="0" PlaySituation="0" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="1" PlaySituation="0" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="2" PlaySituation="2" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="3" PlaySituation="2" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="4" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Relax" />
+			<Param Gid="" Label="5" PlaySituation="2" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Surprise" />
+			<Param Gid="" Label="6" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="7" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Surprise" />
+			<Param Gid="" Label="8" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Die" />
+			<Param Gid="" Label="9" PlaySituation="3" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="10" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="11" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Smile" />
+			<Param Gid="" Label="12" PlaySituation="1" IsPlayCompleted="true" UnitFaceAnim="" GodFaceAnim="Relax" />
 			<Param Gid="" Label="13" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
 			<Param Gid="" Label="14" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />
 			<Param Gid="" Label="15" PlaySituation="4" IsPlayCompleted="false" UnitFaceAnim="" GodFaceAnim="Smile" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="コマンド" Count="708">
+	<Sheet Name="コマンド" Count="739">
 		<Header>
 			<Param Name="名前" Ident="Group" Type="PublicArray" Min="" Max="" Chg="" />
 			<Param Name="状態" Ident="Active" Type="s8" Min="-2" Max="" Chg="" />
@@ -520,6 +520,37 @@
 			<Param Group="AI_AT_EngagePierce" Active="" Code="" Mind="" StrValue0="" StrValue1="" Trans="" />
 			<Param Group="" Active="0" Code="3" Mind="41" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
 			<Param Group="" Active="0" Code="3" Mind="53" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="1" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="71" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="-2" Code="3" Mind="74" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="0" Mind="0" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="AI_AT_EngageBless" Active="" Code="" Mind="" StrValue0="" StrValue1="" Trans="" />
+			<Param Group="" Active="0" Code="3" Mind="41" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="54" StrValue0="V_0" StrValue1="V_1" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="13" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="1" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="71" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="-2" Code="3" Mind="74" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="0" Mind="0" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="AI_AT_EngageBlessPerson" Active="" Code="" Mind="" StrValue0="" StrValue1="" Trans="" />
+			<Param Group="" Active="0" Code="3" Mind="41" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="55" StrValue0="V_0" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="13" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="1" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="71" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="-2" Code="3" Mind="74" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="0" Mind="0" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="AI_AT_Breath" Active="" Code="" Mind="" StrValue0="" StrValue1="" Trans="" />
+			<Param Group="" Active="0" Code="3" Mind="41" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="12" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="0" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="71" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="-2" Code="3" Mind="74" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="0" Mind="0" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="AI_AT_EngageClassPresident" Active="" Code="" Mind="" StrValue0="" StrValue1="" Trans="" />
+			<Param Group="" Active="0" Code="3" Mind="41" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="50" StrValue0="V_0" StrValue1="V_1" Trans="-128" />
+			<Param Group="" Active="0" Code="3" Mind="117" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
 			<Param Group="" Active="0" Code="3" Mind="1" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
 			<Param Group="" Active="0" Code="3" Mind="71" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />
 			<Param Group="" Active="-2" Code="3" Mind="74" StrValue0="V_Default" StrValue1="V_Default" Trans="-128" />

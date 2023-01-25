@@ -266,6 +266,26 @@
         "Out": "",
         "PidOrGid": "GID_エイリーク",
         "Cid": "CID_M016"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_チキ",
+        "Cid": "CID_G001"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_エーデルガルト",
+        "Cid": "CID_G001"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_ディミトリ",
+        "Cid": "CID_G001"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_クロード",
+        "Cid": "CID_G001"
       }
     ]
   },

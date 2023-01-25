@@ -1329,6 +1329,16 @@
       },
       {
         "Out": "",
+        "Name": "シルバーカード割引率",
+        "English": "Silver Card discount rate",
+        "Value": 0.3,
+        "Min": 0.0,
+        "Max": 1.0,
+        "Step": 0.1,
+        "Enum": ""
+      },
+      {
+        "Out": "",
         "Name": "巻き戻し最大回数ノーマル",
         "English": "Max rewinds Normal",
         "Value": -1.0,
@@ -1539,6 +1549,16 @@
       },
       {
         "Out": "",
+        "Name": "神竜の章投資レベル",
+        "English": "神竜の章投資レベル",
+        "Value": 5.0,
+        "Min": 1.0,
+        "Max": 5.0,
+        "Step": 1.0,
+        "Enum": ""
+      },
+      {
+        "Out": "",
         "Name": "<ゲームルール",
         "English": "GameRule",
         "Value": 0.0,
@@ -1629,6 +1649,16 @@
       },
       {
         "Out": "",
+        "Name": "キャラ高さ：エンゲージ(チキ)",
+        "English": "Character Height: Engage Tiki",
+        "Value": 2.5,
+        "Min": 0.5,
+        "Max": 3.0,
+        "Step": 0.01,
+        "Enum": ""
+      },
+      {
+        "Out": "",
         "Name": "キャラ高さ：ソンブル(人)",
         "English": "Character Height: Sombron Human",
         "Value": 1.6,
@@ -1644,6 +1674,26 @@
         "Value": 1.1,
         "Min": 0.5,
         "Max": 3.0,
+        "Step": 0.01,
+        "Enum": ""
+      },
+      {
+        "Out": "",
+        "Name": "キャラ高さ：幻影狼",
+        "English": "Character Height: Corrupt Wolf",
+        "Value": 0.7,
+        "Min": 0.5,
+        "Max": 3.0,
+        "Step": 0.01,
+        "Enum": ""
+      },
+      {
+        "Out": "",
+        "Name": "キャラ高さ：幻影飛竜",
+        "English": "Character Height: Pahtom Dragon",
+        "Value": 1.8,
+        "Min": 0.5,
+        "Max": 5.0,
         "Step": 0.01,
         "Enum": ""
       },

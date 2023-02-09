@@ -765,6 +765,36 @@
       },
       {
         "Out": "",
+        "Name": "Hector_0",
+        "SerialNo": 56,
+        "Pid": "",
+        "Gid": "GID_ヘクトル",
+        "Sort": 130,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_56"
+      },
+      {
+        "Out": "",
+        "Name": "Senerio_0",
+        "SerialNo": 57,
+        "Pid": "",
+        "Gid": "GID_セネリオ",
+        "Sort": 140,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_57"
+      },
+      {
+        "Out": "",
+        "Name": "Camilla_0",
+        "SerialNo": 60,
+        "Pid": "",
+        "Gid": "GID_カミラ",
+        "Sort": 170,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_60"
+      },
+      {
+        "Out": "",
         "Name": "Edelgard_0",
         "SerialNo": 62,
         "Pid": "",

@@ -1158,8 +1158,8 @@
       {
         "Out": "",
         "MovieFileName": "Kengen13",
-        "Name": "MID_Movie_K13",
-        "Help": "MID_H_Movie_K13",
+        "Name": "纹章士艾黛尔贾特",
+        "Help": "自“三位级长的手镯”显现的\n纹章士艾黛尔贾特、纹章士帝弥托利\n与纹章士库罗德。",
         "Condition": "G_拠点_神竜の章初回",
         "No": 106,
         "BeforeSoundEventName1": "",
@@ -1174,8 +1174,8 @@
       {
         "Out": "",
         "MovieFileName": "Kengen14",
-        "Name": "MID_Movie_K14",
-        "Help": "MID_H_Movie_K14",
+        "Name": "纹章士琪姬",
+        "Help": "自“先祖神龙的手镯”显现的\n纹章士琪姬。",
         "Condition": "G001",
         "No": 101,
         "BeforeSoundEventName1": "",
@@ -1186,6 +1186,54 @@
         "AfterSoundEventName3": "",
         "MessFileName": "",
         "DLCDirectoryName": "Patch0"
+      },
+      {
+        "Out": "",
+        "MovieFileName": "Kengen15",
+        "Name": "纹章士海克托尔",
+        "Help": "自“热血猛将的手镯”显现的\n纹章士海克托尔。",
+        "Condition": "G002",
+        "No": 102,
+        "BeforeSoundEventName1": "",
+        "BeforeSoundEventName2": "",
+        "BeforeSoundEventName3": "",
+        "AfterSoundEventName1": "BGM_Evt_Advent_Lyn_Stop",
+        "AfterSoundEventName2": "",
+        "AfterSoundEventName3": "",
+        "MessFileName": "",
+        "DLCDirectoryName": "Patch1"
+      },
+      {
+        "Out": "",
+        "MovieFileName": "Kengen16",
+        "Name": "纹章士塞涅里欧",
+        "Help": "自“苍色参谋的手镯”显现的\n纹章士塞涅里欧。",
+        "Condition": "G004",
+        "No": 103,
+        "BeforeSoundEventName1": "",
+        "BeforeSoundEventName2": "",
+        "BeforeSoundEventName3": "",
+        "AfterSoundEventName1": "BGM_Evt_Advent_Ike_Stop",
+        "AfterSoundEventName2": "",
+        "AfterSoundEventName3": "",
+        "MessFileName": "",
+        "DLCDirectoryName": "Patch1"
+      },
+      {
+        "Out": "",
+        "MovieFileName": "Kengen17",
+        "Name": "纹章士卡美拉",
+        "Help": "自“黑暗妖艳的手镯”显现的\n纹章士卡美拉。",
+        "Condition": "G005",
+        "No": 105,
+        "BeforeSoundEventName1": "",
+        "BeforeSoundEventName2": "",
+        "BeforeSoundEventName3": "",
+        "AfterSoundEventName1": "BGM_Evt_Advent_Corrin_Stop",
+        "AfterSoundEventName2": "",
+        "AfterSoundEventName3": "",
+        "MessFileName": "",
+        "DLCDirectoryName": "Patch1"
       }
     ]
   }

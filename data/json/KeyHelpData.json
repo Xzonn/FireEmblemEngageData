@@ -1405,7 +1405,7 @@
       {
         "KHID": "",
         "ButtonIndex": 0,
-        "MID": "MID_KEYHELP_MENU_TOGGLE"
+        "MID": "选择/解除"
       },
       {
         "KHID": "",
@@ -1420,7 +1420,7 @@
       {
         "KHID": "",
         "ButtonIndex": 4,
-        "MID": "MID_Hub_Refresh_Entrust"
+        "MID": "委任"
       },
       {
         "KHID": "KHID_マップエディット_フリーカーソル",

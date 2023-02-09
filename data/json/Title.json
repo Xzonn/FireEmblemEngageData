@@ -274,6 +274,21 @@
       },
       {
         "Out": "",
+        "PidOrGid": "GID_ヘクトル",
+        "Cid": "CID_G002"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_セネリオ",
+        "Cid": "CID_G004"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_カミラ",
+        "Cid": "CID_G005"
+      },
+      {
+        "Out": "",
         "PidOrGid": "GID_エーデルガルト",
         "Cid": "CID_G001"
       },

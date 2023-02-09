@@ -240,6 +240,42 @@
         "IsDisabledLodCrossfadeAnime": false
       },
       {
+        "Locator": "Demo_RefleshPool",
+        "MID": "可以“放松身心”了。",
+        "CameraName": "HubCameraDemo14",
+        "Tutorial": "TUTID_リフレッシュ",
+        "Condition": "M007",
+        "Timezone": -1,
+        "FlagName": "G_拠点_リフレッシュ初回",
+        "ManualCullingName": "",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": true
+      },
+      {
+        "Locator": "Demo_RefleshHorse",
+        "MID": "可以“放松身心”了。",
+        "CameraName": "HubCameraDemo15",
+        "Tutorial": "TUTID_リフレッシュ",
+        "Condition": "M007",
+        "Timezone": -1,
+        "FlagName": "G_拠点_リフレッシュ初回",
+        "ManualCullingName": "",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": true
+      },
+      {
+        "Locator": "Demo_RefleshFruit",
+        "MID": "可以“放松身心”了。",
+        "CameraName": "HubCameraDemo16",
+        "Tutorial": "TUTID_リフレッシュ",
+        "Condition": "M007",
+        "Timezone": -1,
+        "FlagName": "G_拠点_リフレッシュ初回",
+        "ManualCullingName": "",
+        "LodBias": 1.0,
+        "IsDisabledLodCrossfadeAnime": true
+      },
+      {
         "Locator": "Demo_GodStart",
         "MID": "",
         "CameraName": "ScriptStartGod",

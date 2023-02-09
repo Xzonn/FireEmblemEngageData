@@ -7160,6 +7160,39 @@
         "Chapter": ""
       },
       {
+        "Aid": "AID_神竜の章０２クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 2,
+        "Count": -1,
+        "Arg": "CID_G002",
+        "CountUnit": "",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_神竜の章０４クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 2,
+        "Count": -1,
+        "Arg": "CID_G004",
+        "CountUnit": "",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_神竜の章０５クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 2,
+        "Count": -1,
+        "Arg": "CID_G005",
+        "CountUnit": "",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
         "Aid": "AID_通信対戦数初回",
         "Name": "首次进行异界的试炼。",
         "Category": 4,
@@ -8640,6 +8673,39 @@
         "Kind": 109,
         "Count": -1,
         "Arg": "GID_チキ",
+        "CountUnit": "",
+        "KizunaReward": 1,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_ヘクトルの指輪を磨いた回数",
+        "Name": "",
+        "Category": 5,
+        "Kind": 109,
+        "Count": -1,
+        "Arg": "GID_ヘクトル",
+        "CountUnit": "",
+        "KizunaReward": 1,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_セネリオの指輪を磨いた回数",
+        "Name": "",
+        "Category": 5,
+        "Kind": 109,
+        "Count": -1,
+        "Arg": "GID_セネリオ",
+        "CountUnit": "",
+        "KizunaReward": 1,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_カミラの指輪を磨いた回数",
+        "Name": "",
+        "Category": 5,
+        "Kind": 109,
+        "Count": -1,
+        "Arg": "GID_カミラ",
         "CountUnit": "",
         "KizunaReward": 1,
         "Chapter": ""

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="ムービー" Count="67">
+	<Sheet Name="ムービー" Count="70">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="ムービーファイル名" Ident="MovieFileName" Type="PublicString" Min="" Max="" Chg="" />
@@ -85,6 +85,9 @@
 			<Param Out="" MovieFileName="Kengen11" Name="MID_Movie_K11" Help="MID_H_Movie_K11" Condition="M016" No="43" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Eirika_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="" />
 			<Param Out="" MovieFileName="Kengen13" Name="MID_Movie_K13" Help="MID_H_Movie_K13" Condition="G_拠点_神竜の章初回" No="106" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Byleth_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="Patch0" />
 			<Param Out="" MovieFileName="Kengen14" Name="MID_Movie_K14" Help="MID_H_Movie_K14" Condition="G001" No="101" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Marth_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="Patch0" />
+			<Param Out="" MovieFileName="Kengen15" Name="MID_Movie_K15" Help="MID_H_Movie_K15" Condition="G002" No="102" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Lyn_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="Patch1" />
+			<Param Out="" MovieFileName="Kengen16" Name="MID_Movie_K16" Help="MID_H_Movie_K16" Condition="G004" No="103" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Ike_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="Patch1" />
+			<Param Out="" MovieFileName="Kengen17" Name="MID_Movie_K17" Help="MID_H_Movie_K17" Condition="G005" No="105" BeforeSoundEventName1="" BeforeSoundEventName2="" BeforeSoundEventName3="" AfterSoundEventName1="BGM_Evt_Advent_Corrin_Stop" AfterSoundEventName2="" AfterSoundEventName3="" MessFileName="" DLCDirectoryName="Patch1" />
 		</Data>
 	</Sheet>
 </Book>

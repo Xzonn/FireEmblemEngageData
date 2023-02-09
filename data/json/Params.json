@@ -3319,6 +3319,16 @@
       },
       {
         "Out": "",
+        "Name": "リフレッシュ：支援値",
+        "English": "Refresh: Support value addition",
+        "Value": 3.0,
+        "Min": 0.0,
+        "Max": 10.0,
+        "Step": 1.0,
+        "Enum": ""
+      },
+      {
+        "Out": "",
         "Name": "<拠点",
         "English": "Base",
         "Value": 0.0,

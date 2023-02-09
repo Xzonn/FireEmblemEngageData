@@ -107,7 +107,7 @@
 			<Param Out="" Id="PCTCID_橙" Color="橙" Condition="0" Arg="0" />
 		</Data>
 	</Sheet>
-	<Sheet Name="キャラクタースタンプ" Count="54">
+	<Sheet Name="キャラクタースタンプ" Count="57">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -167,12 +167,15 @@
 			<Param Out="" Id="PCCSID_カムイ" Image="Kamui_0" Condition="1" Arg="CID_M015" />
 			<Param Out="" Id="PCCSID_ベレト" Image="Byleth_0" Condition="1" Arg="CID_M014" />
 			<Param Out="" Id="PCCSID_チキ" Image="Tiki_0" Condition="1" Arg="CID_G001" />
+			<Param Out="" Id="PCCSID_ヘクトル" Image="Hector_0" Condition="1" Arg="CID_G002" />
+			<Param Out="" Id="PCCSID_セネリオ" Image="Senerio_0" Condition="1" Arg="CID_G004" />
+			<Param Out="" Id="PCCSID_カミラ" Image="Camilla_0" Condition="1" Arg="CID_G005" />
 			<Param Out="" Id="PCCSID_エーデルガルト" Image="Edelgard_0" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCCSID_ディミトリ" Image="Dimitri_0" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCCSID_クロード" Image="Claude_0" Condition="4" Arg="GID_エーデルガルト" />
 		</Data>
 	</Sheet>
-	<Sheet Name="スタンプ" Count="326">
+	<Sheet Name="スタンプ" Count="344">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -236,6 +239,9 @@
 			<Param Out="" Id="PCSID_紋章士リュール男" Image="UnitIcon_LueurM_E" Category="1" Condition="1" Arg="CID_M022" />
 			<Param Out="" Id="PCSID_紋章士リュール女" Image="UnitIcon_LueurF_E" Category="1" Condition="1" Arg="CID_M022" />
 			<Param Out="" Id="PCSID_紋章士チキ" Image="UnitIcon_Tiki" Category="1" Condition="1" Arg="CID_G001" />
+			<Param Out="" Id="PCSID_紋章士ヘクトル" Image="UnitIcon_Hector" Category="1" Condition="1" Arg="CID_G002" />
+			<Param Out="" Id="PCSID_紋章士セネリオ" Image="UnitIcon_Senerio" Category="1" Condition="1" Arg="CID_G004" />
+			<Param Out="" Id="PCSID_紋章士カミラ" Image="UnitIcon_Camilla" Category="1" Condition="1" Arg="CID_G005" />
 			<Param Out="" Id="PCSID_紋章士エーデルガルト" Image="UnitIcon_Edelgard" Category="1" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCSID_紋章士ディミトリ" Image="UnitIcon_Dimitri" Category="1" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCSID_紋章士クロード" Image="UnitIcon_Claude" Category="1" Condition="4" Arg="GID_エーデルガルト" />
@@ -321,6 +327,15 @@
 			<Param Out="" Id="PCSID_ベレト_ヴァジュラ" Image="EngWeapon_Byleth_Vajra" Category="3" Condition="11" Arg="GID_ベレト" />
 			<Param Out="" Id="PCSID_ベレト_天帝の覇剣" Image="EngWeapon_Byleth_SublimeCreatorSword" Category="3" Condition="12" Arg="GID_ベレト" />
 			<Param Out="" Id="PCSID_チキ_つめ" Image="EngWeapon_Divinestone" Category="3" Condition="1" Arg="CID_G001" />
+			<Param Out="" Id="PCSID_ヘクトル_ヴォルフバイル" Image="EngWeapon_Hector_WolfBeil" Category="3" Condition="1" Arg="CID_G002" />
+			<Param Out="" Id="PCSID_ヘクトル_ルーンソード" Image="EngWeapon_Hector_Runesword" Category="3" Condition="11" Arg="GID_ヘクトル" />
+			<Param Out="" Id="PCSID_ヘクトル_アルマーズ" Image="EngWeapon_Hector_Armads" Category="3" Condition="12" Arg="GID_ヘクトル" />
+			<Param Out="" Id="PCSID_セネリオ_サンダーストーム" Image="EngWeapon_Senerio_Thunderstorm" Category="3" Condition="1" Arg="CID_G004" />
+			<Param Out="" Id="PCSID_セネリオ_マジックシールド" Image="EngWeapon_Senerio_MagicShield" Category="3" Condition="11" Arg="GID_セネリオ" />
+			<Param Out="" Id="PCSID_セネリオ_レクスカリバー" Image="EngWeapon_Senerio_Rexcalibur" Category="3" Condition="12" Arg="GID_セネリオ" />
+			<Param Out="" Id="PCSID_カミラ_ボルトアクス" Image="EngWeapon_Camilla_BoltAxe" Category="3" Condition="1" Arg="CID_G005" />
+			<Param Out="" Id="PCSID_カミラ_ライトニング" Image="EngWeapon_Camilla_Lightning" Category="3" Condition="11" Arg="GID_カミラ" />
+			<Param Out="" Id="PCSID_カミラ_カミラの艶斧" Image="EngWeapon_Camilla_Camilla'sAxe" Category="3" Condition="12" Arg="GID_カミラ" />
 			<Param Out="" Id="PCSID_三級長_アイムール" Image="EngWeapon_Edelgard_Aymr" Category="3" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCSID_三級長_アラドヴァル" Image="EngWeapon_Edelgard_Areadbhar" Category="3" Condition="11" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCSID_三級長_フェイルノート" Image="EngWeapon_Edelgard_Failnaught" Category="3" Condition="12" Arg="GID_エーデルガルト" />
@@ -420,6 +435,9 @@
 			<Param Out="" Id="PCSID_システム_シンボル_ベレト" Image="SystemIcon_Symbol_Byleth" Category="5" Condition="1" Arg="CID_M014" />
 			<Param Out="" Id="PCSID_システム_シンボル_リュール" Image="SystemIcon_Symbol_Lueur" Category="5" Condition="1" Arg="CID_M022" />
 			<Param Out="" Id="PCSID_システム_シンボル_チキ" Image="SystemIcon_Tiki" Category="5" Condition="1" Arg="CID_G001" />
+			<Param Out="" Id="PCSID_システム_シンボル_ヘクトル" Image="SystemIcon_Hector" Category="5" Condition="1" Arg="CID_G002" />
+			<Param Out="" Id="PCSID_システム_シンボル_セネリオ" Image="SystemIcon_Senerio" Category="5" Condition="1" Arg="CID_G004" />
+			<Param Out="" Id="PCSID_システム_シンボル_カミラ" Image="SystemIcon_Camilla" Category="5" Condition="1" Arg="CID_G005" />
 			<Param Out="" Id="PCSID_システム_シンボル_エーデルガルト" Image="SystemIcon_Edelgard" Category="5" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCSID_スタンプ_ヴァンドレ" Image="Stamp_Vandre" Category="6" Condition="9" Arg="PID_ヴァンドレ" />
 			<Param Out="" Id="PCSID_スタンプ_ヴァンドレS" Image="Stamp_VandreS" Category="6" Condition="10" Arg="PID_ヴァンドレ" />
@@ -507,10 +525,13 @@
 			<Param Out="" Id="PCSID_システム_指輪_ベレト" Image="SystemIcon_Ring_Byleth" Category="6" Condition="1" Arg="CID_M014" />
 			<Param Out="" Id="PCSID_システム_指輪_リュール" Image="SystemIcon_Ring_Lueur" Category="6" Condition="1" Arg="CID_M022" />
 			<Param Out="" Id="PCSID_システム_指輪_チキ" Image="SystemIcon_Ring_Tiki" Category="6" Condition="1" Arg="CID_G001" />
+			<Param Out="" Id="PCSID_システム_指輪_ヘクトル" Image="SystemIcon_Ring_Hector" Category="6" Condition="1" Arg="CID_G002" />
+			<Param Out="" Id="PCSID_システム_指輪_セネリオ" Image="SystemIcon_Ring_Senerio" Category="6" Condition="1" Arg="CID_G004" />
+			<Param Out="" Id="PCSID_システム_指輪_カミラ" Image="SystemIcon_Ring_Camilla" Category="6" Condition="1" Arg="CID_G005" />
 			<Param Out="" Id="PCSID_システム_指輪_エーデルガルト" Image="SystemIcon_Ring_Edelgard" Category="6" Condition="4" Arg="GID_エーデルガルト" />
 		</Data>
 	</Sheet>
-	<Sheet Name="称号" Count="187">
+	<Sheet Name="称号" Count="190">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -589,6 +610,9 @@
 			<Param Out="" Id="PCTID_紋章士ベレト" Name="PCTMID_Byleth" Condition="4" Arg="GID_ベレト" />
 			<Param Out="" Id="PCTID_紋章士リュール" Name="PCTMID_Lueur" Condition="4" Arg="GID_リュール" />
 			<Param Out="" Id="PCTID_紋章士チキ" Name="PCTMID_Tiki" Condition="4" Arg="GID_チキ" />
+			<Param Out="" Id="PCTID_紋章士ヘクトル" Name="PCTMID_Hector" Condition="4" Arg="GID_ヘクトル" />
+			<Param Out="" Id="PCTID_紋章士セネリオ" Name="PCTMID_Senerio" Condition="4" Arg="GID_セネリオ" />
+			<Param Out="" Id="PCTID_紋章士カミラ" Name="PCTMID_Camilla" Condition="4" Arg="GID_カミラ" />
 			<Param Out="" Id="PCTID_紋章士エーデルガルト" Name="PCTMID_Edelgard" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCTID_紋章士ディミトリ" Name="PCTMID_Dimitri" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCTID_紋章士クロード" Name="PCTMID_Claude" Condition="4" Arg="GID_エーデルガルト" />
@@ -708,7 +732,7 @@
 			<Param Out="" Id="PCTID_アンラッキー" Name="MID_RELAY_Award_SkillTarget" Condition="5" Arg="AID_リレーバトル数　初回" />
 		</Data>
 	</Sheet>
-	<Sheet Name="お気に入りキャラクター" Count="68">
+	<Sheet Name="お気に入りキャラクター" Count="71">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -782,12 +806,15 @@
 			<Param Out="" Id="PCFPID_カムイ" Name="MPID_Kamui" Condition="1" Arg="CID_M015" />
 			<Param Out="" Id="PCFPID_ベレト" Name="MPID_Byleth" Condition="1" Arg="CID_M014" />
 			<Param Out="" Id="PCFPID_チキ" Name="MPID_Tiki" Condition="1" Arg="CID_G001" />
+			<Param Out="" Id="PCFPID_ヘクトル" Name="MPID_Hector" Condition="1" Arg="CID_G002" />
+			<Param Out="" Id="PCFPID_セネリオ" Name="MPID_Senerio" Condition="1" Arg="CID_G004" />
+			<Param Out="" Id="PCFPID_カミラ" Name="MPID_Camilla" Condition="1" Arg="CID_G005" />
 			<Param Out="" Id="PCFPID_エーデルガルト" Name="MPID_Edelgard" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCFPID_ディミトリ" Name="MPID_Dimitri" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCFPID_クロード" Name="MPID_Claude" Condition="4" Arg="GID_エーデルガルト" />
 		</Data>
 	</Sheet>
-	<Sheet Name="お気に入りマップ" Count="49">
+	<Sheet Name="お気に入りマップ" Count="52">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -845,9 +872,12 @@
 			<Param Out="" Id="PCFCID_N005_1" Cid="CID_N005_1" Condition="0" Arg="0" />
 			<Param Out="" Id="PCFCID_N006_1" Cid="CID_N006_1" Condition="0" Arg="0" />
 			<Param Out="" Id="PCFCID_G001" Cid="CID_G001" Condition="1" Arg="CID_G001" />
+			<Param Out="" Id="PCFCID_G002" Cid="CID_G002" Condition="1" Arg="CID_G002" />
+			<Param Out="" Id="PCFCID_G004" Cid="CID_G004" Condition="1" Arg="CID_G004" />
+			<Param Out="" Id="PCFCID_G005" Cid="CID_G005" Condition="1" Arg="CID_G005" />
 		</Data>
 	</Sheet>
-	<Sheet Name="一言" Count="247">
+	<Sheet Name="一言" Count="250">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -1101,6 +1131,9 @@
 			<Param Out="" Id="PCCID_カムイ" Name="MPID_Kamui" Category="5" Condition="1" Arg="CID_M015" />
 			<Param Out="" Id="PCCID_ベレト" Name="MPID_Byleth" Category="5" Condition="1" Arg="CID_M014" />
 			<Param Out="" Id="PCCID_チキ" Name="MPID_Tiki" Category="5" Condition="1" Arg="CID_G001" />
+			<Param Out="" Id="PCCID_ヘクトル" Name="MPID_Hector" Category="5" Condition="1" Arg="CID_G002" />
+			<Param Out="" Id="PCCID_セネリオ" Name="MPID_Senerio" Category="5" Condition="1" Arg="CID_G004" />
+			<Param Out="" Id="PCCID_カミラ" Name="MPID_Camilla" Category="5" Condition="1" Arg="CID_G005" />
 			<Param Out="" Id="PCCID_エーデルガルト" Name="MPID_Edelgard" Category="5" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCCID_ディミトリ" Name="MPID_Dimitri" Category="5" Condition="4" Arg="GID_エーデルガルト" />
 			<Param Out="" Id="PCCID_クロード" Name="MPID_Claude" Category="5" Condition="4" Arg="GID_エーデルガルト" />

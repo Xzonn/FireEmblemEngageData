@@ -390,6 +390,24 @@
         "MID": "活动记录馆",
         "ConditionCID": "CID_M006",
         "IconName": "PhotoShop"
+      },
+      {
+        "AID": "AID_馬ふれあい",
+        "MID": "马厩",
+        "ConditionCID": "CID_M007",
+        "IconName": "Refresh"
+      },
+      {
+        "AID": "AID_果物狩り",
+        "MID": "果树园",
+        "ConditionCID": "CID_M007",
+        "IconName": "Refresh"
+      },
+      {
+        "AID": "AID_水遊び",
+        "MID": "泳池",
+        "ConditionCID": "CID_M007",
+        "IconName": "Refresh"
       }
     ]
   }

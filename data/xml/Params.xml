@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="パラメータ" Count="383">
+	<Sheet Name="パラメータ" Count="384">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="名前" Ident="Name" Type="PublicString" Min="" Max="" Chg="" />
@@ -337,6 +337,7 @@
 			<Param Out="" Name="写真撮影：スティック遊び" English="写真撮影：スティック遊び" Value="0.1" Min="0" Max="1" Step="0.01" Enum="" />
 			<Param Out="" Name="写真撮影：カメラ回転速度" English="写真撮影：カメラ回転速度" Value="1.5" Min="0" Max="10" Step="0.1" Enum="" />
 			<Param Out="" Name="写真撮影：カメラズーム速度" English="写真撮影：カメラズーム速度" Value="1.5" Min="0" Max="10" Step="0.1" Enum="" />
+			<Param Out="" Name="リフレッシュ：支援値" English="Refresh: Support value addition" Value="3" Min="0" Max="10" Step="1" Enum="" />
 			<Param Out="" Name="&lt;拠点" English="Base" Value="0" Min="0" Max="0" Step="1" Enum="" />
 			<Param Out="" Name="&gt;通信" English="Online" Value="0" Min="0" Max="0" Step="1" Enum="" />
 			<Param Out="" Name="本格対戦：攻撃側出撃人数" English="CustomBattle:OffenseSortieMax" Value="8" Min="1" Max="30" Step="1" Enum="" />

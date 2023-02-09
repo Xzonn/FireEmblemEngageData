@@ -1027,6 +1027,27 @@
       },
       {
         "Out": "",
+        "Id": "PCCSID_ヘクトル",
+        "Image": "Hector_0",
+        "Condition": 1,
+        "Arg": "CID_G002"
+      },
+      {
+        "Out": "",
+        "Id": "PCCSID_セネリオ",
+        "Image": "Senerio_0",
+        "Condition": 1,
+        "Arg": "CID_G004"
+      },
+      {
+        "Out": "",
+        "Id": "PCCSID_カミラ",
+        "Image": "Camilla_0",
+        "Condition": 1,
+        "Arg": "CID_G005"
+      },
+      {
+        "Out": "",
         "Id": "PCCSID_エーデルガルト",
         "Image": "Edelgard_0",
         "Condition": 4,
@@ -1531,6 +1552,30 @@
         "Category": 1,
         "Condition": 1,
         "Arg": "CID_G001"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_紋章士ヘクトル",
+        "Image": "UnitIcon_Hector",
+        "Category": 1,
+        "Condition": 1,
+        "Arg": "CID_G002"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_紋章士セネリオ",
+        "Image": "UnitIcon_Senerio",
+        "Category": 1,
+        "Condition": 1,
+        "Arg": "CID_G004"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_紋章士カミラ",
+        "Image": "UnitIcon_Camilla",
+        "Category": 1,
+        "Condition": 1,
+        "Arg": "CID_G005"
       },
       {
         "Out": "",
@@ -2211,6 +2256,78 @@
         "Category": 3,
         "Condition": 1,
         "Arg": "CID_G001"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_ヘクトル_ヴォルフバイル",
+        "Image": "EngWeapon_Hector_WolfBeil",
+        "Category": 3,
+        "Condition": 1,
+        "Arg": "CID_G002"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_ヘクトル_ルーンソード",
+        "Image": "EngWeapon_Hector_Runesword",
+        "Category": 3,
+        "Condition": 11,
+        "Arg": "GID_ヘクトル"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_ヘクトル_アルマーズ",
+        "Image": "EngWeapon_Hector_Armads",
+        "Category": 3,
+        "Condition": 12,
+        "Arg": "GID_ヘクトル"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_セネリオ_サンダーストーム",
+        "Image": "EngWeapon_Senerio_Thunderstorm",
+        "Category": 3,
+        "Condition": 1,
+        "Arg": "CID_G004"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_セネリオ_マジックシールド",
+        "Image": "EngWeapon_Senerio_MagicShield",
+        "Category": 3,
+        "Condition": 11,
+        "Arg": "GID_セネリオ"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_セネリオ_レクスカリバー",
+        "Image": "EngWeapon_Senerio_Rexcalibur",
+        "Category": 3,
+        "Condition": 12,
+        "Arg": "GID_セネリオ"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_カミラ_ボルトアクス",
+        "Image": "EngWeapon_Camilla_BoltAxe",
+        "Category": 3,
+        "Condition": 1,
+        "Arg": "CID_G005"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_カミラ_ライトニング",
+        "Image": "EngWeapon_Camilla_Lightning",
+        "Category": 3,
+        "Condition": 11,
+        "Arg": "GID_カミラ"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_カミラ_カミラの艶斧",
+        "Image": "EngWeapon_Camilla_Camilla'sAxe",
+        "Category": 3,
+        "Condition": 12,
+        "Arg": "GID_カミラ"
       },
       {
         "Out": "",
@@ -3006,6 +3123,30 @@
       },
       {
         "Out": "",
+        "Id": "PCSID_システム_シンボル_ヘクトル",
+        "Image": "SystemIcon_Hector",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G002"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_システム_シンボル_セネリオ",
+        "Image": "SystemIcon_Senerio",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G004"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_システム_シンボル_カミラ",
+        "Image": "SystemIcon_Camilla",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G005"
+      },
+      {
+        "Out": "",
         "Id": "PCSID_システム_シンボル_エーデルガルト",
         "Image": "SystemIcon_Edelgard",
         "Category": 5,
@@ -3702,6 +3843,30 @@
       },
       {
         "Out": "",
+        "Id": "PCSID_システム_指輪_ヘクトル",
+        "Image": "SystemIcon_Ring_Hector",
+        "Category": 6,
+        "Condition": 1,
+        "Arg": "CID_G002"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_システム_指輪_セネリオ",
+        "Image": "SystemIcon_Ring_Senerio",
+        "Category": 6,
+        "Condition": 1,
+        "Arg": "CID_G004"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_システム_指輪_カミラ",
+        "Image": "SystemIcon_Ring_Camilla",
+        "Category": 6,
+        "Condition": 1,
+        "Arg": "CID_G005"
+      },
+      {
+        "Out": "",
         "Id": "PCSID_システム_指輪_エーデルガルト",
         "Image": "SystemIcon_Ring_Edelgard",
         "Category": 6,
@@ -4240,28 +4405,49 @@
       {
         "Out": "",
         "Id": "PCTID_紋章士チキ",
-        "Name": "PCTMID_Tiki",
+        "Name": "要永远在一起哦？",
         "Condition": 4,
         "Arg": "GID_チキ"
       },
       {
         "Out": "",
+        "Id": "PCTID_紋章士ヘクトル",
+        "Name": "多依赖我一点吧",
+        "Condition": 4,
+        "Arg": "GID_ヘクトル"
+      },
+      {
+        "Out": "",
+        "Id": "PCTID_紋章士セネリオ",
+        "Name": "事实就是如此",
+        "Condition": 4,
+        "Arg": "GID_セネリオ"
+      },
+      {
+        "Out": "",
+        "Id": "PCTID_紋章士カミラ",
+        "Name": "真是可爱",
+        "Condition": 4,
+        "Arg": "GID_カミラ"
+      },
+      {
+        "Out": "",
         "Id": "PCTID_紋章士エーデルガルト",
-        "Name": "PCTMID_Edelgard",
+        "Name": "胜利将属于我们",
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
       },
       {
         "Out": "",
         "Id": "PCTID_紋章士ディミトリ",
-        "Name": "PCTMID_Dimitri",
+        "Name": "脚踏实地前进吧",
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
       },
       {
         "Out": "",
         "Id": "PCTID_紋章士クロード",
-        "Name": "PCTMID_Claude",
+        "Name": "只是愿不愿意做的问题吧？",
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
       },
@@ -5560,28 +5746,49 @@
       {
         "Out": "",
         "Id": "PCFPID_チキ",
-        "Name": "MPID_Tiki",
+        "Name": "琪姬",
         "Condition": 1,
         "Arg": "CID_G001"
       },
       {
         "Out": "",
+        "Id": "PCFPID_ヘクトル",
+        "Name": "海克托尔",
+        "Condition": 1,
+        "Arg": "CID_G002"
+      },
+      {
+        "Out": "",
+        "Id": "PCFPID_セネリオ",
+        "Name": "塞涅里欧",
+        "Condition": 1,
+        "Arg": "CID_G004"
+      },
+      {
+        "Out": "",
+        "Id": "PCFPID_カミラ",
+        "Name": "卡美拉",
+        "Condition": 1,
+        "Arg": "CID_G005"
+      },
+      {
+        "Out": "",
         "Id": "PCFPID_エーデルガルト",
-        "Name": "MPID_Edelgard",
+        "Name": "艾黛尔贾特",
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
       },
       {
         "Out": "",
         "Id": "PCFPID_ディミトリ",
-        "Name": "MPID_Dimitri",
+        "Name": "帝弥托利",
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
       },
       {
         "Out": "",
         "Id": "PCFPID_クロード",
-        "Name": "MPID_Claude",
+        "Name": "库罗德",
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
       }
@@ -5973,6 +6180,27 @@
         "Cid": "CID_G001",
         "Condition": 1,
         "Arg": "CID_G001"
+      },
+      {
+        "Out": "",
+        "Id": "PCFCID_G002",
+        "Cid": "CID_G002",
+        "Condition": 1,
+        "Arg": "CID_G002"
+      },
+      {
+        "Out": "",
+        "Id": "PCFCID_G004",
+        "Cid": "CID_G004",
+        "Condition": 1,
+        "Arg": "CID_G004"
+      },
+      {
+        "Out": "",
+        "Id": "PCFCID_G005",
+        "Cid": "CID_G005",
+        "Condition": 1,
+        "Arg": "CID_G005"
       }
     ]
   },
@@ -7975,15 +8203,39 @@
       {
         "Out": "",
         "Id": "PCCID_チキ",
-        "Name": "MPID_Tiki",
+        "Name": "琪姬",
         "Category": 5,
         "Condition": 1,
         "Arg": "CID_G001"
       },
       {
         "Out": "",
+        "Id": "PCCID_ヘクトル",
+        "Name": "海克托尔",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G002"
+      },
+      {
+        "Out": "",
+        "Id": "PCCID_セネリオ",
+        "Name": "塞涅里欧",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G004"
+      },
+      {
+        "Out": "",
+        "Id": "PCCID_カミラ",
+        "Name": "卡美拉",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G005"
+      },
+      {
+        "Out": "",
         "Id": "PCCID_エーデルガルト",
-        "Name": "MPID_Edelgard",
+        "Name": "艾黛尔贾特",
         "Category": 5,
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
@@ -7991,7 +8243,7 @@
       {
         "Out": "",
         "Id": "PCCID_ディミトリ",
-        "Name": "MPID_Dimitri",
+        "Name": "帝弥托利",
         "Category": 5,
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
@@ -7999,7 +8251,7 @@
       {
         "Out": "",
         "Id": "PCCID_クロード",
-        "Name": "MPID_Claude",
+        "Name": "库罗德",
         "Category": 5,
         "Condition": 4,
         "Arg": "GID_エーデルガルト"

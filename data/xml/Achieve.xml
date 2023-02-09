@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="2">
-	<Sheet Name="実績一覧" Count="806">
+	<Sheet Name="実績一覧" Count="812">
 		<Header>
 			<Param Name="実績" Ident="Aid" Type="PublicString" Min="" Max="" Chg="" />
 			<Param Name="名前" Ident="Name" Type="string" Min="" Max="" Chg="" />
@@ -657,6 +657,9 @@
 			<Param Aid="AID_外伝１４クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="2" Count="-1" Arg="CID_S014" CountUnit="" KizunaReward="100" Chapter="" />
 			<Param Aid="AID_外伝１５クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="2" Count="-1" Arg="CID_S015" CountUnit="" KizunaReward="100" Chapter="" />
 			<Param Aid="AID_神竜の章０１クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="2" Count="-1" Arg="CID_G001" CountUnit="" KizunaReward="100" Chapter="" />
+			<Param Aid="AID_神竜の章０２クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="2" Count="-1" Arg="CID_G002" CountUnit="" KizunaReward="100" Chapter="" />
+			<Param Aid="AID_神竜の章０４クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="2" Count="-1" Arg="CID_G004" CountUnit="" KizunaReward="100" Chapter="" />
+			<Param Aid="AID_神竜の章０５クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="2" Count="-1" Arg="CID_G005" CountUnit="" KizunaReward="100" Chapter="" />
 			<Param Aid="AID_通信対戦数初回" Name="MID_ACHIEVE_NETMATCH_FIRST" Category="4" Kind="80" Count="1" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="10" Chapter="" />
 			<Param Aid="AID_通信対戦数10回" Name="MID_ACHIEVE_NETMATCH_COUNT" Category="4" Kind="80" Count="10" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
 			<Param Aid="AID_通信対戦数20回" Name="MID_ACHIEVE_NETMATCH_COUNT" Category="4" Kind="80" Count="20" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="200" Chapter="" />
@@ -792,6 +795,9 @@
 			<Param Aid="AID_ディミトリの指輪を磨いた回数" Name="" Category="5" Kind="109" Count="-1" Arg="GID_ディミトリ" CountUnit="" KizunaReward="1" Chapter="" />
 			<Param Aid="AID_クロードの指輪を磨いた回数" Name="" Category="5" Kind="109" Count="-1" Arg="GID_クロード" CountUnit="" KizunaReward="1" Chapter="" />
 			<Param Aid="AID_チキの指輪を磨いた回数" Name="" Category="5" Kind="109" Count="-1" Arg="GID_チキ" CountUnit="" KizunaReward="1" Chapter="" />
+			<Param Aid="AID_ヘクトルの指輪を磨いた回数" Name="" Category="5" Kind="109" Count="-1" Arg="GID_ヘクトル" CountUnit="" KizunaReward="1" Chapter="" />
+			<Param Aid="AID_セネリオの指輪を磨いた回数" Name="" Category="5" Kind="109" Count="-1" Arg="GID_セネリオ" CountUnit="" KizunaReward="1" Chapter="" />
+			<Param Aid="AID_カミラの指輪を磨いた回数" Name="" Category="5" Kind="109" Count="-1" Arg="GID_カミラ" CountUnit="" KizunaReward="1" Chapter="" />
 			<Param Aid="AID_連戦マップ１挑戦する回数" Name="" Category="5" Kind="110" Count="-1" Arg="" CountUnit="" KizunaReward="1" Chapter="" />
 			<Param Aid="AID_連戦マップ２挑戦する回数" Name="" Category="5" Kind="111" Count="-1" Arg="" CountUnit="" KizunaReward="1" Chapter="" />
 			<Param Aid="AID_連戦マップ３挑戦する回数" Name="" Category="5" Kind="112" Count="-1" Arg="" CountUnit="" KizunaReward="1" Chapter="" />

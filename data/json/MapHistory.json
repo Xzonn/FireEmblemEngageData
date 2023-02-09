@@ -220,6 +220,30 @@
         "Mhid": "MHID_ピックアップ",
         "Action": "{[0100]}已行动完毕",
         "Priority": 0
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_反撃",
+        "Action": "{[0100]}已发动止水雷轰架势。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_反撃+",
+        "Action": "{[0100]}已发动止水雷轰架势+。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_エンチャント",
+        "Action": "{[0100]}已发动极限活用。",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_エンチャント武器",
+        "Action": "{[0100]}已发动武器共鸣。",
+        "Priority": 100
       }
     ]
   }

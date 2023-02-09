@@ -27,7 +27,7 @@
 			<Param AID="AID_岬の塔" MID="MID_Hub_Tower" MID_H="MID_H_Hub_Tower" ConditionCID="" SceneName="Hub_Solanel" LocatorName="Jump_CapeHouse" MapPointNo="11" FacilityAidList="AID_試練の離れ;" />
 		</Data>
 	</Sheet>
-	<Sheet Name="施設情報" Count="20">
+	<Sheet Name="施設情報" Count="23">
 		<Header>
 			<Param Name="エリアID" Ident="AID" Type="PublicString" Min="" Max="" Chg="" />
 			<Param Name="表示名" Ident="MID" Type="string" Min="" Max="" Chg="" />
@@ -55,6 +55,9 @@
 			<Param AID="AID_ジュークボックス" MID="MID_Hub_CafeTerrace_Jukebox" ConditionCID="CID_M003" IconName="Jukebox" />
 			<Param AID="AID_アミーボスポット" MID="MID_Hub_amiibo" ConditionCID="CID_M005" IconName="Amiibo" />
 			<Param AID="AID_活動記録の館" MID="MID_Hub_Photoshop" ConditionCID="CID_M006" IconName="PhotoShop" />
+			<Param AID="AID_馬ふれあい" MID="MID_Hub_Horse" ConditionCID="CID_M007" IconName="Refresh" />
+			<Param AID="AID_果物狩り" MID="MID_Hub_Fruit" ConditionCID="CID_M007" IconName="Refresh" />
+			<Param AID="AID_水遊び" MID="MID_Hub_Pool" ConditionCID="CID_M007" IconName="Refresh" />
 		</Data>
 	</Sheet>
 </Book>

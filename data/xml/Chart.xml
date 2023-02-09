@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="3">
-	<Sheet Name="加入" Count="1211">
+	<Sheet Name="加入" Count="1310">
 		<Header>
 			<Param Name="章" Ident="Chapter" Type="PublicArray" Min="" Max="" Chg="" />
 			<Param Name="個人" Ident="Pid" Type="string" Min="" Max="" Chg="" />
@@ -429,6 +429,105 @@
 			<Param Chapter="" Pid="PID_ディアマンド" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鋼の剣" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_アーマーキラー" Item5.Iid="IID_特効薬" GodId="" />
 			<Param Chapter="" Pid="PID_ロサード" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の大斧" Item3.Iid="IID_銀の槍" Item4.Iid="IID_手斧" Item5.Iid="IID_特効薬" GodId="GID_エーデルガルト" />
 			<Param Chapter="" Pid="PID_クラン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_弾_物理" Item2.Iid="IID_弾_魔法" Item3.Iid="IID_弾_飛行特効" Item4.Iid="IID_弾_騎馬特効" Item5.Iid="IID_弾_フリーズ" GodId="" />
+			<Param Chapter="" Pid="PID_ルイ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_スレンドスピア" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="" />
+			<Param Chapter="" Pid="PID_クロエ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_手槍" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="GID_ルキナ" />
+			<Param Chapter="" Pid="PID_オルテンシア" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_エルサンダー" Item2.Iid="IID_エルウィンド" Item3.Iid="IID_リライブ" Item4.Iid="IID_リブロー" Item5.Iid="IID_コラプス" GodId="GID_リン" />
+			<Param Chapter="" Pid="PID_ミスティラ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鉄の大槍" Item3.Iid="IID_キラーランス" Item4.Iid="IID_スレンドスピア" Item5.Iid="IID_特効薬" GodId="GID_ベレト" />
+			<Param Chapter="" Pid="PID_セアダス" LevelN="23" LevelH="23" LevelL="23" Jid="" Item1.Iid="IID_鉄身の法" Item2.Iid="IID_鋼身の法" Item3.Iid="IID_銀身の法" Item4.Iid="IID_護身の法" Item5.Iid="IID_傷薬" GodId="GID_カムイ" />
+			<Param Chapter="" Pid="PID_フォガート" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_鋼の弓" Item2.Iid="IID_銀の弓" Item3.Iid="IID_鋼の剣" Item4.Iid="IID_傷薬" Item5.Iid="IID_キラーボウ" GodId="GID_アイク" />
+			<Param Chapter="" Pid="PID_アルフレッド" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_鉄の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_手槍" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="GID_エイリーク" />
+			<Param Chapter="" Pid="PID_ユナカ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_弾_物理" Item2.Iid="IID_弾_魔法" Item3.Iid="IID_弾_異形特効" Item4.Iid="IID_弾_騎馬特効" Item5.Iid="IID_弾_毒" GodId="" />
+			<Param Chapter="" Pid="PID_ヴァンドレ" LevelN="9" LevelH="9" LevelL="9" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_手斧" Item4.Iid="IID_鉄の大斧" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_セリーヌ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鉄の大剣" Item3.Iid="IID_エルウィンド" Item4.Iid="IID_エルサンダー" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_エーティエ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の弓" Item2.Iid="IID_鋼の弓" Item3.Iid="IID_長弓" Item4.Iid="IID_キラーボウ" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_ブシュロン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_トマホーク" Item4.Iid="IID_鉄の大斧" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="" Pid="PID_シトリニカ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_エルサージ" Item2.Iid="IID_エルファイアー" Item3.Iid="IID_エルサンダー" Item4.Iid="IID_エルウィンド" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_ラピス" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_いかづちの剣" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_アーマーキラー" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_アンバー" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_手槍" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="" />
+			<Param Chapter="" Pid="PID_ジェーデ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_手斧" Item4.Iid="IID_鉄の大斧" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="" Pid="PID_ゼルコバ" LevelN="23" LevelH="23" LevelL="23" Jid="" Item1.Iid="IID_鉄のナイフ" Item2.Iid="IID_カルド" Item3.Iid="IID_鋼のナイフ" Item4.Iid="IID_スティレット" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_カゲツ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鋼の剣" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_キルソード" Item5.Iid="IID_アーマーキラー" GodId="" />
+			<Param Chapter="" Pid="PID_パンドロ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_護身の法" Item2.Iid="IID_エルウィンド" Item3.Iid="IID_アイスロック" Item4.Iid="IID_リライブ" Item5.Iid="IID_リブロー" GodId="" />
+			<Param Chapter="" Pid="PID_ボネ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_トマホーク" Item4.Iid="IID_鉄の大剣" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="" Pid="PID_パネトネ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_ハンマー" Item3.Iid="IID_鉄の大斧" Item4.Iid="IID_トマホーク" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_メリン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀のナイフ" Item2.Iid="IID_スティレット" Item3.Iid="IID_銀の剣" Item4.Iid="IID_鉄の大剣" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_ゴルドマリー" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鋼の大剣" Item3.Iid="IID_銀の槍" Item4.Iid="IID_スレンドスピア" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_ジャン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_護身の法" Item2.Iid="IID_銀身の法" Item3.Iid="IID_アイスロック" Item4.Iid="IID_リライブ" Item5.Iid="IID_リブロー" GodId="" />
+			<Param Chapter="" Pid="PID_アンナ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_ハンマー" Item3.Iid="IID_手斧" Item4.Iid="IID_傷薬" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="G002" Pid="" LevelN="" LevelH="" LevelL="" Jid="" Item1.Iid="" Item2.Iid="" Item3.Iid="" Item4.Iid="" Item5.Iid="" GodId="" />
+			<Param Chapter="" Pid="PID_リュール" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_アーマーキラー" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_リベラシオン" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_アイビー" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_エルファイアー" Item2.Iid="IID_エルサンダー" Item3.Iid="IID_エルウィンド" Item4.Iid="IID_リライブ" Item5.Iid="IID_リブロー" GodId="" />
+			<Param Chapter="" Pid="PID_スタルーク" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の弓" Item2.Iid="IID_長弓" Item3.Iid="IID_光の弓" Item4.Iid="IID_キラーボウ" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_フラン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_魔力の薬" Item2.Iid="IID_魔防の薬" Item3.Iid="IID_守備の薬" Item4.Iid="IID_毒消し" Item5.Iid="IID_ボネのお弁当" GodId="" />
+			<Param Chapter="" Pid="PID_ディアマンド" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鋼の剣" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_アーマーキラー" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_ロサード" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の大斧" Item3.Iid="IID_銀の槍" Item4.Iid="IID_手斧" Item5.Iid="IID_特効薬" GodId="GID_エーデルガルト" />
+			<Param Chapter="" Pid="PID_クラン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_弾_物理" Item2.Iid="IID_弾_魔法" Item3.Iid="IID_弾_飛行特効" Item4.Iid="IID_弾_騎馬特効" Item5.Iid="IID_弾_フリーズ" GodId="" />
+			<Param Chapter="" Pid="PID_ルイ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_スレンドスピア" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="" />
+			<Param Chapter="" Pid="PID_クロエ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_手槍" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="GID_ルキナ" />
+			<Param Chapter="" Pid="PID_オルテンシア" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_エルサンダー" Item2.Iid="IID_エルウィンド" Item3.Iid="IID_リライブ" Item4.Iid="IID_リブロー" Item5.Iid="IID_コラプス" GodId="GID_リン" />
+			<Param Chapter="" Pid="PID_ミスティラ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鉄の大槍" Item3.Iid="IID_キラーランス" Item4.Iid="IID_スレンドスピア" Item5.Iid="IID_特効薬" GodId="GID_ベレト" />
+			<Param Chapter="" Pid="PID_セアダス" LevelN="23" LevelH="23" LevelL="23" Jid="" Item1.Iid="IID_鉄身の法" Item2.Iid="IID_鋼身の法" Item3.Iid="IID_銀身の法" Item4.Iid="IID_護身の法" Item5.Iid="IID_傷薬" GodId="GID_カムイ" />
+			<Param Chapter="" Pid="PID_フォガート" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_鋼の弓" Item2.Iid="IID_銀の弓" Item3.Iid="IID_鋼の剣" Item4.Iid="IID_傷薬" Item5.Iid="IID_キラーボウ" GodId="GID_アイク" />
+			<Param Chapter="" Pid="PID_アルフレッド" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_鉄の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_手槍" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="GID_エイリーク" />
+			<Param Chapter="" Pid="PID_ユナカ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_弾_物理" Item2.Iid="IID_弾_魔法" Item3.Iid="IID_弾_飛行特効" Item4.Iid="IID_弾_騎馬特効" Item5.Iid="IID_弾_フリーズ" GodId="" />
+			<Param Chapter="" Pid="PID_ヴァンドレ" LevelN="9" LevelH="9" LevelL="9" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_手斧" Item4.Iid="IID_鉄の大斧" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_セリーヌ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鉄の大剣" Item3.Iid="IID_エルウィンド" Item4.Iid="IID_エルサンダー" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_エーティエ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の弓" Item2.Iid="IID_鋼の弓" Item3.Iid="IID_長弓" Item4.Iid="IID_キラーボウ" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_ブシュロン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_トマホーク" Item4.Iid="IID_鉄の大斧" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="" Pid="PID_シトリニカ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_エルサージ" Item2.Iid="IID_エルファイアー" Item3.Iid="IID_エルサンダー" Item4.Iid="IID_エルウィンド" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_ラピス" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_いかづちの剣" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_アーマーキラー" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_アンバー" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_手槍" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="" />
+			<Param Chapter="" Pid="PID_ジェーデ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_手斧" Item4.Iid="IID_鉄の大斧" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="" Pid="PID_ゼルコバ" LevelN="23" LevelH="23" LevelL="23" Jid="" Item1.Iid="IID_鉄のナイフ" Item2.Iid="IID_カルド" Item3.Iid="IID_鋼のナイフ" Item4.Iid="IID_スティレット" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_カゲツ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鋼の剣" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_キルソード" Item5.Iid="IID_アーマーキラー" GodId="" />
+			<Param Chapter="" Pid="PID_パンドロ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_護身の法" Item2.Iid="IID_エルウィンド" Item3.Iid="IID_アイスロック" Item4.Iid="IID_リライブ" Item5.Iid="IID_リブロー" GodId="" />
+			<Param Chapter="" Pid="PID_ボネ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_トマホーク" Item4.Iid="IID_鉄の大剣" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="" Pid="PID_パネトネ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_ハンマー" Item3.Iid="IID_鉄の大斧" Item4.Iid="IID_トマホーク" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_メリン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀のナイフ" Item2.Iid="IID_スティレット" Item3.Iid="IID_銀の剣" Item4.Iid="IID_鉄の大剣" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_ゴルドマリー" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鋼の大剣" Item3.Iid="IID_銀の槍" Item4.Iid="IID_スレンドスピア" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_ジャン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_護身の法" Item2.Iid="IID_銀身の法" Item3.Iid="IID_アイスロック" Item4.Iid="IID_リライブ" Item5.Iid="IID_リブロー" GodId="" />
+			<Param Chapter="" Pid="PID_アンナ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_ハンマー" Item3.Iid="IID_手斧" Item4.Iid="IID_傷薬" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="G004" Pid="" LevelN="" LevelH="" LevelL="" Jid="" Item1.Iid="" Item2.Iid="" Item3.Iid="" Item4.Iid="" Item5.Iid="" GodId="" />
+			<Param Chapter="" Pid="PID_リュール" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_アーマーキラー" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_リベラシオン" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_アイビー" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_エルファイアー" Item2.Iid="IID_エルサンダー" Item3.Iid="IID_エルウィンド" Item4.Iid="IID_リライブ" Item5.Iid="IID_リブロー" GodId="" />
+			<Param Chapter="" Pid="PID_スタルーク" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の弓" Item2.Iid="IID_長弓" Item3.Iid="IID_光の弓" Item4.Iid="IID_キラーボウ" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_フラン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_HPの薬" Item2.Iid="IID_力の薬" Item3.Iid="IID_傷薬" Item4.Iid="IID_ボネのお弁当" Item5.Iid="IID_幸運の薬" GodId="" />
+			<Param Chapter="" Pid="PID_ディアマンド" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鋼の剣" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_アーマーキラー" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_ロサード" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の大斧" Item3.Iid="IID_銀の槍" Item4.Iid="IID_手斧" Item5.Iid="IID_特効薬" GodId="GID_エーデルガルト" />
+			<Param Chapter="" Pid="PID_クラン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_弾_物理" Item2.Iid="IID_弾_魔法" Item3.Iid="IID_弾_異形特効" Item4.Iid="IID_弾_騎馬特効" Item5.Iid="IID_弾_毒" GodId="" />
+			<Param Chapter="" Pid="PID_ルイ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_スレンドスピア" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="" />
+			<Param Chapter="" Pid="PID_クロエ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_手槍" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="GID_ルキナ" />
+			<Param Chapter="" Pid="PID_オルテンシア" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_エルサンダー" Item2.Iid="IID_エルウィンド" Item3.Iid="IID_リライブ" Item4.Iid="IID_リブロー" Item5.Iid="IID_コラプス" GodId="GID_リン" />
+			<Param Chapter="" Pid="PID_ミスティラ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鉄の大槍" Item3.Iid="IID_キラーランス" Item4.Iid="IID_スレンドスピア" Item5.Iid="IID_特効薬" GodId="GID_ベレト" />
+			<Param Chapter="" Pid="PID_セアダス" LevelN="23" LevelH="23" LevelL="23" Jid="" Item1.Iid="IID_鉄身の法" Item2.Iid="IID_鋼身の法" Item3.Iid="IID_銀身の法" Item4.Iid="IID_護身の法" Item5.Iid="IID_傷薬" GodId="GID_カムイ" />
+			<Param Chapter="" Pid="PID_フォガート" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_鋼の弓" Item2.Iid="IID_銀の弓" Item3.Iid="IID_鋼の剣" Item4.Iid="IID_傷薬" Item5.Iid="IID_キラーボウ" GodId="GID_アイク" />
+			<Param Chapter="" Pid="PID_アルフレッド" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_鉄の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_手槍" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="GID_エイリーク" />
+			<Param Chapter="" Pid="PID_ユナカ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_弾_物理" Item2.Iid="IID_弾_魔法" Item3.Iid="IID_弾_異形特効" Item4.Iid="IID_弾_騎馬特効" Item5.Iid="IID_弾_毒" GodId="" />
+			<Param Chapter="" Pid="PID_ヴァンドレ" LevelN="9" LevelH="9" LevelL="9" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_手斧" Item4.Iid="IID_鉄の大斧" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_セリーヌ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鉄の大剣" Item3.Iid="IID_エルウィンド" Item4.Iid="IID_エルサンダー" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_エーティエ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の弓" Item2.Iid="IID_鋼の弓" Item3.Iid="IID_長弓" Item4.Iid="IID_キラーボウ" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_ブシュロン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_トマホーク" Item4.Iid="IID_鉄の大斧" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="" Pid="PID_シトリニカ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_エルサージ" Item2.Iid="IID_エルファイアー" Item3.Iid="IID_エルサンダー" Item4.Iid="IID_エルウィンド" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_ラピス" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_いかづちの剣" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_アーマーキラー" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_アンバー" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_手槍" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="" />
+			<Param Chapter="" Pid="PID_ジェーデ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_手斧" Item4.Iid="IID_鉄の大斧" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="" Pid="PID_ゼルコバ" LevelN="23" LevelH="23" LevelL="23" Jid="" Item1.Iid="IID_鉄のナイフ" Item2.Iid="IID_カルド" Item3.Iid="IID_鋼のナイフ" Item4.Iid="IID_スティレット" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_カゲツ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鋼の剣" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_キルソード" Item5.Iid="IID_アーマーキラー" GodId="" />
+			<Param Chapter="" Pid="PID_パンドロ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_護身の法" Item2.Iid="IID_エルウィンド" Item3.Iid="IID_アイスロック" Item4.Iid="IID_リライブ" Item5.Iid="IID_リブロー" GodId="" />
+			<Param Chapter="" Pid="PID_ボネ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の斧" Item3.Iid="IID_トマホーク" Item4.Iid="IID_鉄の大剣" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="" Pid="PID_パネトネ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_ハンマー" Item3.Iid="IID_鉄の大斧" Item4.Iid="IID_トマホーク" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_メリン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀のナイフ" Item2.Iid="IID_スティレット" Item3.Iid="IID_銀の剣" Item4.Iid="IID_鉄の大剣" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_ゴルドマリー" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鋼の大剣" Item3.Iid="IID_銀の槍" Item4.Iid="IID_スレンドスピア" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_ジャン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_護身の法" Item2.Iid="IID_銀身の法" Item3.Iid="IID_アイスロック" Item4.Iid="IID_リライブ" Item5.Iid="IID_リブロー" GodId="" />
+			<Param Chapter="" Pid="PID_アンナ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_ハンマー" Item3.Iid="IID_手斧" Item4.Iid="IID_傷薬" Item5.Iid="IID_ポールアクス" GodId="" />
+			<Param Chapter="G005" Pid="" LevelN="" LevelH="" LevelL="" Jid="" Item1.Iid="" Item2.Iid="" Item3.Iid="" Item4.Iid="" Item5.Iid="" GodId="" />
+			<Param Chapter="" Pid="PID_リュール" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_アーマーキラー" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_リベラシオン" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_アイビー" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_エルファイアー" Item2.Iid="IID_エルサンダー" Item3.Iid="IID_エルウィンド" Item4.Iid="IID_リライブ" Item5.Iid="IID_リブロー" GodId="" />
+			<Param Chapter="" Pid="PID_スタルーク" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の弓" Item2.Iid="IID_長弓" Item3.Iid="IID_光の弓" Item4.Iid="IID_キラーボウ" Item5.Iid="IID_傷薬" GodId="" />
+			<Param Chapter="" Pid="PID_フラン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_守備の薬" Item2.Iid="IID_特効薬" Item3.Iid="IID_技の薬" Item4.Iid="IID_速さの薬" Item5.Iid="IID_幸運の薬" GodId="" />
+			<Param Chapter="" Pid="PID_ディアマンド" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の剣" Item2.Iid="IID_鋼の剣" Item3.Iid="IID_鉄の大剣" Item4.Iid="IID_アーマーキラー" Item5.Iid="IID_特効薬" GodId="" />
+			<Param Chapter="" Pid="PID_ロサード" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の斧" Item2.Iid="IID_鋼の大斧" Item3.Iid="IID_銀の槍" Item4.Iid="IID_手斧" Item5.Iid="IID_特効薬" GodId="GID_エーデルガルト" />
+			<Param Chapter="" Pid="PID_クラン" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_弾_物理" Item2.Iid="IID_弾_魔法" Item3.Iid="IID_弾_異形特効" Item4.Iid="IID_弾_騎馬特効" Item5.Iid="IID_弾_毒" GodId="" />
 			<Param Chapter="" Pid="PID_ルイ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_スレンドスピア" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="" />
 			<Param Chapter="" Pid="PID_クロエ" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_銀の槍" Item2.Iid="IID_鋼の槍" Item3.Iid="IID_手槍" Item4.Iid="IID_鉄の大槍" Item5.Iid="IID_ナイトキラー" GodId="GID_ルキナ" />
 			<Param Chapter="" Pid="PID_オルテンシア" LevelN="3" LevelH="3" LevelL="3" Jid="" Item1.Iid="IID_エルサンダー" Item2.Iid="IID_エルウィンド" Item3.Iid="IID_リライブ" Item4.Iid="IID_リブロー" Item5.Iid="IID_コラプス" GodId="GID_リン" />

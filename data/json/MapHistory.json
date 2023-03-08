@@ -235,6 +235,24 @@
       },
       {
         "Out": "",
+        "Mhid": "MHID_召喚",
+        "Action": "MID_MAP_HIS_EngageSummon",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_契約",
+        "Action": "MID_MAP_HIS_Contract",
+        "Priority": 100
+      },
+      {
+        "Out": "",
+        "Mhid": "MHID_全弾発射",
+        "Action": "MID_MAP_HIS_FullBullet",
+        "Priority": 100
+      },
+      {
+        "Out": "",
         "Mhid": "MHID_エンチャント",
         "Action": "{[0100]}已发动极限活用。",
         "Priority": 100

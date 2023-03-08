@@ -7171,6 +7171,17 @@
         "Chapter": ""
       },
       {
+        "Aid": "AID_神竜の章０３クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 2,
+        "Count": -1,
+        "Arg": "CID_G003",
+        "CountUnit": "",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
         "Aid": "AID_神竜の章０４クリア",
         "Name": "已完成{[0100]}《{[0101]}》。",
         "Category": 4,
@@ -7188,6 +7199,17 @@
         "Kind": 2,
         "Count": -1,
         "Arg": "CID_G005",
+        "CountUnit": "",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_神竜の章０６クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 2,
+        "Count": -1,
+        "Arg": "CID_G006",
         "CountUnit": "",
         "KizunaReward": 100,
         "Chapter": ""
@@ -8689,6 +8711,17 @@
         "Chapter": ""
       },
       {
+        "Aid": "AID_ヴェロニカの指輪を磨いた回数",
+        "Name": "",
+        "Category": 5,
+        "Kind": 109,
+        "Count": -1,
+        "Arg": "GID_ヴェロニカ",
+        "CountUnit": "",
+        "KizunaReward": 1,
+        "Chapter": ""
+      },
+      {
         "Aid": "AID_セネリオの指輪を磨いた回数",
         "Name": "",
         "Category": 5,
@@ -8706,6 +8739,28 @@
         "Kind": 109,
         "Count": -1,
         "Arg": "GID_カミラ",
+        "CountUnit": "",
+        "KizunaReward": 1,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_クロムの指輪を磨いた回数",
+        "Name": "",
+        "Category": 5,
+        "Kind": 109,
+        "Count": -1,
+        "Arg": "GID_クロム",
+        "CountUnit": "",
+        "KizunaReward": 1,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_ルフレの指輪を磨いた回数",
+        "Name": "",
+        "Category": 5,
+        "Kind": 109,
+        "Count": -1,
+        "Arg": "GID_ルフレ",
         "CountUnit": "",
         "KizunaReward": 1,
         "Chapter": ""

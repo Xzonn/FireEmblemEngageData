@@ -1067,6 +1067,17 @@
       },
       {
         "Out": "",
+        "EventName": "BGM_Evt_Advent_Veronica_ST_Play",
+        "Name": "MID_BGM_Evt_Advent_Veronica_ST_Play",
+        "Help": "",
+        "Condition": "G003",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
         "EventName": "BGM_Sys_Prepare1_ST_Play",
         "Name": "备战",
         "Help": "",
@@ -1709,6 +1720,28 @@
         "Name": "约定的试炼～系承",
         "Help": "",
         "Condition": "S015",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_DLC_Field_S16_Map_ST_Play",
+        "Name": "MID_BGM_DLC_Field_S16_Map_ST_Play",
+        "Help": "",
+        "Condition": "G003",
+        "Amiibo": "",
+        "ChangeEventName": "BGM_DLC_Field_S16",
+        "IsChange": true,
+        "Gid": ""
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_DLC_Field_S16_Combat_ST_Play",
+        "Name": "MID_BGM_DLC_Field_S16_Combat_ST_Play",
+        "Help": "",
+        "Condition": "G003",
         "Amiibo": "",
         "ChangeEventName": "",
         "IsChange": false,

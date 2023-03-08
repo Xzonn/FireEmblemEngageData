@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="音楽リスト" Count="187">
+	<Sheet Name="音楽リスト" Count="190">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="Wwiseイベント名" Ident="EventName" Type="PublicString" Min="" Max="" Chg="" />
@@ -103,6 +103,7 @@
 			<Param Out="" EventName="BGM_Evt_Advent_Byleth_ST_Play" Name="MID_BGM_Evt_Advent_Byleth_ST_Play" Help="" Condition="M014" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
 			<Param Out="" EventName="BGM_Evt_Advent_Corrin_ST_Play" Name="MID_BGM_Evt_Advent_Corrin_ST_Play" Help="" Condition="M015" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
 			<Param Out="" EventName="BGM_Evt_Advent_Eirika_ST_Play" Name="MID_BGM_Evt_Advent_Eirika_ST_Play" Help="" Condition="M016" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
+			<Param Out="" EventName="BGM_Evt_Advent_Veronica_ST_Play" Name="MID_BGM_Evt_Advent_Veronica_ST_Play" Help="" Condition="G003" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
 			<Param Out="" EventName="BGM_Sys_Prepare1_ST_Play" Name="MID_BGM_Sys_Prepare1_ST_Play" Help="" Condition="M004" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
 			<Param Out="" EventName="BGM_Sys_Prepare2_ST_Play" Name="MID_BGM_Sys_Prepare2_ST_Play" Help="" Condition="M010" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
 			<Param Out="" EventName="BGM_Field_P00_ST_Play" Name="MID_BGM_Field_P00_ST_Play" Help="" Condition="M000" Amiibo="" ChangeEventName="BGM_Field_P00" IsChange="true" Gid="" />
@@ -162,6 +163,8 @@
 			<Param Out="" EventName="BGM_Field_S14_Combat_ST_Play" Name="MID_BGM_Field_S14_Combat_ST_Play" Help="" Condition="S014" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
 			<Param Out="" EventName="BGM_Field_S15_Map_ST_Play" Name="MID_BGM_Field_S15_Map_ST_Play" Help="" Condition="S015" Amiibo="" ChangeEventName="BGM_Field_S15" IsChange="true" Gid="" />
 			<Param Out="" EventName="BGM_Field_S15_Combat_ST_Play" Name="MID_BGM_Field_S15_Combat_ST_Play" Help="" Condition="S015" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
+			<Param Out="" EventName="BGM_DLC_Field_S16_Map_ST_Play" Name="MID_BGM_DLC_Field_S16_Map_ST_Play" Help="" Condition="G003" Amiibo="" ChangeEventName="BGM_DLC_Field_S16" IsChange="true" Gid="" />
+			<Param Out="" EventName="BGM_DLC_Field_S16_Combat_ST_Play" Name="MID_BGM_DLC_Field_S16_Combat_ST_Play" Help="" Condition="G003" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
 			<Param Out="" EventName="BGM_Boss_01_Pre_ST_Play" Name="MID_BGM_Boss_01_Pre_ST_Play" Help="" Condition="M003" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
 			<Param Out="" EventName="BGM_Boss_01_Start_ST_Play" Name="MID_BGM_Boss_01_Start_ST_Play" Help="" Condition="M003" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />
 			<Param Out="" EventName="BGM_Boss_02_Pre_ST_Play" Name="MID_BGM_Boss_02_Pre_ST_Play" Help="" Condition="M007" Amiibo="" ChangeEventName="" IsChange="false" Gid="" />

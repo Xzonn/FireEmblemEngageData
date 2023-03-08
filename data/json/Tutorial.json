@@ -5972,6 +5972,39 @@
         "SSType": 0
       },
       {
+        "TUTID": "TUTID_敵マージカノン_G003",
+        "MID": "",
+        "Title": "",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_BMAP_EVIL_MAGECANON_EN_0",
+        "Title": "MID_TUT_BMAP_EVIL_MAGECANON_EN_TITLE",
+        "SpriteAtlas": "BMAP_EVIL_MAGECANON_EN",
+        "Type": 5,
+        "Notice": 2,
+        "Cid": "CID_G003",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_BMAP_EVIL_MAGECANON_EN_1",
+        "Title": "MID_TUT_BMAP_EVIL_MAGECANON_EN_TITLE",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
         "TUTID": "TUTID_火山弾２",
         "MID": "",
         "Title": "",
@@ -6247,6 +6280,72 @@
         "SSType": 0
       },
       {
+        "TUTID": "TUTID_紋章士クロム",
+        "MID": "",
+        "Title": "",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_GOD_CHROM_0",
+        "Title": "MID_TUT_GOD_CHROM_TITLE",
+        "SpriteAtlas": "GOD_CHROM",
+        "Type": 1,
+        "Notice": 0,
+        "Cid": "",
+        "No": 23,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_GOD_CHROM_1",
+        "Title": "MID_TUT_GOD_CHROM_TITLE",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_GOD_CHROM_2",
+        "Title": "MID_TUT_GOD_CHROM_TITLE",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_GOD_CHROM_3",
+        "Title": "MID_TUT_GOD_CHROM_TITLE",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_GOD_CHROM_4",
+        "Title": "MID_TUT_GOD_CHROM_TITLE",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
         "TUTID": "TUTID_紋章士カミラ",
         "MID": "",
         "Title": "",
@@ -6305,6 +6404,72 @@
         "TUTID": "",
         "MID": "结合技“暗夜爆破阵”\n可用大范围的爆炸对敌人造成伤害，\n并赋予地形“火焰”的效果。",
         "Title": "纹章士卡美拉",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "TUTID_紋章士ヴェロニカ",
+        "MID": "",
+        "Title": "",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_GOD_VERONICA_0",
+        "Title": "MID_TUT_GOD_VERONICA_TITLE",
+        "SpriteAtlas": "GOD_VERONICA",
+        "Type": 1,
+        "Notice": 0,
+        "Cid": "",
+        "No": 25,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_GOD_VERONICA_1",
+        "Title": "MID_TUT_GOD_VERONICA_TITLE",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_GOD_VERONICA_2",
+        "Title": "MID_TUT_GOD_VERONICA_TITLE",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_GOD_VERONICA_3",
+        "Title": "MID_TUT_GOD_VERONICA_TITLE",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_GOD_VERONICA_4",
+        "Title": "MID_TUT_GOD_VERONICA_TITLE",
         "SpriteAtlas": "",
         "Type": 0,
         "Notice": 0,
@@ -6448,6 +6613,50 @@
         "TUTID": "",
         "MID": "但无法获得经验值与道具。\n此外，出击时“消耗的道具”及“倒下的伙伴”\n都会在游玩结束后恢复原状。",
         "Title": "回想战",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "TUTID_不思議な井戸",
+        "MID": "",
+        "Title": "",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_HUB_WELL_0",
+        "Title": "MID_TUT_HUB_WELL_TITLE",
+        "SpriteAtlas": "HUB_WELL",
+        "Type": 2,
+        "Notice": 2,
+        "Cid": "",
+        "No": 40,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_HUB_WELL_1",
+        "Title": "MID_TUT_HUB_WELL_TITLE",
+        "SpriteAtlas": "",
+        "Type": 0,
+        "Notice": 0,
+        "Cid": "",
+        "No": 0,
+        "SSType": 0
+      },
+      {
+        "TUTID": "",
+        "MID": "MID_TUT_HUB_WELL_2",
+        "Title": "MID_TUT_HUB_WELL_TITLE",
         "SpriteAtlas": "",
         "Type": 0,
         "Notice": 0,
@@ -7920,6 +8129,16 @@
         "Allow": 7
       },
       {
+        "ID": "TID_不思議な井戸",
+        "Title": "索拉涅尔",
+        "Tips": "MID_TIPS_OTHER_36",
+        "OwnID": "",
+        "IconInfoID": "",
+        "Chapter": "CID_M006",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
         "ID": "TID_敵のエンゲ技",
         "Title": "基础知识",
         "Tips": "暗之同步的敌人可在结合计量条闪烁时使用结合技。",
@@ -9270,6 +9489,86 @@
         "Allow": 7
       },
       {
+        "ID": "SID_ヴェロニカエンゲージ技",
+        "Title": "SID_ヴェロニカエンゲージ技",
+        "Tips": "SID_ヴェロニカエンゲージ技",
+        "OwnID": "GID_ヴェロニカ",
+        "IconInfoID": "SID_ヴェロニカエンゲージ技",
+        "Chapter": "CID_G003",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "SID_SPコンバート",
+        "Title": "SID_SPコンバート",
+        "Tips": "SID_SPコンバート",
+        "OwnID": "GID_ヴェロニカ",
+        "IconInfoID": "SID_SPコンバート",
+        "Chapter": "CID_G003",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "SID_血讐",
+        "Title": "SID_血讐",
+        "Tips": "SID_血讐",
+        "OwnID": "GID_ヴェロニカ",
+        "IconInfoID": "SID_血讐",
+        "Chapter": "CID_G003",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "TID_限界突破",
+        "Title": "MSID_BreakThroughLimit",
+        "Tips": "MID_TIPS_SKILL_34",
+        "OwnID": "GID_ヴェロニカ",
+        "IconInfoID": "SID_限界突破",
+        "Chapter": "CID_G003",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "TID_異界の力",
+        "Title": "MSID_AnotherWorldsPower",
+        "Tips": "MID_TIPS_SKILL_35",
+        "OwnID": "GID_ヴェロニカ",
+        "IconInfoID": "SID_異界の力",
+        "Chapter": "CID_G003",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "IID_ヴェロニカ_フリズスキャルヴ",
+        "Title": "IID_ヴェロニカ_フリズスキャルヴ",
+        "Tips": "IID_ヴェロニカ_フリズスキャルヴ",
+        "OwnID": "GID_ヴェロニカ",
+        "IconInfoID": "IID_ヴェロニカ_フリズスキャルヴ",
+        "Chapter": "CID_G003",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "SID_契約",
+        "Title": "SID_契約",
+        "Tips": "SID_契約",
+        "OwnID": "GID_ヴェロニカ",
+        "IconInfoID": "SID_契約",
+        "Chapter": "CID_G003",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "TID_マージカノン",
+        "Title": "MJID_MageCannon",
+        "Tips": "MJID_H_MageCannon",
+        "OwnID": "",
+        "IconInfoID": "PID_TIPS用_幻影兵_マージカノン",
+        "Chapter": "CID_G003",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
         "ID": "SID_セネリオエンゲージ技",
         "Title": "SID_セネリオエンゲージ技",
         "Tips": "SID_セネリオエンゲージ技",
@@ -9420,6 +9719,96 @@
         "Allow": 7
       },
       {
+        "ID": "SID_クロムエンゲージ技",
+        "Title": "SID_クロムエンゲージ技",
+        "Tips": "SID_クロムエンゲージ技",
+        "OwnID": "GID_クロム",
+        "IconInfoID": "SID_クロムエンゲージ技",
+        "Chapter": "CID_G006",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "SID_力まかせ",
+        "Title": "SID_力まかせ",
+        "Tips": "SID_力まかせ",
+        "OwnID": "GID_クロム",
+        "IconInfoID": "SID_力まかせ",
+        "Chapter": "CID_G006",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "SID_カリスマ",
+        "Title": "SID_カリスマ",
+        "Tips": "SID_カリスマ",
+        "OwnID": "GID_クロム",
+        "IconInfoID": "SID_カリスマ",
+        "Chapter": "CID_G006",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "SID_不意打ち",
+        "Title": "SID_不意打ち",
+        "Tips": "SID_不意打ち",
+        "OwnID": "GID_クロム",
+        "IconInfoID": "SID_不意打ち",
+        "Chapter": "CID_G006",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "SID_七色の叫び",
+        "Title": "SID_七色の叫び",
+        "Tips": "SID_七色の叫び",
+        "OwnID": "GID_クロム",
+        "IconInfoID": "SID_七色の叫び",
+        "Chapter": "CID_G006",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "IID_クロム_サンダーソード",
+        "Title": "IID_クロム_サンダーソード",
+        "Tips": "IID_クロム_サンダーソード",
+        "OwnID": "GID_クロム",
+        "IconInfoID": "IID_クロム_サンダーソード",
+        "Chapter": "CID_G006",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "SID_半身",
+        "Title": "SID_半身",
+        "Tips": "SID_半身",
+        "OwnID": "GID_クロム",
+        "IconInfoID": "SID_半身",
+        "Chapter": "CID_G006",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "TID_幻影狼",
+        "Title": "MJID_PhantomWolf",
+        "Tips": "MJID_H_PhantomWolf",
+        "OwnID": "",
+        "IconInfoID": "PID_TIPS用_幻影狼",
+        "Chapter": "CID_G006",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
+        "ID": "TID_幻影狼_牙の呪い",
+        "Title": "MJID_PhantomWolf",
+        "Tips": "MID_TIPS_JOB_01",
+        "OwnID": "",
+        "IconInfoID": "IID_牙",
+        "Chapter": "CID_G006",
+        "Variable": "",
+        "Allow": 7
+      },
+      {
         "ID": "TID_チキトリビア01",
         "Title": "纹章士琪姬",
         "Tips": "自远古时期就住在异界阿卡奈亚陆地的神龙族公主。",
@@ -9526,6 +9915,46 @@
         "OwnID": "",
         "IconInfoID": "GID_カミラ",
         "Chapter": "CID_G005",
+        "Variable": "",
+        "Allow": 2
+      },
+      {
+        "ID": "TID_ヴェロニカトリビア01",
+        "Title": "MID_TUT_TIPS_Veronica",
+        "Tips": "MID_TIPS_GOD_35",
+        "OwnID": "",
+        "IconInfoID": "GID_ヴェロニカ",
+        "Chapter": "CID_G003",
+        "Variable": "",
+        "Allow": 2
+      },
+      {
+        "ID": "TID_ヴェロニカトリビア02",
+        "Title": "MID_TUT_TIPS_Veronica",
+        "Tips": "MID_TIPS_GOD_36",
+        "OwnID": "",
+        "IconInfoID": "GID_ヴェロニカ",
+        "Chapter": "CID_G003",
+        "Variable": "",
+        "Allow": 2
+      },
+      {
+        "ID": "TID_クロムトリビア01",
+        "Title": "MID_TUT_TIPS_Chrom",
+        "Tips": "MID_TIPS_GOD_37",
+        "OwnID": "",
+        "IconInfoID": "GID_クロム",
+        "Chapter": "CID_G006",
+        "Variable": "",
+        "Allow": 2
+      },
+      {
+        "ID": "TID_ルフレトリビア01",
+        "Title": "MID_TUT_TIPS_Reflet",
+        "Tips": "MID_TIPS_GOD_38",
+        "OwnID": "",
+        "IconInfoID": "PID_ルフレ",
+        "Chapter": "CID_G006",
         "Variable": "",
         "Allow": 2
       }

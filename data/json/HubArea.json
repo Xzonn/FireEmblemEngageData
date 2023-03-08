@@ -392,6 +392,12 @@
         "IconName": "PhotoShop"
       },
       {
+        "AID": "AID_不思議な井戸",
+        "MID": "MID_Hub_Well",
+        "ConditionCID": "CID_M006",
+        "IconName": "Well"
+      },
+      {
         "AID": "AID_馬ふれあい",
         "MID": "马厩",
         "ConditionCID": "CID_M007",

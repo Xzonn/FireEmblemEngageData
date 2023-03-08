@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="マップ履歴" Count="35">
+	<Sheet Name="マップ履歴" Count="38">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="種類" Ident="Mhid" Type="PublicString" Min="" Max="" Chg="" />
@@ -41,6 +41,9 @@
 			<Param Out="" Mhid="MHID_ピックアップ" Action="MID_MAP_HIS_PickUp" Priority="0" />
 			<Param Out="" Mhid="MHID_反撃" Action="MID_MAP_HIS_EngageWait" Priority="100" />
 			<Param Out="" Mhid="MHID_反撃+" Action="MID_MAP_HIS_EngageWaitPlus" Priority="100" />
+			<Param Out="" Mhid="MHID_召喚" Action="MID_MAP_HIS_EngageSummon" Priority="100" />
+			<Param Out="" Mhid="MHID_契約" Action="MID_MAP_HIS_Contract" Priority="100" />
+			<Param Out="" Mhid="MHID_全弾発射" Action="MID_MAP_HIS_FullBullet" Priority="100" />
 			<Param Out="" Mhid="MHID_エンチャント" Action="MID_MAP_HIS_Enchant" Priority="100" />
 			<Param Out="" Mhid="MHID_エンチャント武器" Action="MID_MAP_HIS_Enchant_Weapon" Priority="100" />
 		</Data>

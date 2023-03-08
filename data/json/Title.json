@@ -284,6 +284,16 @@
       },
       {
         "Out": "",
+        "PidOrGid": "GID_クロム",
+        "Cid": "CID_G006"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ルフレ",
+        "Cid": "CID_G006"
+      },
+      {
+        "Out": "",
         "PidOrGid": "GID_カミラ",
         "Cid": "CID_G005"
       },
@@ -301,6 +311,11 @@
         "Out": "",
         "PidOrGid": "GID_クロード",
         "Cid": "CID_G001"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "GID_ヴェロニカ",
+        "Cid": "CID_G003"
       }
     ]
   },

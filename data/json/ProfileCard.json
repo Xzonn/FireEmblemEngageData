@@ -1041,6 +1041,20 @@
       },
       {
         "Out": "",
+        "Id": "PCCSID_クロム",
+        "Image": "Chrom_0",
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
+        "Id": "PCCSID_ルフレ",
+        "Image": "Reflet_0",
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
         "Id": "PCCSID_カミラ",
         "Image": "Camilla_0",
         "Condition": 1,
@@ -1066,6 +1080,13 @@
         "Image": "Claude_0",
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
+      },
+      {
+        "Out": "",
+        "Id": "PCCSID_ヴェロニカ",
+        "Image": "Veronica_0",
+        "Condition": 1,
+        "Arg": "CID_G003"
       }
     ]
   },
@@ -1571,6 +1592,22 @@
       },
       {
         "Out": "",
+        "Id": "PCSID_紋章士クロム",
+        "Image": "UnitIcon_Chrom",
+        "Category": 1,
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_紋章士ルフレ",
+        "Image": "UnitIcon_Reflet",
+        "Category": 1,
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
         "Id": "PCSID_紋章士カミラ",
         "Image": "UnitIcon_Camilla",
         "Category": 1,
@@ -1600,6 +1637,14 @@
         "Category": 1,
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_紋章士ヴェロニカ",
+        "Image": "UnitIcon_Veronica",
+        "Category": 1,
+        "Condition": 1,
+        "Arg": "CID_G003"
       },
       {
         "Out": "",
@@ -1667,6 +1712,14 @@
       },
       {
         "Out": "",
+        "Id": "PCSID_チョコレート剣",
+        "Image": "Weapon_Chocolate",
+        "Category": 2,
+        "Condition": 0,
+        "Arg": "0"
+      },
+      {
+        "Out": "",
         "Id": "PCSID_銀の槍",
         "Image": "Weapon_SilverLance",
         "Category": 2,
@@ -1711,6 +1764,22 @@
         "Image": "Weapon_Fensalir",
         "Category": 2,
         "Condition": 2,
+        "Arg": "0"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_トライゾン",
+        "Image": "Weapon_Trahison",
+        "Category": 2,
+        "Condition": 0,
+        "Arg": "0"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_ソフトクリーム槍",
+        "Image": "Weapon_SoftCream",
+        "Category": 2,
+        "Condition": 0,
         "Arg": "0"
       },
       {
@@ -1763,6 +1832,22 @@
       },
       {
         "Out": "",
+        "Id": "PCSID_ルヴァンシュ",
+        "Image": "Weapon_Levanche",
+        "Category": 2,
+        "Condition": 0,
+        "Arg": "0"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_ロリポップ斧",
+        "Image": "Weapon_Lollipop",
+        "Category": 2,
+        "Condition": 0,
+        "Arg": "0"
+      },
+      {
+        "Out": "",
         "Id": "PCSID_銀の弓",
         "Image": "Weapon_SilverBow",
         "Category": 2,
@@ -1784,6 +1869,14 @@
         "Category": 2,
         "Condition": 1,
         "Arg": "CID_M024"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_クロワッサン弓",
+        "Image": "Weapon_Croissant",
+        "Category": 2,
+        "Condition": 0,
+        "Arg": "0"
       },
       {
         "Out": "",
@@ -1816,6 +1909,14 @@
         "Category": 2,
         "Condition": 1,
         "Arg": "CID_M021"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_おだんご短剣",
+        "Image": "Weapon_Dango",
+        "Category": 2,
+        "Condition": 0,
+        "Arg": "0"
       },
       {
         "Out": "",
@@ -1891,6 +1992,14 @@
       },
       {
         "Out": "",
+        "Id": "PCSID_ティラミス魔道書",
+        "Image": "Weapon_Tiramisu",
+        "Category": 2,
+        "Condition": 0,
+        "Arg": "0"
+      },
+      {
+        "Out": "",
         "Id": "PCSID_初心の法",
         "Image": "Weapon_BeginnerFist",
         "Category": 2,
@@ -1935,6 +2044,14 @@
         "Image": "Weapon_GodFist",
         "Category": 2,
         "Condition": 2,
+        "Arg": "0"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_ロールケーキ体術",
+        "Image": "Weapon_Rollcake",
+        "Category": 2,
+        "Condition": 0,
         "Arg": "0"
       },
       {
@@ -2307,6 +2424,30 @@
       },
       {
         "Out": "",
+        "Id": "PCSID_クロム_サンダーソード",
+        "Image": "EngWeapon_Chrom_ThunderSword",
+        "Category": 3,
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_クロム_トロン",
+        "Image": "EngWeapon_Chrom_Thoron",
+        "Category": 3,
+        "Condition": 11,
+        "Arg": "GID_クロム"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_クロム_神剣ファルシオン",
+        "Image": "EngWeapon_Chrom_Falchion",
+        "Category": 3,
+        "Condition": 12,
+        "Arg": "GID_クロム"
+      },
+      {
+        "Out": "",
         "Id": "PCSID_カミラ_ボルトアクス",
         "Image": "EngWeapon_Camilla_BoltAxe",
         "Category": 3,
@@ -2352,6 +2493,30 @@
         "Category": 3,
         "Condition": 12,
         "Arg": "GID_エーデルガルト"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_ヴェロニカ_フリズスキャルヴ",
+        "Image": "EngWeapon_Veronica_Hlidskjalf",
+        "Category": 3,
+        "Condition": 1,
+        "Arg": "CID_G003"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_ヴェロニカ_リザーブ＋",
+        "Image": "EngWeapon_Veronica_WholeHeal",
+        "Category": 3,
+        "Condition": 11,
+        "Arg": "GID_ヴェロニカ"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_ヴェロニカ_エリヴァーガル",
+        "Image": "EngWeapon_Veronica_Elivagar",
+        "Category": 3,
+        "Condition": 12,
+        "Arg": "GID_ヴェロニカ"
       },
       {
         "Out": "",
@@ -2479,6 +2644,14 @@
         "Image": "Item_Nodus",
         "Category": 4,
         "Condition": 2,
+        "Arg": "0"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_カップケーキ杖",
+        "Image": "Item_Cupcake",
+        "Category": 4,
+        "Condition": 0,
         "Arg": "0"
       },
       {
@@ -3139,6 +3312,14 @@
       },
       {
         "Out": "",
+        "Id": "PCSID_システム_シンボル_クロム",
+        "Image": "SystemIcon_Chrom",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
         "Id": "PCSID_システム_シンボル_カミラ",
         "Image": "SystemIcon_Camilla",
         "Category": 5,
@@ -3152,6 +3333,14 @@
         "Category": 5,
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_システム_シンボル_ヴェロニカ",
+        "Image": "SystemIcon_Veronica",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G003"
       },
       {
         "Out": "",
@@ -3859,6 +4048,14 @@
       },
       {
         "Out": "",
+        "Id": "PCSID_システム_指輪_クロム",
+        "Image": "SystemIcon_Ring_Chrom",
+        "Category": 6,
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
         "Id": "PCSID_システム_指輪_カミラ",
         "Image": "SystemIcon_Ring_Camilla",
         "Category": 6,
@@ -3872,6 +4069,14 @@
         "Category": 6,
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_システム_指輪_ヴェロニカ",
+        "Image": "SystemIcon_Ring_Veronica",
+        "Category": 6,
+        "Condition": 1,
+        "Arg": "CID_G003"
       }
     ]
   },
@@ -4425,6 +4630,20 @@
       },
       {
         "Out": "",
+        "Id": "PCTID_紋章士クロム",
+        "Name": "PCTMID_Chrom",
+        "Condition": 4,
+        "Arg": "GID_クロム"
+      },
+      {
+        "Out": "",
+        "Id": "PCTID_紋章士ルフレ",
+        "Name": "PCTMID_Reflet",
+        "Condition": 4,
+        "Arg": "GID_クロム"
+      },
+      {
+        "Out": "",
         "Id": "PCTID_紋章士カミラ",
         "Name": "真是可爱",
         "Condition": 4,
@@ -4450,6 +4669,13 @@
         "Name": "只是愿不愿意做的问题吧？",
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
+      },
+      {
+        "Out": "",
+        "Id": "PCTID_紋章士ヴェロニカ",
+        "Name": "PCTMID_Veronica",
+        "Condition": 4,
+        "Arg": "GID_ヴェロニカ"
       },
       {
         "Out": "",
@@ -5766,6 +5992,20 @@
       },
       {
         "Out": "",
+        "Id": "PCFPID_クロム",
+        "Name": "MPID_Chrom",
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
+        "Id": "PCFPID_ルフレ",
+        "Name": "MPID_Reflet",
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
         "Id": "PCFPID_カミラ",
         "Name": "卡美拉",
         "Condition": 1,
@@ -5791,6 +6031,13 @@
         "Name": "库罗德",
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
+      },
+      {
+        "Out": "",
+        "Id": "PCFPID_ヴェロニカ",
+        "Name": "MPID_Veronica",
+        "Condition": 1,
+        "Arg": "CID_G003"
       }
     ]
   },
@@ -6190,6 +6437,13 @@
       },
       {
         "Out": "",
+        "Id": "PCFCID_G003",
+        "Cid": "CID_G003",
+        "Condition": 1,
+        "Arg": "CID_G003"
+      },
+      {
+        "Out": "",
         "Id": "PCFCID_G004",
         "Cid": "CID_G004",
         "Condition": 1,
@@ -6201,6 +6455,13 @@
         "Cid": "CID_G005",
         "Condition": 1,
         "Arg": "CID_G005"
+      },
+      {
+        "Out": "",
+        "Id": "PCFCID_G006",
+        "Cid": "CID_G006",
+        "Condition": 1,
+        "Arg": "CID_G006"
       }
     ]
   },
@@ -8226,6 +8487,22 @@
       },
       {
         "Out": "",
+        "Id": "PCCID_クロム",
+        "Name": "MPID_Chrom",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
+        "Id": "PCCID_ルフレ",
+        "Name": "MPID_Reflet",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
         "Id": "PCCID_カミラ",
         "Name": "卡美拉",
         "Category": 5,
@@ -8255,6 +8532,14 @@
         "Category": 5,
         "Condition": 4,
         "Arg": "GID_エーデルガルト"
+      },
+      {
+        "Out": "",
+        "Id": "PCCID_ヴェロニカ",
+        "Name": "MPID_Veronica",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_G003"
       }
     ]
   },

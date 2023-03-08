@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="2">
-	<Sheet Name="タイトルコール" Count="55">
+	<Sheet Name="タイトルコール" Count="58">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="キャラのPIDまたはGID" Ident="PidOrGid" Type="PublicString" Min="" Max="" Chg="" />
@@ -58,10 +58,13 @@
 			<Param Out="" PidOrGid="GID_チキ" Cid="CID_G001" />
 			<Param Out="" PidOrGid="GID_ヘクトル" Cid="CID_G002" />
 			<Param Out="" PidOrGid="GID_セネリオ" Cid="CID_G004" />
+			<Param Out="" PidOrGid="GID_クロム" Cid="CID_G006" />
+			<Param Out="" PidOrGid="PID_ルフレ" Cid="CID_G006" />
 			<Param Out="" PidOrGid="GID_カミラ" Cid="CID_G005" />
 			<Param Out="" PidOrGid="GID_エーデルガルト" Cid="CID_G001" />
 			<Param Out="" PidOrGid="GID_ディミトリ" Cid="CID_G001" />
 			<Param Out="" PidOrGid="GID_クロード" Cid="CID_G001" />
+			<Param Out="" PidOrGid="GID_ヴェロニカ" Cid="CID_G003" />
 		</Data>
 	</Sheet>
 	<Sheet Name="指輪台座" Count="12">

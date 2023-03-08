@@ -785,6 +785,26 @@
       },
       {
         "Out": "",
+        "Name": "Chrom_0",
+        "SerialNo": 58,
+        "Pid": "",
+        "Gid": "GID_クロム",
+        "Sort": 150,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_58"
+      },
+      {
+        "Out": "",
+        "Name": "Reflet_0",
+        "SerialNo": 59,
+        "Pid": "",
+        "Gid": "GID_ルフレ",
+        "Sort": 160,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_59"
+      },
+      {
+        "Out": "",
         "Name": "Camilla_0",
         "SerialNo": 60,
         "Pid": "",
@@ -792,6 +812,16 @@
         "Sort": 170,
         "Flag": 0,
         "Voice": "V_RelayStamp_60"
+      },
+      {
+        "Out": "",
+        "Name": "Veronica_0",
+        "SerialNo": 61,
+        "Pid": "",
+        "Gid": "GID_ヴェロニカ",
+        "Sort": 180,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_61"
       },
       {
         "Out": "",

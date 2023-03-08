@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="パラメータ" Count="384">
+	<Sheet Name="パラメータ" Count="398">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="名前" Ident="Name" Type="PublicString" Min="" Max="" Chg="" />
@@ -82,6 +82,8 @@
 			<Param Out="" Name="セーブ処理強制バージョン不一致" English="セーブ処理強制バージョン不一致" Value="0" Min="0" Max="0" Step="1" Enum="OFF,ON" />
 			<Param Out="" Name="戦死者の魂データ無し扱い" English="戦死者の魂データ無し扱い" Value="0" Min="0" Max="0" Step="1" Enum="OFF,ON" />
 			<Param Out="" Name="戦死者の魂自分データ無し扱い" English="戦死者の魂自分データ無し扱い" Value="0" Min="0" Max="0" Step="1" Enum="OFF,ON" />
+			<Param Out="" Name="召喚レベル操作" English="召喚レベル操作" Value="-1" Min="-1" Max="40" Step="1" Enum="" />
+			<Param Out="" Name="召喚武器レベル操作" English="召喚武器レベル操作" Value="-1" Min="-1" Max="2" Step="1" Enum="" />
 			<Param Out="" Name="報酬確率操作" English="報酬確率操作" Value="-1" Min="-1" Max="100" Step="1" Enum="" />
 			<Param Out="" Name="&lt;ゲームデバッグ" English="Game debug" Value="0" Min="0" Max="0" Step="1" Enum="" />
 			<Param Out="" Name="&gt;ゲームルール" English="GameRule" Value="0" Min="0" Max="0" Step="1" Enum="" />
@@ -161,6 +163,13 @@
 			<Param Out="" Name="遭遇戦クリア後報酬経験値" English="遭遇戦クリア後報酬経験値" Value="30" Min="0" Max="100" Step="1" Enum="" />
 			<Param Out="" Name="遭遇戦クリア後報酬お金" English="遭遇戦クリア後報酬お金" Value="1000" Min="0" Max="10000" Step="100" Enum="" />
 			<Param Out="" Name="神竜の章投資レベル" English="神竜の章投資レベル" Value="5" Min="1" Max="5" Step="1" Enum="" />
+			<Param Out="" Name="出現率★１" English="出現率★１" Value="30" Min="0" Max="100" Step="1" Enum="" />
+			<Param Out="" Name="出現率★２" English="出現率★２" Value="40" Min="0" Max="100" Step="1" Enum="" />
+			<Param Out="" Name="出現率★３" English="出現率★３" Value="30" Min="0" Max="100" Step="1" Enum="" />
+			<Param Out="" Name="★１召喚レベルオフセット" English="★１召喚レベルオフセット" Value="-2" Min="-50" Max="50" Step="1" Enum="" />
+			<Param Out="" Name="★３召喚レベルオフセット" English="★３召喚レベルオフセット" Value="2" Min="-50" Max="50" Step="1" Enum="" />
+			<Param Out="" Name="召喚紋章士武器２レベル" English="召喚紋章士武器２レベル" Value="16" Min="1" Max="40" Step="1" Enum="" />
+			<Param Out="" Name="召喚紋章士武器３レベル" English="召喚紋章士武器３レベル" Value="29" Min="1" Max="40" Step="1" Enum="" />
 			<Param Out="" Name="&lt;ゲームルール" English="GameRule" Value="0" Min="0" Max="0" Step="1" Enum="" />
 			<Param Out="" Name="&gt;コンバット" English="Combat" Value="0" Min="0" Max="0" Step="1" Enum="" />
 			<Param Out="" Name="キャラ高さ：歩兵" English="Character Height: Walk" Value="1.1" Min="0.5" Max="3" Step="0.01" Enum="" />
@@ -184,6 +193,7 @@
 			<Param Out="" Name="ユニット詳細:敵キャラ配置方向" English="Unit Detail: Enemy Locate Direction" Value="55" Min="-180" Max="180" Step="1" Enum="" />
 			<Param Out="" Name="ユニット詳細:自キャラカメラ角度" English="Unit Detail: Player Camera Direction" Value="30" Min="-180" Max="180" Step="1" Enum="" />
 			<Param Out="" Name="ユニット詳細:敵キャラカメラ角度" English="Unit Detail: Enemy Camera Direction" Value="30" Min="-180" Max="180" Step="1" Enum="" />
+			<Param Out="" Name="ユニット詳細:ルフレ角度" English="Unit Detail: Robin Degree" Value="-120" Min="-180" Max="180" Step="1" Enum="" />
 			<Param Out="" Name="OP兵種紹介パターン" English="Job Introduction Pattern" Value="0" Min="0" Max="0" Step="1" Enum="OFF,M000,M001,M009,M013,M015,M019,M022,Debug" />
 			<Param Out="" Name="ラスボスエンゲ技サイズ" English="Final Boss Scale in SpecialAttack" Value="0.5" Min="0.1" Max="1" Step="0.01" Enum="" />
 			<Param Out="" Name="パーツ破壊力" English="Explosion Force" Value="1" Min="0" Max="10" Step="0.1" Enum="" />
@@ -338,6 +348,10 @@
 			<Param Out="" Name="写真撮影：カメラ回転速度" English="写真撮影：カメラ回転速度" Value="1.5" Min="0" Max="10" Step="0.1" Enum="" />
 			<Param Out="" Name="写真撮影：カメラズーム速度" English="写真撮影：カメラズーム速度" Value="1.5" Min="0" Max="10" Step="0.1" Enum="" />
 			<Param Out="" Name="リフレッシュ：支援値" English="Refresh: Support value addition" Value="3" Min="0" Max="10" Step="1" Enum="" />
+			<Param Out="" Name="井戸期待度２必要価値" English="井戸期待度２必要価値" Value="1000" Min="0" Max="100000" Step="100" Enum="" />
+			<Param Out="" Name="井戸期待度３必要価値" English="井戸期待度３必要価値" Value="5000" Min="0" Max="100000" Step="100" Enum="" />
+			<Param Out="" Name="井戸期待度４必要価値" English="井戸期待度４必要価値" Value="10000" Min="0" Max="100000" Step="100" Enum="" />
+			<Param Out="" Name="井戸期待度５必要価値" English="井戸期待度５必要価値" Value="20000" Min="0" Max="100000" Step="100" Enum="" />
 			<Param Out="" Name="&lt;拠点" English="Base" Value="0" Min="0" Max="0" Step="1" Enum="" />
 			<Param Out="" Name="&gt;通信" English="Online" Value="0" Min="0" Max="0" Step="1" Enum="" />
 			<Param Out="" Name="本格対戦：攻撃側出撃人数" English="CustomBattle:OffenseSortieMax" Value="8" Min="1" Max="30" Step="1" Enum="" />

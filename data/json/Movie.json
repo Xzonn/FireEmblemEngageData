@@ -1234,6 +1234,38 @@
         "AfterSoundEventName3": "",
         "MessFileName": "",
         "DLCDirectoryName": "Patch1"
+      },
+      {
+        "Out": "",
+        "MovieFileName": "Kengen18",
+        "Name": "MID_Movie_K18",
+        "Help": "MID_H_Movie_K18",
+        "Condition": "G006",
+        "No": 104,
+        "BeforeSoundEventName1": "",
+        "BeforeSoundEventName2": "",
+        "BeforeSoundEventName3": "",
+        "AfterSoundEventName1": "BGM_Evt_Advent_Lucina_Stop",
+        "AfterSoundEventName2": "",
+        "AfterSoundEventName3": "",
+        "MessFileName": "",
+        "DLCDirectoryName": "Patch2"
+      },
+      {
+        "Out": "",
+        "MovieFileName": "Kengen19",
+        "Name": "MID_Movie_K19",
+        "Help": "MID_H_Movie_K19",
+        "Condition": "G003",
+        "No": 107,
+        "BeforeSoundEventName1": "",
+        "BeforeSoundEventName2": "",
+        "BeforeSoundEventName3": "",
+        "AfterSoundEventName1": "BGM_DLC_Evt_Advent_Veronica_Stop",
+        "AfterSoundEventName2": "",
+        "AfterSoundEventName3": "",
+        "MessFileName": "",
+        "DLCDirectoryName": "Patch2"
       }
     ]
   }

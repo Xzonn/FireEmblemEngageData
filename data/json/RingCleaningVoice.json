@@ -2634,6 +2634,414 @@
         "IsPlayCompleted": false,
         "UnitFaceAnim": "",
         "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "GID_クロム",
+        "Label": 0,
+        "PlaySituation": 0,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": ""
+      },
+      {
+        "Gid": "",
+        "Label": 0,
+        "PlaySituation": 0,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 1,
+        "PlaySituation": 0,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 2,
+        "PlaySituation": 2,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 3,
+        "PlaySituation": 2,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 4,
+        "PlaySituation": 2,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 5,
+        "PlaySituation": 2,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 6,
+        "PlaySituation": 3,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Die"
+      },
+      {
+        "Gid": "",
+        "Label": 7,
+        "PlaySituation": 3,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 8,
+        "PlaySituation": 3,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Surprise"
+      },
+      {
+        "Gid": "",
+        "Label": 9,
+        "PlaySituation": 3,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Surprise"
+      },
+      {
+        "Gid": "",
+        "Label": 10,
+        "PlaySituation": 1,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 11,
+        "PlaySituation": 1,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 12,
+        "PlaySituation": 1,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 13,
+        "PlaySituation": 4,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 14,
+        "PlaySituation": 4,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 15,
+        "PlaySituation": 4,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "GID_ルフレ",
+        "Label": 0,
+        "PlaySituation": 0,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": ""
+      },
+      {
+        "Gid": "",
+        "Label": 0,
+        "PlaySituation": 0,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 1,
+        "PlaySituation": 0,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 2,
+        "PlaySituation": 2,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 3,
+        "PlaySituation": 2,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 4,
+        "PlaySituation": 2,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 5,
+        "PlaySituation": 2,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 6,
+        "PlaySituation": 3,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 7,
+        "PlaySituation": 3,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 8,
+        "PlaySituation": 3,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 9,
+        "PlaySituation": 3,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 10,
+        "PlaySituation": 1,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 11,
+        "PlaySituation": 1,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 12,
+        "PlaySituation": 1,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 13,
+        "PlaySituation": 4,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 14,
+        "PlaySituation": 4,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 15,
+        "PlaySituation": 4,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "GID_ヴェロニカ",
+        "Label": 0,
+        "PlaySituation": 0,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": ""
+      },
+      {
+        "Gid": "",
+        "Label": 0,
+        "PlaySituation": 0,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 1,
+        "PlaySituation": 0,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 2,
+        "PlaySituation": 2,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 3,
+        "PlaySituation": 2,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 4,
+        "PlaySituation": 2,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Surprise"
+      },
+      {
+        "Gid": "",
+        "Label": 5,
+        "PlaySituation": 2,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 6,
+        "PlaySituation": 3,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 7,
+        "PlaySituation": 3,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 8,
+        "PlaySituation": 3,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 9,
+        "PlaySituation": 3,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 10,
+        "PlaySituation": 1,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 11,
+        "PlaySituation": 1,
+        "IsPlayCompleted": true,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 12,
+        "PlaySituation": 1,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Relax"
+      },
+      {
+        "Gid": "",
+        "Label": 13,
+        "PlaySituation": 4,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 14,
+        "PlaySituation": 4,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
+      },
+      {
+        "Gid": "",
+        "Label": 15,
+        "PlaySituation": 4,
+        "IsPlayCompleted": false,
+        "UnitFaceAnim": "",
+        "GodFaceAnim": "Smile"
       }
     ]
   }

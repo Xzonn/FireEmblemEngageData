@@ -982,7 +982,7 @@
         "ContentType": 1,
         "AID": "Well",
         "TalkPattern": "",
-        "HelpLabel": "MID_Hub_Well",
+        "HelpLabel": "神秘水井",
         "MainLabel": "查看",
         "ScriptName": "Well",
         "AccessType": 1,

@@ -4631,14 +4631,14 @@
       {
         "Out": "",
         "Id": "PCTID_紋章士クロム",
-        "Name": "PCTMID_Chrom",
+        "Name": "朋友啊，尽管依赖我吧！",
         "Condition": 4,
         "Arg": "GID_クロム"
       },
       {
         "Out": "",
         "Id": "PCTID_紋章士ルフレ",
-        "Name": "PCTMID_Reflet",
+        "Name": "得想想新的计策才行……",
         "Condition": 4,
         "Arg": "GID_クロム"
       },
@@ -4673,7 +4673,7 @@
       {
         "Out": "",
         "Id": "PCTID_紋章士ヴェロニカ",
-        "Name": "PCTMID_Veronica",
+        "Name": "真想把你收为己有……",
         "Condition": 4,
         "Arg": "GID_ヴェロニカ"
       },
@@ -5993,14 +5993,14 @@
       {
         "Out": "",
         "Id": "PCFPID_クロム",
-        "Name": "MPID_Chrom",
+        "Name": "库洛武",
         "Condition": 1,
         "Arg": "CID_G006"
       },
       {
         "Out": "",
         "Id": "PCFPID_ルフレ",
-        "Name": "MPID_Reflet",
+        "Name": "鲁弗莱",
         "Condition": 1,
         "Arg": "CID_G006"
       },
@@ -6035,7 +6035,7 @@
       {
         "Out": "",
         "Id": "PCFPID_ヴェロニカ",
-        "Name": "MPID_Veronica",
+        "Name": "维洛妮卡",
         "Condition": 1,
         "Arg": "CID_G003"
       }
@@ -8488,7 +8488,7 @@
       {
         "Out": "",
         "Id": "PCCID_クロム",
-        "Name": "MPID_Chrom",
+        "Name": "库洛武",
         "Category": 5,
         "Condition": 1,
         "Arg": "CID_G006"
@@ -8496,7 +8496,7 @@
       {
         "Out": "",
         "Id": "PCCID_ルフレ",
-        "Name": "MPID_Reflet",
+        "Name": "鲁弗莱",
         "Category": 5,
         "Condition": 1,
         "Arg": "CID_G006"
@@ -8536,7 +8536,7 @@
       {
         "Out": "",
         "Id": "PCCID_ヴェロニカ",
-        "Name": "MPID_Veronica",
+        "Name": "维洛妮卡",
         "Category": 5,
         "Condition": 1,
         "Arg": "CID_G003"

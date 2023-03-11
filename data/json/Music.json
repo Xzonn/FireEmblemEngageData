@@ -1068,7 +1068,7 @@
       {
         "Out": "",
         "EventName": "BGM_Evt_Advent_Veronica_ST_Play",
-        "Name": "MID_BGM_Evt_Advent_Veronica_ST_Play",
+        "Name": "呼矗、英雄纹章士",
         "Help": "",
         "Condition": "G003",
         "Amiibo": "",
@@ -1728,7 +1728,7 @@
       {
         "Out": "",
         "EventName": "BGM_DLC_Field_S16_Map_ST_Play",
-        "Name": "MID_BGM_DLC_Field_S16_Map_ST_Play",
+        "Name": "英雄的试炼",
         "Help": "",
         "Condition": "G003",
         "Amiibo": "",
@@ -1739,7 +1739,7 @@
       {
         "Out": "",
         "EventName": "BGM_DLC_Field_S16_Combat_ST_Play",
-        "Name": "MID_BGM_DLC_Field_S16_Combat_ST_Play",
+        "Name": "英雄的试炼～呼矗",
         "Help": "",
         "Condition": "G003",
         "Amiibo": "",

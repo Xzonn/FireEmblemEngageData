@@ -1238,8 +1238,8 @@
       {
         "Out": "",
         "MovieFileName": "Kengen18",
-        "Name": "MID_Movie_K18",
-        "Help": "MID_H_Movie_K18",
+        "Name": "纹章士库洛武",
+        "Help": "自“圣王的手镯”显现的\n纹章士库洛武。",
         "Condition": "G006",
         "No": 104,
         "BeforeSoundEventName1": "",
@@ -1254,8 +1254,8 @@
       {
         "Out": "",
         "MovieFileName": "Kengen19",
-        "Name": "MID_Movie_K19",
-        "Help": "MID_H_Movie_K19",
+        "Name": "纹章士维洛妮卡",
+        "Help": "自“年幼皇女的手镯”显现的\n纹章士维洛妮卡。",
         "Condition": "G003",
         "No": 107,
         "BeforeSoundEventName1": "",

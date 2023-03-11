@@ -236,19 +236,19 @@
       {
         "Out": "",
         "Mhid": "MHID_召喚",
-        "Action": "MID_MAP_HIS_EngageSummon",
+        "Action": "{[0100]}已发动英雄召唤。",
         "Priority": 100
       },
       {
         "Out": "",
         "Mhid": "MHID_契約",
-        "Action": "MID_MAP_HIS_Contract",
+        "Action": "{[0100]}已发动契约。",
         "Priority": 100
       },
       {
         "Out": "",
         "Mhid": "MHID_全弾発射",
-        "Action": "MID_MAP_HIS_FullBullet",
+        "Action": "{[0100]}已发动全弹发射。",
         "Priority": 100
       },
       {

@@ -6190,7 +6190,7 @@
       {
         "Out": "",
         "Tid": "TID_起動盤",
-        "Name": "MTID_StartupTile",
+        "Name": "启动盘",
         "CostName": "COST_平地",
         "Layer": 0,
         "Prohibition": 0,
@@ -6270,7 +6270,7 @@
       {
         "Out": "",
         "Tid": "TID_魔法障壁",
-        "Name": "MTID_MagicWall",
+        "Name": "魔法障壁",
         "CostName": "COST_不可",
         "Layer": 0,
         "Prohibition": 1,
@@ -6510,7 +6510,7 @@
       {
         "Out": "",
         "Tid": "TID_池",
-        "Name": "MTID_Pond",
+        "Name": "池塘",
         "CostName": "COST_空",
         "Layer": 0,
         "Prohibition": 2,

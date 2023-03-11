@@ -393,7 +393,7 @@
       },
       {
         "AID": "AID_不思議な井戸",
-        "MID": "MID_Hub_Well",
+        "MID": "神秘水井",
         "ConditionCID": "CID_M006",
         "IconName": "Well"
       },

@@ -1579,6 +1579,16 @@
       },
       {
         "Out": "",
+        "Name": "邪竜の章投資レベル",
+        "English": "邪竜の章投資レベル",
+        "Value": 5.0,
+        "Min": 1.0,
+        "Max": 5.0,
+        "Step": 1.0,
+        "Enum": ""
+      },
+      {
+        "Out": "",
         "Name": "出現率★１",
         "English": "出現率★１",
         "Value": 30.0,
@@ -1774,6 +1784,16 @@
         "Value": 0.7,
         "Min": 0.5,
         "Max": 3.0,
+        "Step": 0.01,
+        "Enum": ""
+      },
+      {
+        "Out": "",
+        "Name": "キャラ高さ：異形飛竜",
+        "English": "Character Height: Corrupt Dragon",
+        "Value": 3.5,
+        "Min": 0.5,
+        "Max": 5.0,
         "Step": 0.01,
         "Enum": ""
       },

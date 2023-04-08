@@ -83,7 +83,7 @@
 			<Param r8="" Iid="IID_トマホーク" RankConditionMore="12" RankConditionLess="40" Percentage="20" />
 		</Data>
 	</Sheet>
-	<Sheet Name="敵兵種" Count="24">
+	<Sheet Name="敵兵種" Count="25">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="名前" Ident="EJid" Type="PublicString" Min="" Max="" Chg="" />
@@ -93,6 +93,7 @@
 		<Data>
 			<Param Out="" EJid="EJID_G_ペガサスナイト" Jobs="JID_ソードペガサス;JID_ランスペガサス;JID_アクスペガサス;" Flag="0" />
 			<Param Out="" EJid="EJID_G_ランダム" Jobs="JID_ソードファイター;JID_ランスファイター;JID_アクスファイター;JID_アーチャー;JID_ソードアーマー;JID_ランスアーマー;JID_アクスアーマー;JID_ソードナイト;JID_ランスナイト;JID_アクスナイト;JID_マージ;JID_モンク;JID_ソードペガサス;JID_ランスペガサス;JID_アクスペガサス;JID_シーフ;" Flag="0" />
+			<Param Out="" EJid="EJID_G_ランダム_DLC" Jobs="JID_ソードファイター;JID_ランスファイター;JID_アクスファイター;JID_アーチャー;JID_ソードアーマー;JID_ランスアーマー;JID_アクスアーマー;JID_ソードナイト;JID_ランスナイト;JID_アクスナイト;JID_マージ;JID_モンク;JID_ソードペガサス;JID_ランスペガサス;JID_アクスペガサス;JID_シーフ;JID_エンチャント;JID_マージカノン;JID_異形狼;" Flag="0" />
 			<Param Out="" EJid="EJID_G_ファイター" Jobs="JID_ソードファイター;JID_ランスファイター;JID_アクスファイター;" Flag="1" />
 			<Param Out="" EJid="EJID_G_アーチャー" Jobs="JID_アーチャー;" Flag="0" />
 			<Param Out="" EJid="EJID_G_アーマーナイト" Jobs="JID_ソードアーマー;JID_ランスアーマー;JID_アクスアーマー;" Flag="0" />

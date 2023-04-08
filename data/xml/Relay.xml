@@ -24,7 +24,7 @@
 			<Param Out="" Cid="CID_N006_1" Difficulty="1" MaxTurn="15" MaxUnit="10" NewTurn="3" TakeOverTurn="3" TakeOverUnit="2" CompletionAwardMain="N006メイン" CompletionAwardSub="共通サブ" GameOverAward="IID_300G" UnlockCid="CID_M023" />
 		</Data>
 	</Sheet>
-	<Sheet Name="スタンプ" Count="60">
+	<Sheet Name="スタンプ" Count="65">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="スタンプ名" Ident="Name" Type="PublicString" Min="" Max="" Chg="" />
@@ -86,6 +86,11 @@
 			<Param Out="" Name="Lucina_0" SerialNo="47" Pid="" Gid="GID_ルキナ" Sort="90" Flag="0" Voice="V_RelayStamp_47" />
 			<Param Out="" Name="Kamui_0" SerialNo="48" Pid="" Gid="GID_カムイ" Sort="100" Flag="0" Voice="V_RelayStamp_48" />
 			<Param Out="" Name="Byleth_0" SerialNo="49" Pid="" Gid="GID_ベレト" Sort="110" Flag="0" Voice="V_RelayStamp_49" />
+			<Param Out="" Name="El_0" SerialNo="50" Pid="PID_エル" Gid="" Sort="0" Flag="0" Voice="V_RelayStamp_50" />
+			<Param Out="" Name="Rafale_0" SerialNo="51" Pid="PID_ラファール" Gid="" Sort="10" Flag="0" Voice="V_RelayStamp_51" />
+			<Param Out="" Name="Selestia_0" SerialNo="52" Pid="PID_セレスティア" Gid="" Sort="20" Flag="0" Voice="V_RelayStamp_52" />
+			<Param Out="" Name="Gregory_0" SerialNo="53" Pid="PID_グレゴリー" Gid="" Sort="30" Flag="0" Voice="V_RelayStamp_53" />
+			<Param Out="" Name="Madeline_0" SerialNo="54" Pid="PID_マデリーン" Gid="" Sort="40" Flag="0" Voice="V_RelayStamp_54" />
 			<Param Out="" Name="Tiki_0" SerialNo="55" Pid="" Gid="GID_チキ" Sort="120" Flag="0" Voice="V_RelayStamp_55" />
 			<Param Out="" Name="Hector_0" SerialNo="56" Pid="" Gid="GID_ヘクトル" Sort="130" Flag="0" Voice="V_RelayStamp_56" />
 			<Param Out="" Name="Senerio_0" SerialNo="57" Pid="" Gid="GID_セネリオ" Sort="140" Flag="0" Voice="V_RelayStamp_57" />

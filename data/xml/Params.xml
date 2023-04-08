@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="パラメータ" Count="398">
+	<Sheet Name="パラメータ" Count="400">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="名前" Ident="Name" Type="PublicString" Min="" Max="" Chg="" />
@@ -163,6 +163,7 @@
 			<Param Out="" Name="遭遇戦クリア後報酬経験値" English="遭遇戦クリア後報酬経験値" Value="30" Min="0" Max="100" Step="1" Enum="" />
 			<Param Out="" Name="遭遇戦クリア後報酬お金" English="遭遇戦クリア後報酬お金" Value="1000" Min="0" Max="10000" Step="100" Enum="" />
 			<Param Out="" Name="神竜の章投資レベル" English="神竜の章投資レベル" Value="5" Min="1" Max="5" Step="1" Enum="" />
+			<Param Out="" Name="邪竜の章投資レベル" English="邪竜の章投資レベル" Value="5" Min="1" Max="5" Step="1" Enum="" />
 			<Param Out="" Name="出現率★１" English="出現率★１" Value="30" Min="0" Max="100" Step="1" Enum="" />
 			<Param Out="" Name="出現率★２" English="出現率★２" Value="40" Min="0" Max="100" Step="1" Enum="" />
 			<Param Out="" Name="出現率★３" English="出現率★３" Value="30" Min="0" Max="100" Step="1" Enum="" />
@@ -183,6 +184,7 @@
 			<Param Out="" Name="キャラ高さ：ソンブル(人)" English="Character Height: Sombron Human" Value="1.6" Min="0.5" Max="3" Step="0.01" Enum="" />
 			<Param Out="" Name="キャラ高さ：ソンブル(竜)" English="Character Height: Sombron Dragon" Value="1.1" Min="0.5" Max="3" Step="0.01" Enum="" />
 			<Param Out="" Name="キャラ高さ：幻影狼" English="Character Height: Corrupt Wolf" Value="0.7" Min="0.5" Max="3" Step="0.01" Enum="" />
+			<Param Out="" Name="キャラ高さ：異形飛竜" English="Character Height: Corrupt Dragon" Value="3.5" Min="0.5" Max="5" Step="0.01" Enum="" />
 			<Param Out="" Name="キャラ高さ：幻影飛竜" English="Character Height: Pahtom Dragon" Value="1.8" Min="0.5" Max="5" Step="0.01" Enum="" />
 			<Param Out="" Name="レイヤ変更閾値" English="Back Ground Change Rate" Value="0.7" Min="0" Max="1" Step="0.05" Enum="" />
 			<Param Out="" Name="コンバット用アセット事前読込" English="Pre-load combat assets" Value="1" Min="0" Max="0" Step="1" Enum="OFF,ON" />

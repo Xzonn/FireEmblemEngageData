@@ -88,6 +88,17 @@
       },
       {
         "Out": "",
+        "EventName": "BGM_DLC_Mov_GOP_Full_ST_Play",
+        "Name": "MID_BGM_DLC_Mov_GOP_Full_ST_Play",
+        "Help": "",
+        "Condition": "G_拠点_邪竜エンディング",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
         "EventName": "BGM_Sys_Title_ST_Play",
         "Name": "同我结合",
         "Help": "",
@@ -528,6 +539,17 @@
       },
       {
         "Out": "",
+        "EventName": "BGM_DLC_Sys_Gmap_ST_Play",
+        "Name": "MID_BGM_DLC_Sys_Gmap_ST_Play",
+        "Help": "",
+        "Condition": "E001",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
         "EventName": "BGM_Mov_Red_ST_Play",
         "Name": "红色记忆",
         "Help": "",
@@ -620,6 +642,50 @@
         "Name": "温暖的告别",
         "Help": "",
         "Condition": "M026",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_DLC_Evt_Twin_ST_Play",
+        "Name": "MID_BGM_DLC_Evt_Twin_ST_Play",
+        "Help": "",
+        "Condition": "E001",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_DLC_Evt_Twin_Past_ST_Play",
+        "Name": "MID_BGM_DLC_Evt_Twin_Past_ST_Play",
+        "Help": "",
+        "Condition": "E001",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_DLC_Evt_Twin_Exposed_ST_Play",
+        "Name": "MID_BGM_DLC_Evt_Twin_Exposed_ST_Play",
+        "Help": "",
+        "Condition": "E004",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_DLC_Field_P15_Pre_ST_Play",
+        "Name": "MID_BGM_DLC_Field_P15_Pre_ST_Play",
+        "Help": "",
+        "Condition": "E006",
         "Amiibo": "",
         "ChangeEventName": "",
         "IsChange": false,
@@ -1386,6 +1452,39 @@
       },
       {
         "Out": "",
+        "EventName": "BGM_DLC_Field_P14_Map_ST_Play",
+        "Name": "MID_BGM_DLC_Field_P14_Map_ST_Play",
+        "Help": "",
+        "Condition": "E001",
+        "Amiibo": "",
+        "ChangeEventName": "BGM_DLC_Field_P14",
+        "IsChange": true,
+        "Gid": ""
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_DLC_Field_P14_Combat_ST_Play",
+        "Name": "MID_BGM_DLC_Field_P14_Combat_ST_Play",
+        "Help": "",
+        "Condition": "E001",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_DLC_Field_P15_ST_Play",
+        "Name": "MID_BGM_DLC_Field_P15_ST_Play",
+        "Help": "",
+        "Condition": "E006",
+        "Amiibo": "",
+        "ChangeEventName": "BGM_DLC_Field_P15",
+        "IsChange": true,
+        "Gid": ""
+      },
+      {
+        "Out": "",
         "EventName": "BGM_Field_E01_ST_Play",
         "Name": "异形兵",
         "Help": "",
@@ -1881,6 +1980,28 @@
       },
       {
         "Out": "",
+        "EventName": "BGM_DLC_Boss_07_Pre_ST_Play",
+        "Name": "MID_BGM_DLC_Boss_07_Pre_ST_Play",
+        "Help": "",
+        "Condition": "E001",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_DLC_Boss_07_Start_ST_Play",
+        "Name": "MID_BGM_DLC_Boss_07_Start_ST_Play",
+        "Help": "",
+        "Condition": "E001",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
         "EventName": "BGM_Sys_ED1_ST_Play",
         "Name": "绊炎",
         "Help": "",
@@ -1907,6 +2028,17 @@
         "Name": "旅途终将落幕",
         "Help": "",
         "Condition": "M026",
+        "Amiibo": "",
+        "ChangeEventName": "",
+        "IsChange": false,
+        "Gid": ""
+      },
+      {
+        "Out": "",
+        "EventName": "BGM_DLC_Sys_ED2_ST_Play",
+        "Name": "MID_BGM_DLC_Sys_ED2_ST_Play",
+        "Help": "",
+        "Condition": "G_拠点_ロングエンディング済み",
         "Amiibo": "",
         "ChangeEventName": "",
         "IsChange": false,

@@ -36,6 +36,24 @@
     ],
     "data": [
       {
+        "Condition": "M001,CC_マージカノン",
+        "Iid": "",
+        "Stock": 0,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_物理",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_魔法",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
         "Condition": "M004",
         "Iid": "",
         "Stock": 0,
@@ -420,6 +438,36 @@
         "Attribute": 0
       },
       {
+        "Condition": "M011,CC_マージカノン",
+        "Iid": "",
+        "Stock": 0,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_フリーズ",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_サイレス",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_ブレイク",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_毒",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
         "Condition": "M014",
         "Iid": "",
         "Stock": 0,
@@ -651,6 +699,42 @@
         "Condition": "",
         "Iid": "IID_銀身の法",
         "Stock": 1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "M015,CC_マージカノン",
+        "Iid": "",
+        "Stock": 0,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_飛行特効",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_重装特効",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_騎馬特効",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_竜特効",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_異形特効",
+        "Stock": -1,
         "Attribute": 0
       },
       {
@@ -984,6 +1068,36 @@
         "Attribute": 0
       },
       {
+        "Condition": "M020,CC_マージカノン",
+        "Iid": "",
+        "Stock": 0,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_物理_強",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_魔法_強",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "M022,CC_マージカノン",
+        "Iid": "",
+        "Stock": 0,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_弾_防御無視",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
         "Condition": "M023",
         "Iid": "",
         "Stock": 0,
@@ -1027,6 +1141,30 @@
       }
     ],
     "data": [
+      {
+        "Condition": "M001,CC_エンチャント",
+        "Iid": "",
+        "Stock": 0,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_エンチャント専用プルフ",
+        "Stock": -1,
+        "Attribute": 0
+      },
+      {
+        "Condition": "M001,CC_マージカノン",
+        "Iid": "",
+        "Stock": 0,
+        "Attribute": 0
+      },
+      {
+        "Condition": "",
+        "Iid": "IID_マージカノン専用プルフ",
+        "Stock": -1,
+        "Attribute": 0
+      },
       {
         "Condition": "M004",
         "Iid": "",

@@ -151,6 +151,72 @@
         "LevelInfo": "神竜の章共通",
         "FoodstuffInfo": "神竜の章共通",
         "AnimalInfo": "DLC共通"
+      },
+      {
+        "Out": "",
+        "ID": "NID_裏フィレネ",
+        "Name": "费列聂",
+        "Chapter": "CID_M006",
+        "IsNotLevel": true,
+        "SymbolTexture": "",
+        "LevelInfo": "邪竜の章共通",
+        "FoodstuffInfo": "邪竜の章共通",
+        "AnimalInfo": "DLC共通"
+      },
+      {
+        "Out": "",
+        "ID": "NID_裏ブロディア",
+        "Name": "布罗帝亚",
+        "Chapter": "CID_M006",
+        "IsNotLevel": true,
+        "SymbolTexture": "",
+        "LevelInfo": "邪竜の章共通",
+        "FoodstuffInfo": "邪竜の章共通",
+        "AnimalInfo": "DLC共通"
+      },
+      {
+        "Out": "",
+        "ID": "NID_裏イルシオン",
+        "Name": "伊尔席翁",
+        "Chapter": "CID_M006",
+        "IsNotLevel": true,
+        "SymbolTexture": "",
+        "LevelInfo": "邪竜の章共通",
+        "FoodstuffInfo": "邪竜の章共通",
+        "AnimalInfo": "DLC共通"
+      },
+      {
+        "Out": "",
+        "ID": "NID_裏ソルム",
+        "Name": "索尔姆",
+        "Chapter": "CID_M006",
+        "IsNotLevel": true,
+        "SymbolTexture": "",
+        "LevelInfo": "邪竜の章共通",
+        "FoodstuffInfo": "邪竜の章共通",
+        "AnimalInfo": "DLC共通"
+      },
+      {
+        "Out": "",
+        "ID": "NID_裏リトス",
+        "Name": "里特司",
+        "Chapter": "CID_M006",
+        "IsNotLevel": true,
+        "SymbolTexture": "",
+        "LevelInfo": "邪竜の章共通",
+        "FoodstuffInfo": "邪竜の章共通",
+        "AnimalInfo": "DLC共通"
+      },
+      {
+        "Out": "",
+        "ID": "NID_裏グラドロン",
+        "Name": "古拉铎隆",
+        "Chapter": "CID_M006",
+        "IsNotLevel": true,
+        "SymbolTexture": "",
+        "LevelInfo": "邪竜の章共通",
+        "FoodstuffInfo": "邪竜の章共通",
+        "AnimalInfo": "DLC共通"
       }
     ]
   },

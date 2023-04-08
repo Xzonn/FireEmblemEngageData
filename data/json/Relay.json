@@ -755,6 +755,56 @@
       },
       {
         "Out": "",
+        "Name": "El_0",
+        "SerialNo": 50,
+        "Pid": "PID_エル",
+        "Gid": "",
+        "Sort": 0,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_50"
+      },
+      {
+        "Out": "",
+        "Name": "Rafale_0",
+        "SerialNo": 51,
+        "Pid": "PID_ラファール",
+        "Gid": "",
+        "Sort": 10,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_51"
+      },
+      {
+        "Out": "",
+        "Name": "Selestia_0",
+        "SerialNo": 52,
+        "Pid": "PID_セレスティア",
+        "Gid": "",
+        "Sort": 20,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_52"
+      },
+      {
+        "Out": "",
+        "Name": "Gregory_0",
+        "SerialNo": 53,
+        "Pid": "PID_グレゴリー",
+        "Gid": "",
+        "Sort": 30,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_53"
+      },
+      {
+        "Out": "",
+        "Name": "Madeline_0",
+        "SerialNo": 54,
+        "Pid": "PID_マデリーン",
+        "Gid": "",
+        "Sort": 40,
+        "Flag": 0,
+        "Voice": "V_RelayStamp_54"
+      },
+      {
+        "Out": "",
         "Name": "Tiki_0",
         "SerialNo": 55,
         "Pid": "",

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="2">
-	<Sheet Name="チュートリアル情報" Count="623">
+	<Sheet Name="チュートリアル情報" Count="669">
 		<Header>
 			<Param Name="チュートリアルID" Ident="TUTID" Type="PublicArray" Min="" Max="" Chg="" />
 			<Param Name="メッセージ名" Ident="MID" Type="string" Min="" Max="" Chg="" />
@@ -559,6 +559,35 @@
 			<Param TUTID="TUTID_黒煙" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
 			<Param TUTID="" MID="MID_TUT_BMAP_Smoke_0" Title="MID_TUT_BMAP_Smoke_TITLE" SpriteAtlas="BMAP_SMOKE" Type="5" Notice="2" Cid="CID_G004" No="0" SSType="0" />
 			<Param TUTID="" MID="MID_TUT_BMAP_Smoke_1" Title="MID_TUT_BMAP_Smoke_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_邪竜の章ルール" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_RULE_0" Title="MID_TUT_BMAP_EVIL_RULE_TITLE" SpriteAtlas="BMAP_EVIL_RULE" Type="0" Notice="2" Cid="" No="100" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_RULE_1" Title="MID_TUT_BMAP_EVIL_RULE_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_RULE_2" Title="MID_TUT_BMAP_EVIL_RULE_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_ゲストユニット" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_GUEST_0" Title="MID_TUT_BMAP_EVIL_GUEST_TITLE" SpriteAtlas="BMAP_EVIL_GUEST" Type="0" Notice="2" Cid="" No="101" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_GUEST_1" Title="MID_TUT_BMAP_EVIL_GUEST_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_GUEST_2" Title="MID_TUT_BMAP_EVIL_GUEST_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_牙呪" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_FANG_CURSE_0" Title="MID_TUT_BMAP_EVIL_FANG_CURSE_TITLE" SpriteAtlas="BMAP_EVIL_FANG_CURSE" Type="0" Notice="2" Cid="" No="44" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_FANG_CURSE_1" Title="MID_TUT_BMAP_EVIL_FANG_CURSE_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_FANG_CURSE_2" Title="MID_TUT_BMAP_EVIL_FANG_CURSE_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_敵マージカノン_E003" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_MAGECANON_EN_0" Title="MID_TUT_BMAP_EVIL_MAGECANON_EN_TITLE" SpriteAtlas="BMAP_EVIL_MAGECANON_EN_E003" Type="5" Notice="2" Cid="CID_E003" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_MAGECANON_EN_1" Title="MID_TUT_BMAP_EVIL_MAGECANON_EN_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_混戦" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_MELEE_0" Title="MID_TUT_BMAP_EVIL_MELEE_TITLE" SpriteAtlas="BMAP_EVIL_MELEE" Type="5" Notice="2" Cid="CID_E004" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_MELEE_1" Title="MID_TUT_BMAP_EVIL_MELEE_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_MELEE_2" Title="MID_TUT_BMAP_EVIL_MELEE_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_捕虜" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_POW_0" Title="MID_TUT_BMAP_EVIL_POW_TITLE" SpriteAtlas="BMAP_EVIL_POW" Type="5" Notice="2" Cid="CID_E005" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_POW_1" Title="MID_TUT_BMAP_EVIL_POW_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_イル召喚" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_SUMMON_0" Title="MID_TUT_BMAP_EVIL_SUMMON_TITLE" SpriteAtlas="BMAP_EVIL_SUMMON" Type="5" Notice="2" Cid="CID_E006" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_SUMMON_1" Title="MID_TUT_BMAP_EVIL_SUMMON_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_イル突進" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_RUSHMOVE_0" Title="MID_TUT_BMAP_EVIL_RUSHMOVE_TITLE" SpriteAtlas="BMAP_EVIL_RUSHMOVE" Type="5" Notice="2" Cid="CID_E006" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_RUSHMOVE_1" Title="MID_TUT_BMAP_EVIL_RUSHMOVE_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_RUSHMOVE_2" Title="MID_TUT_BMAP_EVIL_RUSHMOVE_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
 			<Param TUTID="TUTID_紋章士チキ" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
 			<Param TUTID="" MID="MID_TUT_GOD_TIKI_0" Title="MID_TUT_GOD_TIKI_TITLE" SpriteAtlas="GOD_TIKI" Type="1" Notice="0" Cid="" No="20" SSType="0" />
 			<Param TUTID="" MID="MID_TUT_GOD_TIKI_1" Title="MID_TUT_GOD_TIKI_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
@@ -608,6 +637,10 @@
 			<Param TUTID="" MID="MID_TUT_GMAP_RECOLLECTION_BATTLE_0" Title="MID_TUT_GMAP_RECOLLECTION_BATTLE_TITLE" SpriteAtlas="GMAP_RECOLLECTION_BATTLE" Type="3" Notice="2" Cid="" No="12" SSType="0" />
 			<Param TUTID="" MID="MID_TUT_GMAP_RECOLLECTION_BATTLE_1" Title="MID_TUT_GMAP_RECOLLECTION_BATTLE_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
 			<Param TUTID="" MID="MID_TUT_GMAP_RECOLLECTION_BATTLE_2" Title="MID_TUT_GMAP_RECOLLECTION_BATTLE_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_邪竜ワールドマップ" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_GMAP_EVIL_0" Title="MID_TUT_GMAP_EVIL_TITLE" SpriteAtlas="GMAP_EVIL" Type="3" Notice="2" Cid="" No="11" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_GMAP_EVIL_1" Title="MID_TUT_GMAP_EVIL_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_GMAP_EVIL_2" Title="MID_TUT_GMAP_EVIL_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
 			<Param TUTID="TUTID_不思議な井戸" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
 			<Param TUTID="" MID="MID_TUT_HUB_WELL_0" Title="MID_TUT_HUB_WELL_TITLE" SpriteAtlas="HUB_WELL" Type="2" Notice="2" Cid="" No="40" SSType="0" />
 			<Param TUTID="" MID="MID_TUT_HUB_WELL_1" Title="MID_TUT_HUB_WELL_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
@@ -636,9 +669,22 @@
 			<Param TUTID="TUTID_神竜の章" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
 			<Param TUTID="" MID="MID_TUT_HUB_GOD_START_0" Title="MID_TUT_HUB_GOD_START_TITLE" SpriteAtlas="HUB_GOD_START" Type="2" Notice="2" Cid="" No="60" SSType="0" />
 			<Param TUTID="" MID="MID_TUT_HUB_GOD_START_1" Title="MID_TUT_HUB_GOD_START_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_邪竜の章" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_HUB_EVIL_START_0" Title="MID_TUT_HUB_EVIL_START_TITLE" SpriteAtlas="HUB_EVIL_START" Type="2" Notice="2" Cid="" No="61" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_HUB_EVIL_START_1" Title="MID_TUT_HUB_EVIL_START_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_HUB_EVIL_START_2" Title="MID_TUT_HUB_EVIL_START_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_エンチャント" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_ENCHANT_0" Title="MID_TUT_BMAP_EVIL_ENCHANT_TITLE" SpriteAtlas="BMAP_EVIL_ENCHANT" Type="0" Notice="2" Cid="" No="102" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_ENCHANT_1" Title="MID_TUT_BMAP_EVIL_ENCHANT_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_ENCHANT_2" Title="MID_TUT_BMAP_EVIL_ENCHANT_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="TUTID_マージカノン" MID="" Title="" SpriteAtlas="" Type="" Notice="" Cid="" No="" SSType="" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_MAGECANON_0" Title="MID_TUT_BMAP_EVIL_MAGECANON_TITLE" SpriteAtlas="BMAP_EVIL_MAGECANON" Type="0" Notice="2" Cid="" No="103" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_MAGECANON_1" Title="MID_TUT_BMAP_EVIL_MAGECANON_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_MAGECANON_2" Title="MID_TUT_BMAP_EVIL_MAGECANON_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
+			<Param TUTID="" MID="MID_TUT_BMAP_EVIL_MAGECANON_3" Title="MID_TUT_BMAP_EVIL_MAGECANON_TITLE" SpriteAtlas="" Type="0" Notice="0" Cid="" No="0" SSType="0" />
 		</Data>
 	</Sheet>
-	<Sheet Name="Tips" Count="296">
+	<Sheet Name="Tips" Count="304">
 		<Header>
 			<Param Name="識別子" Ident="ID" Type="PublicString" Min="" Max="" Chg="" />
 			<Param Name="タイトル" Ident="Title" Type="string" Min="" Max="" Chg="" />
@@ -931,6 +977,14 @@
 			<Param ID="SID_半身" Title="SID_半身" Tips="SID_半身" OwnID="GID_クロム" IconInfoID="SID_半身" Chapter="CID_G006" Variable="" Allow="7" />
 			<Param ID="TID_幻影狼" Title="MJID_PhantomWolf" Tips="MJID_H_PhantomWolf" OwnID="" IconInfoID="PID_TIPS用_幻影狼" Chapter="CID_G006" Variable="" Allow="7" />
 			<Param ID="TID_幻影狼_牙の呪い" Title="MJID_PhantomWolf" Tips="MID_TIPS_JOB_01" OwnID="" IconInfoID="IID_牙" Chapter="CID_G006" Variable="" Allow="7" />
+			<Param ID="SID_ムードメーカー" Title="SID_ムードメーカー" Tips="SID_ムードメーカー" OwnID="PID_セレスティア" IconInfoID="SID_ムードメーカー" Chapter="CID_E002" Variable="" Allow="7" />
+			<Param ID="SID_生存戦略" Title="SID_生存戦略" Tips="SID_生存戦略" OwnID="PID_グレゴリー" IconInfoID="SID_生存戦略" Chapter="CID_E003" Variable="" Allow="7" />
+			<Param ID="SID_理想の騎士像" Title="SID_理想の騎士像" Tips="SID_理想の騎士像" OwnID="PID_マデリーン" IconInfoID="SID_理想の騎士像" Chapter="CID_E004" Variable="" Allow="7" />
+			<Param ID="SID_守護者" Title="SID_守護者" Tips="SID_守護者" OwnID="PID_エル" IconInfoID="SID_守護者" Chapter="CID_E006" Variable="" Allow="7" />
+			<Param ID="SID_負けず嫌い" Title="SID_負けず嫌い" Tips="SID_負けず嫌い" OwnID="PID_ラファール" IconInfoID="SID_負けず嫌い" Chapter="CID_E006" Variable="" Allow="7" />
+			<Param ID="SID_武器共鳴01" Title="MJID_Enchant" Tips="MID_TIPS_JOB_02" OwnID="" IconInfoID="PID_TIPS用_幻影兵_エンチャント" Chapter="CID_E006" Variable="" Allow="7" />
+			<Param ID="SID_武器共鳴02" Title="MJID_Enchant" Tips="MID_TIPS_JOB_03" OwnID="" IconInfoID="PID_TIPS用_幻影兵_エンチャント" Chapter="CID_E006" Variable="" Allow="7" />
+			<Param ID="TID_マージカノン_弾" Title="MJID_MageCannon" Tips="MID_TIPS_ITEM_21" OwnID="" IconInfoID="PID_TIPS用_幻影兵_マージカノン" Chapter="CID_E006" Variable="" Allow="7" />
 			<Param ID="TID_チキトリビア01" Title="MID_TUT_TIPS_Tiki" Tips="MID_TIPS_GOD_24" OwnID="" IconInfoID="GID_チキ" Chapter="CID_G001" Variable="" Allow="2" />
 			<Param ID="TID_チキトリビア02" Title="MID_TUT_TIPS_Tiki" Tips="MID_TIPS_GOD_25" OwnID="" IconInfoID="GID_チキ" Chapter="CID_G001" Variable="" Allow="2" />
 			<Param ID="TID_エーデルガルトトリビア01" Title="MID_TUT_TIPS_Edelgard" Tips="MID_TIPS_GOD_26" OwnID="" IconInfoID="GID_エーデルガルト" Chapter="CID_G001" Variable="" Allow="2" />

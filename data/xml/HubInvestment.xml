@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="7">
-	<Sheet Name="国データ" Count="7">
+	<Sheet Name="国データ" Count="13">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="ID" Type="PublicString" Min="" Max="" Chg="" />
@@ -20,6 +20,12 @@
 			<Param Out="" ID="NID_リトス" Name="MID_PLACE_Lithos" Chapter="CID_M021" IsNotLevel="true" SymbolTexture="Lithos" LevelInfo="リトス" FoodstuffInfo="リトス" AnimalInfo="リトス" />
 			<Param Out="" ID="NID_グラドロン" Name="MID_PLACE_Gradron" Chapter="CID_M023" IsNotLevel="true" SymbolTexture="Gradron" LevelInfo="グラドロン" FoodstuffInfo="グラドロン" AnimalInfo="グラドロン" />
 			<Param Out="" ID="NID_神竜の章" Name="MID_PLACE_God" Chapter="CID_M006" IsNotLevel="true" SymbolTexture="" LevelInfo="神竜の章共通" FoodstuffInfo="神竜の章共通" AnimalInfo="DLC共通" />
+			<Param Out="" ID="NID_裏フィレネ" Name="MID_PLACE_Filene" Chapter="CID_M006" IsNotLevel="true" SymbolTexture="" LevelInfo="邪竜の章共通" FoodstuffInfo="邪竜の章共通" AnimalInfo="DLC共通" />
+			<Param Out="" ID="NID_裏ブロディア" Name="MID_PLACE_Brodia" Chapter="CID_M006" IsNotLevel="true" SymbolTexture="" LevelInfo="邪竜の章共通" FoodstuffInfo="邪竜の章共通" AnimalInfo="DLC共通" />
+			<Param Out="" ID="NID_裏イルシオン" Name="MID_PLACE_Ircion" Chapter="CID_M006" IsNotLevel="true" SymbolTexture="" LevelInfo="邪竜の章共通" FoodstuffInfo="邪竜の章共通" AnimalInfo="DLC共通" />
+			<Param Out="" ID="NID_裏ソルム" Name="MID_PLACE_Solum" Chapter="CID_M006" IsNotLevel="true" SymbolTexture="" LevelInfo="邪竜の章共通" FoodstuffInfo="邪竜の章共通" AnimalInfo="DLC共通" />
+			<Param Out="" ID="NID_裏リトス" Name="MID_PLACE_Lithos" Chapter="CID_M006" IsNotLevel="true" SymbolTexture="" LevelInfo="邪竜の章共通" FoodstuffInfo="邪竜の章共通" AnimalInfo="DLC共通" />
+			<Param Out="" ID="NID_裏グラドロン" Name="MID_PLACE_Gradron" Chapter="CID_M006" IsNotLevel="true" SymbolTexture="" LevelInfo="邪竜の章共通" FoodstuffInfo="邪竜の章共通" AnimalInfo="DLC共通" />
 		</Data>
 	</Sheet>
 	<Sheet Name="レベル情報" Count="48">

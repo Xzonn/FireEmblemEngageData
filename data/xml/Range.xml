@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="範囲" Count="206">
+	<Sheet Name="範囲" Count="213">
 		<Header>
 			<Param Name="範囲名" Ident="Group" Type="PublicArray" Min="" Max="" Chg="" />
 			<Param Name="値1" Ident="Value1" Type="s8" Min="" Max="" Chg="" />
@@ -213,6 +213,13 @@
 			<Param Group="" Value1="0" Value2="0" Value3="2" Value4="0" Value5="0" Value6="0" Value7="0" Value8="0" />
 			<Param Group="" Value1="0" Value2="2" Value3="1" Value4="2" Value5="0" Value6="0" Value7="0" Value8="0" />
 			<Param Group="" Value1="0" Value2="0" Value3="2" Value4="0" Value5="0" Value6="0" Value7="0" Value8="0" />
+			<Param Group="瘴気の領域" Value1="" Value2="" Value3="" Value4="" Value5="" Value6="" Value7="" Value8="" />
+			<Param Group="" Value1="0" Value2="0" Value3="0" Value4="2" Value5="2" Value6="0" Value7="0" Value8="0" />
+			<Param Group="" Value1="0" Value2="0" Value3="2" Value4="2" Value5="2" Value6="2" Value7="0" Value8="0" />
+			<Param Group="" Value1="0" Value2="2" Value3="2" Value4="2" Value5="2" Value6="2" Value7="2" Value8="0" />
+			<Param Group="" Value1="0" Value2="2" Value3="2" Value4="4" Value5="2" Value6="2" Value7="2" Value8="0" />
+			<Param Group="" Value1="0" Value2="0" Value3="2" Value4="2" Value5="2" Value6="2" Value7="0" Value8="0" />
+			<Param Group="" Value1="0" Value2="0" Value3="0" Value4="2" Value5="2" Value6="0" Value7="0" Value8="0" />
 			<Param Group="氷の領域" Value1="" Value2="" Value3="" Value4="" Value5="" Value6="" Value7="" Value8="" />
 			<Param Group="" Value1="0" Value2="0" Value3="0" Value4="2" Value5="0" Value6="0" Value7="0" Value8="0" />
 			<Param Group="" Value1="0" Value2="0" Value3="2" Value4="2" Value5="2" Value6="0" Value7="0" Value8="0" />

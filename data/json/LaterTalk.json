@@ -317,6 +317,54 @@
       },
       {
         "Out": "",
+        "Group": "DLC",
+        "Person": "",
+        "Field": "",
+        "BackDegree": 0,
+        "LightDegree": 0
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "Person": "PID_エル",
+        "Field": "Map_Event_M002_02",
+        "BackDegree": 0,
+        "LightDegree": 50
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "Person": "PID_ラファール",
+        "Field": "Map_Event_M002_02",
+        "BackDegree": 0,
+        "LightDegree": 50
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "Person": "PID_セレスティア",
+        "Field": "Map_Event_M002_02",
+        "BackDegree": 0,
+        "LightDegree": 50
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "Person": "PID_グレゴリー",
+        "Field": "Map_Event_M002_02",
+        "BackDegree": 0,
+        "LightDegree": 50
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "Person": "PID_マデリーン",
+        "Field": "Map_Event_M002_02",
+        "BackDegree": 0,
+        "LightDegree": 50
+      },
+      {
+        "Out": "",
         "Group": "その他",
         "Person": "",
         "Field": "",

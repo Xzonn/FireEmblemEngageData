@@ -1565,6 +1565,213 @@
       },
       {
         "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_エル"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ娘"
+        ],
+        "Weapon": [
+          "IID_トライゾン"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 5,
+        "Z": 11,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E001"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_ラファール"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ子"
+        ],
+        "Weapon": [
+          "IID_ルヴァンシュ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_セレスティア"
+        ],
+        "Job": [
+          "JID_メリュジーヌ_味方"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_ランスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_ランスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の槍"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_グレゴリー"
+        ],
+        "Job": [
+          "JID_セイジ"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_アクスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_アクスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の斧"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 6,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_マデリーン"
+        ],
+        "Job": [
+          "JID_ジェネラル"
+        ],
+        "Weapon": [
+          "IID_鉄の大斧"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 8,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_チキ",
+          "PID_闘技場_ヘクトル",
+          "PID_闘技場_ヴェロニカ",
+          "PID_闘技場_セネリオ",
+          "PID_闘技場_カミラ",
+          "PID_闘技場_クロム",
+          "PID_闘技場_ルフレ",
+          "PID_闘技場_エーデルガルト",
+          "PID_闘技場_ディミトリ",
+          "PID_闘技場_クロード"
+        ],
+        "Job": [
+          "JID_紋章士_チキ",
+          "JID_紋章士_ヘクトル",
+          "JID_紋章士_ヴェロニカ",
+          "JID_紋章士_セネリオ",
+          "JID_紋章士_カミラ",
+          "JID_紋章士_クロム",
+          "JID_紋章士_ルフレ",
+          "JID_紋章士_エーデルガルト",
+          "JID_紋章士_ディミトリ",
+          "JID_紋章士_クロード"
+        ],
+        "Weapon": [
+          "IID_チキ_ブレス_通常",
+          "IID_ヘクトル_アルマーズ_通常",
+          "IID_ヴェロニカ_エリヴァーガル_通常",
+          "IID_セネリオ_レクスカリバー_通常",
+          "IID_カミラ_カミラの艶斧_通常",
+          "IID_クロム_神剣ファルシオン_通常",
+          "IID_クロム_トロン_通常",
+          "IID_三級長_アイムール_通常",
+          "IID_三級長_アラドヴァル_通常",
+          "IID_三級長_フェイルノート_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
         "Group": "グループI",
         "DLC": false,
         "Person": [],
@@ -1579,6 +1786,187 @@
         "Attack": 0,
         "Counter": 0,
         "Pursuit": 0,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_男"
+        ],
+        "Job": [
+          "JID_マージカノン"
+        ],
+        "Weapon": [
+          "IID_弾_ブレイク"
+        ],
+        "Enemy": [
+          "PID_E006_異形兵_マージカノン"
+        ],
+        "EnemyJob": [
+          "JID_マージカノン"
+        ],
+        "EnemyWeapon": [
+          "IID_弾_ブレイク"
+        ],
+        "X": 18,
+        "Z": 28,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_女"
+        ],
+        "Job": [
+          "JID_エンチャント"
+        ],
+        "Weapon": [
+          "IID_護身の法",
+          "IID_鉄のナイフ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形狼"
+        ],
+        "Job": [
+          "JID_異形狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影狼"
+        ],
+        "Job": [
+          "JID_幻影狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形飛竜"
+        ],
+        "Job": [
+          "JID_異形飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影飛竜"
+        ],
+        "Job": [
+          "JID_幻影飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
         "Field": ""
       }
     ]
@@ -3179,6 +3567,213 @@
       },
       {
         "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_エル"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ娘"
+        ],
+        "Weapon": [
+          "IID_トライゾン"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 5,
+        "Z": 11,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E001"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_ラファール"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ子"
+        ],
+        "Weapon": [
+          "IID_ルヴァンシュ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_セレスティア"
+        ],
+        "Job": [
+          "JID_メリュジーヌ_味方"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_ランスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_ランスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の槍"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_グレゴリー"
+        ],
+        "Job": [
+          "JID_セイジ"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_アクスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_アクスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の斧"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 6,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_マデリーン"
+        ],
+        "Job": [
+          "JID_ジェネラル"
+        ],
+        "Weapon": [
+          "IID_鉄の大斧"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 8,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_チキ",
+          "PID_闘技場_ヘクトル",
+          "PID_闘技場_ヴェロニカ",
+          "PID_闘技場_セネリオ",
+          "PID_闘技場_カミラ",
+          "PID_闘技場_クロム",
+          "PID_闘技場_ルフレ",
+          "PID_闘技場_エーデルガルト",
+          "PID_闘技場_ディミトリ",
+          "PID_闘技場_クロード"
+        ],
+        "Job": [
+          "JID_紋章士_チキ",
+          "JID_紋章士_ヘクトル",
+          "JID_紋章士_ヴェロニカ",
+          "JID_紋章士_セネリオ",
+          "JID_紋章士_カミラ",
+          "JID_紋章士_クロム",
+          "JID_紋章士_ルフレ",
+          "JID_紋章士_エーデルガルト",
+          "JID_紋章士_ディミトリ",
+          "JID_紋章士_クロード"
+        ],
+        "Weapon": [
+          "IID_チキ_ブレス_通常",
+          "IID_ヘクトル_アルマーズ_通常",
+          "IID_ヴェロニカ_エリヴァーガル_通常",
+          "IID_セネリオ_レクスカリバー_通常",
+          "IID_カミラ_カミラの艶斧_通常",
+          "IID_クロム_神剣ファルシオン_通常",
+          "IID_クロム_トロン_通常",
+          "IID_三級長_アイムール_通常",
+          "IID_三級長_アラドヴァル_通常",
+          "IID_三級長_フェイルノート_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
         "Group": "グループI",
         "DLC": false,
         "Person": [],
@@ -3193,6 +3788,187 @@
         "Attack": 0,
         "Counter": 0,
         "Pursuit": 0,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_男"
+        ],
+        "Job": [
+          "JID_マージカノン"
+        ],
+        "Weapon": [
+          "IID_弾_ブレイク"
+        ],
+        "Enemy": [
+          "PID_E006_異形兵_マージカノン"
+        ],
+        "EnemyJob": [
+          "JID_マージカノン"
+        ],
+        "EnemyWeapon": [
+          "IID_弾_ブレイク"
+        ],
+        "X": 18,
+        "Z": 28,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_女"
+        ],
+        "Job": [
+          "JID_エンチャント"
+        ],
+        "Weapon": [
+          "IID_護身の法",
+          "IID_鉄のナイフ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形狼"
+        ],
+        "Job": [
+          "JID_異形狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影狼"
+        ],
+        "Job": [
+          "JID_幻影狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形飛竜"
+        ],
+        "Job": [
+          "JID_異形飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影飛竜"
+        ],
+        "Job": [
+          "JID_幻影飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
         "Field": ""
       }
     ]
@@ -5054,6 +5830,213 @@
       },
       {
         "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_エル"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ娘"
+        ],
+        "Weapon": [
+          "IID_トライゾン"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 5,
+        "Z": 11,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E001"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_ラファール"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ子"
+        ],
+        "Weapon": [
+          "IID_ルヴァンシュ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_セレスティア"
+        ],
+        "Job": [
+          "JID_メリュジーヌ_味方"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_ランスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_ランスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の槍"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_グレゴリー"
+        ],
+        "Job": [
+          "JID_セイジ"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_アクスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_アクスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の斧"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 6,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_マデリーン"
+        ],
+        "Job": [
+          "JID_ジェネラル"
+        ],
+        "Weapon": [
+          "IID_鉄の大斧"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 8,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_チキ",
+          "PID_闘技場_ヘクトル",
+          "PID_闘技場_ヴェロニカ",
+          "PID_闘技場_セネリオ",
+          "PID_闘技場_カミラ",
+          "PID_闘技場_クロム",
+          "PID_闘技場_ルフレ",
+          "PID_闘技場_エーデルガルト",
+          "PID_闘技場_ディミトリ",
+          "PID_闘技場_クロード"
+        ],
+        "Job": [
+          "JID_紋章士_チキ",
+          "JID_紋章士_ヘクトル",
+          "JID_紋章士_ヴェロニカ",
+          "JID_紋章士_セネリオ",
+          "JID_紋章士_カミラ",
+          "JID_紋章士_クロム",
+          "JID_紋章士_ルフレ",
+          "JID_紋章士_エーデルガルト",
+          "JID_紋章士_ディミトリ",
+          "JID_紋章士_クロード"
+        ],
+        "Weapon": [
+          "IID_チキ_ブレス_通常",
+          "IID_ヘクトル_アルマーズ_通常",
+          "IID_ヴェロニカ_エリヴァーガル_通常",
+          "IID_セネリオ_レクスカリバー_通常",
+          "IID_カミラ_カミラの艶斧_通常",
+          "IID_クロム_神剣ファルシオン_通常",
+          "IID_クロム_トロン_通常",
+          "IID_三級長_アイムール_通常",
+          "IID_三級長_アラドヴァル_通常",
+          "IID_三級長_フェイルノート_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
         "Group": "グループJ",
         "DLC": false,
         "Person": [],
@@ -5068,6 +6051,187 @@
         "Attack": 0,
         "Counter": 0,
         "Pursuit": 0,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_男"
+        ],
+        "Job": [
+          "JID_マージカノン"
+        ],
+        "Weapon": [
+          "IID_弾_ブレイク"
+        ],
+        "Enemy": [
+          "PID_E006_異形兵_マージカノン"
+        ],
+        "EnemyJob": [
+          "JID_マージカノン"
+        ],
+        "EnemyWeapon": [
+          "IID_弾_ブレイク"
+        ],
+        "X": 18,
+        "Z": 28,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_女"
+        ],
+        "Job": [
+          "JID_エンチャント"
+        ],
+        "Weapon": [
+          "IID_護身の法",
+          "IID_鉄のナイフ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形狼"
+        ],
+        "Job": [
+          "JID_異形狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影狼"
+        ],
+        "Job": [
+          "JID_幻影狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形飛竜"
+        ],
+        "Job": [
+          "JID_異形飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影飛竜"
+        ],
+        "Job": [
+          "JID_幻影飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
         "Field": ""
       }
     ]
@@ -7182,6 +8346,213 @@
       },
       {
         "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_エル"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ娘"
+        ],
+        "Weapon": [
+          "IID_トライゾン"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 5,
+        "Z": 11,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E001"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_ラファール"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ子"
+        ],
+        "Weapon": [
+          "IID_ルヴァンシュ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_セレスティア"
+        ],
+        "Job": [
+          "JID_メリュジーヌ_味方"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_ランスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_ランスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の槍"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_グレゴリー"
+        ],
+        "Job": [
+          "JID_セイジ"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_アクスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_アクスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の斧"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 6,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_マデリーン"
+        ],
+        "Job": [
+          "JID_ジェネラル"
+        ],
+        "Weapon": [
+          "IID_鉄の大斧"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 8,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_チキ",
+          "PID_闘技場_ヘクトル",
+          "PID_闘技場_ヴェロニカ",
+          "PID_闘技場_セネリオ",
+          "PID_闘技場_カミラ",
+          "PID_闘技場_クロム",
+          "PID_闘技場_ルフレ",
+          "PID_闘技場_エーデルガルト",
+          "PID_闘技場_ディミトリ",
+          "PID_闘技場_クロード"
+        ],
+        "Job": [
+          "JID_紋章士_チキ",
+          "JID_紋章士_ヘクトル",
+          "JID_紋章士_ヴェロニカ",
+          "JID_紋章士_セネリオ",
+          "JID_紋章士_カミラ",
+          "JID_紋章士_クロム",
+          "JID_紋章士_ルフレ",
+          "JID_紋章士_エーデルガルト",
+          "JID_紋章士_ディミトリ",
+          "JID_紋章士_クロード"
+        ],
+        "Weapon": [
+          "IID_チキ_ブレス_通常",
+          "IID_ヘクトル_アルマーズ_通常",
+          "IID_ヴェロニカ_エリヴァーガル_通常",
+          "IID_セネリオ_レクスカリバー_通常",
+          "IID_カミラ_カミラの艶斧_通常",
+          "IID_クロム_神剣ファルシオン_通常",
+          "IID_クロム_トロン_通常",
+          "IID_三級長_アイムール_通常",
+          "IID_三級長_アラドヴァル_通常",
+          "IID_三級長_フェイルノート_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
         "Group": "グループK",
         "DLC": false,
         "Person": [],
@@ -7196,6 +8567,187 @@
         "Attack": 0,
         "Counter": 0,
         "Pursuit": 0,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_男"
+        ],
+        "Job": [
+          "JID_マージカノン"
+        ],
+        "Weapon": [
+          "IID_弾_ブレイク"
+        ],
+        "Enemy": [
+          "PID_E006_異形兵_マージカノン"
+        ],
+        "EnemyJob": [
+          "JID_マージカノン"
+        ],
+        "EnemyWeapon": [
+          "IID_弾_ブレイク"
+        ],
+        "X": 18,
+        "Z": 28,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_女"
+        ],
+        "Job": [
+          "JID_エンチャント"
+        ],
+        "Weapon": [
+          "IID_護身の法",
+          "IID_鉄のナイフ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形狼"
+        ],
+        "Job": [
+          "JID_異形狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影狼"
+        ],
+        "Job": [
+          "JID_幻影狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形飛竜"
+        ],
+        "Job": [
+          "JID_異形飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影飛竜"
+        ],
+        "Job": [
+          "JID_幻影飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
         "Field": ""
       }
     ]
@@ -9376,6 +10928,213 @@
       },
       {
         "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_エル"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ娘"
+        ],
+        "Weapon": [
+          "IID_トライゾン"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 5,
+        "Z": 11,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E001"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_ラファール"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ子"
+        ],
+        "Weapon": [
+          "IID_ルヴァンシュ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_セレスティア"
+        ],
+        "Job": [
+          "JID_メリュジーヌ_味方"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_ランスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_ランスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の槍"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_グレゴリー"
+        ],
+        "Job": [
+          "JID_セイジ"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_アクスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_アクスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の斧"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 6,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_マデリーン"
+        ],
+        "Job": [
+          "JID_ジェネラル"
+        ],
+        "Weapon": [
+          "IID_鉄の大斧"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 8,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_チキ",
+          "PID_闘技場_ヘクトル",
+          "PID_闘技場_ヴェロニカ",
+          "PID_闘技場_セネリオ",
+          "PID_闘技場_カミラ",
+          "PID_闘技場_クロム",
+          "PID_闘技場_ルフレ",
+          "PID_闘技場_エーデルガルト",
+          "PID_闘技場_ディミトリ",
+          "PID_闘技場_クロード"
+        ],
+        "Job": [
+          "JID_紋章士_チキ",
+          "JID_紋章士_ヘクトル",
+          "JID_紋章士_ヴェロニカ",
+          "JID_紋章士_セネリオ",
+          "JID_紋章士_カミラ",
+          "JID_紋章士_クロム",
+          "JID_紋章士_ルフレ",
+          "JID_紋章士_エーデルガルト",
+          "JID_紋章士_ディミトリ",
+          "JID_紋章士_クロード"
+        ],
+        "Weapon": [
+          "IID_チキ_ブレス_通常",
+          "IID_ヘクトル_アルマーズ_通常",
+          "IID_ヴェロニカ_エリヴァーガル_通常",
+          "IID_セネリオ_レクスカリバー_通常",
+          "IID_カミラ_カミラの艶斧_通常",
+          "IID_クロム_神剣ファルシオン_通常",
+          "IID_クロム_トロン_通常",
+          "IID_三級長_アイムール_通常",
+          "IID_三級長_アラドヴァル_通常",
+          "IID_三級長_フェイルノート_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
         "Group": "グループK",
         "DLC": false,
         "Person": [],
@@ -9390,6 +11149,187 @@
         "Attack": 0,
         "Counter": 0,
         "Pursuit": 0,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_男"
+        ],
+        "Job": [
+          "JID_マージカノン"
+        ],
+        "Weapon": [
+          "IID_弾_ブレイク"
+        ],
+        "Enemy": [
+          "PID_E006_異形兵_マージカノン"
+        ],
+        "EnemyJob": [
+          "JID_マージカノン"
+        ],
+        "EnemyWeapon": [
+          "IID_弾_ブレイク"
+        ],
+        "X": 18,
+        "Z": 28,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_女"
+        ],
+        "Job": [
+          "JID_エンチャント"
+        ],
+        "Weapon": [
+          "IID_護身の法",
+          "IID_鉄のナイフ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形狼"
+        ],
+        "Job": [
+          "JID_異形狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影狼"
+        ],
+        "Job": [
+          "JID_幻影狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形飛竜"
+        ],
+        "Job": [
+          "JID_異形飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影飛竜"
+        ],
+        "Job": [
+          "JID_幻影飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
         "Field": ""
       }
     ]
@@ -11577,6 +13517,213 @@
       },
       {
         "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_エル"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ娘"
+        ],
+        "Weapon": [
+          "IID_トライゾン"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 5,
+        "Z": 11,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E001"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_ラファール"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ子"
+        ],
+        "Weapon": [
+          "IID_ルヴァンシュ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_セレスティア"
+        ],
+        "Job": [
+          "JID_メリュジーヌ_味方"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_ランスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_ランスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の槍"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_グレゴリー"
+        ],
+        "Job": [
+          "JID_セイジ"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_アクスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_アクスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の斧"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 6,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_マデリーン"
+        ],
+        "Job": [
+          "JID_ジェネラル"
+        ],
+        "Weapon": [
+          "IID_鉄の大斧"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 8,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_チキ",
+          "PID_闘技場_ヘクトル",
+          "PID_闘技場_ヴェロニカ",
+          "PID_闘技場_セネリオ",
+          "PID_闘技場_カミラ",
+          "PID_闘技場_クロム",
+          "PID_闘技場_ルフレ",
+          "PID_闘技場_エーデルガルト",
+          "PID_闘技場_ディミトリ",
+          "PID_闘技場_クロード"
+        ],
+        "Job": [
+          "JID_紋章士_チキ",
+          "JID_紋章士_ヘクトル",
+          "JID_紋章士_ヴェロニカ",
+          "JID_紋章士_セネリオ",
+          "JID_紋章士_カミラ",
+          "JID_紋章士_クロム",
+          "JID_紋章士_ルフレ",
+          "JID_紋章士_エーデルガルト",
+          "JID_紋章士_ディミトリ",
+          "JID_紋章士_クロード"
+        ],
+        "Weapon": [
+          "IID_チキ_ブレス_通常",
+          "IID_ヘクトル_アルマーズ_通常",
+          "IID_ヴェロニカ_エリヴァーガル_通常",
+          "IID_セネリオ_レクスカリバー_通常",
+          "IID_カミラ_カミラの艶斧_通常",
+          "IID_クロム_神剣ファルシオン_通常",
+          "IID_クロム_トロン_通常",
+          "IID_三級長_アイムール_通常",
+          "IID_三級長_アラドヴァル_通常",
+          "IID_三級長_フェイルノート_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
         "Group": "グループK",
         "DLC": false,
         "Person": [],
@@ -11591,6 +13738,187 @@
         "Attack": 0,
         "Counter": 0,
         "Pursuit": 0,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_男"
+        ],
+        "Job": [
+          "JID_マージカノン"
+        ],
+        "Weapon": [
+          "IID_弾_ブレイク"
+        ],
+        "Enemy": [
+          "PID_E006_異形兵_マージカノン"
+        ],
+        "EnemyJob": [
+          "JID_マージカノン"
+        ],
+        "EnemyWeapon": [
+          "IID_弾_ブレイク"
+        ],
+        "X": 18,
+        "Z": 28,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_女"
+        ],
+        "Job": [
+          "JID_エンチャント"
+        ],
+        "Weapon": [
+          "IID_護身の法",
+          "IID_鉄のナイフ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形狼"
+        ],
+        "Job": [
+          "JID_異形狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影狼"
+        ],
+        "Job": [
+          "JID_幻影狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形飛竜"
+        ],
+        "Job": [
+          "JID_異形飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影飛竜"
+        ],
+        "Job": [
+          "JID_幻影飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
         "Field": ""
       }
     ]
@@ -13808,6 +16136,213 @@
       },
       {
         "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_エル"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ娘"
+        ],
+        "Weapon": [
+          "IID_トライゾン"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 5,
+        "Z": 11,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E001"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_ラファール"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ子"
+        ],
+        "Weapon": [
+          "IID_ルヴァンシュ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_セレスティア"
+        ],
+        "Job": [
+          "JID_メリュジーヌ_味方"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_ランスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_ランスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の槍"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_グレゴリー"
+        ],
+        "Job": [
+          "JID_セイジ"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_アクスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_アクスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の斧"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 6,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_マデリーン"
+        ],
+        "Job": [
+          "JID_ジェネラル"
+        ],
+        "Weapon": [
+          "IID_鉄の大斧"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 8,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_チキ",
+          "PID_闘技場_ヘクトル",
+          "PID_闘技場_ヴェロニカ",
+          "PID_闘技場_セネリオ",
+          "PID_闘技場_カミラ",
+          "PID_闘技場_クロム",
+          "PID_闘技場_ルフレ",
+          "PID_闘技場_エーデルガルト",
+          "PID_闘技場_ディミトリ",
+          "PID_闘技場_クロード"
+        ],
+        "Job": [
+          "JID_紋章士_チキ",
+          "JID_紋章士_ヘクトル",
+          "JID_紋章士_ヴェロニカ",
+          "JID_紋章士_セネリオ",
+          "JID_紋章士_カミラ",
+          "JID_紋章士_クロム",
+          "JID_紋章士_ルフレ",
+          "JID_紋章士_エーデルガルト",
+          "JID_紋章士_ディミトリ",
+          "JID_紋章士_クロード"
+        ],
+        "Weapon": [
+          "IID_チキ_ブレス_通常",
+          "IID_ヘクトル_アルマーズ_通常",
+          "IID_ヴェロニカ_エリヴァーガル_通常",
+          "IID_セネリオ_レクスカリバー_通常",
+          "IID_カミラ_カミラの艶斧_通常",
+          "IID_クロム_神剣ファルシオン_通常",
+          "IID_クロム_トロン_通常",
+          "IID_三級長_アイムール_通常",
+          "IID_三級長_アラドヴァル_通常",
+          "IID_三級長_フェイルノート_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
         "Group": "グループK",
         "DLC": false,
         "Person": [],
@@ -13822,6 +16357,187 @@
         "Attack": 0,
         "Counter": 0,
         "Pursuit": 0,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_男"
+        ],
+        "Job": [
+          "JID_マージカノン"
+        ],
+        "Weapon": [
+          "IID_弾_ブレイク"
+        ],
+        "Enemy": [
+          "PID_E006_異形兵_マージカノン"
+        ],
+        "EnemyJob": [
+          "JID_マージカノン"
+        ],
+        "EnemyWeapon": [
+          "IID_弾_ブレイク"
+        ],
+        "X": 18,
+        "Z": 28,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_女"
+        ],
+        "Job": [
+          "JID_エンチャント"
+        ],
+        "Weapon": [
+          "IID_護身の法",
+          "IID_鉄のナイフ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形狼"
+        ],
+        "Job": [
+          "JID_異形狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影狼"
+        ],
+        "Job": [
+          "JID_幻影狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_異形飛竜"
+        ],
+        "Job": [
+          "JID_異形飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影飛竜"
+        ],
+        "Job": [
+          "JID_幻影飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
         "Field": ""
       }
     ]
@@ -13978,6 +16694,156 @@
       },
       {
         "Out": "",
+        "Group": "",
+        "DLC": false,
+        "Person": [
+          "PID_闘技場_チキ"
+        ],
+        "Job": [
+          "JID_紋章士_チキ"
+        ],
+        "Weapon": [
+          "IID_チキ_ブレス_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 20,
+        "Z": 25,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": false,
+        "Person": [
+          "PID_闘技場_ヘクトル"
+        ],
+        "Job": [
+          "JID_紋章士_ヘクトル"
+        ],
+        "Weapon": [
+          "IID_ヘクトル_アルマーズ_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": false,
+        "Person": [
+          "PID_闘技場_ヴェロニカ"
+        ],
+        "Job": [
+          "JID_紋章士_ヴェロニカ"
+        ],
+        "Weapon": [
+          "IID_ヴェロニカ_エリヴァーガル_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": false,
+        "Person": [
+          "PID_闘技場_セネリオ"
+        ],
+        "Job": [
+          "JID_紋章士_セネリオ"
+        ],
+        "Weapon": [
+          "IID_セネリオ_レクスカリバー_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": false,
+        "Person": [
+          "PID_闘技場_カミラ"
+        ],
+        "Job": [
+          "JID_紋章士_カミラ"
+        ],
+        "Weapon": [
+          "IID_カミラ_カミラの艶斧_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
         "Group": "グループB",
         "DLC": false,
         "Person": [],
@@ -13992,6 +16858,156 @@
         "Attack": 0,
         "Counter": 0,
         "Pursuit": 0,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_クロム"
+        ],
+        "Job": [
+          "JID_紋章士_クロム"
+        ],
+        "Weapon": [
+          "IID_クロム_神剣ファルシオン_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 19,
+        "Z": 26,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_ルフレ"
+        ],
+        "Job": [
+          "JID_紋章士_ルフレ"
+        ],
+        "Weapon": [
+          "IID_クロム_トロン_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_エーデルガルト"
+        ],
+        "Job": [
+          "JID_紋章士_エーデルガルト"
+        ],
+        "Weapon": [
+          "IID_三級長_アイムール_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_ディミトリ"
+        ],
+        "Job": [
+          "JID_紋章士_ディミトリ"
+        ],
+        "Weapon": [
+          "IID_三級長_アラドヴァル_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_闘技場_クロード"
+        ],
+        "Job": [
+          "JID_紋章士_クロード"
+        ],
+        "Weapon": [
+          "IID_三級長_フェイルノート_通常"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
         "Field": ""
       },
       {
@@ -14014,6 +17030,156 @@
       },
       {
         "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_エル"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ娘"
+        ],
+        "Weapon": [
+          "IID_鉄の槍"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 18,
+        "Z": 27,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_ラファール"
+        ],
+        "Job": [
+          "JID_裏邪竜ノ子"
+        ],
+        "Weapon": [
+          "IID_鉄の斧"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_セレスティア"
+        ],
+        "Job": [
+          "JID_メリュジーヌ_味方"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_ランスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_ランスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の槍"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 7,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_グレゴリー"
+        ],
+        "Job": [
+          "JID_セイジ"
+        ],
+        "Weapon": [
+          "IID_エルファイアー"
+        ],
+        "Enemy": [
+          "PID_M004_異形兵_アクスアーマー"
+        ],
+        "EnemyJob": [
+          "JID_アクスアーマー"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の斧"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 6,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_マデリーン"
+        ],
+        "Job": [
+          "JID_ジェネラル"
+        ],
+        "Weapon": [
+          "IID_鉄の大斧"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 5,
+        "Counter": 8,
+        "Pursuit": 4,
+        "Field": ""
+      },
+      {
+        "Out": "",
         "Group": "グループD",
         "DLC": false,
         "Person": [],
@@ -14032,6 +17198,126 @@
       },
       {
         "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_男"
+        ],
+        "Job": [
+          "JID_マージカノン"
+        ],
+        "Weapon": [
+          "IID_弾_ブレイク"
+        ],
+        "Enemy": [
+          "PID_E006_異形兵_マージカノン"
+        ],
+        "EnemyJob": [
+          "JID_マージカノン"
+        ],
+        "EnemyWeapon": [
+          "IID_弾_ブレイク"
+        ],
+        "X": 18,
+        "Z": 27,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": false,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_女"
+        ],
+        "Job": [
+          "JID_マージカノン"
+        ],
+        "Weapon": [
+          "IID_弾_ブレイク"
+        ],
+        "Enemy": [
+          "PID_E006_異形兵_マージカノン"
+        ],
+        "EnemyJob": [
+          "JID_マージカノン"
+        ],
+        "EnemyWeapon": [
+          "IID_弾_ブレイク"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 8,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_男"
+        ],
+        "Job": [
+          "JID_エンチャント"
+        ],
+        "Weapon": [
+          "IID_鉄のナイフ"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": false,
+        "Person": [
+          "PID_遭遇戦_フィレネ兵_女"
+        ],
+        "Job": [
+          "JID_エンチャント"
+        ],
+        "Weapon": [
+          "IID_護身の法"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
         "Group": "グループE",
         "DLC": false,
         "Person": [],
@@ -14046,6 +17332,126 @@
         "Attack": 0,
         "Counter": 0,
         "Pursuit": 0,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": false,
+        "Person": [
+          "PID_遭遇戦_異形狼"
+        ],
+        "Job": [
+          "JID_異形狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 18,
+        "Z": 27,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": "Fld_E006"
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影狼"
+        ],
+        "Job": [
+          "JID_幻影狼"
+        ],
+        "Weapon": [
+          "IID_牙"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": false,
+        "Person": [
+          "PID_遭遇戦_異形飛竜"
+        ],
+        "Job": [
+          "JID_異形飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
+        "Field": ""
+      },
+      {
+        "Out": "",
+        "Group": "",
+        "DLC": true,
+        "Person": [
+          "PID_G000_幻影飛竜"
+        ],
+        "Job": [
+          "JID_幻影飛竜"
+        ],
+        "Weapon": [
+          "IID_瘴気のブレス"
+        ],
+        "Enemy": [
+          "PID_M011_異形兵_ソードファイター"
+        ],
+        "EnemyJob": [
+          "JID_ソードファイター"
+        ],
+        "EnemyWeapon": [
+          "IID_鉄の剣"
+        ],
+        "X": 0,
+        "Z": 0,
+        "Distance": 5.0,
+        "Attack": 1,
+        "Counter": 6,
+        "Pursuit": 2,
         "Field": ""
       }
     ]

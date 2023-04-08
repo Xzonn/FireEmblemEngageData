@@ -20,7 +20,7 @@
 			<Param KRID="TravelTalk" Count="0" Args0="0" Args1="0" Item="" />
 		</Data>
 	</Sheet>
-	<Sheet Name="縁者" Count="35">
+	<Sheet Name="縁者" Count="40">
 		<Header>
 			<Param Name="PID" Ident="PID" Type="PublicString" Min="" Max="" Chg="" />
 			<Param Name="縁者1" Ident="PID1" Type="string" Min="" Max="" Chg="" />
@@ -64,6 +64,11 @@
 			<Param PID="PID_ザフィーア" PID1="PID_スタルーク" PID2="" PID3="" PID4="" />
 			<Param PID="PID_ヴェイル" PID1="PID_モーヴ" PID2="" PID3="" PID4="" />
 			<Param PID="PID_モーヴ" PID1="" PID2="" PID3="" PID4="" />
+			<Param PID="PID_エル" PID1="PID_ラファール" PID2="PID_セレスティア" PID3="PID_グレゴリー" PID4="PID_マデリーン" />
+			<Param PID="PID_ラファール" PID1="PID_エル" PID2="PID_セレスティア" PID3="PID_グレゴリー" PID4="PID_マデリーン" />
+			<Param PID="PID_セレスティア" PID1="PID_エル" PID2="PID_ラファール" PID3="PID_グレゴリー" PID4="PID_マデリーン" />
+			<Param PID="PID_グレゴリー" PID1="PID_エル" PID2="PID_ラファール" PID3="PID_セレスティア" PID4="PID_マデリーン" />
+			<Param PID="PID_マデリーン" PID1="PID_エル" PID2="PID_ラファール" PID3="PID_セレスティア" PID4="PID_グレゴリー" />
 		</Data>
 	</Sheet>
 	<Sheet Name="施設" Count="5">

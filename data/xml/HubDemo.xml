@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="デモ定義" Count="17">
+	<Sheet Name="デモ定義" Count="18">
 		<Header>
 			<Param Name="ロケータ名" Ident="Locator" Type="PublicString" Min="" Max="" Chg="" />
 			<Param Name="表示名" Ident="MID" Type="string" Min="" Max="" Chg="" />
@@ -31,6 +31,7 @@
 			<Param Locator="Demo_RefleshHorse" MID="MID_TUT_HUB_REFRESH_OPEN" CameraName="HubCameraDemo15" Tutorial="TUTID_リフレッシュ" Condition="M007" Timezone="-1" FlagName="G_拠点_リフレッシュ初回" ManualCullingName="" LodBias="1" IsDisabledLodCrossfadeAnime="true" />
 			<Param Locator="Demo_RefleshFruit" MID="MID_TUT_HUB_REFRESH_OPEN" CameraName="HubCameraDemo16" Tutorial="TUTID_リフレッシュ" Condition="M007" Timezone="-1" FlagName="G_拠点_リフレッシュ初回" ManualCullingName="" LodBias="1" IsDisabledLodCrossfadeAnime="true" />
 			<Param Locator="Demo_GodStart" MID="" CameraName="ScriptStartGod" Tutorial="TUTID_神竜の章" Condition="CanStartGod" Timezone="-1" FlagName="G_拠点_神竜の章初回" ManualCullingName="" LodBias="0" IsDisabledLodCrossfadeAnime="false" />
+			<Param Locator="Demo_EvilStart" MID="" CameraName="ScriptStartEvil" Tutorial="TUTID_邪竜の章" Condition="CanStartEvil" Timezone="-1" FlagName="G_拠点_邪竜の章初回" ManualCullingName="" LodBias="0" IsDisabledLodCrossfadeAnime="false" />
 		</Data>
 	</Sheet>
 </Book>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="後日談" Count="42">
+	<Sheet Name="後日談" Count="48">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="グループ" Ident="Group" Type="PublicArray" Min="" Max="" Chg="" />
@@ -43,6 +43,12 @@
 			<Param Out="" Group="" Person="PID_フォガート" Field="Map_Event_M012_01" BackDegree="0" LightDegree="50" />
 			<Param Out="" Group="" Person="PID_パンドロ" Field="Map_Event_M013_01" BackDegree="0" LightDegree="50" />
 			<Param Out="" Group="" Person="PID_ボネ" Field="Map_Event_M016_01" BackDegree="0" LightDegree="50" />
+			<Param Out="" Group="DLC" Person="" Field="" BackDegree="" LightDegree="" />
+			<Param Out="" Group="" Person="PID_エル" Field="Map_Event_M002_02" BackDegree="0" LightDegree="50" />
+			<Param Out="" Group="" Person="PID_ラファール" Field="Map_Event_M002_02" BackDegree="0" LightDegree="50" />
+			<Param Out="" Group="" Person="PID_セレスティア" Field="Map_Event_M002_02" BackDegree="0" LightDegree="50" />
+			<Param Out="" Group="" Person="PID_グレゴリー" Field="Map_Event_M002_02" BackDegree="0" LightDegree="50" />
+			<Param Out="" Group="" Person="PID_マデリーン" Field="Map_Event_M002_02" BackDegree="0" LightDegree="50" />
 			<Param Out="" Group="その他" Person="" Field="" BackDegree="" LightDegree="" />
 			<Param Out="" Group="" Person="PID_アンナ" Field="Map_Event_S002_01" BackDegree="0" LightDegree="50" />
 			<Param Out="" Group="" Person="PID_ジャン" Field="Map_Event_S001_01" BackDegree="0" LightDegree="50" />

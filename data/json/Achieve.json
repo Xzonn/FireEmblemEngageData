@@ -461,6 +461,61 @@
         "Chapter": ""
       },
       {
+        "Aid": "AID_エルとの支援会話が発生",
+        "Name": "与{[0100]}进行了支援对话。",
+        "Category": 0,
+        "Kind": 5,
+        "Count": -1,
+        "Arg": "PID_エル",
+        "CountUnit": "",
+        "KizunaReward": 30,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_ラファールとの支援会話が発生",
+        "Name": "与{[0100]}进行了支援对话。",
+        "Category": 0,
+        "Kind": 5,
+        "Count": -1,
+        "Arg": "PID_ラファール",
+        "CountUnit": "",
+        "KizunaReward": 30,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_セレスティアとの支援会話が発生",
+        "Name": "与{[0100]}进行了支援对话。",
+        "Category": 0,
+        "Kind": 5,
+        "Count": -1,
+        "Arg": "PID_セレスティア",
+        "CountUnit": "",
+        "KizunaReward": 30,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_グレゴリーとの支援会話が発生",
+        "Name": "与{[0100]}进行了支援对话。",
+        "Category": 0,
+        "Kind": 5,
+        "Count": -1,
+        "Arg": "PID_グレゴリー",
+        "CountUnit": "",
+        "KizunaReward": 30,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_マデリーンとの支援会話が発生",
+        "Name": "与{[0100]}进行了支援对话。",
+        "Category": 0,
+        "Kind": 5,
+        "Count": -1,
+        "Arg": "PID_マデリーン",
+        "CountUnit": "",
+        "KizunaReward": 30,
+        "Chapter": ""
+      },
+      {
         "Aid": "AID_仲間初めて支援会話Bが発生",
         "Name": "首次观看等级B的支援对话。",
         "Category": 0,
@@ -1028,6 +1083,61 @@
         "Kind": 14,
         "Count": 5,
         "Arg": "PID_モーヴ",
+        "CountUnit": "次",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_エルと共に5回進軍",
+        "Name": "{[0100]}出击了{[0101]}次。",
+        "Category": 0,
+        "Kind": 14,
+        "Count": 5,
+        "Arg": "PID_エル",
+        "CountUnit": "次",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_ラファールと共に5回進軍",
+        "Name": "{[0100]}出击了{[0101]}次。",
+        "Category": 0,
+        "Kind": 14,
+        "Count": 5,
+        "Arg": "PID_ラファール",
+        "CountUnit": "次",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_セレスティアと共に5回進軍",
+        "Name": "{[0100]}出击了{[0101]}次。",
+        "Category": 0,
+        "Kind": 14,
+        "Count": 5,
+        "Arg": "PID_セレスティア",
+        "CountUnit": "次",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_グレゴリーと共に5回進軍",
+        "Name": "{[0100]}出击了{[0101]}次。",
+        "Category": 0,
+        "Kind": 14,
+        "Count": 5,
+        "Arg": "PID_グレゴリー",
+        "CountUnit": "次",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_マデリーンと共に5回進軍",
+        "Name": "{[0100]}出击了{[0101]}次。",
+        "Category": 0,
+        "Kind": 14,
+        "Count": 5,
+        "Arg": "PID_マデリーン",
         "CountUnit": "次",
         "KizunaReward": 100,
         "Chapter": ""
@@ -7212,6 +7322,72 @@
         "Arg": "CID_G006",
         "CountUnit": "",
         "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_邪竜の章０１クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 1,
+        "Count": -1,
+        "Arg": "CID_E001",
+        "CountUnit": "",
+        "KizunaReward": 100,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_邪竜の章０２クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 1,
+        "Count": -1,
+        "Arg": "CID_E002",
+        "CountUnit": "",
+        "KizunaReward": 120,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_邪竜の章０３クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 1,
+        "Count": -1,
+        "Arg": "CID_E003",
+        "CountUnit": "",
+        "KizunaReward": 140,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_邪竜の章０４クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 1,
+        "Count": -1,
+        "Arg": "CID_E004",
+        "CountUnit": "",
+        "KizunaReward": 160,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_邪竜の章０５クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 1,
+        "Count": -1,
+        "Arg": "CID_E005",
+        "CountUnit": "",
+        "KizunaReward": 180,
+        "Chapter": ""
+      },
+      {
+        "Aid": "AID_邪竜の章０６クリア",
+        "Name": "已完成{[0100]}《{[0101]}》。",
+        "Category": 4,
+        "Kind": 1,
+        "Count": -1,
+        "Arg": "CID_E006",
+        "CountUnit": "",
+        "KizunaReward": 200,
         "Chapter": ""
       },
       {

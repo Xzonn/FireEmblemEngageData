@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="1">
-	<Sheet Name="スタッフ" Count="1419">
+	<Sheet Name="スタッフ" Count="1463">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="種類" Ident="Type" Type="s8" Min="" Max="" Chg="" />
@@ -218,6 +218,11 @@
 			<Param Out="" Type="5" Text1="Sfoglia" Text2="Mika Kanda" Text3="" />
 			<Param Out="" Type="5" Text1="Lumiere" Text2="Kotono Mitsuishi" Text3="" />
 			<Param Out="" Type="5" Text1="Sombre" Text2="Katsuyuki Konishi" Text3="" />
+			<Param Out="" Type="5" Text1="El" Text2="Romi Park" Text3="" />
+			<Param Out="" Type="5" Text1="Il/Rafale" Text2="Takuya Eguchi" Text3="" />
+			<Param Out="" Type="5" Text1="Selestia" Text2="Rica Fukami" Text3="" />
+			<Param Out="" Type="5" Text1="Gregory" Text2="Kenjiro Tsuda" Text3="" />
+			<Param Out="" Type="5" Text1="Madeline" Text2="Ruriko Aoki" Text3="" />
 			<Param Out="" Type="10" Text1="" Text2="" Text3="" />
 			<Param Out="" Type="5" Text1="Marth" Text2="Hikaru Midorikawa" Text3="" />
 			<Param Out="" Type="5" Text1="Celica" Text2="Nao Toyama" Text3="" />
@@ -232,6 +237,16 @@
 			<Param Out="" Type="5" Text1="Lucina" Text2="Yu Kobayashi" Text3="" />
 			<Param Out="" Type="5" Text1="Kamui/Corrin" Text2="Satomi Sato" Text3="" />
 			<Param Out="" Type="5" Text1="Byleth" Text2="Yusuke Kobayashi" Text3="" />
+			<Param Out="" Type="5" Text1="Tiki" Text2="Sumire Morohoshi" Text3="" />
+			<Param Out="" Type="5" Text1="Hector" Text2="Kohsuke Toriumi" Text3="" />
+			<Param Out="" Type="5" Text1="Senerio" Text2="Ayumu Murase" Text3="" />
+			<Param Out="" Type="5" Text1="Chrom" Text2="Tomokazu Sugita" Text3="" />
+			<Param Out="" Type="5" Text1="Reflet" Text2="Yoshimasa Hosoya" Text3="" />
+			<Param Out="" Type="5" Text1="Camilla" Text2="Miyuki Sawashiro" Text3="" />
+			<Param Out="" Type="5" Text1="Edelgard" Text2="Ai Kakuma" Text3="" />
+			<Param Out="" Type="5" Text1="Dimitri" Text2="Kaito Ishikawa" Text3="" />
+			<Param Out="" Type="5" Text1="Claude" Text2="Toshiyuki Toyonaga" Text3="" />
+			<Param Out="" Type="5" Text1="Veronica" Text2="Rina Hidaka" Text3="" />
 			<Param Out="" Type="10" Text1="" Text2="" Text3="" />
 			<Param Out="" Type="5" Text1="Derton" Text2="Yuu Maeda" Text3="" />
 			<Param Out="" Type="5" Text1="Agnishu" Text2="Nozomi Shirota" Text3="" />
@@ -294,6 +309,11 @@
 			<Param Out="" Type="5" Text1="Seforia" Text2="Afi Ekulona" Text3="" />
 			<Param Out="" Type="5" Text1="Lumera" Text2="Julia McIlvaine" Text3="" />
 			<Param Out="" Type="5" Text1="Sombron" Text2="Erik Braa" Text3="" />
+			<Param Out="" Type="5" Text1="Nel" Text2="Liz Morey" Text3="" />
+			<Param Out="" Type="5" Text1="Nil/Rafal" Text2="Y. Chang" Text3="" />
+			<Param Out="" Type="5" Text1="Selestia" Text2="Elizabeth Maxwell" Text3="" />
+			<Param Out="" Type="5" Text1="Gregory" Text2="Jamison Boaz" Text3="" />
+			<Param Out="" Type="5" Text1="Madeline" Text2="Sarah Williams" Text3="" />
 			<Param Out="" Type="10" Text1="" Text2="" Text3="" />
 			<Param Out="" Type="5" Text1="Marth" Text2="Yuri Lowenthal" Text3="" />
 			<Param Out="" Type="5" Text1="Celica" Text2="Erica Lindbeck" Text3="" />
@@ -307,6 +327,16 @@
 			<Param Out="" Type="5" Text1="Lucina" Text2="Alexis Tipton" Text3="" />
 			<Param Out="" Type="5" Text1="Corrin" Text2="Marcella Lentz-Pope" Text3="" />
 			<Param Out="" Type="5" Text1="Byleth" Text2="Zach Aguilar" Text3="" />
+			<Param Out="" Type="5" Text1="Tiki" Text2="Mela Lee" Text3="" />
+			<Param Out="" Type="5" Text1="Hector" Text2="Patrick Seitz" Text3="" />
+			<Param Out="" Type="5" Text1="Soren" Text2="Kyle McCarley" Text3="" />
+			<Param Out="" Type="5" Text1="Chrom" Text2="Matt Mercer" Text3="" />
+			<Param Out="" Type="5" Text1="Robin" Text2="David Vincent" Text3="" />
+			<Param Out="" Type="5" Text1="Camilla" Text2="Misty Lee" Text3="" />
+			<Param Out="" Type="5" Text1="Edelgard" Text2="Tara Platt" Text3="" />
+			<Param Out="" Type="5" Text1="Dimitri" Text2="Chris Hackney" Text3="" />
+			<Param Out="" Type="5" Text1="Claude" Text2="Joe Zieja" Text3="" />
+			<Param Out="" Type="5" Text1="Veronica" Text2="Wendee Lee" Text3="" />
 			<Param Out="" Type="10" Text1="" Text2="" Text3="" />
 			<Param Out="" Type="1" Text1="Additional Voices" Text2="" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Jonah Scott" Text3="" />
@@ -419,6 +449,7 @@
 			<Param Out="" Type="3" Text1="" Text2="Ryoji Takahashi (AZcreative)" Text3="" />
 			<Param Out="" Type="3" Text1="" Text2="Hiroshi Kojima (AZcreative)" Text3="" />
 			<Param Out="" Type="3" Text1="" Text2="Himeka Matsuyama (AZcreative)" Text3="" />
+			<Param Out="" Type="3" Text1="" Text2="Fujimoto Mayu(AZcreative)" Text3="" />
 			<Param Out="" Type="10" Text1="" Text2="" Text3="" />
 			<Param Out="" Type="1" Text1="Sound Design (MA)" Text2="" Text3="" />
 			<Param Out="" Type="1" Text1="Sound Designer" Text2="" Text3="" />
@@ -439,6 +470,10 @@
 			<Param Out="" Type="4" Text1="" Text2="Ako Tsubaki" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Kei Seta" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Utonapi" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="K.Mirror" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Akiko Aikawa" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Takato Aisaka" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Haruka Fuse" Text3="" />
 			<Param Out="" Type="10" Text1="" Text2="" Text3="" />
 			<Param Out="" Type="1" Text1="Planner" Text2="" Text3="" />
 			<Param Out="" Type="2" Text1="" Text2="Keisuke Mizuno" Text3="" />
@@ -1233,6 +1268,7 @@
 			<Param Out="" Type="4" Text1="" Text2="Paloma Hernandez" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Sara Hoad" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Bill Hutchens" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Alex Kahler" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Ryan Kelley" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Ryan Kindel" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Lars Knudson" Text3="" />
@@ -1240,6 +1276,7 @@
 			<Param Out="" Type="4" Text1="" Text2="Christelle Liviero Aracena" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Nich Maragos" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Yoriko Marusich" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Nikki McCormack" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Karina Mora" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Kento Oiwa" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Carolina Quesada" Text3="" />
@@ -1312,7 +1349,7 @@
 			<Param Out="" Type="2" Text1="" Text2="Greg Chun" Text3="" />
 			<Param Out="" Type="10" Text1="" Text2="" Text3="" />
 			<Param Out="" Type="1" Text1="Vocal Engineer" Text2="" Text3="" />
-			<Param Out="" Type="2" Text1="" Text2="Eddite J. Correa" Text3="" />
+			<Param Out="" Type="2" Text1="" Text2="Jonathan Abarca" Text3="" />
 			<Param Out="" Type="12" Text1="" Text2="" Text3="" />
 			<Param Out="" Type="8" Text1="NOE Staff" Text2="" Text3="" />
 			<Param Out="" Type="1" Text1="Coordination" Text2="" Text3="" />
@@ -1320,9 +1357,12 @@
 			<Param Out="" Type="4" Text1="" Text2="Matthew Mawer" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Christian Massi" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Flavia Madonia" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Petra Gyarmaty" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Zarrah Bevan" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Roby Liebetruth" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Pierre Sanchez" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Yuan Jun" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Ling Yayun" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Sean Shen" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Natalie Yu" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Dongyeon Kim" Text3="" />
@@ -1344,6 +1384,7 @@
 			<Param Out="" Type="4" Text1="" Text2="Bruno Gramigna" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Valeria Castellino" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Chiara Botta" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Alessandro Pagano" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Martina Deimel" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Alexander van de Bergh" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Sebastian Brück" Text3="" />
@@ -1354,6 +1395,7 @@
 			<Param Out="" Type="4" Text1="" Text2="Cristina Solà Picas" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Alfonso Díaz Jiménez" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Miguel Rodríguez Ramos" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Jónatan Marcos Millán" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Keywords Studios" Text3="" />
 			<Param Out="" Type="10" Text1="" Text2="" Text3="" />
 			<Param Out="" Type="2" Text1="" Text2="PTW Korea Co., Ltd." Text3="" />
@@ -1364,7 +1406,9 @@
 			<Param Out="" Type="1" Text1="Coordination" Text2="" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Sonia Trepiccioni" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Steffen Lotz" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Sebastian Donnerstag" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Yan Gang" Text3="" />
+			<Param Out="" Type="4" Text1="" Text2="Xu Ming" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Umemura Eiju" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Kiung Seoung" Text3="" />
 			<Param Out="" Type="4" Text1="" Text2="Keywords Studios" Text3="" />

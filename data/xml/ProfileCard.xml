@@ -107,7 +107,7 @@
 			<Param Out="" Id="PCTCID_橙" Color="橙" Condition="0" Arg="0" />
 		</Data>
 	</Sheet>
-	<Sheet Name="キャラクタースタンプ" Count="60">
+	<Sheet Name="キャラクタースタンプ" Count="65">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -154,6 +154,11 @@
 			<Param Out="" Id="PCCSID_ヴェイル" Image="Veyre_0" Condition="3" Arg="PID_ヴェイル" />
 			<Param Out="" Id="PCCSID_モーヴ" Image="Mauve_0" Condition="3" Arg="PID_モーヴ" />
 			<Param Out="" Id="PCCSID_ルミエル" Image="Lumiere_0" Condition="0" Arg="0" />
+			<Param Out="" Id="PCCSID_エル" Image="El_0" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCCSID_ラファール" Image="Rafale_0" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCCSID_セレスティア" Image="Selestia_0" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCCSID_グレゴリー" Image="Gregory_0" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCCSID_マデリーン" Image="Madeline_0" Condition="1" Arg="CID_E006" />
 			<Param Out="" Id="PCCSID_マルス" Image="Marth_0" Condition="0" Arg="0" />
 			<Param Out="" Id="PCCSID_セリカ" Image="Celica_0" Condition="0" Arg="0" />
 			<Param Out="" Id="PCCSID_シグルド" Image="Siglud_0" Condition="0" Arg="0" />
@@ -178,7 +183,7 @@
 			<Param Out="" Id="PCCSID_ヴェロニカ" Image="Veronica_0" Condition="1" Arg="CID_G003" />
 		</Data>
 	</Sheet>
-	<Sheet Name="スタンプ" Count="367">
+	<Sheet Name="スタンプ" Count="399">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -225,6 +230,11 @@
 			<Param Out="" Id="PCSID_ザフィーア" Image="UnitIcon_Saphir" Category="0" Condition="3" Arg="PID_ザフィーア" />
 			<Param Out="" Id="PCSID_ヴェイル" Image="UnitIcon_Veyre" Category="0" Condition="3" Arg="PID_ヴェイル" />
 			<Param Out="" Id="PCSID_モーヴ" Image="UnitIcon_Mauve" Category="0" Condition="3" Arg="PID_モーヴ" />
+			<Param Out="" Id="PCSID_エル" Image="UnitIcon_El" Category="0" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_ラファール" Image="UnitIcon_Rafale" Category="0" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_セレスティア" Image="UnitIcon_Selestia" Category="0" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_グレゴリー" Image="UnitIcon_Gregory" Category="0" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_マデリーン" Image="UnitIcon_Madeline" Category="0" Condition="1" Arg="CID_E006" />
 			<Param Out="" Id="PCSID_ソラ" Image="UnitIcon_Sola" Category="0" Condition="16" Arg="0" />
 			<Param Out="" Id="PCSID_紋章士マルス" Image="UnitIcon_Marth" Category="1" Condition="0" Arg="0" />
 			<Param Out="" Id="PCSID_紋章士セリカ" Image="UnitIcon_Celica" Category="1" Condition="0" Arg="0" />
@@ -302,6 +312,21 @@
 			<Param Out="" Id="PCSID_閃進の法" Image="Weapon_FlashFist" Category="2" Condition="1" Arg="CID_M017" />
 			<Param Out="" Id="PCSID_覇神の法" Image="Weapon_GodFist" Category="2" Condition="2" Arg="0" />
 			<Param Out="" Id="PCSID_ロールケーキ体術" Image="Weapon_Rollcake" Category="2" Condition="0" Arg="0" />
+			<Param Out="" Id="PCSID_邪竜石" Image="Weapon_Evilstone" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_真邪竜石" Image="Weapon_TrueEvilstone" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_邪竜石_魔法攻撃" Image="Weapon_Evilstone_Magic" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_邪竜石_騎馬特効" Image="Weapon_Evilstone_Slayer_Horse" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_邪竜石_飛行特効" Image="Weapon_Evilstone_Slayer_Fly" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_弾_物理" Image="Weapon_Bullet_Power" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_弾_魔法" Image="Weapon_Bullet_Magic" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_弾_フリーズ" Image="Weapon_Bullet_Freeze" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_弾_ブレイク" Image="Weapon_Bullet_Collapse" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_弾_飛行特効" Image="Weapon_Bullet_Slayer_Fly" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_弾_竜特効" Image="Weapon_Bullet_Slayer_Dragon" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_弾_異形特効" Image="Weapon_Bullet_Slayer_Morph" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_弾_物理_強" Image="Weapon_Bullet_PowerStrong" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_弾_魔法_強" Image="Weapon_Bullet_MagicStrong" Category="2" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_弾_防御無視" Image="Weapon_Bullet_Penetration" Category="2" Condition="1" Arg="CID_E006" />
 			<Param Out="" Id="PCSID_マルス_レイピア" Image="EngWeapon_Marth_Rapier" Category="3" Condition="0" Arg="0" />
 			<Param Out="" Id="PCSID_マルス_メリクルソード" Image="EngWeapon_Marth_Mericle" Category="3" Condition="11" Arg="GID_マルス" />
 			<Param Out="" Id="PCSID_マルス_ファルシオン" Image="EngWeapon_Marth_Falchion" Category="3" Condition="12" Arg="GID_マルス" />
@@ -397,6 +422,8 @@
 			<Param Out="" Id="PCSID_マスタープルフ" Image="Item_MasterSeal" Category="4" Condition="1" Arg="CID_M007" />
 			<Param Out="" Id="PCSID_チェンジプルフ" Image="Item_ChangeSeal" Category="4" Condition="1" Arg="CID_M008" />
 			<Param Out="" Id="PCSID_約束の指輪" Image="Item_PromiseRing" Category="4" Condition="1" Arg="CID_S015" />
+			<Param Out="" Id="PCSID_エンチャント専用プルフ" Image="Item_EnchantSeal" Category="4" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCSID_マージカノン専用プルフ" Image="Item_MageCannonSeal" Category="4" Condition="1" Arg="CID_E006" />
 			<Param Out="" Id="PCSID_システム_支援ハート" Image="SystemIcon_RelianceHeart" Category="5" Condition="0" Arg="0" />
 			<Param Out="" Id="PCSID_システム_絆キラ" Image="SystemIcon_BondKira" Category="5" Condition="0" Arg="0" />
 			<Param Out="" Id="PCSID_システム_支援フキダシ" Image="SystemIcon_TalkReliance" Category="5" Condition="0" Arg="0" />
@@ -533,6 +560,16 @@
 			<Param Out="" Id="PCSID_スタンプ_ヴェイルS" Image="Stamp_VeyreS" Category="6" Condition="10" Arg="PID_ヴェイル" />
 			<Param Out="" Id="PCSID_スタンプ_モーヴ" Image="Stamp_Mauve" Category="6" Condition="9" Arg="PID_モーヴ" />
 			<Param Out="" Id="PCSID_スタンプ_モーヴS" Image="Stamp_MauveS" Category="6" Condition="10" Arg="PID_モーヴ" />
+			<Param Out="" Id="PCSID_スタンプ_エル" Image="Stamp_El" Category="6" Condition="9" Arg="PID_エル" />
+			<Param Out="" Id="PCSID_スタンプ_エルS" Image="Stamp_ElS" Category="6" Condition="10" Arg="PID_エル" />
+			<Param Out="" Id="PCSID_スタンプ_ラファール" Image="Stamp_Rafale" Category="6" Condition="9" Arg="PID_ラファール" />
+			<Param Out="" Id="PCSID_スタンプ_ラファールS" Image="Stamp_RafaleS" Category="6" Condition="10" Arg="PID_ラファール" />
+			<Param Out="" Id="PCSID_スタンプ_セレスティア" Image="Stamp_Selestia" Category="6" Condition="9" Arg="PID_セレスティア" />
+			<Param Out="" Id="PCSID_スタンプ_セレスティアS" Image="Stamp_SelestiaS" Category="6" Condition="10" Arg="PID_セレスティア" />
+			<Param Out="" Id="PCSID_スタンプ_グレゴリー" Image="Stamp_Gregory" Category="6" Condition="9" Arg="PID_グレゴリー" />
+			<Param Out="" Id="PCSID_スタンプ_グレゴリーS" Image="Stamp_GregoryS" Category="6" Condition="10" Arg="PID_グレゴリー" />
+			<Param Out="" Id="PCSID_スタンプ_マデリーン" Image="Stamp_Madeline" Category="6" Condition="9" Arg="PID_マデリーン" />
+			<Param Out="" Id="PCSID_スタンプ_マデリーンS" Image="Stamp_MadelineS" Category="6" Condition="10" Arg="PID_マデリーン" />
 			<Param Out="" Id="PCSID_スタンプ_ソラ" Image="Stamp_Sola" Category="6" Condition="15" Arg="0" />
 			<Param Out="" Id="PCSID_スタンプ_ソラS" Image="Stamp_SolaS" Category="6" Condition="16" Arg="0" />
 			<Param Out="" Id="PCSID_システム_指輪_マルス" Image="SystemIcon_Ring_Marth" Category="6" Condition="0" Arg="0" />
@@ -557,7 +594,7 @@
 			<Param Out="" Id="PCSID_システム_指輪_ヴェロニカ" Image="SystemIcon_Ring_Veronica" Category="6" Condition="1" Arg="CID_G003" />
 		</Data>
 	</Sheet>
-	<Sheet Name="称号" Count="193">
+	<Sheet Name="称号" Count="198">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -602,6 +639,11 @@
 			<Param Out="" Id="PCTID_ザフィーア" Name="MPID_alias_Saphir" Condition="2" Arg="0" />
 			<Param Out="" Id="PCTID_ヴェイル" Name="MPID_alias_Veyre" Condition="2" Arg="0" />
 			<Param Out="" Id="PCTID_モーヴ" Name="MPID_alias_Mauve" Condition="2" Arg="0" />
+			<Param Out="" Id="PCTID_エル" Name="MPID_alias_El" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCTID_ラファール" Name="MPID_alias_Rafale" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCTID_セレスティア" Name="MPID_alias_Selestia" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCTID_グレゴリー" Name="MPID_alias_Gregory" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCTID_マデリーン" Name="MPID_alias_Madeline" Condition="1" Arg="CID_E006" />
 			<Param Out="" Id="PCTID_ファイアーエムブレム" Name="PCTMID_FireEmblem" Condition="0" Arg="0" />
 			<Param Out="" Id="PCTID_暗黒竜と光の剣" Name="PCTMID_ShadowDragon" Condition="0" Arg="0" />
 			<Param Out="" Id="PCTID_新・暗黒竜と光の剣" Name="PCTMID_NewShadowDragon" Condition="0" Arg="0" />
@@ -761,7 +803,7 @@
 			<Param Out="" Id="PCTID_アンラッキー" Name="MID_RELAY_Award_SkillTarget" Condition="5" Arg="AID_リレーバトル数　初回" />
 		</Data>
 	</Sheet>
-	<Sheet Name="お気に入りキャラクター" Count="74">
+	<Sheet Name="お気に入りキャラクター" Count="79">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -822,6 +864,11 @@
 			<Param Out="" Id="PCFPID_セピア" Name="MPID_Sepia" Condition="1" Arg="CID_M011" />
 			<Param Out="" Id="PCFPID_グリ" Name="MPID_Gris" Condition="1" Arg="CID_M011" />
 			<Param Out="" Id="PCFPID_マロン" Name="MPID_Marron" Condition="1" Arg="CID_M011" />
+			<Param Out="" Id="PCFPID_エル" Name="MPID_El" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCFPID_ラファール" Name="MPID_Rafale" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCFPID_セレスティア" Name="MPID_Selestia" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCFPID_グレゴリー" Name="MPID_Gregory" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCFPID_マデリーン" Name="MPID_Madeline" Condition="1" Arg="CID_E006" />
 			<Param Out="" Id="PCFPID_マルス" Name="MPID_Marth" Condition="0" Arg="0" />
 			<Param Out="" Id="PCFPID_セリカ" Name="MPID_Celica" Condition="0" Arg="0" />
 			<Param Out="" Id="PCFPID_シグルド" Name="MPID_Siglud" Condition="0" Arg="0" />
@@ -846,7 +893,7 @@
 			<Param Out="" Id="PCFPID_ヴェロニカ" Name="MPID_Veronica" Condition="1" Arg="CID_G003" />
 		</Data>
 	</Sheet>
-	<Sheet Name="お気に入りマップ" Count="54">
+	<Sheet Name="お気に入りマップ" Count="60">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -909,9 +956,15 @@
 			<Param Out="" Id="PCFCID_G004" Cid="CID_G004" Condition="1" Arg="CID_G004" />
 			<Param Out="" Id="PCFCID_G005" Cid="CID_G005" Condition="1" Arg="CID_G005" />
 			<Param Out="" Id="PCFCID_G006" Cid="CID_G006" Condition="1" Arg="CID_G006" />
+			<Param Out="" Id="PCFCID_E001" Cid="CID_E001" Condition="1" Arg="CID_E001" />
+			<Param Out="" Id="PCFCID_E002" Cid="CID_E002" Condition="1" Arg="CID_E002" />
+			<Param Out="" Id="PCFCID_E003" Cid="CID_E003" Condition="1" Arg="CID_E003" />
+			<Param Out="" Id="PCFCID_E004" Cid="CID_E004" Condition="1" Arg="CID_E004" />
+			<Param Out="" Id="PCFCID_E005" Cid="CID_E005" Condition="1" Arg="CID_E005" />
+			<Param Out="" Id="PCFCID_E006" Cid="CID_E006" Condition="1" Arg="CID_E006" />
 		</Data>
 	</Sheet>
-	<Sheet Name="一言" Count="253">
+	<Sheet Name="一言" Count="260">
 		<Header>
 			<Param Name="出力先" Ident="Out" Type="PublicFile" Min="" Max="" Chg="" />
 			<Param Name="識別子" Ident="Id" Type="PublicString" Min="" Max="" Chg="" />
@@ -1088,6 +1141,8 @@
 			<Param Out="" Id="PCCID_グリフォンナイト" Name="MJID_GriffonKnight" Category="4" Condition="1" Arg="CID_M007" />
 			<Param Out="" Id="PCCID_ドラゴンナイト" Name="MJID_DragonKnight" Category="4" Condition="1" Arg="CID_M007" />
 			<Param Out="" Id="PCCID_メリュジーヌ" Name="MJID_Melusine" Category="4" Condition="1" Arg="CID_M011" />
+			<Param Out="" Id="PCCID_エンチャント" Name="MJID_Enchant" Category="4" Condition="1" Arg="CID_E002" />
+			<Param Out="" Id="PCCID_マージカノン" Name="MJID_MageCannon" Category="4" Condition="1" Arg="CID_E003" />
 			<Param Out="" Id="PCCID_紋章士" Name="MJID_Emblem" Category="4" Condition="1" Arg="CID_S003" />
 			<Param Out="" Id="PCCID_村人" Name="MJID_Villager" Category="4" Condition="0" Arg="0" />
 			<Param Out="" Id="PCCID_蛮族" Name="MJID_Barbarian" Category="4" Condition="0" Arg="0" />
@@ -1152,6 +1207,11 @@
 			<Param Out="" Id="PCCID_セピア" Name="MPID_Sepia" Category="5" Condition="1" Arg="CID_M011" />
 			<Param Out="" Id="PCCID_グリ" Name="MPID_Gris" Category="5" Condition="1" Arg="CID_M011" />
 			<Param Out="" Id="PCCID_マロン" Name="MPID_Marron" Category="5" Condition="1" Arg="CID_M011" />
+			<Param Out="" Id="PCCID_エル" Name="MPID_El" Category="5" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCCID_ラファール" Name="MPID_Rafale" Category="5" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCCID_セレスティア" Name="MPID_Selestia" Category="5" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCCID_グレゴリー" Name="MPID_Gregory" Category="5" Condition="1" Arg="CID_E006" />
+			<Param Out="" Id="PCCID_マデリーン" Name="MPID_Madeline" Category="5" Condition="1" Arg="CID_E006" />
 			<Param Out="" Id="PCCID_マルス" Name="MPID_Marth" Category="5" Condition="0" Arg="0" />
 			<Param Out="" Id="PCCID_セリカ" Name="MPID_Celica" Category="5" Condition="0" Arg="0" />
 			<Param Out="" Id="PCCID_シグルド" Name="MPID_Siglud" Category="5" Condition="0" Arg="0" />

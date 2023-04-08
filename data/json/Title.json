@@ -269,6 +269,31 @@
       },
       {
         "Out": "",
+        "PidOrGid": "PID_エル",
+        "Cid": "CID_E006"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_ラファール",
+        "Cid": "CID_E006"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_セレスティア",
+        "Cid": "CID_E006"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_グレゴリー",
+        "Cid": "CID_E006"
+      },
+      {
+        "Out": "",
+        "PidOrGid": "PID_マデリーン",
+        "Cid": "CID_E006"
+      },
+      {
+        "Out": "",
         "PidOrGid": "GID_チキ",
         "Cid": "CID_G001"
       },

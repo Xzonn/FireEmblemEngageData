@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Book Count="2">
-	<Sheet Name="実績一覧" Count="817">
+	<Sheet Name="実績一覧" Count="833">
 		<Header>
 			<Param Name="実績" Ident="Aid" Type="PublicString" Min="" Max="" Chg="" />
 			<Param Name="名前" Ident="Name" Type="string" Min="" Max="" Chg="" />
@@ -48,6 +48,11 @@
 			<Param Aid="AID_ザフィーアとの支援会話が発生" Name="MID_ACHIEVE_RELIANCE_FIRST" Category="0" Kind="5" Count="-1" Arg="PID_ザフィーア" CountUnit="" KizunaReward="30" Chapter="" />
 			<Param Aid="AID_ヴェイルとの支援会話が発生" Name="MID_ACHIEVE_RELIANCE_FIRST" Category="0" Kind="5" Count="-1" Arg="PID_ヴェイル" CountUnit="" KizunaReward="30" Chapter="" />
 			<Param Aid="AID_モーヴとの支援会話が発生" Name="MID_ACHIEVE_RELIANCE_FIRST" Category="0" Kind="5" Count="-1" Arg="PID_モーヴ" CountUnit="" KizunaReward="30" Chapter="" />
+			<Param Aid="AID_エルとの支援会話が発生" Name="MID_ACHIEVE_RELIANCE_FIRST" Category="0" Kind="5" Count="-1" Arg="PID_エル" CountUnit="" KizunaReward="30" Chapter="" />
+			<Param Aid="AID_ラファールとの支援会話が発生" Name="MID_ACHIEVE_RELIANCE_FIRST" Category="0" Kind="5" Count="-1" Arg="PID_ラファール" CountUnit="" KizunaReward="30" Chapter="" />
+			<Param Aid="AID_セレスティアとの支援会話が発生" Name="MID_ACHIEVE_RELIANCE_FIRST" Category="0" Kind="5" Count="-1" Arg="PID_セレスティア" CountUnit="" KizunaReward="30" Chapter="" />
+			<Param Aid="AID_グレゴリーとの支援会話が発生" Name="MID_ACHIEVE_RELIANCE_FIRST" Category="0" Kind="5" Count="-1" Arg="PID_グレゴリー" CountUnit="" KizunaReward="30" Chapter="" />
+			<Param Aid="AID_マデリーンとの支援会話が発生" Name="MID_ACHIEVE_RELIANCE_FIRST" Category="0" Kind="5" Count="-1" Arg="PID_マデリーン" CountUnit="" KizunaReward="30" Chapter="" />
 			<Param Aid="AID_仲間初めて支援会話Bが発生" Name="MID_ACHIEVE_RELIANCE_B_FIRST" Category="0" Kind="6" Count="1" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_HUMAN" KizunaReward="50" Chapter="" />
 			<Param Aid="AID_仲間５人と支援会話Bが発生" Name="MID_ACHIEVE_RELIANCE_B_COUNT" Category="0" Kind="6" Count="5" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_HUMAN" KizunaReward="60" Chapter="" />
 			<Param Aid="AID_仲間１０人と支援会話Bが発生" Name="MID_ACHIEVE_RELIANCE_B_COUNT" Category="0" Kind="6" Count="10" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_HUMAN" KizunaReward="70" Chapter="" />
@@ -100,6 +105,11 @@
 			<Param Aid="AID_ザフィーアと共に5回進軍" Name="MID_ACHIEVE_SORTIE_COUNT" Category="0" Kind="14" Count="5" Arg="PID_ザフィーア" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
 			<Param Aid="AID_ヴェイルと共に5回進軍" Name="MID_ACHIEVE_SORTIE_COUNT" Category="0" Kind="14" Count="5" Arg="PID_ヴェイル" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
 			<Param Aid="AID_モーヴと共に5回進軍" Name="MID_ACHIEVE_SORTIE_COUNT" Category="0" Kind="14" Count="5" Arg="PID_モーヴ" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
+			<Param Aid="AID_エルと共に5回進軍" Name="MID_ACHIEVE_SORTIE_COUNT" Category="0" Kind="14" Count="5" Arg="PID_エル" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
+			<Param Aid="AID_ラファールと共に5回進軍" Name="MID_ACHIEVE_SORTIE_COUNT" Category="0" Kind="14" Count="5" Arg="PID_ラファール" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
+			<Param Aid="AID_セレスティアと共に5回進軍" Name="MID_ACHIEVE_SORTIE_COUNT" Category="0" Kind="14" Count="5" Arg="PID_セレスティア" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
+			<Param Aid="AID_グレゴリーと共に5回進軍" Name="MID_ACHIEVE_SORTIE_COUNT" Category="0" Kind="14" Count="5" Arg="PID_グレゴリー" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
+			<Param Aid="AID_マデリーンと共に5回進軍" Name="MID_ACHIEVE_SORTIE_COUNT" Category="0" Kind="14" Count="5" Arg="PID_マデリーン" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
 			<Param Aid="AID_遭遇戦初回クリア" Name="MID_ACHIEVE_ENCOUNT_BATTLE_FIRST" Category="1" Kind="13" Count="1" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="10" Chapter="" />
 			<Param Aid="AID_遭遇戦５回クリア" Name="MID_ACHIEVE_ENCOUNT_BATTLE_COUNT" Category="1" Kind="13" Count="5" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="50" Chapter="" />
 			<Param Aid="AID_遭遇戦１０回クリア" Name="MID_ACHIEVE_ENCOUNT_BATTLE_COUNT" Category="1" Kind="13" Count="10" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
@@ -662,6 +672,12 @@
 			<Param Aid="AID_神竜の章０４クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="2" Count="-1" Arg="CID_G004" CountUnit="" KizunaReward="100" Chapter="" />
 			<Param Aid="AID_神竜の章０５クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="2" Count="-1" Arg="CID_G005" CountUnit="" KizunaReward="100" Chapter="" />
 			<Param Aid="AID_神竜の章０６クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="2" Count="-1" Arg="CID_G006" CountUnit="" KizunaReward="100" Chapter="" />
+			<Param Aid="AID_邪竜の章０１クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="1" Count="-1" Arg="CID_E001" CountUnit="" KizunaReward="100" Chapter="" />
+			<Param Aid="AID_邪竜の章０２クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="1" Count="-1" Arg="CID_E002" CountUnit="" KizunaReward="120" Chapter="" />
+			<Param Aid="AID_邪竜の章０３クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="1" Count="-1" Arg="CID_E003" CountUnit="" KizunaReward="140" Chapter="" />
+			<Param Aid="AID_邪竜の章０４クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="1" Count="-1" Arg="CID_E004" CountUnit="" KizunaReward="160" Chapter="" />
+			<Param Aid="AID_邪竜の章０５クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="1" Count="-1" Arg="CID_E005" CountUnit="" KizunaReward="180" Chapter="" />
+			<Param Aid="AID_邪竜の章０６クリア" Name="MID_ACHIEVE_CHAPTER_CLEAR" Category="4" Kind="1" Count="-1" Arg="CID_E006" CountUnit="" KizunaReward="200" Chapter="" />
 			<Param Aid="AID_通信対戦数初回" Name="MID_ACHIEVE_NETMATCH_FIRST" Category="4" Kind="80" Count="1" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="10" Chapter="" />
 			<Param Aid="AID_通信対戦数10回" Name="MID_ACHIEVE_NETMATCH_COUNT" Category="4" Kind="80" Count="10" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="100" Chapter="" />
 			<Param Aid="AID_通信対戦数20回" Name="MID_ACHIEVE_NETMATCH_COUNT" Category="4" Kind="80" Count="20" Arg="" CountUnit="MID_MENU_ACHIEVEMENT_UNIT_COUNT" KizunaReward="200" Chapter="" />

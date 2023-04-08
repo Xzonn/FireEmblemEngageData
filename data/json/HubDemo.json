@@ -286,6 +286,18 @@
         "ManualCullingName": "",
         "LodBias": 0.0,
         "IsDisabledLodCrossfadeAnime": false
+      },
+      {
+        "Locator": "Demo_EvilStart",
+        "MID": "",
+        "CameraName": "ScriptStartEvil",
+        "Tutorial": "TUTID_邪竜の章",
+        "Condition": "CanStartEvil",
+        "Timezone": -1,
+        "FlagName": "G_拠点_邪竜の章初回",
+        "ManualCullingName": "",
+        "LodBias": 0.0,
+        "IsDisabledLodCrossfadeAnime": false
       }
     ]
   }

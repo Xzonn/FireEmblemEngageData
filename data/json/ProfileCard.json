@@ -936,6 +936,41 @@
       },
       {
         "Out": "",
+        "Id": "PCCSID_エル",
+        "Image": "El_0",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCCSID_ラファール",
+        "Image": "Rafale_0",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCCSID_セレスティア",
+        "Image": "Selestia_0",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCCSID_グレゴリー",
+        "Image": "Gregory_0",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCCSID_マデリーン",
+        "Image": "Madeline_0",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
         "Id": "PCCSID_マルス",
         "Image": "Marth_0",
         "Condition": 0,
@@ -1437,6 +1472,46 @@
         "Category": 0,
         "Condition": 3,
         "Arg": "PID_モーヴ"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_エル",
+        "Image": "UnitIcon_El",
+        "Category": 0,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_ラファール",
+        "Image": "UnitIcon_Rafale",
+        "Category": 0,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_セレスティア",
+        "Image": "UnitIcon_Selestia",
+        "Category": 0,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_グレゴリー",
+        "Image": "UnitIcon_Gregory",
+        "Category": 0,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_マデリーン",
+        "Image": "UnitIcon_Madeline",
+        "Category": 0,
+        "Condition": 1,
+        "Arg": "CID_E006"
       },
       {
         "Out": "",
@@ -2053,6 +2128,126 @@
         "Category": 2,
         "Condition": 0,
         "Arg": "0"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_邪竜石",
+        "Image": "Weapon_Evilstone",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_真邪竜石",
+        "Image": "Weapon_TrueEvilstone",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_邪竜石_魔法攻撃",
+        "Image": "Weapon_Evilstone_Magic",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_邪竜石_騎馬特効",
+        "Image": "Weapon_Evilstone_Slayer_Horse",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_邪竜石_飛行特効",
+        "Image": "Weapon_Evilstone_Slayer_Fly",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_弾_物理",
+        "Image": "Weapon_Bullet_Power",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_弾_魔法",
+        "Image": "Weapon_Bullet_Magic",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_弾_フリーズ",
+        "Image": "Weapon_Bullet_Freeze",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_弾_ブレイク",
+        "Image": "Weapon_Bullet_Collapse",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_弾_飛行特効",
+        "Image": "Weapon_Bullet_Slayer_Fly",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_弾_竜特効",
+        "Image": "Weapon_Bullet_Slayer_Dragon",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_弾_異形特効",
+        "Image": "Weapon_Bullet_Slayer_Morph",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_弾_物理_強",
+        "Image": "Weapon_Bullet_PowerStrong",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_弾_魔法_強",
+        "Image": "Weapon_Bullet_MagicStrong",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_弾_防御無視",
+        "Image": "Weapon_Bullet_Penetration",
+        "Category": 2,
+        "Condition": 1,
+        "Arg": "CID_E006"
       },
       {
         "Out": "",
@@ -2813,6 +3008,22 @@
         "Category": 4,
         "Condition": 1,
         "Arg": "CID_S015"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_エンチャント専用プルフ",
+        "Image": "Item_EnchantSeal",
+        "Category": 4,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_マージカノン専用プルフ",
+        "Image": "Item_MageCannonSeal",
+        "Category": 4,
+        "Condition": 1,
+        "Arg": "CID_E006"
       },
       {
         "Out": "",
@@ -3904,6 +4115,86 @@
       },
       {
         "Out": "",
+        "Id": "PCSID_スタンプ_エル",
+        "Image": "Stamp_El",
+        "Category": 6,
+        "Condition": 9,
+        "Arg": "PID_エル"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_スタンプ_エルS",
+        "Image": "Stamp_ElS",
+        "Category": 6,
+        "Condition": 10,
+        "Arg": "PID_エル"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_スタンプ_ラファール",
+        "Image": "Stamp_Rafale",
+        "Category": 6,
+        "Condition": 9,
+        "Arg": "PID_ラファール"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_スタンプ_ラファールS",
+        "Image": "Stamp_RafaleS",
+        "Category": 6,
+        "Condition": 10,
+        "Arg": "PID_ラファール"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_スタンプ_セレスティア",
+        "Image": "Stamp_Selestia",
+        "Category": 6,
+        "Condition": 9,
+        "Arg": "PID_セレスティア"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_スタンプ_セレスティアS",
+        "Image": "Stamp_SelestiaS",
+        "Category": 6,
+        "Condition": 10,
+        "Arg": "PID_セレスティア"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_スタンプ_グレゴリー",
+        "Image": "Stamp_Gregory",
+        "Category": 6,
+        "Condition": 9,
+        "Arg": "PID_グレゴリー"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_スタンプ_グレゴリーS",
+        "Image": "Stamp_GregoryS",
+        "Category": 6,
+        "Condition": 10,
+        "Arg": "PID_グレゴリー"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_スタンプ_マデリーン",
+        "Image": "Stamp_Madeline",
+        "Category": 6,
+        "Condition": 9,
+        "Arg": "PID_マデリーン"
+      },
+      {
+        "Out": "",
+        "Id": "PCSID_スタンプ_マデリーンS",
+        "Image": "Stamp_MadelineS",
+        "Category": 6,
+        "Condition": 10,
+        "Arg": "PID_マデリーン"
+      },
+      {
+        "Out": "",
         "Id": "PCSID_スタンプ_ソラ",
         "Image": "Stamp_Sola",
         "Category": 6,
@@ -4375,6 +4666,41 @@
         "Name": "救赎骑士",
         "Condition": 2,
         "Arg": "0"
+      },
+      {
+        "Out": "",
+        "Id": "PCTID_エル",
+        "Name": "MPID_alias_El",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCTID_ラファール",
+        "Name": "MPID_alias_Rafale",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCTID_セレスティア",
+        "Name": "MPID_alias_Selestia",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCTID_グレゴリー",
+        "Name": "MPID_alias_Gregory",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCTID_マデリーン",
+        "Name": "MPID_alias_Madeline",
+        "Condition": 1,
+        "Arg": "CID_E006"
       },
       {
         "Out": "",
@@ -5887,6 +6213,41 @@
       },
       {
         "Out": "",
+        "Id": "PCFPID_エル",
+        "Name": "MPID_El",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCFPID_ラファール",
+        "Name": "MPID_Rafale",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCFPID_セレスティア",
+        "Name": "MPID_Selestia",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCFPID_グレゴリー",
+        "Name": "MPID_Gregory",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCFPID_マデリーン",
+        "Name": "MPID_Madeline",
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
         "Id": "PCFPID_マルス",
         "Name": "马尔斯",
         "Condition": 0,
@@ -6462,6 +6823,48 @@
         "Cid": "CID_G006",
         "Condition": 1,
         "Arg": "CID_G006"
+      },
+      {
+        "Out": "",
+        "Id": "PCFCID_E001",
+        "Cid": "CID_E001",
+        "Condition": 1,
+        "Arg": "CID_E001"
+      },
+      {
+        "Out": "",
+        "Id": "PCFCID_E002",
+        "Cid": "CID_E002",
+        "Condition": 1,
+        "Arg": "CID_E002"
+      },
+      {
+        "Out": "",
+        "Id": "PCFCID_E003",
+        "Cid": "CID_E003",
+        "Condition": 1,
+        "Arg": "CID_E003"
+      },
+      {
+        "Out": "",
+        "Id": "PCFCID_E004",
+        "Cid": "CID_E004",
+        "Condition": 1,
+        "Arg": "CID_E004"
+      },
+      {
+        "Out": "",
+        "Id": "PCFCID_E005",
+        "Cid": "CID_E005",
+        "Condition": 1,
+        "Arg": "CID_E005"
+      },
+      {
+        "Out": "",
+        "Id": "PCFCID_E006",
+        "Cid": "CID_E006",
+        "Condition": 1,
+        "Arg": "CID_E006"
       }
     ]
   },
@@ -7855,6 +8258,22 @@
       },
       {
         "Out": "",
+        "Id": "PCCID_エンチャント",
+        "Name": "附魔师",
+        "Category": 4,
+        "Condition": 1,
+        "Arg": "CID_E002"
+      },
+      {
+        "Out": "",
+        "Id": "PCCID_マージカノン",
+        "Name": "魔法加农炮兵",
+        "Category": 4,
+        "Condition": 1,
+        "Arg": "CID_E003"
+      },
+      {
+        "Out": "",
         "Id": "PCCID_紋章士",
         "Name": "纹章士",
         "Category": 4,
@@ -8364,6 +8783,46 @@
         "Category": 5,
         "Condition": 1,
         "Arg": "CID_M011"
+      },
+      {
+        "Out": "",
+        "Id": "PCCID_エル",
+        "Name": "MPID_El",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCCID_ラファール",
+        "Name": "MPID_Rafale",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCCID_セレスティア",
+        "Name": "MPID_Selestia",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCCID_グレゴリー",
+        "Name": "MPID_Gregory",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_E006"
+      },
+      {
+        "Out": "",
+        "Id": "PCCID_マデリーン",
+        "Name": "MPID_Madeline",
+        "Category": 5,
+        "Condition": 1,
+        "Arg": "CID_E006"
       },
       {
         "Out": "",
